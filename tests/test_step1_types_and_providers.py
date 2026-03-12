@@ -194,7 +194,7 @@ class TestPageContent:
 class TestArborConfig:
     def test_defaults(self):
         config = ArborConfig()
-        assert config.model == "llama-3.1-70b-versatile"
+        assert config.model == "llama-3.3-70b-versatile"
         assert config.toc_check_pages == 20
         assert config.max_pages_per_node == 10
         assert config.max_tokens_per_node == 20000
@@ -416,7 +416,7 @@ class TestOpenAIProvider:
 class TestGroqProvider:
     def test_instantiation(self):
         p = GroqProvider(api_key="gsk_fake")
-        assert p.name == "groq/llama-3.1-70b-versatile"
+        assert p.name == "groq/llama-3.3-70b-versatile"
 
     def test_custom_model(self):
         p = GroqProvider(api_key="gsk_fake", model="mixtral-8x7b-32768")
@@ -435,7 +435,7 @@ class TestGroqProvider:
     def test_env_var_api_key(self, monkeypatch):
         monkeypatch.setenv("GROQ_API_KEY", "gsk_from_env")
         p = GroqProvider()
-        assert p.name == "groq/llama-3.1-70b-versatile"
+        assert p.name == "groq/llama-3.3-70b-versatile"
 
     @pytest.mark.asyncio
     async def test_complete_mocked(self):

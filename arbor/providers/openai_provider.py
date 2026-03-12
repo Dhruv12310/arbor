@@ -107,7 +107,7 @@ class GroqProvider(LLMProvider):
     """
     Groq provider — OpenAI-compatible API with free tier.
 
-    Default model: llama-3.1-70b-versatile (free, very capable).
+    Default model: llama-3.3-70b-versatile (free, very capable).
     Get a free API key at: https://console.groq.com
 
     Rate limits (free tier as of 2024):
@@ -119,7 +119,7 @@ class GroqProvider(LLMProvider):
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "llama-3.1-70b-versatile",
+        model: str = "llama-3.3-70b-versatile",
         timeout: float = 120.0,
     ):
         if not _OPENAI_AVAILABLE:

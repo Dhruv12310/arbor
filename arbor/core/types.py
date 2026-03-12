@@ -126,7 +126,7 @@ class RAGResponse:
 class ArborConfig:
     """Configuration for the Arbor pipeline."""
 
-    model: str = "llama-3.1-70b-versatile"   # Default: Groq free tier
+    model: str = "llama-3.3-70b-versatile"   # Default: Groq free tier
     toc_check_pages: int = 20                 # First N pages to scan for TOC
     max_pages_per_node: int = 10              # Nodes larger than this get subdivided
     max_tokens_per_node: int = 20000          # Nodes with more tokens get subdivided

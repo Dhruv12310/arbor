@@ -62,6 +62,45 @@ provider = arbor.OpenAICompatibleProvider(
 
 ---
 
+## Fine-Tuned Models (Coming Soon)
+
+Arbor includes purpose-built models for tree generation and tree search,
+fine-tuned from Qwen 2.5. These run locally and are 75x cheaper than GPT-4.
+
+### With Ollama (recommended)
+```bash
+ollama run arbor-ai/treegen-7b
+ollama run arbor-ai/treesearch-3b
+```
+```python
+from arbor import OllamaProvider, generate_tree, search_tree
+
+# Use fine-tuned tree generator
+tree_provider = OllamaProvider(model="arbor-ai/treegen-7b")
+tree = await generate_tree("document.pdf", provider=tree_provider)
+
+# Use fine-tuned tree searcher
+search_provider = OllamaProvider(model="arbor-ai/treesearch-3b")
+result = await search_tree(tree, "What are the conclusions?", provider=search_provider)
+```
+
+### With HuggingFace
+```python
+from arbor import ArborFineTunedProvider, generate_tree
+
+provider = ArborFineTunedProvider("arbor-ai/treegen-7b")
+tree = await generate_tree("document.pdf", provider=provider)
+```
+
+### Cost Comparison
+| Method | Tree Generation | Per Query | Local |
+|--------|----------------|-----------|-------|
+| GPT-4 (PageIndex) | ~$1.00 | ~$0.10 | No |
+| Groq Free Tier | $0.00 | $0.00 | No |
+| Arbor Fine-Tuned | $0.00 | $0.00 | Yes |
+
+---
+
 ## How it works
 
 Arbor indexes a PDF in three stages:
@@ -150,6 +189,41 @@ node.start_index     # 5 — first page (1-indexed)
 node.end_index       # 6 — last page (inclusive)
 node.summary         # "Describes how multi-head attention..."
 node.nodes           # list[TreeNode] — children
+```
+
+---
+
+## Scripts
+
+Utility scripts for data collection, training, and benchmarking.
+
+| Script | Description |
+|--------|-------------|
+| `scripts/collect_pdfs.py` | Download public domain PDFs from arXiv (4 categories, up to 200 papers) |
+| `scripts/generate_training_pair.py` | Process a single PDF through Arbor and save as training data |
+| `scripts/run_batch.py` | Batch-process all PDFs in `data/pdfs/` with resume support |
+| `scripts/format_training_data.py` | Convert training pairs to HuggingFace-compatible JSONL datasets |
+| `scripts/finetune_treegen.py` | QLoRA fine-tune Qwen2.5-7B for tree generation |
+| `scripts/finetune_treesearch.py` | QLoRA fine-tune Qwen2.5-3B for tree search |
+| `scripts/upload_to_hf.py` | Upload fine-tuned models to HuggingFace Hub |
+| `scripts/benchmark.py` | Benchmark Arbor across providers (time, nodes, cost) |
+
+```bash
+# Collect 200 arXiv PDFs
+python scripts/collect_pdfs.py --count 50
+
+# Generate training data (needs GROQ_API_KEY)
+python scripts/run_batch.py
+
+# Format for fine-tuning
+python scripts/format_training_data.py
+
+# Fine-tune (needs GPU)
+python scripts/finetune_treegen.py
+python scripts/finetune_treesearch.py
+
+# Benchmark providers
+python scripts/benchmark.py data/pdfs/2301.12345.pdf
 ```
 
 ---

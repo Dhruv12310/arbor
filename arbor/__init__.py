@@ -43,6 +43,10 @@ from arbor.providers.base import LLMProvider
 from arbor.providers.openai_provider import OpenAIProvider, GroqProvider, OpenAICompatibleProvider
 from arbor.providers.ollama_provider import OllamaProvider
 from arbor.providers.anthropic_provider import AnthropicProvider
+try:
+    from arbor.providers.finetuned_provider import ArborFineTunedProvider
+except Exception:  # bitsandbytes/transformers not installed or broken env
+    ArborFineTunedProvider = None  # type: ignore[assignment,misc]
 
 __all__ = [
     "__version__",
@@ -66,6 +70,7 @@ __all__ = [
     "OpenAICompatibleProvider",
     "OllamaProvider",
     "AnthropicProvider",
+    "ArborFineTunedProvider",
 ]
 
 # Core pipeline functions
