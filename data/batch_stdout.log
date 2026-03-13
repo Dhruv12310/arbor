@@ -1,0 +1,321 @@
+  [error] 2603.07853v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.08012v1 in 11.2s (6 pages, 14 nodes)
+Generated tree for 2603.08077v1 in 26.6s (13 pages, 20 nodes)
+Generated tree for 2603.08117v2 in 40.4s (21 pages, 34 nodes)
+Generated tree for 2603.08329v1 in 32.3s (12 pages, 30 nodes)
+Generated tree for 2603.08341v1 in 39.2s (20 pages, 21 nodes)
+Generated tree for 2603.08370v1 in 19.2s (5 pages, 3 nodes)
+  [error] 2603.08429v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.08540v1 in 27.9s (9 pages, 16 nodes)
+Generated tree for 2603.08551v1 in 20.5s (6 pages, 13 nodes)
+Generated tree for 2603.08571v1 in 76.6s (16 pages, 48 nodes)
+Generated tree for 2603.08655v1 in 30.4s (24 pages, 29 nodes)
+  [error] 2603.08807v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.08819v2 in 50.3s (11 pages, 26 nodes)
+Generated tree for 2603.08933v1 in 42.6s (14 pages, 19 nodes)
+Generated tree for 2603.08935v2 in 54.7s (24 pages, 55 nodes)
+Generated tree for 2603.08954v1 in 24.5s (16 pages, 12 nodes)
+Generated tree for 2603.09080v1 in 32.9s (6 pages, 25 nodes)
+Generated tree for 2603.09297v1 in 22.2s (5 pages, 17 nodes)
+Generated tree for 2603.09654v1 in 36.4s (11 pages, 41 nodes)
+Generated tree for 2603.09685v1 in 27.2s (25 pages, 28 nodes)
+Generated tree for 2603.09800v1 in 10.9s (6 pages, 8 nodes)
+Generated tree for 2603.09843v1 in 30.7s (11 pages, 21 nodes)
+Generated tree for 2603.09891v1 in 32.1s (21 pages, 32 nodes)
+Generated tree for 2603.09930v1 in 24.0s (17 pages, 13 nodes)
+Generated tree for 2603.09933v2 in 74.3s (10 pages, 51 nodes)
+Generated tree for 2603.10303v1 in 40.6s (12 pages, 33 nodes)
+Generated tree for 2603.10313v1 in 37.5s (25 pages, 33 nodes)
+Generated tree for 2603.10332v1 in 27.1s (17 pages, 13 nodes)
+Generated tree for 2603.10367v1 in 28.4s (22 pages, 11 nodes)
+Generated tree for 2603.10369v1 in 15.5s (9 pages, 6 nodes)
+Generated tree for 2603.10371v1 in 17.5s (5 pages, 15 nodes)
+Generated tree for 2603.10409v1 in 49.2s (12 pages, 32 nodes)
+Generated tree for 2603.10471v1 in 167.6s (10 pages, 29 nodes)
+Generated tree for 2603.10473v1 in 46.0s (14 pages, 12 nodes)
+Generated tree for 2603.10476v1 in 50.1s (20 pages, 62 nodes)
+  [error] 2603.10477v1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kkhx3k2hev9rtk22yq2dk0av` service tier `on_demand` on tokens per minute (TPM): Limit 300000, Used 294700, Requested 8020. Please try again in 544ms. Need more tokens? Visit https://groq.com/self-serve-support/ to request higher limits.', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+  [error] 2603.10492v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10494v1 in 19.5s (10 pages, 6 nodes)
+Generated tree for 2603.10521v1 in 37.5s (25 pages, 56 nodes)
+Generated tree for 2603.10524v1 in 116.5s (26 pages, 75 nodes)
+Generated tree for 2603.10535v1 in 91.8s (21 pages, 23 nodes)
+Generated tree for 2603.10547v1 in 25.0s (9 pages, 11 nodes)
+Generated tree for 2603.10570v1 in 18.8s (10 pages, 17 nodes)
+Generated tree for 2603.10588v1 in 12.8s (11 pages, 7 nodes)
+  [error] 2603.10613v1: 
+Generated tree for 2603.10619v1 in 51.8s (22 pages, 77 nodes)
+Generated tree for 2603.10624v1 in 34.2s (11 pages, 16 nodes)
+  [error] 2603.10640v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10680v1 in 12.6s (10 pages, 10 nodes)
+Generated tree for 2603.10689v1 in 173.6s (14 pages, 20 nodes)
+Generated tree for 2603.10692v1 in 51.3s (9 pages, 19 nodes)
+  [error] 2603.10695v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10697v1 in 37.9s (14 pages, 28 nodes)
+  [error] 2603.10701v1: 'utf-8' codec can't encode characters in position 19134-19135: surrogates not allowed
+  [error] 2603.10705v1: 
+Generated tree for 2603.10713v1 in 58.3s (10 pages, 10 nodes)
+Generated tree for 2603.10721v1 in 53.0s (27 pages, 32 nodes)
+  [error] 2603.10722v1: 
+Generated tree for 2603.10725v1 in 22.8s (6 pages, 18 nodes)
+Generated tree for 2603.10726v1 in 29.7s (14 pages, 22 nodes)
+Generated tree for 2603.10750v1 in 23.0s (6 pages, 14 nodes)
+Generated tree for 2603.10753v1 in 21.2s (17 pages, 12 nodes)
+Generated tree for 2603.10763v1 in 72.8s (16 pages, 5 nodes)
+Generated tree for 2603.10764v1 in 44.6s (26 pages, 63 nodes)
+Generated tree for 2603.10767v1 in 27.4s (12 pages, 18 nodes)
+  [error] 2603.10771v1: 
+Generated tree for 2603.10775v1 in 16.1s (11 pages, 13 nodes)
+Generated tree for 2603.10777v1 in 33.2s (27 pages, 9 nodes)
+Generated tree for 2603.10781v1 in 32.6s (25 pages, 28 nodes)
+Generated tree for 2603.10789v1 in 39.4s (13 pages, 21 nodes)
+Generated tree for 2603.10793v1 in 24.1s (14 pages, 16 nodes)
+Generated tree for 2603.10800v1 in 24.9s (5 pages, 21 nodes)
+  [error] 2603.10802v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10807v1 in 26.8s (14 pages, 22 nodes)
+Generated tree for 2603.10808v1 in 36.1s (24 pages, 28 nodes)
+Generated tree for 2603.10811v1 in 56.0s (16 pages, 31 nodes)
+Generated tree for 2603.10821v1 in 12.8s (6 pages, 9 nodes)
+Generated tree for 2603.10823v1 in 99.4s (15 pages, 6 nodes)
+Generated tree for 2603.10827v1 in 22.9s (6 pages, 24 nodes)
+Generated tree for 2603.10828v1 in 155.1s (19 pages, 9 nodes)
+Generated tree for 2603.10834v1 in 43.0s (25 pages, 61 nodes)
+Generated tree for 2603.10842v1 in 27.2s (14 pages, 16 nodes)
+  [error] 2603.10845v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10847v1 in 27.0s (8 pages, 29 nodes)
+Generated tree for 2603.10848v1 in 54.8s (20 pages, 57 nodes)
+  [error] 2603.10856v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10858v1 in 25.5s (8 pages, 7 nodes)
+Generated tree for 2603.10873v1 in 295.8s (22 pages, 55 nodes)
+  [error] 2603.10881v1: All three processing modes failed. The document may not have extractable structure.
+Generated tree for 2603.10885v1 in 22.3s (7 pages, 19 nodes)
+Generated tree for 2603.10886v1 in 78.3s (29 pages, 24 nodes)
+Generated tree for 2603.10887v1 in 36.2s (29 pages, 15 nodes)
+Generated tree for 2603.10895v1 in 18.4s (15 pages, 6 nodes)
+Generated tree for 2603.10899v1 in 142.8s (25 pages, 28 nodes)
+Generated tree for 2603.10904v1 in 32.4s (15 pages, 26 nodes)
+Generated tree for 2603.10916v1 in 37.2s (8 pages, 6 nodes)
+Generated tree for 2603.10926v1 in 23.2s (7 pages, 21 nodes)
+Generated tree for 2603.10935v1 in 38.4s (15 pages, 41 nodes)
+Generated tree for 2603.10937v1 in 25.1s (9 pages, 20 nodes)
+  [error] 2603.10950v1: 
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+FloatObject (b'0.00-30') invalid; use 0.0 instead
+Generated tree for 2603.10961v1 in 82.9s (19 pages, 34 nodes)
+Generated tree for 2603.10963v1 in 22.5s (10 pages, 16 nodes)
+PDFs found: 141 | Already done: 38 | To process: 103
+
+[1/103] 2603.07853v1.pdf
+
+[2/103] 2603.08012v1.pdf
+
+[3/103] 2603.08077v1.pdf
+
+[4/103] 2603.08117v2.pdf
+
+[5/103] 2603.08329v1.pdf
+
+[6/103] 2603.08341v1.pdf
+
+[7/103] 2603.08370v1.pdf
+
+[8/103] 2603.08429v1.pdf
+
+[9/103] 2603.08540v1.pdf
+
+[10/103] 2603.08551v1.pdf
+
+[11/103] 2603.08571v1.pdf
+
+[12/103] 2603.08655v1.pdf
+
+[13/103] 2603.08807v1.pdf
+
+[14/103] 2603.08819v2.pdf
+
+[15/103] 2603.08933v1.pdf
+
+[16/103] 2603.08935v2.pdf
+
+[17/103] 2603.08954v1.pdf
+
+[18/103] 2603.09080v1.pdf
+
+[19/103] 2603.09297v1.pdf
+
+[20/103] 2603.09654v1.pdf
+
+[21/103] 2603.09685v1.pdf
+
+[22/103] 2603.09800v1.pdf
+
+[23/103] 2603.09843v1.pdf
+
+[24/103] 2603.09891v1.pdf
+
+[25/103] 2603.09930v1.pdf
+
+[26/103] 2603.09933v2.pdf
+
+[27/103] 2603.10303v1.pdf
+
+[28/103] 2603.10313v1.pdf
+
+[29/103] 2603.10332v1.pdf
+
+[30/103] 2603.10367v1.pdf
+
+[31/103] 2603.10369v1.pdf
+
+[32/103] 2603.10371v1.pdf
+
+[33/103] 2603.10409v1.pdf
+
+[34/103] 2603.10471v1.pdf
+
+[35/103] 2603.10473v1.pdf
+
+[36/103] 2603.10476v1.pdf
+
+[37/103] 2603.10477v1.pdf
+
+[38/103] 2603.10492v1.pdf
+
+[39/103] 2603.10494v1.pdf
+
+[40/103] 2603.10521v1.pdf
+
+[41/103] 2603.10524v1.pdf
+
+[42/103] 2603.10535v1.pdf
+
+[43/103] 2603.10547v1.pdf
+
+[44/103] 2603.10570v1.pdf
+
+[45/103] 2603.10588v1.pdf
+
+[46/103] 2603.10613v1.pdf
+
+[47/103] 2603.10619v1.pdf
+
+[48/103] 2603.10624v1.pdf
+
+[49/103] 2603.10640v1.pdf
+
+[50/103] 2603.10680v1.pdf
+
+[51/103] 2603.10689v1.pdf
+
+[52/103] 2603.10692v1.pdf
+
+[53/103] 2603.10695v1.pdf
+
+[54/103] 2603.10697v1.pdf
+
+[55/103] 2603.10701v1.pdf
+
+[56/103] 2603.10705v1.pdf
+
+[57/103] 2603.10713v1.pdf
+
+[58/103] 2603.10721v1.pdf
+
+[59/103] 2603.10722v1.pdf
+
+[60/103] 2603.10725v1.pdf
+
+[61/103] 2603.10726v1.pdf
+
+[62/103] 2603.10750v1.pdf
+
+[63/103] 2603.10753v1.pdf
+
+[64/103] 2603.10763v1.pdf
+
+[65/103] 2603.10764v1.pdf
+
+[66/103] 2603.10767v1.pdf
+
+[67/103] 2603.10771v1.pdf
+
+[68/103] 2603.10775v1.pdf
+
+[69/103] 2603.10777v1.pdf
+
+[70/103] 2603.10781v1.pdf
+
+[71/103] 2603.10789v1.pdf
+
+[72/103] 2603.10793v1.pdf
+
+[73/103] 2603.10800v1.pdf
+
+[74/103] 2603.10802v1.pdf
+
+[75/103] 2603.10807v1.pdf
+
+[76/103] 2603.10808v1.pdf
+
+[77/103] 2603.10811v1.pdf
+
+[78/103] 2603.10821v1.pdf
+
+[79/103] 2603.10823v1.pdf
+
+[80/103] 2603.10827v1.pdf
+
+[81/103] 2603.10828v1.pdf
+
+[82/103] 2603.10834v1.pdf
+
+[83/103] 2603.10842v1.pdf
+
+[84/103] 2603.10845v1.pdf
+
+[85/103] 2603.10847v1.pdf
+
+[86/103] 2603.10848v1.pdf
+
+[87/103] 2603.10856v1.pdf
+
+[88/103] 2603.10858v1.pdf
+
+[89/103] 2603.10873v1.pdf
+
+[90/103] 2603.10881v1.pdf
+
+[91/103] 2603.10885v1.pdf
+
+[92/103] 2603.10886v1.pdf
+
+[93/103] 2603.10887v1.pdf
+
+[94/103] 2603.10895v1.pdf
+
+[95/103] 2603.10899v1.pdf
+
+[96/103] 2603.10904v1.pdf
+
+[97/103] 2603.10916v1.pdf
+
+[98/103] 2603.10926v1.pdf
+
+[99/103] 2603.10935v1.pdf
+
+[100/103] 2603.10937v1.pdf
+
+[101/103] 2603.10950v1.pdf
+
+[102/103] 2603.10961v1.pdf
+
+[103/103] 2603.10963v1.pdf
+
+Processed: 86/103, Errors: 17, Skipped: 38
+[2026-03-13T03:43:02] Batch complete - Processed: 86, Errors: 17, Skipped: 38

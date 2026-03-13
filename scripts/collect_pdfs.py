@@ -140,7 +140,8 @@ def main():
             cat_count += 1
             downloaded += 1
             total_so_far = downloaded + skipped
-            print(f"  Downloaded {total_so_far}/{total_target}: {arxiv_id}.pdf ({pages} pages) — {paper['title'][:60]}")
+            title = paper['title'][:60].encode('ascii', 'replace').decode('ascii')
+            print(f"  Downloaded {total_so_far}/{total_target}: {arxiv_id}.pdf ({pages} pages) - {title}")
 
     META_FILE.write_text(json.dumps(metadata, indent=2))
     print(f"\nDone. Downloaded: {downloaded}, Skipped (resume): {skipped}, Failed: {failed}")

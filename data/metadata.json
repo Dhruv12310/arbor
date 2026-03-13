@@ -1,0 +1,1045 @@
+[
+  {
+    "arxiv_id": "2603.11048v1",
+    "title": "COMIC: Agentic Sketch Comedy Generation",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.11048v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.11047v1",
+    "title": "LiTo: Surface Light Field Tokenization",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.11047v1",
+    "pages": 28
+  },
+  {
+    "arxiv_id": "2603.11045v1",
+    "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.11045v1",
+    "pages": 27
+  },
+  {
+    "arxiv_id": "2603.11042v1",
+    "title": "V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.11042v1",
+    "pages": 26
+  },
+  {
+    "arxiv_id": "2603.11039v1",
+    "title": "Instruction set for the representation of graphs",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.11039v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.11024v1",
+    "title": "Does AI See like Art Historians? Interpreting How Vision Language Models Recognize Artistic Style",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.11024v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.10994v1",
+    "title": "Artificial Intelligence as a Catalyst for Innovation in Software Engineering",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10994v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10978v1",
+    "title": "GroundCount: Grounding Vision-Language Models with Object Detection for Mitigating Counting Hallucinations",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10978v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.10971v1",
+    "title": "Contact Coverage-Guided Exploration for General-Purpose Dexterous Manipulation",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10971v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10938v1",
+    "title": "Safe RLHF Beyond Expectation: Stochastic Dominance for Universal Spectral Risk Control",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10938v1",
+    "pages": 23
+  },
+  {
+    "arxiv_id": "2603.11027v1",
+    "title": "Beyond the Illusion of Consensus: From Surface Heuristics to Knowledge-Grounded Evaluation in LLM-as-a-Judge",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.11027v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.11008v1",
+    "title": "A Systematic Study of Pseudo-Relevance Feedback with LLMs",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.11008v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10969v1",
+    "title": "TOSSS: a CVE-based Software Security Benchmark for Large Language Models",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10969v1",
+    "pages": 7
+  },
+  {
+    "arxiv_id": "2603.10913v1",
+    "title": "LLM2Vec-Gen: Generative Embeddings from Large Language Models",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10913v1",
+    "pages": 23
+  },
+  {
+    "arxiv_id": "2603.10910v1",
+    "title": "GLM-OCR Technical Report",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10910v1",
+    "pages": 17
+  },
+  {
+    "arxiv_id": "2603.10877v1",
+    "title": "From Images to Words: Efficient Cross-Modal Knowledge Distillation to Language Models from Black-box Teachers",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10877v1",
+    "pages": 30
+  },
+  {
+    "arxiv_id": "2603.10876v1",
+    "title": "An Extreme Multi-label Text Classification (XMTC) Library Dataset: What if we took \"Use of Practical AI in Digital Libraries\" seriously?",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10876v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10861v1",
+    "title": "SiDiaC-v.2.0: Sinhala Diachronic Corpus Version 2.0",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10861v1",
+    "pages": 23
+  },
+  {
+    "arxiv_id": "2603.11021v1",
+    "title": "Leech Lattice Vector Quantization for Efficient LLM Compression",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.11021v1",
+    "pages": 19
+  },
+  {
+    "arxiv_id": "2603.11000v1",
+    "title": "Cross-Species Transfer Learning for Electrophysiology-to-Transcriptomics Mapping in Cortical GABAergic Interneurons",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.11000v1",
+    "pages": 19
+  },
+  {
+    "arxiv_id": "2603.10995v1",
+    "title": "Factorized Neural Implicit DMD for Parametric Dynamics",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10995v1",
+    "pages": 18
+  },
+  {
+    "arxiv_id": "2603.10991v1",
+    "title": "ForwardFlow: Simulation only statistical inference using deep learning",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10991v1",
+    "pages": 19
+  },
+  {
+    "arxiv_id": "2603.10987v1",
+    "title": "MCMC Informed Neural Emulators for Uncertainty Quantification in Dynamical Systems",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10987v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10985v1",
+    "title": "The Discrete Charm of the MLP: Binary Routing of Continuous Signals in Transformer Feed-Forward Layers",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10985v1",
+    "pages": 18
+  },
+  {
+    "arxiv_id": "2603.10983v1",
+    "title": "Federated Learning-driven Beam Management in LEO 6G Non-Terrestrial Networks",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10983v1",
+    "pages": 2
+  },
+  {
+    "arxiv_id": "2603.10977v1",
+    "title": "FRIEND: Federated Learning for Joint Optimization of multi-RIS Configuration and Eavesdropper Intelligent Detection in B5G Networks",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10977v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.11031v1",
+    "title": "Chasing RATs: Tracing Reading for and as Creative Activity",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.11031v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.11025v1",
+    "title": "LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.11025v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.10891v1",
+    "title": "A Hybrid Knowledge-Grounded Framework for Safety and Traceability in Prescription Verification",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10891v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.10784v1",
+    "title": "Interpretable Chinese Metaphor Identification via LLM-Assisted MIPVU Rule Script Generation: A Comparative Protocol Study",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10784v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10765v1",
+    "title": "RAGPerf: An End-to-End Benchmarking Framework for Retrieval-Augmented Generation Systems",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10765v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10673v1",
+    "title": "Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10673v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.10625v1",
+    "title": "A Hypergraph-Based Framework for Exploratory Business Intelligence",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10625v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.10600v1",
+    "title": "Trajectory-Informed Memory Generation for Self-Improving Agent Systems",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10600v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10935v1",
+    "title": "Historical Consensus: Preventing Posterior Collapse via Iterative Selection of Gaussian Mixture Priors",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10935v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10904v1",
+    "title": "When Fine-Tuning Fails and when it Generalises: Role of Data Diversity and Mixed Training in LLM-based TTS",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10904v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10899v1",
+    "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10899v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10887v1",
+    "title": "Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10887v1",
+    "pages": 29
+  },
+  {
+    "arxiv_id": "2603.10885v1",
+    "title": "Continuous Diffusion Transformers for Designing Synthetic Regulatory Elements",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10885v1",
+    "pages": 7
+  },
+  {
+    "arxiv_id": "2603.10858v1",
+    "title": "GRACE: A Unified 2D Multi-Robot Path Planning Simulator & Benchmark for Grid, Roadmap, And Continuous Environments",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10858v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.10848v1",
+    "title": "$V_{0.5}$: Generalist Value Model as a Prior for Sparse RL Rollouts",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10848v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.10847v1",
+    "title": "Semantic Landmark Particle Filter for Robot Localisation in Vineyards",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10847v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.10845v1",
+    "title": "Human Presence Detection via Wi-Fi Range-Filtered Doppler Spectrum on Commodity Laptops",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10845v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10834v1",
+    "title": "On the Reliability of Cue Conflict and Beyond",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10834v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10828v1",
+    "title": "BALD-SAM: Disagreement-based Active Prompting in Interactive Segmentation",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10828v1",
+    "pages": 19
+  },
+  {
+    "arxiv_id": "2603.10827v1",
+    "title": "Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10827v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10811v1",
+    "title": "Protein Counterfactuals via Diffusion-Guided Latent Optimization",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10811v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10808v1",
+    "title": "Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10808v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.10807v1",
+    "title": "Risk-Adjusted Harm Scoring for Automated Red Teaming for LLMs in Financial Services",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10807v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10802v1",
+    "title": "Towards Intelligent Spectrum Management: Spectrum Demand Estimation Using Graph Neural Networks",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10802v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.10800v1",
+    "title": "AI-Enhanced Spatial Cellular Traffic Demand Prediction with Contextual Clustering and Error Correction for 5G/6G Planning",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10800v1",
+    "pages": 5
+  },
+  {
+    "arxiv_id": "2603.10781v1",
+    "title": "Taking Shortcuts for Categorical VQA Using Super Neurons",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10781v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10750v1",
+    "title": "Deep Randomized Distributed Function Computation (DeepRDFC): Neural Distributed Channel Simulation",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10750v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10725v1",
+    "title": "Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10725v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10722v1",
+    "title": "UAV traffic scene understanding: A cross-spectral guided approach and a unified benchmark",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10722v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10713v1",
+    "title": "Probabilistic Verification of Voice Anti-Spoofing Models",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10713v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10701v1",
+    "title": "AlphaFlowTSE: One-Step Generative Target Speaker Extraction via Conditional AlphaFlow",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10701v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10697v1",
+    "title": "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10697v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10695v1",
+    "title": "RandMark: On Random Watermarking of Visual Foundation Models",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10695v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10692v1",
+    "title": "Repurposing Backdoors for Good: Ephemeral Intrinsic Proofs for Verifiable Aggregation in Cross-silo Federated Learning",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10692v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.10689v1",
+    "title": "Contract And Conquer: How to Provably Compute Adversarial Examples for a Black-Box Model?",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10689v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10680v1",
+    "title": "A Platform-Agnostic Multimodal Digital Human Modelling Framework: Neurophysiological Sensing in Game-Based Interaction",
+    "category": "cs.AI",
+    "url": "https://arxiv.org/pdf/2603.10680v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10848v1",
+    "title": "$V_{0.5}$: Generalist Value Model as a Prior for Sparse RL Rollouts",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10848v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.10842v1",
+    "title": "PivotAttack: Rethinking the Search Trajectory in Hard-Label Text Attacks via Pivot Words",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10842v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10793v1",
+    "title": "Multilingual Reasoning Gym: Multilingual Scaling of Procedural Reasoning Environments",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10793v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10789v1",
+    "title": "LuxBorrow: From Pompier to Pompjee, Tracing Borrowing in Luxembourgish",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10789v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.10775v1",
+    "title": "Large Language Models as Annotators for Machine Translation Quality Estimation",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10775v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.10771v1",
+    "title": "Word Recovery in Large Language Models Enables Character-Level Tokenization Robustness",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10771v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.10767v1",
+    "title": "mAceReason-Math: A Dataset of High-Quality Multilingual Math Problems Ready For RLVR",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10767v1",
+    "pages": 12
+  },
+  {
+    "arxiv_id": "2603.10764v1",
+    "title": "HeartAgent: An Autonomous Agent System for Explainable Differential Diagnosis in Cardiology",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10764v1",
+    "pages": 26
+  },
+  {
+    "arxiv_id": "2603.10705v1",
+    "title": "Prism-$\u0394$: Differential Subspace Steering for Prompt Highlighting in Large Language Models",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10705v1",
+    "pages": 21
+  },
+  {
+    "arxiv_id": "2603.10697v1",
+    "title": "EvoSchema: Towards Text-to-SQL Robustness Against Schema Evolution",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10697v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10640v1",
+    "title": "Making Bielik LLM Reason (Better): A Field Report",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10640v1",
+    "pages": 7
+  },
+  {
+    "arxiv_id": "2603.10624v1",
+    "title": "Reinforcement Learning with Conditional Expectation Reward",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10624v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.10619v1",
+    "title": "Disentangling Similarity and Relatedness in Topic Models",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10619v1",
+    "pages": 22
+  },
+  {
+    "arxiv_id": "2603.10613v1",
+    "title": "MUNIChus: Multilingual News Image Captioning Benchmark",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10613v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10588v1",
+    "title": "Does LLM Alignment Really Need Diversity? An Empirical Study of Adapting RLVR Methods for Moral Reasoning",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10588v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.10570v1",
+    "title": "End-to-End Chatbot Evaluation with Adaptive Reasoning and Uncertainty Filtering",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10570v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10547v1",
+    "title": "Automatic End-to-End Data Integration using Large Language Models",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10547v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.10535v1",
+    "title": "Tackling Length Inflation Without Trade-offs: Group Relative Reward Rescaling for Reinforcement Learning",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10535v1",
+    "pages": 21
+  },
+  {
+    "arxiv_id": "2603.10524v1",
+    "title": "AILS-NTUA at SemEval-2026 Task 8: Evaluating Multi-Turn RAG Conversations",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10524v1",
+    "pages": 26
+  },
+  {
+    "arxiv_id": "2603.10521v1",
+    "title": "IH-Challenge: A Training Dataset to Improve Instruction Hierarchy on Frontier LLMs",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10521v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10494v1",
+    "title": "VERI-DPO: Evidence-Aware Alignment for Clinical Summarization via Claim Verification and Direct Preference Optimization",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10494v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10492v1",
+    "title": "Human-AI Co-reasoning for Clinical Diagnosis with Evidence-Integrated Language Agent",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10492v1",
+    "pages": 23
+  },
+  {
+    "arxiv_id": "2603.10477v1",
+    "title": "PEEM: Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10477v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.10476v1",
+    "title": "Learning to Negotiate: Multi-Agent Deliberation for Collective Value Alignment in LLMs",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10476v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.10473v1",
+    "title": "Aligning Large Language Models with Searcher Preferences",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10473v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10371v1",
+    "title": "Speech Codec Probing from Semantic and Phonetic Perspectives",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10371v1",
+    "pages": 5
+  },
+  {
+    "arxiv_id": "2603.10367v1",
+    "title": "Dynamic Knowledge Fusion for Multi-Domain Dialogue State Tracking",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10367v1",
+    "pages": 22
+  },
+  {
+    "arxiv_id": "2603.10313v1",
+    "title": "Large language models can disambiguate opioid slang on social media",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10313v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10303v1",
+    "title": "Is this Idea Novel? An Automated Benchmark for Judgment of Research Ideas",
+    "category": "cs.CL",
+    "url": "https://arxiv.org/pdf/2603.10303v1",
+    "pages": 12
+  },
+  {
+    "arxiv_id": "2603.10963v1",
+    "title": "Pointy - A Lightweight Transformer for Point Cloud Foundation Models",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10963v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10961v1",
+    "title": "Bio-Inspired Self-Supervised Learning for Wrist-worn IMU Signals",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10961v1",
+    "pages": 19
+  },
+  {
+    "arxiv_id": "2603.10950v1",
+    "title": "When should we trust the annotation? Selective prediction for molecular structure retrieval from mass spectra",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10950v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.10937v1",
+    "title": "Quantifying Membership Disclosure Risk for Tabular Synthetic Data Using Kernel Density Estimators",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10937v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.10935v1",
+    "title": "Historical Consensus: Preventing Posterior Collapse via Iterative Selection of Gaussian Mixture Priors",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10935v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10926v1",
+    "title": "ECoLAD: Deployment-Oriented Evaluation for Automotive Time-Series Anomaly Detection",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10926v1",
+    "pages": 7
+  },
+  {
+    "arxiv_id": "2603.10916v1",
+    "title": "NCAA Bracket Prediction Using Machine Learning and Combinatorial Fusion Analysis",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10916v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.10899v1",
+    "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10899v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10895v1",
+    "title": "Ergodicity in reinforcement learning",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10895v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10887v1",
+    "title": "Dynamics-Predictive Sampling for Active RL Finetuning of Large Reasoning Models",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10887v1",
+    "pages": 29
+  },
+  {
+    "arxiv_id": "2603.10886v1",
+    "title": "Kernel Tests of Equivalence",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10886v1",
+    "pages": 29
+  },
+  {
+    "arxiv_id": "2603.10885v1",
+    "title": "Continuous Diffusion Transformers for Designing Synthetic Regulatory Elements",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10885v1",
+    "pages": 7
+  },
+  {
+    "arxiv_id": "2603.10881v1",
+    "title": "LAtte: Hyperbolic Lorentz Attention for Cross-Subject EEG Classification",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10881v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10873v1",
+    "title": "SNPgen: Phenotype-Supervised Genotype Representation and Synthetic Data Generation via Latent Diffusion",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10873v1",
+    "pages": 22
+  },
+  {
+    "arxiv_id": "2603.10856v1",
+    "title": "6ABOS: An Open-Source Atmospheric Correction Framework for the EnMAP Hyperspectral Mission Based on 6S",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10856v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.10848v1",
+    "title": "$V_{0.5}$: Generalist Value Model as a Prior for Sparse RL Rollouts",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10848v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.10823v1",
+    "title": "ReTabSyn: Realistic Tabular Data Synthesis via Reinforcement Learning",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10823v1",
+    "pages": 15
+  },
+  {
+    "arxiv_id": "2603.10821v1",
+    "title": "Evaluating randomized smoothing as a defense against adversarial attacks in trajectory prediction",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10821v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10811v1",
+    "title": "Protein Counterfactuals via Diffusion-Guided Latent Optimization",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10811v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10802v1",
+    "title": "Towards Intelligent Spectrum Management: Spectrum Demand Estimation Using Graph Neural Networks",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10802v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.10800v1",
+    "title": "AI-Enhanced Spatial Cellular Traffic Demand Prediction with Contextual Clustering and Error Correction for 5G/6G Planning",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10800v1",
+    "pages": 5
+  },
+  {
+    "arxiv_id": "2603.10781v1",
+    "title": "Taking Shortcuts for Categorical VQA Using Super Neurons",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10781v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.10777v1",
+    "title": "Dynamics-Informed Deep Learning for Predicting Extreme Events",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10777v1",
+    "pages": 27
+  },
+  {
+    "arxiv_id": "2603.10763v1",
+    "title": "Prioritizing Gradient Sign Over Modulus: An Importance-Aware Framework for Wireless Federated Learning",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10763v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.10753v1",
+    "title": "A PUF-Based Approach for Copy Protection of Intellectual Property in Neural Network Models",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10753v1",
+    "pages": 17
+  },
+  {
+    "arxiv_id": "2603.10750v1",
+    "title": "Deep Randomized Distributed Function Computation (DeepRDFC): Neural Distributed Channel Simulation",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10750v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.10726v1",
+    "title": "CacheSolidarity: Preventing Prefix Caching Side Channels in Multi-tenant LLM Serving Systems",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10726v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.10721v1",
+    "title": "Sample-and-Search: An Effective Algorithm for Learning-Augmented k-Median Clustering in High dimensions",
+    "category": "cs.LG",
+    "url": "https://arxiv.org/pdf/2603.10721v1",
+    "pages": 27
+  },
+  {
+    "arxiv_id": "2603.10471v1",
+    "title": "Modeling Stage-wise Evolution of User Interests for News Recommendation",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10471v1",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.10409v1",
+    "title": "Differentiable Geometric Indexing for End-to-End Generative Retrieval",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10409v1",
+    "pages": 12
+  },
+  {
+    "arxiv_id": "2603.10369v1",
+    "title": "Beyond Interleaving: Causal Attention Reformulations for Generative Recommender Systems",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10369v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.10332v1",
+    "title": "Does Reasoning Make Search More Fair? Comparing Fairness in Reasoning and Non-Reasoning Rerankers",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.10332v1",
+    "pages": 17
+  },
+  {
+    "arxiv_id": "2603.09933v2",
+    "title": "A Voronoi Cell Formulation for Principled Token Pruning in Late-Interaction Retrieval Models",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09933v2",
+    "pages": 10
+  },
+  {
+    "arxiv_id": "2603.09930v1",
+    "title": "Fine-grained Motion Retrieval via Joint-Angle Motion Images and Token-Patch Late Interaction",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09930v1",
+    "pages": 17
+  },
+  {
+    "arxiv_id": "2603.09891v1",
+    "title": "Overview of the TREC 2025 Retrieval Augmented Generation (RAG) Track",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09891v1",
+    "pages": 21
+  },
+  {
+    "arxiv_id": "2603.09843v1",
+    "title": "RecThinker: An Agentic Framework for Tool-Augmented Reasoning in Recommendation",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09843v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.09800v1",
+    "title": "MITRA: An AI Assistant for Knowledge Retrieval in Physics Collaborations",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09800v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.09685v1",
+    "title": "Automatic Cardiac Risk Management Classification using large-context Electronic Patients Health Records",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09685v1",
+    "pages": 25
+  },
+  {
+    "arxiv_id": "2603.09654v1",
+    "title": "Understanding the Interplay between LLMs' Utilisation of Parametric and Contextual Knowledge: A keynote at ECIR 2025",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09654v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.09297v1",
+    "title": "TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09297v1",
+    "pages": 5
+  },
+  {
+    "arxiv_id": "2603.09080v1",
+    "title": "Unlocking High-Fidelity Analog Joint Source-Channel Coding on Standard Digital Transceivers",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.09080v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.08954v1",
+    "title": "A Consensus-Driven Multi-LLM Pipeline for Missing-Person Investigations",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08954v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.08935v2",
+    "title": "PathoScribe: Transforming Pathology Data into a Living Library with a Unified LLM-Driven Framework for Semantic Retrieval and Clinical Integration",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08935v2",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.08933v1",
+    "title": "Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08933v1",
+    "pages": 14
+  },
+  {
+    "arxiv_id": "2603.08819v2",
+    "title": "Beyond Relevance: On the Relationship Between Retrieval and RAG Information Coverage",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08819v2",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.08807v1",
+    "title": "Time warping with Hellinger elasticity",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08807v1",
+    "pages": 11
+  },
+  {
+    "arxiv_id": "2603.08655v1",
+    "title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08655v1",
+    "pages": 24
+  },
+  {
+    "arxiv_id": "2603.08571v1",
+    "title": "LoopLens: Supporting Search as Creation in Loop-Based Music Composition",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08571v1",
+    "pages": 16
+  },
+  {
+    "arxiv_id": "2603.08551v1",
+    "title": "mmGAT: Pose Estimation by Graph Attention with Mutual Features from mmWave Radar Point Cloud",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08551v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.08540v1",
+    "title": "PCFEx: Point Cloud Feature Extraction for Graph Neural Networks",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08540v1",
+    "pages": 9
+  },
+  {
+    "arxiv_id": "2603.08429v1",
+    "title": "One Model Is Enough: Native Retrieval Embeddings from LLM Agent Hidden States",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08429v1",
+    "pages": 8
+  },
+  {
+    "arxiv_id": "2603.08370v1",
+    "title": "Unifying On- and Off-Policy Variance Reduction Methods",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08370v1",
+    "pages": 5
+  },
+  {
+    "arxiv_id": "2603.08341v1",
+    "title": "ERASE -- A Real-World Aligned Benchmark for Unlearning in Recommender Systems",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08341v1",
+    "pages": 20
+  },
+  {
+    "arxiv_id": "2603.08329v1",
+    "title": "SPD-RAG: Sub-Agent Per Document Retrieval-Augmented Generation",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08329v1",
+    "pages": 12
+  },
+  {
+    "arxiv_id": "2603.08117v2",
+    "title": "UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08117v2",
+    "pages": 21
+  },
+  {
+    "arxiv_id": "2603.08077v1",
+    "title": "Why Large Language Models can Secretly Outperform Embedding Similarity in Information Retrieval",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08077v1",
+    "pages": 13
+  },
+  {
+    "arxiv_id": "2603.08012v1",
+    "title": "Structure-Preserving Graph Contrastive Learning for Mathematical Information Retrieval",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.08012v1",
+    "pages": 6
+  },
+  {
+    "arxiv_id": "2603.07853v1",
+    "title": "SynPlanResearch-R1: Encouraging Tool Exploration for Deep Research with Synthetic Plans",
+    "category": "cs.IR",
+    "url": "https://arxiv.org/pdf/2603.07853v1",
+    "pages": 22
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "arxiv_id": "2603.10477v1",
+  "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kkhx3k2hev9rtk22yq2dk0av` service tier `on_demand` on tokens per minute (TPM): Limit 300000, Used 294700, Requested 8020. Please try again in 544ms. Need more tokens? Visit https://groq.com/self-serve-support/ to request higher limits.', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "elapsed_seconds": 108.6,
+  "timestamp": "2026-03-13T00:54:58.339713+00:00"
+}
