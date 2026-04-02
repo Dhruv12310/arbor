@@ -370,29 +370,28 @@ except Exception:
 # ║  Fully standalone — works in a fresh session            ║
 # ╚══════════════════════════════════════════════════════════╝
 """
-# Step 1 — install (skip if already done)
+# Step 1 — install unsloth (required: adapter uses unsloth-patched attention apply_qkv)
 import subprocess
-subprocess.run(["pip", "install", "-q", "peft", "transformers", "accelerate", "bitsandbytes"], check=True)
+subprocess.run(["pip", "install", "-q", "unsloth[colab-new]", "trl", "transformers", "accelerate", "bitsandbytes", "peft"], check=True)
 
 # Step 2 — mount Drive
 from google.colab import drive
 drive.mount("/content/drive")
 
-# Step 3 — load model
+# Step 3 — load via FastLanguageModel (NOT AutoModelForCausalLM — that breaks apply_qkv)
 import json, torch
-from peft import PeftModel
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from unsloth import FastLanguageModel
 
 DRIVE_DIR    = "/content/drive/MyDrive/arbor-training-data"
 ADAPTER_PATH = f"{DRIVE_DIR}/models/treesearch-v9"
 
-print("Loading base model...")
-tokenizer_test = AutoTokenizer.from_pretrained("unsloth/Qwen2.5-3B-Instruct")
-base_model = AutoModelForCausalLM.from_pretrained(
-    "unsloth/Qwen2.5-3B-Instruct", torch_dtype=torch.float16, device_map="cuda"
+print("Loading model + adapter via FastLanguageModel...")
+model_test, tokenizer_test = FastLanguageModel.from_pretrained(
+    model_name     = ADAPTER_PATH,
+    max_seq_length = 2048,
+    dtype          = None,
+    load_in_4bit   = True,
 )
-print("Applying LoRA adapter...")
-model_test = PeftModel.from_pretrained(base_model, ADAPTER_PATH, local_files_only=True)
 model_test.eval()
 print("Model ready.\\n")
 
