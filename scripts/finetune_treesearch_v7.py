@@ -1,25 +1,29 @@
-# Arbor TreeSearch v7 — Multi-hop Navigation Fine-tune
+# Arbor TreeSearch v9 — Multi-hop Navigation Fine-tune
 # ======================================================
 # Copy each CELL block into a separate Colab cell and run in order.
+# Run cells 1 → 2 → 3 → 4 → 5 → 6 → 7 in order. Do NOT skip.
 #
-# WHY v7 IS DIFFERENT FROM v1-v6:
-#   - v1-v6: one-shot (full 3000-node tree → pick answer nodes) → 52% truncation, F1=0.23
-#   - v7: multi-hop (question + 10-20 nodes at current level → which to explore next)
-#         → zero truncation, simple task, expected F1=0.70-0.80
+# WHAT CHANGED FROM v8:
+#   - Training data: 1,353 → 3,063 examples (+126%)
+#   - Added 191 domain trees across 7 new sectors:
+#     Legal, Healthcare, Government, Energy, Insurance, Real Estate, Automotive
+#   - warmup_steps: 36 → 57 (10% of 574 total steps — more stable warmup)
+#   - max_grad_norm: not set → 0.3 (fixes the loss spike seen at step ~100 in v8)
+#   - OUTPUT_DIR: treesearch-v8 → treesearch-v9
+#   - Expected F1: 0.875 → 0.90+
 #
 # REQUIREMENTS:
-#   - Google Colab (free T4 works, A100 preferred)
-#   - Google Drive mounted at /content/drive/MyDrive/arbor/
-#   - data/finetune/treesearch_multihop_train.jsonl (from build_multihop_dataset.py)
-#   - data/finetune/treesearch_multihop_eval.jsonl
+#   - Google Colab Pro (A100 40GB recommended — ~12 min; T4 ~60 min)
+#   - Google Drive with MyDrive/arbor-training-data/ folder intact
+#   - treesearch_multihop_train.jsonl (3,063 examples — already in Drive)
+#   - treesearch_multihop_eval.jsonl  (341 examples — already in Drive)
 #
-# EXPECTED RUNTIME:
-#   - T4 (free): ~90 minutes for ~2500 examples × 3 epochs
-#   - A100 (Pro): ~25 minutes
+# EXPECTED RUNTIME on A100:
+#   - 574 total steps, ~12 minutes
 #
 # OUTPUT:
-#   - Saved to Google Drive: arbor/models/treesearch-v7/
-#   - Optionally pushed to HuggingFace Hub
+#   - Saved to Drive: MyDrive/arbor-training-data/models/treesearch-v9/
+#   - Push to HuggingFace: TStark12310/arbor-treesearch-v9 (private)
 
 
 # ╔══════════════════════════════════════════════════════════╗
@@ -41,7 +45,7 @@ import os
 DRIVE_DIR = "/content/drive/MyDrive/arbor-training-data"
 TRAIN_FILE = f"{DRIVE_DIR}/treesearch_multihop_train.jsonl"
 EVAL_FILE  = f"{DRIVE_DIR}/treesearch_multihop_eval.jsonl"
-OUTPUT_DIR = f"{DRIVE_DIR}/models/treesearch-v8"
+OUTPUT_DIR = f"{DRIVE_DIR}/models/treesearch-v9"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Sanity check
@@ -149,7 +153,7 @@ trainer = SFTTrainer(
     args = TrainingArguments(
         per_device_train_batch_size = 4,
         gradient_accumulation_steps = 4,   # Effective batch = 16
-        warmup_steps                = 36,  # ~5% of ~712 total steps (3800 examples, 3 epochs, bs=16)
+        warmup_steps                = 57,   # 10% of 574 total steps (3063 ex × 3 epochs ÷ bs16)
         num_train_epochs            = 3,
         learning_rate               = 2e-4,
         fp16                        = not is_bfloat16_supported(),
@@ -163,6 +167,7 @@ trainer = SFTTrainer(
         optim                       = "adamw_8bit",
         weight_decay                = 0.01,
         lr_scheduler_type           = "cosine",
+        max_grad_norm               = 0.3,  # Prevents loss spikes (seen at step ~100 in v8)
         seed                        = 42,
         load_best_model_at_end      = True,
         metric_for_best_model       = "eval_loss",
@@ -194,8 +199,8 @@ print(f"Adapter saved to {OUTPUT_DIR}")
 # Optional: push to HuggingFace Hub
 # from huggingface_hub import login
 # login(token="hf_YOUR_TOKEN")
-# model.push_to_hub("TStark12310/arbor-treesearch-v8", private=True)
-# tokenizer.push_to_hub("TStark12310/arbor-treesearch-v8", private=True)
+# model.push_to_hub("TStark12310/arbor-treesearch-v9", private=True)
+# tokenizer.push_to_hub("TStark12310/arbor-treesearch-v9", private=True)
 
 # Optional: save merged 16-bit model (for inference without Unsloth)
 # model.save_pretrained_merged(OUTPUT_DIR + "-merged", tokenizer,
@@ -288,8 +293,8 @@ print(f"  Recall      : {avg_r:.3f}")
 print(f"  F1          : {avg_f1:.3f}")
 print(f"  Exact Match : {em:.3f} ({em*100:.1f}%)")
 print(f"{'='*45}")
-print(f"\\n  Target: F1 ≥ 0.88 | EM ≥ 0.82")
-print(f"  Status: {'✓ PASS' if avg_f1 >= 0.88 else '✗ BELOW TARGET'}")
+print(f"\\n  Target: F1 ≥ 0.90 | EM ≥ 0.85")
+print(f"  Status: {'✓ PASS' if avg_f1 >= 0.90 else '✗ BELOW TARGET'}")
 """
 
 
@@ -302,7 +307,7 @@ from unsloth import FastLanguageModel
 
 # Load the saved v8 adapter from Drive
 DRIVE_DIR  = "/content/drive/MyDrive/arbor-training-data"
-MODEL_PATH = f"{DRIVE_DIR}/models/treesearch-v8"
+MODEL_PATH = f"{DRIVE_DIR}/models/treesearch-v9"
 
 model_test, tokenizer_test = FastLanguageModel.from_pretrained(
     model_name     = MODEL_PATH,
@@ -379,7 +384,7 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 DRIVE_DIR    = "/content/drive/MyDrive/arbor-training-data"
-ADAPTER_PATH = f"{DRIVE_DIR}/models/treesearch-v8"
+ADAPTER_PATH = f"{DRIVE_DIR}/models/treesearch-v9"
 
 print("Loading base model...")
 tokenizer_test = AutoTokenizer.from_pretrained("unsloth/Qwen2.5-3B-Instruct")
