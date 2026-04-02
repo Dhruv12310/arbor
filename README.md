@@ -7,7 +7,7 @@
 
 No embeddings. No vector databases. Arbor parses any PDF into a hierarchical JSON tree, then navigates that tree level-by-level to find answers — the same technique used by [PageIndex](https://github.com/VectifyAI/PageIndex), rebuilt as open-source with fine-tuned models that run locally.
 
-**TreeSearch v8 results:** F1 = 0.875 | Exact Match = 83.5% | 3.8× improvement over the baseline
+**TreeSearch v9 results:** F1 = 0.911 | Exact Match = 87.0% | 4.0× improvement over the baseline
 
 ---
 
@@ -107,7 +107,7 @@ Arbor ships with two purpose-built models fine-tuned from Qwen2.5:
 | Model | Task | Base | Size | Accuracy |
 |-------|------|------|------|----------|
 | `arbor-treegen` | PDF → JSON tree | Qwen2.5-7B | 7B | — |
-| `arbor-treesearch` | Tree navigation | Qwen2.5-3B | 3B | F1=0.875 |
+| `arbor-treesearch` | Tree navigation | Qwen2.5-3B | 3B | F1=0.911 |
 
 ### With Ollama (recommended for local use)
 
@@ -125,7 +125,7 @@ ollama create arbor-treesearch -f models/Modelfile.treesearch
 tree_provider = arbor.OllamaProvider(model="arbor-treegen")
 tree = await arbor.generate_tree("document.pdf", provider=tree_provider)
 
-# Multi-hop search with fine-tuned TreeSearch v8
+# Multi-hop search with fine-tuned TreeSearch v9
 search_provider = arbor.OllamaProvider(model="arbor-treesearch")
 result = await arbor.search_tree(
     tree, "What are the key findings?",
@@ -300,7 +300,7 @@ ErrorEvent(message="Timeout after 30.0s", partial_nodes=["0015"])
 | MCP server | Yes | No | No |
 | Budget controls | Yes | No | No |
 | Streaming | Yes | No | Varies |
-| F1 (retrieval) | 0.875 | N/A (closed) | ~0.60–0.75 |
+| F1 (retrieval) | 0.911 | N/A (closed) | ~0.60–0.75 |
 
 ---
 
@@ -345,8 +345,9 @@ The fix was a complete task reformulation: instead of showing the full tree at o
 | v2–v6 | 0.23 | — | 2,700 | More data, same broken format |
 | **v7** | **0.851** | **80.9%** | **1,217** | Multi-hop reformulation |
 | **v8** | **0.875** | **83.5%** | **1,353** | FinanceBench real Q&A added |
+| **v9** | **0.911** | **87.0%** | **3,063** | 7 domain sectors added (legal, healthcare, government, energy, insurance, real estate, automotive) |
 
-### Domain coverage (v8)
+### Domain coverage (v9)
 
 Training data spans 2 primary domains + 7 expansion domains (191 trees):
 
@@ -367,9 +368,9 @@ Training data spans 2 primary domains + 7 expansion domains (191 trees):
 - **Base model:** Qwen2.5-3B-Instruct
 - **Method:** QLoRA, 4-bit quantization (Unsloth)
 - **LoRA config:** r=32, alpha=64, RSLoRA=True, target all attention + MLP layers
-- **Training:** 3 epochs, batch size 16 (4 × 4 grad accum), LR=2e-4, cosine schedule
+- **Training:** 3 epochs, batch size 16 (4 × 4 grad accum), LR=2e-4, cosine schedule, warmup_steps=57, max_grad_norm=0.3
 - **Hardware:** NVIDIA A100 40GB (Google Colab Pro)
-- **Training time:** 8 minutes
+- **Training examples:** 3,063 train / 341 eval
 - **Trainable params:** 59.8M of 3.1B (1.9%)
 - **Context window:** 2,048 tokens (all examples fit, zero truncation)
 
