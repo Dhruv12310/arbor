@@ -1,0 +1,2195 @@
+{
+  "tree": {
+    "doc_name": "ACTIVISIONBLIZZARD_2019_10K",
+    "structure": [
+      {
+        "title": "Filing content (pages 1-2)",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 2
+      },
+      {
+        "title": "PART I",
+        "node_id": "0002",
+        "start_index": 3,
+        "end_index": 3
+      },
+      {
+        "title": "Overview of Activision Blizzard, Inc.",
+        "node_id": "0003",
+        "start_index": 4,
+        "end_index": 4,
+        "nodes": [
+          {
+            "title": "Description of Activision Blizzard, Inc. and its subsidiaries.",
+            "node_id": "0004",
+            "start_index": 4,
+            "end_index": 4
+          }
+        ]
+      },
+      {
+        "title": "Strategies and Vision of Activision Blizzard, Inc.",
+        "node_id": "0005",
+        "start_index": 4,
+        "end_index": 4,
+        "nodes": [
+          {
+            "title": "Company's Strategies",
+            "node_id": "0006",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Company's Vision",
+            "node_id": "0007",
+            "start_index": 4,
+            "end_index": 4
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 5-5)",
+        "node_id": "0008",
+        "start_index": 5,
+        "end_index": 5
+      },
+      {
+        "title": "Development Model",
+        "node_id": "0009",
+        "start_index": 6,
+        "end_index": 6
+      },
+      {
+        "title": "Content Creation",
+        "node_id": "0010",
+        "start_index": 6,
+        "end_index": 6
+      },
+      {
+        "title": "Support Services",
+        "node_id": "0011",
+        "start_index": 6,
+        "end_index": 6
+      },
+      {
+        "title": "Filing content (pages 7-10)",
+        "node_id": "0012",
+        "start_index": 7,
+        "end_index": 10
+      },
+      {
+        "title": "General Risk Factors",
+        "node_id": "0013",
+        "start_index": 11,
+        "end_index": 11,
+        "nodes": [
+          {
+            "title": "Consumer Preferences",
+            "node_id": "0014",
+            "start_index": 11,
+            "end_index": 11
+          },
+          {
+            "title": "Product Development",
+            "node_id": "0015",
+            "start_index": 11,
+            "end_index": 11
+          }
+        ]
+      },
+      {
+        "title": "Overview of Franchise Model",
+        "node_id": "0016",
+        "start_index": 11,
+        "end_index": 11
+      },
+      {
+        "title": "Significant Revenue and Profit Contribution",
+        "node_id": "0017",
+        "start_index": 11,
+        "end_index": 11
+      },
+      {
+        "title": "Risks Associated with Dependence on Few Franchises",
+        "node_id": "0018",
+        "start_index": 11,
+        "end_index": 11,
+        "nodes": [
+          {
+            "title": "Negative Impact on Business if Anticipated Results are Not Achieved",
+            "node_id": "0019",
+            "start_index": 11,
+            "end_index": 11
+          },
+          {
+            "title": "Impact on Business if Popularity of a Franchise Declines",
+            "node_id": "0020",
+            "start_index": 11,
+            "end_index": 11
+          },
+          {
+            "title": "Risk of Negative Impact on Business if Skilled Personnel are Not Attracted, Retained, and Motivated",
+            "node_id": "0021",
+            "start_index": 11,
+            "end_index": 11
+          },
+          {
+            "title": "Risk of Negative Impact on Business if the Company Does Not Adapt to Emerging Technologies and Business Models",
+            "node_id": "0022",
+            "start_index": 11,
+            "end_index": 11
+          }
+        ]
+      },
+      {
+        "title": "Digital Sales and Competition",
+        "node_id": "0023",
+        "start_index": 12,
+        "end_index": 12
+      },
+      {
+        "title": "Retail Sales and Distribution Channel Risks",
+        "node_id": "0024",
+        "start_index": 12,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "Risks of Product Returns and Price Protection",
+            "node_id": "0025",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Importance of Maintaining Strong Relationships with Retailers and Distribution Channels",
+            "node_id": "0026",
+            "start_index": 12,
+            "end_index": 12
+          }
+        ]
+      },
+      {
+        "title": "Overview of Business Growth",
+        "node_id": "0027",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Expansion into New Business Models",
+        "node_id": "0028",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Adjacent Business Opportunities",
+        "node_id": "0029",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Challenges Associated with Business Expansion",
+        "node_id": "0030",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Specific Product Risks",
+        "node_id": "0031",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Impact on Game Sales",
+        "node_id": "0032",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Impact on Downloadable Content",
+        "node_id": "0033",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Impact on Development Costs",
+        "node_id": "0034",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Filing content (pages 15-16)",
+        "node_id": "0035",
+        "start_index": 15,
+        "end_index": 16
+      },
+      {
+        "title": "Agreements Governing Our Indebtedness",
+        "node_id": "0036",
+        "start_index": 17,
+        "end_index": 17,
+        "nodes": [
+          {
+            "title": "Credit Agreement",
+            "node_id": "0037",
+            "start_index": 17,
+            "end_index": 17
+          },
+          {
+            "title": "Indentures Governing Our Notes",
+            "node_id": "0038",
+            "start_index": 17,
+            "end_index": 17
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 18-18)",
+        "node_id": "0039",
+        "start_index": 18,
+        "end_index": 18
+      },
+      {
+        "title": "Risks from Business Partners and Third Parties",
+        "node_id": "0040",
+        "start_index": 19,
+        "end_index": 19
+      },
+      {
+        "title": "Risks from Piracy and Unauthorized Copying",
+        "node_id": "0041",
+        "start_index": 19,
+        "end_index": 19
+      },
+      {
+        "title": "Customer Payment Risks",
+        "node_id": "0042",
+        "start_index": 20,
+        "end_index": 20
+      },
+      {
+        "title": "Insolvency and Business Failure Risks",
+        "node_id": "0043",
+        "start_index": 20,
+        "end_index": 20
+      },
+      {
+        "title": "Concentration of Sales Risks",
+        "node_id": "0044",
+        "start_index": 20,
+        "end_index": 20
+      },
+      {
+        "title": "International Business Risks",
+        "node_id": "0045",
+        "start_index": 20,
+        "end_index": 20
+      },
+      {
+        "title": "Risks Associated with International Operations",
+        "node_id": "0046",
+        "start_index": 21,
+        "end_index": 21,
+        "nodes": [
+          {
+            "title": "Compliance Risks",
+            "node_id": "0047",
+            "start_index": 21,
+            "end_index": 21
+          },
+          {
+            "title": "Operational Risks",
+            "node_id": "0048",
+            "start_index": 21,
+            "end_index": 21
+          }
+        ]
+      },
+      {
+        "title": "Introduction",
+        "node_id": "0049",
+        "start_index": 22,
+        "end_index": 22
+      },
+      {
+        "title": "Content Overview",
+        "node_id": "0050",
+        "start_index": 22,
+        "end_index": 22
+      },
+      {
+        "title": "Regulatory Environment",
+        "node_id": "0051",
+        "start_index": 22,
+        "end_index": 22
+      },
+      {
+        "title": "Governmental Restrictions on Marketing and Distribution",
+        "node_id": "0052",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Legislation at Federal and State Levels",
+            "node_id": "0053",
+            "start_index": 23,
+            "end_index": 23
+          },
+          {
+            "title": "Similar Legislation Introduced at One Time or Another",
+            "node_id": "0054",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Restrictions on Marketing and Distribution Based on Content",
+        "node_id": "0055",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Legislation Imposing Additional Taxes Based on Content",
+            "node_id": "0056",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Skill Tournaments and Their Regulatory Challenges",
+        "node_id": "0057",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Regulatory Challenges Relating to Gambling Laws",
+            "node_id": "0058",
+            "start_index": 23,
+            "end_index": 23
+          },
+          {
+            "title": "Future Regulatory Challenges and Potential Penalties",
+            "node_id": "0059",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Contests and Promotional Opportunities and Their Regulatory Challenges",
+        "node_id": "0060",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Regulatory Challenges Relating to Consumer Protection Laws",
+            "node_id": "0061",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Gaming Disorder and Its Regulatory Implications",
+        "node_id": "0062",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Calls for More Stringent Consumer Protection Laws",
+            "node_id": "0063",
+            "start_index": 23,
+            "end_index": 23
+          },
+          {
+            "title": "Potential Interpretation of Existing Laws or New Laws Regarding Virtual Currency or Goods",
+            "node_id": "0064",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Introduction to Data Privacy Protection Laws",
+        "node_id": "0065",
+        "start_index": 24,
+        "end_index": 24
+      },
+      {
+        "title": "Impact of Data Privacy Protection Laws on Business Operations",
+        "node_id": "0066",
+        "start_index": 24,
+        "end_index": 24,
+        "nodes": [
+          {
+            "title": "Compliance Costs and Regulatory Risks",
+            "node_id": "0067",
+            "start_index": 24,
+            "end_index": 24
+          },
+          {
+            "title": "Operational Disruptions and Service Disruptions",
+            "node_id": "0068",
+            "start_index": 24,
+            "end_index": 24
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 25-26)",
+        "node_id": "0069",
+        "start_index": 25,
+        "end_index": 26
+      },
+      {
+        "title": "Securities Market Information and Holders",
+        "node_id": "0070",
+        "start_index": 27,
+        "end_index": 28
+      },
+      {
+        "title": "PART II",
+        "node_id": "0071",
+        "start_index": 28,
+        "end_index": 28
+      },
+      {
+        "title": "Stock Performance Graph",
+        "node_id": "0072",
+        "start_index": 28,
+        "end_index": 29
+      },
+      {
+        "title": "Item 6. SELECTED FINANCIAL DATA",
+        "node_id": "0073",
+        "start_index": 30,
+        "end_index": 31
+      },
+      {
+        "title": "Item 7. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+        "node_id": "0074",
+        "start_index": 31,
+        "end_index": 31,
+        "nodes": [
+          {
+            "title": "Business Overview",
+            "node_id": "0075",
+            "start_index": 31,
+            "end_index": 31
+          },
+          {
+            "title": "Reportable Segments",
+            "node_id": "0076",
+            "start_index": 31,
+            "end_index": 31,
+            "nodes": [
+              {
+                "title": "(i) Activision",
+                "node_id": "0077",
+                "start_index": 31,
+                "end_index": 31
+              },
+              {
+                "title": "(ii) Blizzard",
+                "node_id": "0078",
+                "start_index": 31,
+                "end_index": 31
+              },
+              {
+                "title": "(iii) King",
+                "node_id": "0079",
+                "start_index": 31,
+                "end_index": 31
+              }
+            ]
+          },
+          {
+            "title": "Other",
+            "node_id": "0080",
+            "start_index": 31,
+            "end_index": 31
+          },
+          {
+            "title": "Destiny Franchise",
+            "node_id": "0081",
+            "start_index": 31,
+            "end_index": 31
+          }
+        ]
+      },
+      {
+        "title": "Business Results and Highlights",
+        "node_id": "0082",
+        "start_index": 32,
+        "end_index": 34,
+        "nodes": [
+          {
+            "title": "Financial Results",
+            "node_id": "0083",
+            "start_index": 32,
+            "end_index": 34,
+            "nodes": [
+              {
+                "title": "2019 Financial Highlights",
+                "node_id": "0084",
+                "start_index": 32,
+                "end_index": 34,
+                "nodes": [
+                  {
+                    "title": "Consolidated Net Revenues",
+                    "node_id": "0085",
+                    "start_index": 32,
+                    "end_index": 34,
+                    "nodes": [
+                      {
+                        "title": "Decrease in Consolidated Net Revenues",
+                        "node_id": "0086",
+                        "start_index": 32,
+                        "end_index": 34,
+                        "nodes": [
+                          {
+                            "title": "Decrease in Blizzard Net Revenues",
+                            "node_id": "0087",
+                            "start_index": 32,
+                            "end_index": 34
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 35-36)",
+        "node_id": "0088",
+        "start_index": 35,
+        "end_index": 36
+      },
+      {
+        "title": "Consolidated Net Revenues",
+        "node_id": "0089",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Net Effect from Recognition (Deferral) of Deferred Net Revenues",
+        "node_id": "0090",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "In-Game Net Revenues",
+        "node_id": "0091",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Change in Deferred Revenues Recognized",
+        "node_id": "0092",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Filing content (pages 38-40)",
+        "node_id": "0093",
+        "start_index": 38,
+        "end_index": 40
+      },
+      {
+        "title": "Reconciliations of Total Segment Net Revenues and Operating Income",
+        "node_id": "0094",
+        "start_index": 41,
+        "end_index": 44,
+        "nodes": [
+          {
+            "title": "Reconciliation to Consolidated Net Revenues",
+            "node_id": "0095",
+            "start_index": 41,
+            "end_index": 44,
+            "nodes": [
+              {
+                "title": "Segment Net Revenues",
+                "node_id": "0096",
+                "start_index": 41,
+                "end_index": 44,
+                "nodes": [
+                  {
+                    "title": "Activision",
+                    "node_id": "0097",
+                    "start_index": 41,
+                    "end_index": 42,
+                    "nodes": [
+                      {
+                        "title": "Decrease in Activision\u2019s Net Revenues",
+                        "node_id": "0098",
+                        "start_index": 41,
+                        "end_index": 42,
+                        "nodes": [
+                          {
+                            "title": "Revenues from Destiny Franchise",
+                            "node_id": "0099",
+                            "start_index": 41,
+                            "end_index": 42
+                          },
+                          {
+                            "title": "Revenues from Call of Duty Franchise Catalog Titles",
+                            "node_id": "0100",
+                            "start_index": 42,
+                            "end_index": 42
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Blizzard",
+                        "node_id": "0101",
+                        "start_index": 42,
+                        "end_index": 42,
+                        "nodes": [
+                          {
+                            "title": "Decrease in Blizzard\u2019s Net Revenues",
+                            "node_id": "0102",
+                            "start_index": 42,
+                            "end_index": 42
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Reconciliation to Consolidated Operating Income",
+                    "node_id": "0103",
+                    "start_index": 43,
+                    "end_index": 44,
+                    "nodes": [
+                      {
+                        "title": "Segment Operating Income",
+                        "node_id": "0104",
+                        "start_index": 43,
+                        "end_index": 44,
+                        "nodes": [
+                          {
+                            "title": "Activision",
+                            "node_id": "0105",
+                            "start_index": 43,
+                            "end_index": 44
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Asia Pacific",
+        "node_id": "0106",
+        "start_index": 45,
+        "end_index": 45,
+        "nodes": [
+          {
+            "title": "Decrease in Net Revenues",
+            "node_id": "0107",
+            "start_index": 45,
+            "end_index": 45,
+            "nodes": [
+              {
+                "title": "Lower Revenues Recognized from Hearthstone",
+                "node_id": "0108",
+                "start_index": 45,
+                "end_index": 45
+              },
+              {
+                "title": "Lower Revenues Recognized from Destiny Franchise",
+                "node_id": "0109",
+                "start_index": 45,
+                "end_index": 45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Costs and Expenses",
+        "node_id": "0110",
+        "start_index": 45,
+        "end_index": 45,
+        "nodes": [
+          {
+            "title": "Cost of Revenues",
+            "node_id": "0111",
+            "start_index": 45,
+            "end_index": 45,
+            "nodes": [
+              {
+                "title": "Product Sales",
+                "node_id": "0112",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Lower Revenues Recognized from Destiny Franchise",
+                    "node_id": "0113",
+                    "start_index": 45,
+                    "end_index": 45
+                  },
+                  {
+                    "title": "Lower Revenues Recognized from Call of Duty Franchise Catalog Titles",
+                    "node_id": "0114",
+                    "start_index": 45,
+                    "end_index": 45
+                  }
+                ]
+              },
+              {
+                "title": "Subscription, Licensing, and Other Revenues",
+                "node_id": "0115",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Game Operations and Distribution Costs",
+                    "node_id": "0116",
+                    "start_index": 45,
+                    "end_index": 45
+                  },
+                  {
+                    "title": "Software Royalties, Amortization, and Intellectual Property Licenses",
+                    "node_id": "0117",
+                    "start_index": 45,
+                    "end_index": 45
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Restructuring and Related Costs",
+            "node_id": "0118",
+            "start_index": 45,
+            "end_index": 45
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 46-52)",
+        "node_id": "0119",
+        "start_index": 46,
+        "end_index": 52
+      },
+      {
+        "title": "Adoption of New Accounting Standard",
+        "node_id": "0120",
+        "start_index": 53,
+        "end_index": 53
+      },
+      {
+        "title": "Revenue Recognition Policies",
+        "node_id": "0121",
+        "start_index": 53,
+        "end_index": 53,
+        "nodes": [
+          {
+            "title": "Product Sales Revenue Recognition",
+            "node_id": "0122",
+            "start_index": 53,
+            "end_index": 53
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 54-56)",
+        "node_id": "0123",
+        "start_index": 54,
+        "end_index": 56
+      },
+      {
+        "title": "Income Taxes",
+        "node_id": "0124",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Software Development Costs",
+        "node_id": "0125",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Filing content (pages 58-60)",
+        "node_id": "0126",
+        "start_index": 58,
+        "end_index": 60
+      },
+      {
+        "title": "Item 10. DIRECTORS, EXECUTIVE OFFICERS, AND CORPORATE GOVERNANCE",
+        "node_id": "0127",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Proposal 1\u2014Election of Directors",
+            "node_id": "0128",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Corporate Governance Matters\u2014Board of Directors and Committees\u2014Board Committees",
+            "node_id": "0129",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Corporate Governance Matters\u2014Code of Conduct",
+            "node_id": "0130",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Beneficial Ownership Matters\u2014Delinquent Section 16(a) Reports Beneficial Ownership Reporting Compliance",
+            "node_id": "0131",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Item 11. EXECUTIVE COMPENSATION",
+        "node_id": "0132",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Executive Compensation",
+            "node_id": "0133",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Director Compensation",
+            "node_id": "0134",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Item 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS",
+        "node_id": "0135",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Beneficial Ownership Matters",
+            "node_id": "0136",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Equity Compensation Plan Information",
+            "node_id": "0137",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Item 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR INDEPENDENCE",
+        "node_id": "0138",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Corporate Governance Matters\u2014Board of Directors and Committees",
+            "node_id": "0139",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Certain Relationships and Related Person Transactions",
+            "node_id": "0140",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Director Independence",
+            "node_id": "0141",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Item 14. PRINCIPAL ACCOUNTING FEES AND SERVICES",
+        "node_id": "0142",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Audit-Related Matters",
+            "node_id": "0143",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 62-64)",
+        "node_id": "0144",
+        "start_index": 62,
+        "end_index": 64
+      },
+      {
+        "title": "Part IV",
+        "node_id": "0145",
+        "start_index": 65,
+        "end_index": 65,
+        "nodes": [
+          {
+            "title": "Item 15. EXHIBITS, FINANCIAL STATEMENT SCHEDULES",
+            "node_id": "0146",
+            "start_index": 65,
+            "end_index": 65,
+            "nodes": [
+              {
+                "title": "a. Financial Statements",
+                "node_id": "0147",
+                "start_index": 65,
+                "end_index": 65,
+                "nodes": [
+                  {
+                    "title": "1. Financial Statements See Item 8.\u2014Consolidated Financial Statements and Supplementary Data for index to Financial Statements and Financial Statement Schedule on page 62 herein.",
+                    "node_id": "0148",
+                    "start_index": 65,
+                    "end_index": 65
+                  }
+                ]
+              },
+              {
+                "title": "b. Financial Statement Schedule",
+                "node_id": "0149",
+                "start_index": 65,
+                "end_index": 65,
+                "nodes": [
+                  {
+                    "title": "1. The following financial statement schedule of Activision Blizzard for the years ended December 31, 2019, 2018, and 2017 is filed as part of this report on page F-56 and should be read in conjunction with the consolidated financial statements of Activision Blizzard:",
+                    "node_id": "0150",
+                    "start_index": 65,
+                    "end_index": 65,
+                    "nodes": [
+                      {
+                        "title": "Schedule II\u2014Valuation and Qualifying Accounts",
+                        "node_id": "0151",
+                        "start_index": 65,
+                        "end_index": 65
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "c. Changes in Accounting Principles",
+                "node_id": "0152",
+                "start_index": 65,
+                "end_index": 65,
+                "nodes": [
+                  {
+                    "title": "1. As discussed in Note 2 to the consolidated financial statements, the Company changed the manner in which it accounts for leases in 2019 and the manner in which it accounts for revenues from contracts with customers in 2018.",
+                    "node_id": "0153",
+                    "start_index": 65,
+                    "end_index": 65
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 66-69)",
+        "node_id": "0154",
+        "start_index": 66,
+        "end_index": 69
+      },
+      {
+        "title": "ACTIVISION BLIZZARD, INC. AND SUBSIDIARIES",
+        "node_id": "0155",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Consolidated Statements of Contents",
+        "node_id": "0156",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Filing content (pages 71-73)",
+        "node_id": "0157",
+        "start_index": 71,
+        "end_index": 73
+      },
+      {
+        "title": "ACTIVISION BLIZZARD, INC. AND SUBSIDIARIES",
+        "node_id": "0158",
+        "start_index": 74,
+        "end_index": 88,
+        "nodes": [
+          {
+            "title": "Notes to Consolidated Financial Statements",
+            "node_id": "0159",
+            "start_index": 74,
+            "end_index": 74,
+            "nodes": [
+              {
+                "title": "Summary of Significant Accounting Policies",
+                "node_id": "0160",
+                "start_index": 74,
+                "end_index": 74,
+                "nodes": [
+                  {
+                    "title": "Basis of Consolidation and Presentation",
+                    "node_id": "0161",
+                    "start_index": 74,
+                    "end_index": 74
+                  },
+                  {
+                    "title": "Cash and Cash Equivalents",
+                    "node_id": "0162",
+                    "start_index": 74,
+                    "end_index": 74
+                  },
+                  {
+                    "title": "Investment Securities",
+                    "node_id": "0163",
+                    "start_index": 74,
+                    "end_index": 74
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Notes to Consolidated Financial Statements (continued)",
+            "node_id": "0164",
+            "start_index": 76,
+            "end_index": 82,
+            "nodes": [
+              {
+                "title": "ACTIVISION BLIZZARD, INC. AND SUBSIDIARIES",
+                "node_id": "0165",
+                "start_index": 76,
+                "end_index": 76,
+                "nodes": [
+                  {
+                    "title": "Notes to Consolidated Financial Statements (continued)",
+                    "node_id": "0166",
+                    "start_index": 76,
+                    "end_index": 76
+                  }
+                ]
+              },
+              {
+                "title": "Revenue Recognition",
+                "node_id": "0167",
+                "start_index": 80,
+                "end_index": 80
+              },
+              {
+                "title": "Product Sales",
+                "node_id": "0168",
+                "start_index": 80,
+                "end_index": 80
+              },
+              {
+                "title": "Products with Online Functionality",
+                "node_id": "0169",
+                "start_index": 82,
+                "end_index": 82,
+                "nodes": [
+                  {
+                    "title": "For our software products that include both offline functionality (i.e., do not require an Internet connection to access) and significant online functionality, such as for most of our titles from the Call of Duty franchise, we evaluate whether the license of our intellectual property and the online functionality each represent separate performance obligations.",
+                    "node_id": "0170",
+                    "start_index": 82,
+                    "end_index": 82
+                  }
+                ]
+              },
+              {
+                "title": "Significant Judgment around Revenue Arrangements with Multiple Deliverables",
+                "node_id": "0171",
+                "start_index": 82,
+                "end_index": 82,
+                "nodes": [
+                  {
+                    "title": "Our contracts with customers often include promises to transfer multiple products and services. Determining whether products and services are considered distinct performance obligations that should be accounted for separately versus together may require significant judgment.",
+                    "node_id": "0172",
+                    "start_index": 82,
+                    "end_index": 82
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (continued)",
+        "node_id": "0173",
+        "start_index": 88,
+        "end_index": 88,
+        "nodes": [
+          {
+            "title": "3. Recently Issued Accounting Pronouncements",
+            "node_id": "0174",
+            "start_index": 88,
+            "end_index": 88,
+            "nodes": [
+              {
+                "title": "3.1 Table of Contents",
+                "node_id": "0175",
+                "start_index": 88,
+                "end_index": 88
+              },
+              {
+                "title": "3.2 Financial Instruments - Credit Losses",
+                "node_id": "0176",
+                "start_index": 88,
+                "end_index": 88
+              },
+              {
+                "title": "3.3 Simplifying the Accounting for Income Taxes",
+                "node_id": "0177",
+                "start_index": 88,
+                "end_index": 88
+              }
+            ]
+          },
+          {
+            "title": "4. Cash and Cash Equivalents",
+            "node_id": "0178",
+            "start_index": 88,
+            "end_index": 88
+          },
+          {
+            "title": "5. Software Development and Intellectual Property Licenses",
+            "node_id": "0179",
+            "start_index": 88,
+            "end_index": 88
+          },
+          {
+            "title": "6. Property and Equipment, Net",
+            "node_id": "0180",
+            "start_index": 88,
+            "end_index": 88
+          },
+          {
+            "title": "7. Intangible Assets, Net",
+            "node_id": "0181",
+            "start_index": 88,
+            "end_index": 88
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 89-91)",
+        "node_id": "0182",
+        "start_index": 89,
+        "end_index": 91
+      },
+      {
+        "title": "ACTIVISION BLIZZARD, INC. AND SUBSIDIARIES",
+        "node_id": "0183",
+        "start_index": 92,
+        "end_index": 123,
+        "nodes": [
+          {
+            "title": "Notes to Consolidated Financial Statements (continued)",
+            "node_id": "0184",
+            "start_index": 111,
+            "end_index": 123,
+            "nodes": [
+              {
+                "title": "Stock Option Activity",
+                "node_id": "0185",
+                "start_index": 111,
+                "end_index": 111
+              },
+              {
+                "title": "RSU Activity",
+                "node_id": "0186",
+                "start_index": 111,
+                "end_index": 111
+              },
+              {
+                "title": "Notes to Consolidated Financial Statements (continued)",
+                "node_id": "0187",
+                "start_index": 114,
+                "end_index": 114
+              },
+              {
+                "title": "23. Commitments and Contingencies",
+                "node_id": "0188",
+                "start_index": 121,
+                "end_index": 121,
+                "nodes": [
+                  {
+                    "title": "Commitments and Obligations",
+                    "node_id": "0189",
+                    "start_index": 121,
+                    "end_index": 121,
+                    "nodes": [
+                      {
+                        "title": "Advertising and Hosting Services",
+                        "node_id": "0190",
+                        "start_index": 121,
+                        "end_index": 121
+                      },
+                      {
+                        "title": "Payments to Third-Party Developers",
+                        "node_id": "0191",
+                        "start_index": 121,
+                        "end_index": 121
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Long-Term Debt Obligations",
+                    "node_id": "0192",
+                    "start_index": 121,
+                    "end_index": 121
+                  }
+                ]
+              },
+              {
+                "title": "24. Quarterly Financial Information (Unaudited)",
+                "node_id": "0193",
+                "start_index": 122,
+                "end_index": 123
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EXHIBIT INDEX",
+        "node_id": "0194",
+        "start_index": 124,
+        "end_index": 124
+      },
+      {
+        "title": "Filing content (pages 125-125)",
+        "node_id": "0195",
+        "start_index": 125,
+        "end_index": 125
+      },
+      {
+        "title": "Exhibit Number",
+        "node_id": "0196",
+        "start_index": 126,
+        "end_index": 126
+      },
+      {
+        "title": "Exhibit 101.CAL",
+        "node_id": "0197",
+        "start_index": 126,
+        "end_index": 126
+      },
+      {
+        "title": "Filing content (pages 127-128)",
+        "node_id": "0198",
+        "start_index": 127,
+        "end_index": 128
+      },
+      {
+        "title": "Authorized Shares",
+        "node_id": "0199",
+        "start_index": 129,
+        "end_index": 129,
+        "nodes": [
+          {
+            "title": "Authorized Share Count",
+            "node_id": "0200",
+            "start_index": 129,
+            "end_index": 129
+          },
+          {
+            "title": "Share Types",
+            "node_id": "0201",
+            "start_index": 129,
+            "end_index": 129
+          }
+        ]
+      },
+      {
+        "title": "Voting Rights",
+        "node_id": "0202",
+        "start_index": 129,
+        "end_index": 129
+      },
+      {
+        "title": "Dividend Rights",
+        "node_id": "0203",
+        "start_index": 129,
+        "end_index": 129
+      },
+      {
+        "title": "Liquidation and Other Rights",
+        "node_id": "0204",
+        "start_index": 129,
+        "end_index": 129
+      },
+      {
+        "title": "Filing content (pages 130-131)",
+        "node_id": "0205",
+        "start_index": 130,
+        "end_index": 131
+      },
+      {
+        "title": "Section 1 - Definitions",
+        "node_id": "0206",
+        "start_index": 132,
+        "end_index": 132,
+        "nodes": [
+          {
+            "title": "Subsection 1.1 - Capitalized Terms",
+            "node_id": "0207",
+            "start_index": 132,
+            "end_index": 132
+          },
+          {
+            "title": "Subsection 1.2 - Other Defined Terms",
+            "node_id": "0208",
+            "start_index": 132,
+            "end_index": 132
+          }
+        ]
+      },
+      {
+        "title": "Section 2 - Expiration",
+        "node_id": "0209",
+        "start_index": 132,
+        "end_index": 132
+      },
+      {
+        "title": "Filing content (pages 133-137)",
+        "node_id": "0210",
+        "start_index": 133,
+        "end_index": 137
+      },
+      {
+        "title": "Withholding Taxes Contemplated by This Section 5",
+        "node_id": "0211",
+        "start_index": 138,
+        "end_index": 138,
+        "nodes": [
+          {
+            "title": "Method (i): Through the Withholding of Cash Proceeds",
+            "node_id": "0212",
+            "start_index": 138,
+            "end_index": 138
+          },
+          {
+            "title": "Method (ii): Through the Withholding of Shares",
+            "node_id": "0213",
+            "start_index": 138,
+            "end_index": 138
+          },
+          {
+            "title": "Method (iii): Through the Withholding of Cash Proceeds and Shares",
+            "node_id": "0214",
+            "start_index": 138,
+            "end_index": 138
+          },
+          {
+            "title": "Method (iv): Through the Withholding of Cash Proceeds, Shares, or Any Combination Thereof",
+            "node_id": "0215",
+            "start_index": 138,
+            "end_index": 138
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 139-139)",
+        "node_id": "0216",
+        "start_index": 139,
+        "end_index": 139
+      },
+      {
+        "title": "Section 409A",
+        "node_id": "0217",
+        "start_index": 140,
+        "end_index": 140,
+        "nodes": [
+          {
+            "title": "Exemption from Section 409A",
+            "node_id": "0218",
+            "start_index": 140,
+            "end_index": 140
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 141-142)",
+        "node_id": "0219",
+        "start_index": 141,
+        "end_index": 142
+      },
+      {
+        "title": "Definitions",
+        "node_id": "0220",
+        "start_index": 143,
+        "end_index": 143
+      },
+      {
+        "title": "Conflict with Employment Agreement or Plan",
+        "node_id": "0221",
+        "start_index": 143,
+        "end_index": 143
+      },
+      {
+        "title": "Employment Violation",
+        "node_id": "0222",
+        "start_index": 143,
+        "end_index": 143
+      },
+      {
+        "title": "Filing content (pages 144-146)",
+        "node_id": "0223",
+        "start_index": 144,
+        "end_index": 146
+      },
+      {
+        "title": "Definitions",
+        "node_id": "0224",
+        "start_index": 147,
+        "end_index": 147,
+        "nodes": [
+          {
+            "title": "Award",
+            "node_id": "0225",
+            "start_index": 147,
+            "end_index": 147
+          },
+          {
+            "title": "Cause",
+            "node_id": "0226",
+            "start_index": 147,
+            "end_index": 147
+          }
+        ]
+      },
+      {
+        "title": "Vesting",
+        "node_id": "0227",
+        "start_index": 147,
+        "end_index": 147
+      },
+      {
+        "title": "Termination of Employment",
+        "node_id": "0228",
+        "start_index": 147,
+        "end_index": 147,
+        "nodes": [
+          {
+            "title": "Cause",
+            "node_id": "0229",
+            "start_index": 147,
+            "end_index": 147
+          },
+          {
+            "title": "Other",
+            "node_id": "0230",
+            "start_index": 147,
+            "end_index": 147
+          }
+        ]
+      },
+      {
+        "title": "Tax Withholding",
+        "node_id": "0231",
+        "start_index": 147,
+        "end_index": 147,
+        "nodes": [
+          {
+            "title": "Regardless of any action the Company or the Employer takes with respect to any Withholding Taxes related to Grantee\u2019s participation in the Plan and legally applicable to Grantee, Grantee acknowledges that the ultimate liability for all Withholding Taxes is and remains Grantee\u2019s responsibility and may exceed the amount, if any, actually withheld by the Company or the Employer.",
+            "node_id": "0232",
+            "start_index": 147,
+            "end_index": 147
+          },
+          {
+            "title": "Further, if Grantee is or becomes subject to tax in more than one jurisdiction, Grantee acknowledges that the Company and/or the Employer (or former employer, as applicable) may be required to withhold or account for Withholding Taxes in more than one jurisdiction. The Company shall have no obligation to deliver any Vested Shares unless and until all Withholding Taxes contemplated by this Section 4 have been satisfied.",
+            "node_id": "0233",
+            "start_index": 147,
+            "end_index": 147
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 148-149)",
+        "node_id": "0234",
+        "start_index": 148,
+        "end_index": 149
+      },
+      {
+        "title": "Section 4 - Withholding of Vested Shares",
+        "node_id": "0235",
+        "start_index": 150,
+        "end_index": 151,
+        "nodes": [
+          {
+            "title": "Subsection 4.1 - Methods of Withholding",
+            "node_id": "0236",
+            "start_index": 150,
+            "end_index": 151
+          }
+        ]
+      },
+      {
+        "title": "Right to Register",
+        "node_id": "0237",
+        "start_index": 152,
+        "end_index": 152
+      },
+      {
+        "title": "Filing content (pages 153-154)",
+        "node_id": "0238",
+        "start_index": 153,
+        "end_index": 154
+      },
+      {
+        "title": "Definitions",
+        "node_id": "0239",
+        "start_index": 155,
+        "end_index": 156
+      },
+      {
+        "title": "Conflict with Employment Agreement or Plan",
+        "node_id": "0240",
+        "start_index": 156,
+        "end_index": 157
+      },
+      {
+        "title": "Employment Violation",
+        "node_id": "0241",
+        "start_index": 157,
+        "end_index": 158
+      },
+      {
+        "title": "Vesting Schedule",
+        "node_id": "0242",
+        "start_index": 159,
+        "end_index": 159,
+        "nodes": [
+          {
+            "title": "Initial Vesting Date",
+            "node_id": "0243",
+            "start_index": 159,
+            "end_index": 159
+          }
+        ]
+      },
+      {
+        "title": "Performance Criteria",
+        "node_id": "0244",
+        "start_index": 159,
+        "end_index": 159,
+        "nodes": [
+          {
+            "title": "First Year Objective",
+            "node_id": "0245",
+            "start_index": 159,
+            "end_index": 159
+          },
+          {
+            "title": "Second Year Objective",
+            "node_id": "0246",
+            "start_index": 159,
+            "end_index": 159
+          },
+          {
+            "title": "Third Year Objective",
+            "node_id": "0247",
+            "start_index": 159,
+            "end_index": 159
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 160-163)",
+        "node_id": "0248",
+        "start_index": 160,
+        "end_index": 163
+      },
+      {
+        "title": "Definitions",
+        "node_id": "0249",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Expiry Date",
+        "node_id": "0250",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Grant Notice",
+        "node_id": "0251",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Holder",
+        "node_id": "0252",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Look-back Period",
+        "node_id": "0253",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Option",
+        "node_id": "0254",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Plan",
+        "node_id": "0255",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Recapture Amount",
+        "node_id": "0256",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Filing content (pages 165-166)",
+        "node_id": "0257",
+        "start_index": 165,
+        "end_index": 166
+      },
+      {
+        "title": "Subsection (a) - Obligation to Satisfy Withholding Taxes",
+        "node_id": "0258",
+        "start_index": 167,
+        "end_index": 167
+      },
+      {
+        "title": "Subsection (b) - Methods for Satisfying Withholding Taxes",
+        "node_id": "0259",
+        "start_index": 167,
+        "end_index": 167
+      },
+      {
+        "title": "Subsection (c) - Withholding Taxes by the Company Group",
+        "node_id": "0260",
+        "start_index": 167,
+        "end_index": 167,
+        "nodes": [
+          {
+            "title": "Subsubsection (i) - Withholding Taxes in More Than One Jurisdiction",
+            "node_id": "0261",
+            "start_index": 167,
+            "end_index": 167
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 168-168)",
+        "node_id": "0262",
+        "start_index": 168,
+        "end_index": 168
+      },
+      {
+        "title": "Permitted Transfers",
+        "node_id": "0263",
+        "start_index": 169,
+        "end_index": 169
+      },
+      {
+        "title": "Bonds and Restrictions",
+        "node_id": "0264",
+        "start_index": 169,
+        "end_index": 169
+      },
+      {
+        "title": "Consent Requirement",
+        "node_id": "0265",
+        "start_index": 169,
+        "end_index": 169
+      },
+      {
+        "title": "Filing content (pages 170-171)",
+        "node_id": "0266",
+        "start_index": 170,
+        "end_index": 171
+      },
+      {
+        "title": "Recital",
+        "node_id": "0267",
+        "start_index": 172,
+        "end_index": 172
+      },
+      {
+        "title": "Agreement",
+        "node_id": "0268",
+        "start_index": 172,
+        "end_index": 172,
+        "nodes": [
+          {
+            "title": "Term of Employment",
+            "node_id": "0269",
+            "start_index": 172,
+            "end_index": 172,
+            "nodes": [
+              {
+                "title": "Option Vesting",
+                "node_id": "0270",
+                "start_index": 172,
+                "end_index": 172
+              }
+            ]
+          },
+          {
+            "title": "Compensation",
+            "node_id": "0271",
+            "start_index": 172,
+            "end_index": 172,
+            "nodes": [
+              {
+                "title": "Option Vesting",
+                "node_id": "0272",
+                "start_index": 172,
+                "end_index": 172
+              },
+              {
+                "title": "PSU Vesting",
+                "node_id": "0273",
+                "start_index": 172,
+                "end_index": 172
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 173-174)",
+        "node_id": "0274",
+        "start_index": 173,
+        "end_index": 174
+      },
+      {
+        "title": "Sign-On Bonus Details",
+        "node_id": "0275",
+        "start_index": 175,
+        "end_index": 175,
+        "nodes": [
+          {
+            "title": "First Installment",
+            "node_id": "0276",
+            "start_index": 175,
+            "end_index": 175
+          },
+          {
+            "title": "Second Installment",
+            "node_id": "0277",
+            "start_index": 175,
+            "end_index": 175
+          }
+        ]
+      },
+      {
+        "title": "Repayment Conditions",
+        "node_id": "0278",
+        "start_index": 175,
+        "end_index": 175
+      },
+      {
+        "title": "Filing content (pages 176-176)",
+        "node_id": "0279",
+        "start_index": 176,
+        "end_index": 176
+      },
+      {
+        "title": "Health, Welfare, Retirement, Pension, Life Insurance, Disability, Perquisite and Similar Plans, Programs and Arrangements",
+        "node_id": "0280",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Supplemental Term Life Insurance Policy",
+        "node_id": "0281",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Filing content (pages 178-178)",
+        "node_id": "0282",
+        "start_index": 178,
+        "end_index": 178
+      },
+      {
+        "title": "Termination by Employer for Cause",
+        "node_id": "0283",
+        "start_index": 179,
+        "end_index": 179,
+        "nodes": [
+          {
+            "title": "Definition of Cause",
+            "node_id": "0284",
+            "start_index": 179,
+            "end_index": 179,
+            "nodes": [
+              {
+                "title": "Gross Negligence",
+                "node_id": "0285",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Willful and Continuous Failure to Perform Duties",
+                "node_id": "0286",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Fraud, Dishonesty, or Serious Misconduct",
+                "node_id": "0287",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Material Violation of Lawful Directives or Policies",
+                "node_id": "0288",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Material Breach of Agreement",
+                "node_id": "0289",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Material Breach of Proprietary Information or Confidentiality Agreement",
+                "node_id": "0290",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Felony or Crime Involving Dishonesty or Moral Turpitude",
+                "node_id": "0291",
+                "start_index": 179,
+                "end_index": 179
+              }
+            ]
+          },
+          {
+            "title": "Procedures for Termination by Employer for Cause",
+            "node_id": "0292",
+            "start_index": 179,
+            "end_index": 179,
+            "nodes": [
+              {
+                "title": "Notice of Intent to Terminate for Cause",
+                "node_id": "0293",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Opportunity to Explain or Cure",
+                "node_id": "0294",
+                "start_index": 179,
+                "end_index": 179
+              },
+              {
+                "title": "Final Determination and Delivery of Notice",
+                "node_id": "0295",
+                "start_index": 179,
+                "end_index": 179
+              }
+            ]
+          },
+          {
+            "title": "Survival of Provisions",
+            "node_id": "0296",
+            "start_index": 179,
+            "end_index": 179
+          }
+        ]
+      },
+      {
+        "title": "Termination by Employer Without Cause",
+        "node_id": "0297",
+        "start_index": 179,
+        "end_index": 179
+      },
+      {
+        "title": "Termination by Employee Due to Employer Relocation",
+        "node_id": "0298",
+        "start_index": 179,
+        "end_index": 179
+      },
+      {
+        "title": "Death of Employee",
+        "node_id": "0299",
+        "start_index": 179,
+        "end_index": 179
+      },
+      {
+        "title": "Disability of Employee",
+        "node_id": "0300",
+        "start_index": 179,
+        "end_index": 179
+      },
+      {
+        "title": "Filing content (pages 180-181)",
+        "node_id": "0301",
+        "start_index": 180,
+        "end_index": 181
+      },
+      {
+        "title": "\u2018Basic Severance\u2019 shall mean payment of (1) any Base Salary earned but unpaid as of the Termination Date; (2) any business expenses incurred but not reimbursed under Section 5 as of the Termination Date; and (3) payment in lieu of any vacation accrued under Section 7 but unused as of the Termination Date.",
+        "node_id": "0302",
+        "start_index": 182,
+        "end_index": 182
+      },
+      {
+        "title": "\u2018Bonus Severance\u2019 shall mean payment of:",
+        "node_id": "0303",
+        "start_index": 182,
+        "end_index": 182,
+        "nodes": [
+          {
+            "title": "(i) an amount equal to the Annual Bonus that the Employer determines, in its sole discretion, you would have received in accordance with Section 2(c) for any year that ended prior to the Termination Date had you remained employed through the date such bonus would have been paid (in the event that your Termination Date occurs before such bonus would have been paid); and",
+            "node_id": "0304",
+            "start_index": 182,
+            "end_index": 182
+          },
+          {
+            "title": "(ii) an amount equal to the Annual Bonus that the Employer determines, in its sole discretion, you would have received in accordance with Section 2(c) for the year in which your Termination Date occurs had you had remained employed through the date such bonus would have been paid, multiplied by a fraction, the numerator of which is the number corresponding to the calendar month in which the Termination Date occurs and the denominator of which is 12, where, for purposes of calculating the amount of such bonus, any goals will be measured by actual performance.",
+            "node_id": "0305",
+            "start_index": 182,
+            "end_index": 182
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 183-184)",
+        "node_id": "0306",
+        "start_index": 183,
+        "end_index": 184
+      },
+      {
+        "title": "Termination by the Employer For Cause",
+        "node_id": "0307",
+        "start_index": 185,
+        "end_index": 185
+      },
+      {
+        "title": "Breach of Post-termination Obligations or Subsequent Employment",
+        "node_id": "0308",
+        "start_index": 185,
+        "end_index": 185,
+        "nodes": [
+          {
+            "title": "Breach of Post-termination Obligations",
+            "node_id": "0309",
+            "start_index": 185,
+            "end_index": 185
+          },
+          {
+            "title": "Subsequent Employment",
+            "node_id": "0310",
+            "start_index": 185,
+            "end_index": 185
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 186-187)",
+        "node_id": "0311",
+        "start_index": 186,
+        "end_index": 187
+      },
+      {
+        "title": "Modification of Agreements",
+        "node_id": "0312",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Use of Employee\u2019s Name and Likeness",
+        "node_id": "0313",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Assignment of Rights",
+        "node_id": "0314",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "No Conflict with Prior Agreements",
+        "node_id": "0315",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "New Employee Letter and Certification",
+        "node_id": "0316",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Successors",
+        "node_id": "0317",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Waiver",
+        "node_id": "0318",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Expiry",
+        "node_id": "0319",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Taxation",
+        "node_id": "0320",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Immigration",
+        "node_id": "0321",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Choice of Law",
+        "node_id": "0322",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Arbitration",
+        "node_id": "0323",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Severability",
+        "node_id": "0324",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Expiry",
+        "node_id": "0325",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Taxation",
+        "node_id": "0326",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Immigration",
+        "node_id": "0327",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Choice of Law",
+        "node_id": "0328",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Arbitration",
+        "node_id": "0329",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Severability",
+        "node_id": "0330",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Filing content (pages 189-189)",
+        "node_id": "0331",
+        "start_index": 189,
+        "end_index": 189
+      },
+      {
+        "title": "Intent to Comply",
+        "node_id": "0332",
+        "start_index": 190,
+        "end_index": 190
+      },
+      {
+        "title": "Administrative and Interpretive Consistency",
+        "node_id": "0333",
+        "start_index": 190,
+        "end_index": 190
+      },
+      {
+        "title": "Filing content (pages 191-194)",
+        "node_id": "0334",
+        "start_index": 191,
+        "end_index": 194
+      },
+      {
+        "title": "Summary of Certification",
+        "node_id": "0335",
+        "start_index": 195,
+        "end_index": 195
+      },
+      {
+        "title": "Certification Details",
+        "node_id": "0336",
+        "start_index": 195,
+        "end_index": 195,
+        "nodes": [
+          {
+            "title": "Compliance with SEC Requirements",
+            "node_id": "0337",
+            "start_index": 195,
+            "end_index": 195
+          },
+          {
+            "title": "Fair Presentation of Financial Information",
+            "node_id": "0338",
+            "start_index": 195,
+            "end_index": 195
+          }
+        ]
+      }
+    ]
+  }
+}

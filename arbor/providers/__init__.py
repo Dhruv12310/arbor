@@ -2,6 +2,7 @@ from arbor.providers.base import LLMProvider
 from arbor.providers.openai_provider import OpenAIProvider, GroqProvider, OpenAICompatibleProvider
 from arbor.providers.ollama_provider import OllamaProvider
 from arbor.providers.anthropic_provider import AnthropicProvider
+from arbor.providers.gemini_provider import GeminiProvider
 
 __all__ = [
     "LLMProvider",
@@ -10,4 +11,5 @@ __all__ = [
     "OpenAICompatibleProvider",
     "OllamaProvider",
     "AnthropicProvider",
+    "GeminiProvider",
 ]

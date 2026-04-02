@@ -1,5 +1,5 @@
 FROM qwen2.5:3b
 ADAPTER ./treesearch-adapter
 PARAMETER temperature 0
-PARAMETER num_ctx 2048
-SYSTEM "You are a document retrieval expert. Given a document tree structure and a question, identify which nodes contain the answer. Reply with JSON containing thinking and node_list."
+PARAMETER num_ctx 1024
+SYSTEM "You are a document tree navigator. Given a question and a list of document sections at the current level, select which sections to explore next to find the answer. Always reply with valid JSON: {\"thinking\": \"brief reasoning\", \"navigate_to\": [\"node_id1\", \"node_id2\"]}"

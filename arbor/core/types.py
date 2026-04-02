@@ -137,6 +137,69 @@ class ArborConfig:
     max_concurrent_llm_calls: int = 5         # asyncio.Semaphore limit
     overlap_pages: int = 1                    # Pages of overlap between chunks
 
+    # Budget controls
+    max_hops: int = 5                         # Max tree levels to navigate in multihop mode
+    max_nodes_searched: int = 100             # Hard stop: total nodes examined (0 = no limit)
+    max_cost_usd: float = 0.50               # Estimated cost hard stop in USD (0 = no limit)
+    timeout_sec: float = 120.0               # Wall-clock timeout for query() (0 = no limit)
+    max_retries_on_bad_json: int = 2          # Retries when TreeSearch returns malformed JSON
+
+
+class BudgetExceededError(Exception):
+    """Raised when a query exceeds a configured budget limit."""
+    def __init__(self, reason: str, partial_nodes: list | None = None):
+        super().__init__(reason)
+        self.partial_nodes: list[str] = partial_nodes or []
+
+
+# ── Streaming event types ─────────────────────────────────────────────────────
+
+@dataclass
+class TreeLoadedEvent:
+    """Emitted once after the document tree is generated or loaded."""
+    type: str = "tree_loaded"
+    node_count: int = 0
+    page_count: int = 0
+
+
+@dataclass
+class NavigatingEvent:
+    """Emitted at each level of multi-hop tree navigation."""
+    type: str = "navigating"
+    level: int = 0
+    exploring_ids: list = field(default_factory=list)
+    section_titles: list = field(default_factory=list)
+
+
+@dataclass
+class NodeFoundEvent:
+    """Emitted when a leaf node is confirmed as a final answer location."""
+    type: str = "node_found"
+    node_id: str = ""
+    title: str = ""
+    page_range: str = ""
+
+
+@dataclass
+class AnswerEvent:
+    """Emitted as the final event with the generated answer."""
+    type: str = "answer"
+    text: str = ""
+    citations: list = field(default_factory=list)
+    nodes_examined: int = 0
+
+
+@dataclass
+class ErrorEvent:
+    """Emitted if the pipeline hits a budget limit or unrecoverable error."""
+    type: str = "error"
+    message: str = ""
+    partial_nodes: list = field(default_factory=list)
+
+
+# Union type for type-hinting event handlers
+ArborEvent = TreeLoadedEvent | NavigatingEvent | NodeFoundEvent | AnswerEvent | ErrorEvent
+
 
 # Intermediate type used during TOC processing (before tree conversion)
 @dataclass

@@ -83,12 +83,12 @@ class LLMProvider(ABC):
         max_tokens: Optional[int] = None,
         chat_history: Optional[list[dict]] = None,
         max_retries: int = 10,
-        retry_delay: float = 1.0,
+        retry_delay: float = 5.0,
     ) -> str:
         """
         complete() with automatic retry on transient failures.
 
-        Uses the same retry pattern as PageIndex (10 retries, 1s sleep).
+        Uses the same retry pattern as PageIndex (10 retries, 5s sleep).
         """
         last_exc: Optional[Exception] = None
         for attempt in range(max_retries):

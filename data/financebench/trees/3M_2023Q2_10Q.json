@@ -1,0 +1,1359 @@
+{
+  "tree": {
+    "doc_name": "3M_2023Q2_10Q",
+    "structure": [
+      {
+        "title": "3M Company and Subsidiaries",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 5
+      },
+      {
+        "title": "Consolidated Statement of Income (Loss)",
+        "node_id": "0002",
+        "start_index": 1,
+        "end_index": 5
+      },
+      {
+        "title": "Consolidated Statement of Comprehensive Income (Loss)",
+        "node_id": "0003",
+        "start_index": 1,
+        "end_index": 5
+      },
+      {
+        "title": "Consolidated Balance Sheet",
+        "node_id": "0004",
+        "start_index": 1,
+        "end_index": 5
+      },
+      {
+        "title": "3M Company and Subsidiaries",
+        "node_id": "0005",
+        "start_index": 6,
+        "end_index": 8
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements",
+        "node_id": "0006",
+        "start_index": 9,
+        "end_index": 9
+      },
+      {
+        "title": "Note 3. Acquisitions and Divestitures",
+        "node_id": "0007",
+        "start_index": 10,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "2023 acquisitions",
+            "node_id": "0008",
+            "start_index": 10,
+            "end_index": 11
+          },
+          {
+            "title": "2023 divestitures and previously announced divestitures",
+            "node_id": "0009",
+            "start_index": 11,
+            "end_index": 12,
+            "nodes": [
+              {
+                "title": "Pierrel S.p.A. divestiture",
+                "node_id": "0010",
+                "start_index": 11,
+                "end_index": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 13-16)",
+        "node_id": "0011",
+        "start_index": 13,
+        "end_index": 16
+      },
+      {
+        "title": "NOTE 8. Income Taxes",
+        "node_id": "0012",
+        "start_index": 17,
+        "end_index": 18,
+        "nodes": [
+          {
+            "title": "Effective Tax Rates",
+            "node_id": "0013",
+            "start_index": 17,
+            "end_index": 17
+          }
+        ]
+      },
+      {
+        "title": "NOTE 9. Marketable Securities",
+        "node_id": "0014",
+        "start_index": 19,
+        "end_index": 19
+      },
+      {
+        "title": "Filing content (pages 20-26)",
+        "node_id": "0015",
+        "start_index": 20,
+        "end_index": 26
+      },
+      {
+        "title": "Assets and Liabilities that are Measured at Fair Value on a Nonrecurring Basis",
+        "node_id": "0016",
+        "start_index": 27,
+        "end_index": 27,
+        "nodes": [
+          {
+            "title": "Disclosures are required for certain assets and liabilities that are measured at fair value, but are recognized and disclosed at fair value on a nonrecurring basis in periods subsequent to initial recognition.",
+            "node_id": "0017",
+            "start_index": 27,
+            "end_index": 27
+          }
+        ]
+      },
+      {
+        "title": "Fair Value of Financial Instruments",
+        "node_id": "0018",
+        "start_index": 27,
+        "end_index": 27,
+        "nodes": [
+          {
+            "title": "The Company\u2019s financial instruments include cash and cash equivalents, marketable securities, accounts receivable, certain investments, accounts payable, borrowings, and derivative contracts.",
+            "node_id": "0019",
+            "start_index": 27,
+            "end_index": 27
+          }
+        ]
+      },
+      {
+        "title": "Process for Disclosure and Recording of Liabilities Related to Legal Proceedings",
+        "node_id": "0020",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "Complexity of Legal Proceedings",
+            "node_id": "0021",
+            "start_index": 28,
+            "end_index": 28
+          },
+          {
+            "title": "Estimates and Assumptions",
+            "node_id": "0022",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Process for Disclosure and Recording of Insurance Receivables Related to Legal Proceedings",
+        "node_id": "0023",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "Analysis of Policies",
+            "node_id": "0024",
+            "start_index": 28,
+            "end_index": 28
+          },
+          {
+            "title": "Recording of Insurance Receivables",
+            "node_id": "0025",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Legal Proceedings Overview",
+        "node_id": "0026",
+        "start_index": 29,
+        "end_index": 29,
+        "nodes": [
+          {
+            "title": "Significant Legal Proceedings",
+            "node_id": "0027",
+            "start_index": 29,
+            "end_index": 29
+          },
+          {
+            "title": "Liabilities and Associated Insurance Receivables",
+            "node_id": "0028",
+            "start_index": 29,
+            "end_index": 29
+          },
+          {
+            "title": "Accrued Liabilities Relating to Significant Legal Proceedings",
+            "node_id": "0029",
+            "start_index": 29,
+            "end_index": 29
+          },
+          {
+            "title": "Respirator Mask/Asbestos Litigation",
+            "node_id": "0030",
+            "start_index": 29,
+            "end_index": 29,
+            "nodes": [
+              {
+                "title": "Number of Claims",
+                "node_id": "0031",
+                "start_index": 29,
+                "end_index": 29
+              },
+              {
+                "title": "Types of Injuries",
+                "node_id": "0032",
+                "start_index": 29,
+                "end_index": 29
+              },
+              {
+                "title": "Legal Outcomes",
+                "node_id": "0033",
+                "start_index": 29,
+                "end_index": 29,
+                "nodes": [
+                  {
+                    "title": "Jury Verdicts",
+                    "node_id": "0034",
+                    "start_index": 29,
+                    "end_index": 29
+                  },
+                  {
+                    "title": "Settlements",
+                    "node_id": "0035",
+                    "start_index": 29,
+                    "end_index": 29
+                  },
+                  {
+                    "title": "Appeals",
+                    "node_id": "0036",
+                    "start_index": 29,
+                    "end_index": 29,
+                    "nodes": [
+                      {
+                        "title": "Legal Outcomes of Appeals",
+                        "node_id": "0037",
+                        "start_index": 29,
+                        "end_index": 29
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "As Previously Reported",
+        "node_id": "0038",
+        "start_index": 30,
+        "end_index": 30,
+        "nodes": [
+          {
+            "title": "Complaint Filed in 2003",
+            "node_id": "0039",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Amended Complaint in 2005",
+            "node_id": "0040",
+            "start_index": 30,
+            "end_index": 30
+          }
+        ]
+      },
+      {
+        "title": "Bench Trial Continued Indefinitely",
+        "node_id": "0041",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Expert Witness Estimate of Respirator Sales",
+        "node_id": "0042",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "State's Position Regarding Separate Violations",
+        "node_id": "0043",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "3M's Additional Defenses",
+        "node_id": "0044",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "No Liability Recorded",
+        "node_id": "0045",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Lack of Meaningful Discovery Responses",
+        "node_id": "0046",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Assertions of Claims Against Two Other Manufacturers",
+        "node_id": "0047",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Comprehensive Legal Review of Respirator Mask/Asbestos Liabilities",
+        "node_id": "0048",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Estimation of Probable Liability",
+        "node_id": "0049",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Recent Developments and Trends",
+        "node_id": "0050",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Comprehensive Legal Review of Respirator Mask/Asbestos Liabilities",
+        "node_id": "0051",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Estimation of Probable Liability",
+        "node_id": "0052",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Recent Developments and Trends",
+        "node_id": "0053",
+        "start_index": 30,
+        "end_index": 30
+      },
+      {
+        "title": "Acquisition of Aearo Holding Corp.",
+        "node_id": "0054",
+        "start_index": 31,
+        "end_index": 31
+      },
+      {
+        "title": "Products Manufactured by Aearo",
+        "node_id": "0055",
+        "start_index": 31,
+        "end_index": 31
+      },
+      {
+        "title": "Litigation Involving Respirator Products",
+        "node_id": "0056",
+        "start_index": 31,
+        "end_index": 31
+      },
+      {
+        "title": "Chapter 11 Proceedings and Trust Fund",
+        "node_id": "0057",
+        "start_index": 31,
+        "end_index": 31
+      },
+      {
+        "title": "Environmental Responsibilities",
+        "node_id": "0058",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Laws and Regulations",
+        "node_id": "0059",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Incurred Costs and Capital Expenditures",
+        "node_id": "0060",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Europe",
+        "node_id": "0061",
+        "start_index": 33,
+        "end_index": 33,
+        "nodes": [
+          {
+            "title": "PFAS Regulations in the EU",
+            "node_id": "0062",
+            "start_index": 33,
+            "end_index": 33
+          },
+          {
+            "title": "Regulatory Actions and Proposals",
+            "node_id": "0063",
+            "start_index": 33,
+            "end_index": 33
+          }
+        ]
+      },
+      {
+        "title": "Introduction to PFAS Regulations",
+        "node_id": "0064",
+        "start_index": 34,
+        "end_index": 34,
+        "nodes": [
+          {
+            "title": "PFAS Overview",
+            "node_id": "0065",
+            "start_index": 34,
+            "end_index": 34
+          },
+          {
+            "title": "Regulatory Framework",
+            "node_id": "0066",
+            "start_index": 34,
+            "end_index": 34
+          }
+        ]
+      },
+      {
+        "title": "Specific PFAS Compounds",
+        "node_id": "0067",
+        "start_index": 34,
+        "end_index": 34,
+        "nodes": [
+          {
+            "title": "Compound A",
+            "node_id": "0068",
+            "start_index": 34,
+            "end_index": 34
+          },
+          {
+            "title": "Compound B",
+            "node_id": "0069",
+            "start_index": 34,
+            "end_index": 34
+          }
+        ]
+      },
+      {
+        "title": "Notice of Default Issued by the Flemish Region",
+        "node_id": "0070",
+        "start_index": 35,
+        "end_index": 35,
+        "nodes": [
+          {
+            "title": "PFAS-Related Information and Indemnity",
+            "node_id": "0071",
+            "start_index": 35,
+            "end_index": 35
+          },
+          {
+            "title": "Remediation Plan for Soil and Water Impacts",
+            "node_id": "0072",
+            "start_index": 35,
+            "end_index": 35
+          }
+        ]
+      },
+      {
+        "title": "United States: Federal Activity",
+        "node_id": "0073",
+        "start_index": 36,
+        "end_index": 36,
+        "nodes": [
+          {
+            "title": "EPA Activities Related to PFAS",
+            "node_id": "0074",
+            "start_index": 36,
+            "end_index": 36
+          }
+        ]
+      },
+      {
+        "title": "Test Order Details",
+        "node_id": "0075",
+        "start_index": 37,
+        "end_index": 37,
+        "nodes": [
+          {
+            "title": "Issuance Date",
+            "node_id": "0076",
+            "start_index": 37,
+            "end_index": 37
+          },
+          {
+            "title": "Test Order Scope",
+            "node_id": "0077",
+            "start_index": 37,
+            "end_index": 37
+          }
+        ]
+      },
+      {
+        "title": "3M's Response",
+        "node_id": "0078",
+        "start_index": 37,
+        "end_index": 37,
+        "nodes": [
+          {
+            "title": "Initial Submission",
+            "node_id": "0079",
+            "start_index": 37,
+            "end_index": 37
+          },
+          {
+            "title": "Amended Submission",
+            "node_id": "0080",
+            "start_index": 37,
+            "end_index": 37
+          }
+        ]
+      },
+      {
+        "title": "Between 2018 and 2022, seven states have enacted laws requiring written notification of firefighting personal protective equipment that contains PFAS, with most such laws providing for potential civil penalties for non-compliance.",
+        "node_id": "0081",
+        "start_index": 38,
+        "end_index": 38
+      },
+      {
+        "title": "The Company began providing written notices with those products starting November 2022.",
+        "node_id": "0082",
+        "start_index": 38,
+        "end_index": 38
+      },
+      {
+        "title": "In addition, the Company continues to work to determine the extent of any potential non-compliance, has made voluntary self-disclosures to states and customers as applicable, and has expressed its willingness to work with those states to address and resolve any potential non-compliance.",
+        "node_id": "0083",
+        "start_index": 38,
+        "end_index": 38
+      },
+      {
+        "title": "The Company cannot predict at this time the ultimate outcome or actions that may be taken by those states.",
+        "node_id": "0084",
+        "start_index": 38,
+        "end_index": 38
+      },
+      {
+        "title": "New Jersey",
+        "node_id": "0085",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "AFFF MDL",
+            "node_id": "0086",
+            "start_index": 39,
+            "end_index": 39
+          },
+          {
+            "title": "Remediation and Restoration",
+            "node_id": "0087",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "New Hampshire",
+        "node_id": "0088",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "AFFF MDL",
+            "node_id": "0089",
+            "start_index": 39,
+            "end_index": 39
+          },
+          {
+            "title": "Non-AFFF Products",
+            "node_id": "0090",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "Vermont",
+        "node_id": "0091",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "AFFF MDL",
+            "node_id": "0092",
+            "start_index": 39,
+            "end_index": 39
+          },
+          {
+            "title": "Non-AFFF Products",
+            "node_id": "0093",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "Illinois",
+        "node_id": "0094",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "AFFF MDL",
+            "node_id": "0095",
+            "start_index": 39,
+            "end_index": 39
+          },
+          {
+            "title": "Remediation and Restoration",
+            "node_id": "0096",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "Maryland Lawsuit",
+        "node_id": "0097",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Selection Processes for PFAS Lawsuits",
+        "node_id": "0098",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Filing content (pages 41-41)",
+        "node_id": "0099",
+        "start_index": 41,
+        "end_index": 41
+      },
+      {
+        "title": "New York State Court Cases",
+        "node_id": "0100",
+        "start_index": 42,
+        "end_index": 42,
+        "nodes": [
+          {
+            "title": "Tonaga, Inc. (Taconic)",
+            "node_id": "0101",
+            "start_index": 42,
+            "end_index": 42
+          }
+        ]
+      },
+      {
+        "title": "Michigan State Court Case",
+        "node_id": "0102",
+        "start_index": 42,
+        "end_index": 42
+      },
+      {
+        "title": "Alabama and Georgia State Court Cases",
+        "node_id": "0103",
+        "start_index": 42,
+        "end_index": 42,
+        "nodes": [
+          {
+            "title": "Centre Case",
+            "node_id": "0104",
+            "start_index": 42,
+            "end_index": 42
+          }
+        ]
+      },
+      {
+        "title": "Other Cases",
+        "node_id": "0105",
+        "start_index": 42,
+        "end_index": 42
+      },
+      {
+        "title": "New Jersey Cases",
+        "node_id": "0106",
+        "start_index": 43,
+        "end_index": 43,
+        "nodes": [
+          {
+            "title": "Middlesex Water Company Case",
+            "node_id": "0107",
+            "start_index": 43,
+            "end_index": 43
+          }
+        ]
+      },
+      {
+        "title": "South Carolina Case",
+        "node_id": "0108",
+        "start_index": 43,
+        "end_index": 43
+      },
+      {
+        "title": "Massachusetts Case",
+        "node_id": "0109",
+        "start_index": 43,
+        "end_index": 43
+      },
+      {
+        "title": "Maine Case",
+        "node_id": "0110",
+        "start_index": 43,
+        "end_index": 43
+      },
+      {
+        "title": "Putative Class Action",
+        "node_id": "0111",
+        "start_index": 44,
+        "end_index": 44,
+        "nodes": [
+          {
+            "title": "Plaintiff's Claims",
+            "node_id": "0112",
+            "start_index": 44,
+            "end_index": 44
+          },
+          {
+            "title": "Class Certification",
+            "node_id": "0113",
+            "start_index": 44,
+            "end_index": 44
+          }
+        ]
+      },
+      {
+        "title": "NPDES Permit for Decatur Plant",
+        "node_id": "0114",
+        "start_index": 45,
+        "end_index": 45,
+        "nodes": [
+          {
+            "title": "Reporting Requirements",
+            "node_id": "0115",
+            "start_index": 45,
+            "end_index": 45
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 46-46)",
+        "node_id": "0116",
+        "start_index": 46,
+        "end_index": 46
+      },
+      {
+        "title": "Environmental Remediation Liabilities",
+        "node_id": "0117",
+        "start_index": 47,
+        "end_index": 47,
+        "nodes": [
+          {
+            "title": "Summary of Environmental Remediation Liabilities",
+            "node_id": "0118",
+            "start_index": 47,
+            "end_index": 47
+          }
+        ]
+      },
+      {
+        "title": "Product Liability Litigation",
+        "node_id": "0119",
+        "start_index": 47,
+        "end_index": 47,
+        "nodes": [
+          {
+            "title": "Summary of Product Liability Litigation",
+            "node_id": "0120",
+            "start_index": 47,
+            "end_index": 47
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 48-48)",
+        "node_id": "0121",
+        "start_index": 48,
+        "end_index": 48
+      },
+      {
+        "title": "Lawsuits Involving Combat Arms Earplugs",
+        "node_id": "0122",
+        "start_index": 49,
+        "end_index": 49,
+        "nodes": [
+          {
+            "title": "State Court Cases",
+            "node_id": "0123",
+            "start_index": 49,
+            "end_index": 49
+          },
+          {
+            "title": "Federal Court Cases",
+            "node_id": "0124",
+            "start_index": 49,
+            "end_index": 49
+          }
+        ]
+      },
+      {
+        "title": "Mediation Efforts",
+        "node_id": "0125",
+        "start_index": 49,
+        "end_index": 49
+      },
+      {
+        "title": "Combat Arms Earplugs Litigation",
+        "node_id": "0126",
+        "start_index": 50,
+        "end_index": 50,
+        "nodes": [
+          {
+            "title": "Summary of Liability",
+            "node_id": "0127",
+            "start_index": 50,
+            "end_index": 50
+          },
+          {
+            "title": "Commitment and Associated Expenses",
+            "node_id": "0128",
+            "start_index": 50,
+            "end_index": 50
+          },
+          {
+            "title": "Accrued Liability",
+            "node_id": "0129",
+            "start_index": 50,
+            "end_index": 50
+          },
+          {
+            "title": "Reconsolidation of Former Deconsolidated Aearo Entities",
+            "node_id": "0130",
+            "start_index": 50,
+            "end_index": 50,
+            "nodes": [
+              {
+                "title": "Asset Balance in Equity and Other Investments",
+                "node_id": "0131",
+                "start_index": 50,
+                "end_index": 50
+              },
+              {
+                "title": "Net Liability for Former Intercompany Amounts Due from 3M to the Deconsolidated Entities",
+                "node_id": "0132",
+                "start_index": 50,
+                "end_index": 50
+              }
+            ]
+          },
+          {
+            "title": "Putative Class Action in Ramsey County, Minnesota",
+            "node_id": "0133",
+            "start_index": 50,
+            "end_index": 50,
+            "nodes": [
+              {
+                "title": "Economic Damages Allegations",
+                "node_id": "0134",
+                "start_index": 50,
+                "end_index": 50
+              },
+              {
+                "title": "Company's Motion to Dismiss",
+                "node_id": "0135",
+                "start_index": 50,
+                "end_index": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Product Liability Litigation Matters",
+        "node_id": "0136",
+        "start_index": 51,
+        "end_index": 51,
+        "nodes": [
+          {
+            "title": "Bair Hugger\u2122 Patient Warming System",
+            "node_id": "0137",
+            "start_index": 51,
+            "end_index": 51
+          }
+        ]
+      },
+      {
+        "title": "Securities and Shareholder Litigation",
+        "node_id": "0138",
+        "start_index": 51,
+        "end_index": 51,
+        "nodes": [
+          {
+            "title": "Putative Securities Class Action",
+            "node_id": "0139",
+            "start_index": 51,
+            "end_index": 51
+          },
+          {
+            "title": "Follow-On Derivative Lawsuit",
+            "node_id": "0140",
+            "start_index": 51,
+            "end_index": 51
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 52-55)",
+        "node_id": "0141",
+        "start_index": 52,
+        "end_index": 55
+      },
+      {
+        "title": "Restructuring",
+        "node_id": "0142",
+        "start_index": 56,
+        "end_index": 56,
+        "nodes": [
+          {
+            "title": "Pre-Tax Charges",
+            "node_id": "0143",
+            "start_index": 56,
+            "end_index": 56
+          },
+          {
+            "title": "Impacts on Operating Income",
+            "node_id": "0144",
+            "start_index": 56,
+            "end_index": 56
+          }
+        ]
+      },
+      {
+        "title": "Raw Material Impact",
+        "node_id": "0145",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Foreign Exchange Impacts",
+        "node_id": "0146",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Acquisitions/Dividestitures",
+        "node_id": "0147",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Other Expense (Income), Net",
+        "node_id": "0148",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Filing content (pages 57-60)",
+        "node_id": "0149",
+        "start_index": 57,
+        "end_index": 60
+      },
+      {
+        "title": "Sales by geographic area",
+        "node_id": "0150",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "Americas",
+            "node_id": "0151",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Asia Pacific",
+            "node_id": "0152",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "Europe, Middle East & Africa",
+            "node_id": "0153",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Financial condition",
+        "node_id": "0154",
+        "start_index": 61,
+        "end_index": 61
+      },
+      {
+        "title": "Managing currency risks",
+        "node_id": "0155",
+        "start_index": 61,
+        "end_index": 61
+      },
+      {
+        "title": "Filing content (pages 62-64)",
+        "node_id": "0156",
+        "start_index": 62,
+        "end_index": 64
+      },
+      {
+        "title": "Safety and Industrial Business",
+        "node_id": "0157",
+        "start_index": 65,
+        "end_index": 65,
+        "nodes": [
+          {
+            "title": "Second Quarter 2023 Results",
+            "node_id": "0158",
+            "start_index": 65,
+            "end_index": 65
+          },
+          {
+            "title": "First Six Months 2023 Results",
+            "node_id": "0159",
+            "start_index": 65,
+            "end_index": 65
+          }
+        ]
+      },
+      {
+        "title": "Transportation and Electronics Business",
+        "node_id": "0160",
+        "start_index": 65,
+        "end_index": 65,
+        "nodes": [
+          {
+            "title": "Second Quarter 2023 Results",
+            "node_id": "0161",
+            "start_index": 65,
+            "end_index": 65
+          },
+          {
+            "title": "First Six Months 2023 Results",
+            "node_id": "0162",
+            "start_index": 65,
+            "end_index": 65
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 66-67)",
+        "node_id": "0163",
+        "start_index": 66,
+        "end_index": 67
+      },
+      {
+        "title": "Health Care Business",
+        "node_id": "0164",
+        "start_index": 68,
+        "end_index": 69,
+        "nodes": [
+          {
+            "title": "Second Quarter 2023 Results",
+            "node_id": "0165",
+            "start_index": 68,
+            "end_index": 69
+          }
+        ]
+      },
+      {
+        "title": "Consumer Business",
+        "node_id": "0166",
+        "start_index": 68,
+        "end_index": 69,
+        "nodes": [
+          {
+            "title": "Second Quarter 2023 Results",
+            "node_id": "0167",
+            "start_index": 68,
+            "end_index": 69
+          }
+        ]
+      },
+      {
+        "title": "Strength and Stability of Business Model",
+        "node_id": "0168",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Free Cash Flow Capability",
+        "node_id": "0169",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Proven Capital Markets Access",
+        "node_id": "0170",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Filing content (pages 71-71)",
+        "node_id": "0171",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Cash Flows from Operating Activities",
+        "node_id": "0172",
+        "start_index": 72,
+        "end_index": 72
+      },
+      {
+        "title": "Cash Flows from Investing Activities",
+        "node_id": "0173",
+        "start_index": 72,
+        "end_index": 72
+      },
+      {
+        "title": "Cash Flows from Financing Activities",
+        "node_id": "0174",
+        "start_index": 72,
+        "end_index": 72
+      },
+      {
+        "title": "Filing content (pages 73-74)",
+        "node_id": "0175",
+        "start_index": 73,
+        "end_index": 74
+      },
+      {
+        "title": "Cautionary Note Concerning Factors That May\u00a0Affect Future Results",
+        "node_id": "0176",
+        "start_index": 75,
+        "end_index": 75
+      },
+      {
+        "title": "Forward-Looking Statements",
+        "node_id": "0177",
+        "start_index": 75,
+        "end_index": 75,
+        "nodes": [
+          {
+            "title": "Factors That May Affect Future Results",
+            "node_id": "0178",
+            "start_index": 75,
+            "end_index": 75
+          }
+        ]
+      },
+      {
+        "title": "Discussion of These Factors",
+        "node_id": "0179",
+        "start_index": 75,
+        "end_index": 75
+      },
+      {
+        "title": "Quantitative and Qualitative Disclosures About Market Risk",
+        "node_id": "0180",
+        "start_index": 75,
+        "end_index": 75
+      },
+      {
+        "title": "No Material Changes",
+        "node_id": "0181",
+        "start_index": 75,
+        "end_index": 75
+      },
+      {
+        "title": "Risk Management Discussion",
+        "node_id": "0182",
+        "start_index": 75,
+        "end_index": 75
+      },
+      {
+        "title": "Filing content (pages 76-76)",
+        "node_id": "0183",
+        "start_index": 76,
+        "end_index": 76
+      },
+      {
+        "title": "Legal Proceedings",
+        "node_id": "0184",
+        "start_index": 77,
+        "end_index": 77
+      },
+      {
+        "title": "Risks Related to Legal and Regulatory Proceedings",
+        "node_id": "0185",
+        "start_index": 77,
+        "end_index": 77,
+        "nodes": [
+          {
+            "title": "Liabilities Related to Certain Fluorochemicals",
+            "node_id": "0186",
+            "start_index": 77,
+            "end_index": 77
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 78-78)",
+        "node_id": "0187",
+        "start_index": 78,
+        "end_index": 78
+      },
+      {
+        "title": "Strategic Decision to Exit PFAS Manufacturing and Usage",
+        "node_id": "0188",
+        "start_index": 79,
+        "end_index": 79
+      },
+      {
+        "title": "Strategic Decision to Discontinue PFAS Usage Across Product Portfolio",
+        "node_id": "0189",
+        "start_index": 79,
+        "end_index": 79
+      },
+      {
+        "title": "Financial Implications of the Strategic Decision",
+        "node_id": "0190",
+        "start_index": 79,
+        "end_index": 79
+      },
+      {
+        "title": "Risks Related to Our Products and Customer Preferences",
+        "node_id": "0191",
+        "start_index": 80,
+        "end_index": 80
+      },
+      {
+        "title": "Filing content (pages 81-81)",
+        "node_id": "0192",
+        "start_index": 81,
+        "end_index": 81
+      },
+      {
+        "title": "Risks Related to Our Business",
+        "node_id": "0193",
+        "start_index": 82,
+        "end_index": 82,
+        "nodes": [
+          {
+            "title": "Information Technology Systems Risks",
+            "node_id": "0194",
+            "start_index": 82,
+            "end_index": 82
+          },
+          {
+            "title": "Acquisitions and Strategic Alliances Risks",
+            "node_id": "0195",
+            "start_index": 82,
+            "end_index": 82
+          }
+        ]
+      },
+      {
+        "title": "Future Results",
+        "node_id": "0196",
+        "start_index": 83,
+        "end_index": 83,
+        "nodes": [
+          {
+            "title": "Operational Execution",
+            "node_id": "0197",
+            "start_index": 83,
+            "end_index": 83
+          },
+          {
+            "title": "Organizational Restructurings",
+            "node_id": "0198",
+            "start_index": 83,
+            "end_index": 83
+          },
+          {
+            "title": "Productivity Improvements",
+            "node_id": "0199",
+            "start_index": 83,
+            "end_index": 83
+          }
+        ]
+      },
+      {
+        "title": "Financial Results",
+        "node_id": "0200",
+        "start_index": 83,
+        "end_index": 83
+      },
+      {
+        "title": "Continuous Improvement",
+        "node_id": "0201",
+        "start_index": 83,
+        "end_index": 83
+      },
+      {
+        "title": "Global Business Transformation",
+        "node_id": "0202",
+        "start_index": 83,
+        "end_index": 83
+      },
+      {
+        "title": "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds.",
+        "node_id": "0203",
+        "start_index": 84,
+        "end_index": 84,
+        "nodes": [
+          {
+            "title": "Issuer Purchases of Equity Securities",
+            "node_id": "0204",
+            "start_index": 84,
+            "end_index": 84,
+            "nodes": [
+              {
+                "title": "Issuer Purchases of Equity",
+                "node_id": "0205",
+                "start_index": 84,
+                "end_index": 84
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 85-90)",
+        "node_id": "0206",
+        "start_index": 85,
+        "end_index": 90
+      },
+      {
+        "title": "Certification Details",
+        "node_id": "0207",
+        "start_index": 91,
+        "end_index": 91,
+        "nodes": [
+          {
+            "title": "Compliance with SEC Requirements",
+            "node_id": "0208",
+            "start_index": 91,
+            "end_index": 91
+          },
+          {
+            "title": "Fair Presentation of Financial Condition and Results of Operations",
+            "node_id": "0209",
+            "start_index": 91,
+            "end_index": 91
+          }
+        ]
+      }
+    ]
+  }
+}

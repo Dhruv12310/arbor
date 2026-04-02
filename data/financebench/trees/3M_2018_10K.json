@@ -1,0 +1,3626 @@
+{
+  "tree": {
+    "doc_name": "3M_2018_10K",
+    "structure": [
+      {
+        "title": "PART I",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 1",
+        "node_id": "0002",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 1A",
+        "node_id": "0003",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 1B",
+        "node_id": "0004",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 2",
+        "node_id": "0005",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 3",
+        "node_id": "0006",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 4",
+        "node_id": "0007",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "PART II",
+        "node_id": "0008",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 5",
+        "node_id": "0009",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 6",
+        "node_id": "0010",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 7",
+        "node_id": "0011",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 7A",
+        "node_id": "0012",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 8",
+        "node_id": "0013",
+        "start_index": 1,
+        "end_index": 3,
+        "nodes": [
+          {
+            "title": "Index to Financial Statements",
+            "node_id": "0014",
+            "start_index": 1,
+            "end_index": 1
+          },
+          {
+            "title": "Management\u2019s Responsibility for Financial Reporting",
+            "node_id": "0015",
+            "start_index": 2,
+            "end_index": 2
+          },
+          {
+            "title": "Management\u2019s Report on Internal Control Over Financial Reporting",
+            "node_id": "0016",
+            "start_index": 3,
+            "end_index": 3
+          },
+          {
+            "title": "Report of Independent Registered Public Accounting Firm",
+            "node_id": "0017",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Consolidated Statement of Income for the years ended December 31, 2018, 2017 and 2016",
+            "node_id": "0018",
+            "start_index": 5,
+            "end_index": 5
+          },
+          {
+            "title": "Consolidated Statement of Comprehensive Income for the years ended December 31, 2018, 2017 and 2016",
+            "node_id": "0019",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Consolidated Balance Sheet at December 31, 2018 and 2017",
+            "node_id": "0020",
+            "start_index": 7,
+            "end_index": 7
+          },
+          {
+            "title": "Consolidated Statement of Cash Flows for the years ended December 31, 2018, 2017 and 2016",
+            "node_id": "0021",
+            "start_index": 8,
+            "end_index": 3
+          }
+        ]
+      },
+      {
+        "title": "ITEM 9",
+        "node_id": "0022",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 9A",
+        "node_id": "0023",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 9B",
+        "node_id": "0024",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "PART III",
+        "node_id": "0025",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 10",
+        "node_id": "0026",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 11",
+        "node_id": "0027",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 12",
+        "node_id": "0028",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 13",
+        "node_id": "0029",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "ITEM 14",
+        "node_id": "0030",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "Business Segments",
+        "node_id": "0031",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Description of the five business segments of 3M.",
+        "nodes": [
+          {
+            "title": "Industrial Business",
+            "node_id": "0032",
+            "start_index": 4,
+            "end_index": 4,
+            "summary": "Description of the products and services offered by 3M in the Industrial business segment."
+          },
+          {
+            "title": "Safety and Graphics Business",
+            "node_id": "0033",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Description of the products and services offered by 3M in the Safety and Graphics business segment."
+          },
+          {
+            "title": "Health Care Business",
+            "node_id": "0034",
+            "start_index": 6,
+            "end_index": 6,
+            "summary": "Description of the products and services offered by 3M in the Health Care business segment."
+          },
+          {
+            "title": "Electronics and Energy Business",
+            "node_id": "0035",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "Description of the products and services offered by 3M in the Electronics and Energy business segment."
+          },
+          {
+            "title": "Consumer Business",
+            "node_id": "0036",
+            "start_index": 8,
+            "end_index": 4,
+            "summary": "Description of the products and services offered by 3M in the Consumer business segment."
+          }
+        ]
+      },
+      {
+        "title": "Major Industrial Products",
+        "node_id": "0037",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Detailed description of the major industrial products offered by 3M."
+      },
+      {
+        "title": "Business Segment Information",
+        "node_id": "0038",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Explanation of the changes made to the business segment reporting of 3M."
+      },
+      {
+        "title": "Industrial Business: Overview",
+        "node_id": "0039",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Overview of the Industrial business segment of 3M, including the markets served and the types of products and services offered."
+      },
+      {
+        "title": "Industrial Business: Product Offerings",
+        "node_id": "0040",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Detailed description of the various product offerings within the Industrial business segment of 3M, including coated, non-woven and microstructured surface finishing and grinding abrasives, adhesives, advanced ceramics, sealants, specialty materials, purification (filtration products), closure systems for personal hygiene products, acoustic systems products, and components and products that are used in the manufacture, repair and maintenance of automotive, marine, aircraft and specialty vehicles."
+      },
+      {
+        "title": "Workflow Solutions",
+        "node_id": "0041",
+        "start_index": 6,
+        "end_index": 6,
+        "summary": "Description of workflow solutions provided by 3M."
+      },
+      {
+        "title": "Health Information Systems",
+        "node_id": "0042",
+        "start_index": 6,
+        "end_index": 6,
+        "summary": "Description of health information systems provided by 3M."
+      },
+      {
+        "title": "Research and Development",
+        "node_id": "0043",
+        "start_index": 7,
+        "end_index": 7,
+        "summary": "Research and development cover basic scientific research and the application of scientific advances in developing new and improved products and their uses.",
+        "nodes": [
+          {
+            "title": "Expenditures",
+            "node_id": "0044",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "Expenditures primarily include technical support, internally developed patent costs, amortization of externally acquired patents and in-process research and development, and gains/losses associated with certain corporate approved investments in R&D-related ventures."
+          }
+        ]
+      },
+      {
+        "title": "Environmental Law Compliance",
+        "node_id": "0045",
+        "start_index": 7,
+        "end_index": 7,
+        "summary": "3M\u2019s manufacturing operations are affected by national, state and local environmental laws around the world. 3M has made, and plans to continue making, necessary expenditures for compliance with applicable laws."
+      },
+      {
+        "title": "Forward-looking statements",
+        "node_id": "0046",
+        "start_index": 9,
+        "end_index": 10,
+        "summary": "Cautionary note concerning factors that may affect future results."
+      },
+      {
+        "title": "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
+        "node_id": "0047",
+        "start_index": 10,
+        "end_index": 10,
+        "summary": "Discussion of the Company\u2019s financial condition and results of operations.",
+        "nodes": [
+          {
+            "title": "Overview",
+            "node_id": "0048",
+            "start_index": 11,
+            "end_index": 11,
+            "summary": "Summary of the Company\u2019s overall business and financial performance."
+          },
+          {
+            "title": "Financial Condition and Liquidity",
+            "node_id": "0049",
+            "start_index": 12,
+            "end_index": 12,
+            "summary": "Discussion of the Company\u2019s financial position, including assets, liabilities, and equity."
+          }
+        ]
+      },
+      {
+        "title": "Page 11",
+        "node_id": "0050",
+        "start_index": 11,
+        "end_index": 11,
+        "summary": "Contains the table of contents and the main content of the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0051",
+            "start_index": 11,
+            "end_index": 11,
+            "summary": "Lists the sections and subsections of the document."
+          },
+          {
+            "title": "Content",
+            "node_id": "0052",
+            "start_index": 12,
+            "end_index": 11,
+            "summary": "Contains the main content of the document.",
+            "nodes": [
+              {
+                "title": "Section 1",
+                "node_id": "0053",
+                "start_index": 11,
+                "end_index": 11,
+                "summary": "Describes the first section of the document."
+              },
+              {
+                "title": "Section 2",
+                "node_id": "0054",
+                "start_index": 12,
+                "end_index": 11,
+                "summary": "Describes the second section of the document."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Page 12",
+        "node_id": "0055",
+        "start_index": 11,
+        "end_index": 11,
+        "summary": "Contains the table of contents and the main content of the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0056",
+            "start_index": 11,
+            "end_index": 11,
+            "summary": "Lists the sections and subsections of the document."
+          },
+          {
+            "title": "Content",
+            "node_id": "0057",
+            "start_index": 12,
+            "end_index": 11,
+            "summary": "Contains the main content of the document.",
+            "nodes": [
+              {
+                "title": "Section 1",
+                "node_id": "0058",
+                "start_index": 11,
+                "end_index": 11,
+                "summary": "Describes the first section of the document."
+              },
+              {
+                "title": "Section 2",
+                "node_id": "0059",
+                "start_index": 12,
+                "end_index": 11,
+                "summary": "Describes the second section of the document."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities.",
+        "node_id": "0060",
+        "start_index": 13,
+        "end_index": 15
+      },
+      {
+        "title": "Item 6. Selected Financial Data.",
+        "node_id": "0061",
+        "start_index": 13,
+        "end_index": 15,
+        "nodes": [
+          {
+            "title": "Dollars in millions, except per share amounts",
+            "node_id": "0062",
+            "start_index": 13,
+            "end_index": 15
+          }
+        ]
+      },
+      {
+        "title": "Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations.",
+        "node_id": "0063",
+        "start_index": 13,
+        "end_index": 15,
+        "nodes": [
+          {
+            "title": "Overview",
+            "node_id": "0064",
+            "start_index": 13,
+            "end_index": 13
+          },
+          {
+            "title": "Results of Operations",
+            "node_id": "0065",
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "title": "Performance by Business Segment",
+            "node_id": "0066",
+            "start_index": 15,
+            "end_index": 15
+          },
+          {
+            "title": "Performance by Geographic Area",
+            "node_id": "0067",
+            "start_index": 16,
+            "end_index": 16
+          },
+          {
+            "title": "Critical Accounting Estimates",
+            "node_id": "0068",
+            "start_index": 17,
+            "end_index": 17
+          },
+          {
+            "title": "New Accounting Pronouncements",
+            "node_id": "0069",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Financial Condition and Liquidity",
+            "node_id": "0070",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Financial Instruments",
+            "node_id": "0071",
+            "start_index": 20,
+            "end_index": 15
+          }
+        ]
+      },
+      {
+        "title": "Year 2018 and fourth quarter EPS",
+        "node_id": "0072",
+        "start_index": 16,
+        "end_index": 16,
+        "summary": "Summary of the EPS information for 2018 and Q4.",
+        "nodes": [
+          {
+            "title": "Fourth Quarter of 2018",
+            "node_id": "0073",
+            "start_index": 16,
+            "end_index": 16,
+            "summary": "Summary of the EPS information for the Fourth Quarter of 2018."
+          },
+          {
+            "title": "Full Year 2018",
+            "node_id": "0074",
+            "start_index": 17,
+            "end_index": 16,
+            "summary": "Summary of the EPS information for the Full Year 2018."
+          }
+        ]
+      },
+      {
+        "title": "Foreign exchange impacts",
+        "node_id": "0075",
+        "start_index": 16,
+        "end_index": 16,
+        "summary": "Summary of the foreign exchange impacts on the EPS information."
+      },
+      {
+        "title": "Legal-related charges",
+        "node_id": "0076",
+        "start_index": 16,
+        "end_index": 16,
+        "summary": "Summary of the legal-related charges on the EPS information."
+      },
+      {
+        "title": "Other expense",
+        "node_id": "0077",
+        "start_index": 16,
+        "end_index": 16,
+        "summary": "Summary of the other expense on the EPS information."
+      },
+      {
+        "title": "2018 divestiture of Communication Markets Division",
+        "node_id": "0078",
+        "start_index": 18,
+        "end_index": 19,
+        "nodes": [
+          {
+            "title": "Pre-tax gain of $494 million",
+            "node_id": "0079",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Additional divestiture in December 2018",
+            "node_id": "0080",
+            "start_index": 19,
+            "end_index": 19,
+            "nodes": [
+              {
+                "title": "Pre-tax gain of $15 million",
+                "node_id": "0081",
+                "start_index": 18,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "title": "Restructuring actions",
+            "node_id": "0082",
+            "start_index": 20,
+            "end_index": 19,
+            "nodes": [
+              {
+                "title": "Second quarter 2018 pre-tax charge of $105 million",
+                "node_id": "0083",
+                "start_index": 18,
+                "end_index": 18
+              },
+              {
+                "title": "Fourth quarter 2018 pre-tax charge of $22 million",
+                "node_id": "0084",
+                "start_index": 19,
+                "end_index": 19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2017 divestiture of identity management business",
+        "node_id": "0085",
+        "start_index": 18,
+        "end_index": 19,
+        "nodes": [
+          {
+            "title": "Pre-tax gain of $457 million",
+            "node_id": "0086",
+            "start_index": 18,
+            "end_index": 19
+          }
+        ]
+      },
+      {
+        "title": "Organic growth/productivity and other",
+        "node_id": "0087",
+        "start_index": 18,
+        "end_index": 19,
+        "nodes": [
+          {
+            "title": "2017 organic growth/productivity",
+            "node_id": "0088",
+            "start_index": 18,
+            "end_index": 18,
+            "nodes": [
+              {
+                "title": "Benefits from higher organic local-currency sales, raw material cost decreases, and business transformation",
+                "node_id": "0089",
+                "start_index": 18,
+                "end_index": 18
+              },
+              {
+                "title": "Partial offset by higher defined benefit pension service cost expenses",
+                "node_id": "0090",
+                "start_index": 19,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "title": "2017 incremental strategic investments",
+            "node_id": "0091",
+            "start_index": 19,
+            "end_index": 19,
+            "nodes": [
+              {
+                "title": "Decreased pre-tax earnings by approximately $413 million in 2017",
+                "node_id": "0092",
+                "start_index": 18,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "title": "2017 acquisitions and divestitures",
+            "node_id": "0093",
+            "start_index": 20,
+            "end_index": 20,
+            "nodes": [
+              {
+                "title": "Acquisitions and divestitures (other than the sale of the identity management business) had a neutral impact to earnings per diluted share for full year 2017",
+                "node_id": "0094",
+                "start_index": 18,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "title": "2017 foreign exchange impacts",
+            "node_id": "0095",
+            "start_index": 21,
+            "end_index": 19,
+            "nodes": [
+              {
+                "title": "Foreign currency impacts (net of hedging) decreased pre-tax earnings by approximately $111 million year-on-year in 2017, excluding the impact of foreign currency changes on tax rates",
+                "node_id": "0096",
+                "start_index": 18,
+                "end_index": 19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0097",
+        "start_index": 20,
+        "end_index": 20,
+        "summary": "This section lists all distinct sections and subsections within the document."
+      },
+      {
+        "title": "Page 20",
+        "node_id": "0098",
+        "start_index": 20,
+        "end_index": 21,
+        "summary": "This section contains the detailed content of page 20."
+      },
+      {
+        "title": "Page 21",
+        "node_id": "0099",
+        "start_index": 21,
+        "end_index": 22,
+        "summary": "This section contains the detailed content of page 21."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0100",
+        "start_index": 23,
+        "end_index": 23,
+        "summary": "This section provides an overview of the contents of the document."
+      },
+      {
+        "title": "Year 2018 Sales Results by Geographic Area/Business Segment",
+        "node_id": "0101",
+        "start_index": 24,
+        "end_index": 25,
+        "summary": "This section details the sales results for the year 2018, broken down by geographic area and business segment."
+      },
+      {
+        "title": "Year 2017 Sales Results by Geographic Area/Business Segment",
+        "node_id": "0102",
+        "start_index": 25,
+        "end_index": 25,
+        "summary": "This section details the sales results for the year 2017, broken down by geographic area and business segment."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0103",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "Table of contents for the financial report."
+      },
+      {
+        "title": "2019 Closed Acquisitions",
+        "node_id": "0104",
+        "start_index": 26,
+        "end_index": 27,
+        "summary": "Details about the acquisitions made in 2019.",
+        "nodes": [
+          {
+            "title": "February 2019 Acquisition",
+            "node_id": "0105",
+            "start_index": 26,
+            "end_index": 27,
+            "summary": "Details about the acquisition of the technology business of M*Modal in February 2019."
+          }
+        ]
+      },
+      {
+        "title": "Selling, General and Administrative Expenses",
+        "node_id": "0106",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the increase in SG&A expenses for the full year 2018 compared to 2017.",
+        "nodes": [
+          {
+            "title": "Communication Markets Division-related restructuring charges",
+            "node_id": "0107",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection details the restructuring charges related to the Communication Markets Division."
+          },
+          {
+            "title": "Charge related to the Minnesota NRD resolution",
+            "node_id": "0108",
+            "start_index": 29,
+            "end_index": 28,
+            "summary": "This subsection explains the charge related to the Minnesota NRD resolution."
+          }
+        ]
+      },
+      {
+        "title": "Research, Development and Related Expenses",
+        "node_id": "0109",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the decrease in R&D expenses for the full year 2018 compared to 2017.",
+        "nodes": [
+          {
+            "title": "Decrease in R&D expenses",
+            "node_id": "0110",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection explains the decrease in R&D expenses for the full year 2018 compared to 2017."
+          },
+          {
+            "title": "Investment in key initiatives",
+            "node_id": "0111",
+            "start_index": 29,
+            "end_index": 28,
+            "summary": "This subsection details the investment in key initiatives, including R&D aimed at disruptive innovation programs with the potential to create entirely new markets and disrupt existing markets."
+          }
+        ]
+      },
+      {
+        "title": "Gain on Sale of Businesses",
+        "node_id": "0112",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the gain on sale of businesses for the full year 2018 compared to 2017.",
+        "nodes": [
+          {
+            "title": "Gain on sale of certain personal safety product offerings",
+            "node_id": "0113",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection explains the gain on sale of certain personal safety product offerings, primarily focused on noise, environmental, and heat stress monitoring."
+          },
+          {
+            "title": "Gain on sale of abrasives glass products business",
+            "node_id": "0114",
+            "start_index": 29,
+            "end_index": 28,
+            "summary": "This subsection explains the gain on sale of the abrasives glass products business, formerly part of the Company\u2019s Industrial business."
+          }
+        ]
+      },
+      {
+        "title": "Operating Income Margin",
+        "node_id": "0115",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the operating income margin for the full year 2018 compared to 2017.",
+        "nodes": [
+          {
+            "title": "Operating income margin for 2018 and 2017",
+            "node_id": "0116",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection explains the operating income margin for 2018 and 2017, including the impact of the gain on the final closing adjustments from a prior divestiture, which, in aggregate, were not material."
+          }
+        ]
+      },
+      {
+        "title": "Electronics and Energy Business",
+        "node_id": "0117",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the Electronics and Energy business for the full year 2018 compared to 2017.",
+        "nodes": [
+          {
+            "title": "Pre-tax gain from the sale of the remaining telecommunications system integration services portion of the business based in Germany",
+            "node_id": "0118",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection explains the pre-tax gain from the sale of the remaining telecommunications system integration services portion of the business based in Germany, resulting in a pre-tax gain of $15 million."
+          }
+        ]
+      },
+      {
+        "title": "Refer to Note 3 for additional detail on these divestitures",
+        "node_id": "0119",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section refers to Note 3 for additional detail on the divestitures mentioned in the previous sections."
+      },
+      {
+        "title": "Operating Income Margin, Due to",
+        "node_id": "0120",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "This section discusses the operating income margin, due to various factors such as organic volume/productivity and other, acquisitions/other divestiture gains, selling price and raw material impact, foreign exchange impacts, and legal-related charges.",
+        "nodes": [
+          {
+            "title": "Organic volume/productivity and other",
+            "node_id": "0121",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "This subsection explains the impact of organic volume/productivity and other on the operating income margin."
+          },
+          {
+            "title": "Acquisitions/other divestiture gains",
+            "node_id": "0122",
+            "start_index": 29,
+            "end_index": 29,
+            "summary": "This subsection explains the impact of acquisitions/other divestiture gains on the operating income margin."
+          },
+          {
+            "title": "Selling price and raw material impact",
+            "node_id": "0123",
+            "start_index": 30,
+            "end_index": 30,
+            "summary": "This subsection explains the impact of selling price and raw material on the operating income margin."
+          },
+          {
+            "title": "Foreign exchange impacts",
+            "node_id": "0124",
+            "start_index": 31,
+            "end_index": 31,
+            "summary": "This subsection explains the impact of foreign exchange on the operating income margin."
+          },
+          {
+            "title": "Legal-related charges",
+            "node_id": "0125",
+            "start_index": 32,
+            "end_index": 28,
+            "summary": "This subsection explains the impact of legal-related charges on the operating income margin."
+          }
+        ]
+      },
+      {
+        "title": "Legal-related charges",
+        "node_id": "0126",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "This section discusses legal-related charges incurred by 3M.",
+        "nodes": [
+          {
+            "title": "Respiratory mask/asbestos claims and an oral care product liability matter",
+            "node_id": "0127",
+            "start_index": 30,
+            "end_index": 30,
+            "summary": "This subsection details the specific legal matters related to respiratory masks, asbestos claims, and an oral care product liability issue."
+          },
+          {
+            "title": "2018 divestiture of Communication Markets Division, net of related restructuring actions",
+            "node_id": "0128",
+            "start_index": 31,
+            "end_index": 30,
+            "summary": "This subsection outlines the 2018 divestiture of the Communication Markets Division, detailing the financial implications and related restructuring actions."
+          }
+        ]
+      },
+      {
+        "title": "MN NRD Resolution",
+        "node_id": "0129",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "This section discusses the impact of the MN NRD resolution on 3M's operating income margins."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0130",
+        "start_index": 32,
+        "end_index": 33,
+        "summary": "This section outlines the Table of Contents for the 3M 10-K filing.",
+        "nodes": [
+          {
+            "title": "Page 32",
+            "node_id": "0131",
+            "start_index": 32,
+            "end_index": 32,
+            "summary": "This section outlines the Table of Contents for the 3M 10-K filing."
+          },
+          {
+            "title": "Page 33",
+            "node_id": "0132",
+            "start_index": 32,
+            "end_index": 33,
+            "summary": "This section outlines the Table of Contents for the 3M 10-K filing."
+          }
+        ]
+      },
+      {
+        "title": "Operating Income",
+        "node_id": "0133",
+        "start_index": 34,
+        "end_index": 34,
+        "summary": "Summary of the operating income section for the 2018 financial report.",
+        "nodes": [
+          {
+            "title": "Operating Income Margins Decreased 0.2 Percentage Points Year-On-Year Due to Continued Investment in Priority Growth Platforms",
+            "node_id": "0134",
+            "start_index": 34,
+            "end_index": 34,
+            "summary": "Summary of the operating income margins decrease section for the 2018 financial report."
+          }
+        ]
+      },
+      {
+        "title": "Health Care Business",
+        "node_id": "0135",
+        "start_index": 34,
+        "end_index": 34,
+        "summary": "Summary of the health care business section for the 2018 financial report.",
+        "nodes": [
+          {
+            "title": "Operating Income Margins Decreased 0.8 Percent Year-On-Year, As Incremental Strategic Investments, Primarily Related to Accelerating Future Growth Opportunities, Reduced Margins by 0.7 Percentage Points",
+            "node_id": "0136",
+            "start_index": 34,
+            "end_index": 34,
+            "summary": "Summary of the operating income margins decrease section for the 2018 financial report."
+          }
+        ]
+      },
+      {
+        "title": "Electronics and Energy Business",
+        "node_id": "0137",
+        "start_index": 34,
+        "end_index": 34,
+        "summary": "Summary of the electronics and energy business section for the 2018 financial report.",
+        "nodes": [
+          {
+            "title": "Operating Income Margins Decreased 1.5 Percentage Points, As Divestiture Impacts Related to the First Quarter 2016 Sale of the Polyfoam Business Resulted in a Net Year-On-Year Operating Income Margin Reduction of 0.6 Percentage Points. In Addition, Incremental Strategic Investments Decreased Margins by 1.0 Percentage Points",
+            "node_id": "0138",
+            "start_index": 34,
+            "end_index": 34,
+            "summary": "Summary of the operating income margins decrease section for the 2018 financial report."
+          }
+        ]
+      },
+      {
+        "title": "Sales Summary",
+        "node_id": "0139",
+        "start_index": 37,
+        "end_index": 37,
+        "summary": "Summary of sales figures for 3M's Consumer Business in 2018."
+      },
+      {
+        "title": "Operating Income",
+        "node_id": "0140",
+        "start_index": 37,
+        "end_index": 37,
+        "summary": "Summary of operating income figures for 3M's Consumer Business in 2018."
+      },
+      {
+        "title": "Page 39",
+        "node_id": "0141",
+        "start_index": 39,
+        "end_index": 39,
+        "summary": "This section provides an overview of the content on page 39.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0142",
+            "start_index": 39,
+            "end_index": 39,
+            "summary": "This section lists the main topics covered in the document."
+          },
+          {
+            "title": "Geographic Area Supplemental Information",
+            "node_id": "0143",
+            "start_index": 40,
+            "end_index": 39,
+            "summary": "This section provides detailed information about the geographic areas covered in the document."
+          }
+        ]
+      },
+      {
+        "title": "Page 40",
+        "node_id": "0144",
+        "start_index": 39,
+        "end_index": 39,
+        "summary": "This section provides an overview of the content on page 40.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0145",
+            "start_index": 39,
+            "end_index": 39,
+            "summary": "This section lists the main topics covered in the document."
+          },
+          {
+            "title": "Critical Accounting Estimates",
+            "node_id": "0146",
+            "start_index": 40,
+            "end_index": 39,
+            "summary": "This section discusses the critical accounting estimates made by the company, including the estimation of liabilities and insurance receivables."
+          }
+        ]
+      },
+      {
+        "title": "Page 41",
+        "node_id": "0147",
+        "start_index": 41,
+        "end_index": 41,
+        "summary": "This section provides an overview of the table of contents for the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0148",
+            "start_index": 41,
+            "end_index": 41,
+            "summary": "This section provides an overview of the table of contents for the document."
+          }
+        ]
+      },
+      {
+        "title": "Page 42",
+        "node_id": "0149",
+        "start_index": 41,
+        "end_index": 41,
+        "summary": "This section provides an overview of the table of contents for the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0150",
+            "start_index": 41,
+            "end_index": 41,
+            "summary": "This section provides an overview of the table of contents for the document."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0151",
+        "start_index": 43,
+        "end_index": 44
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0152",
+        "start_index": 45,
+        "end_index": 45,
+        "summary": "This section provides an overview of the table of contents.",
+        "nodes": [
+          {
+            "title": "Cash Flows",
+            "node_id": "0153",
+            "start_index": 45,
+            "end_index": 45,
+            "summary": "This section provides an overview of the cash flows."
+          }
+        ]
+      },
+      {
+        "title": "2017 Debt Activity",
+        "node_id": "0154",
+        "start_index": 47,
+        "end_index": 47,
+        "summary": "This section describes the changes in 3M's debt activity during 2017."
+      },
+      {
+        "title": "2018 Debt Activity",
+        "node_id": "0155",
+        "start_index": 47,
+        "end_index": 47,
+        "summary": "This section describes the changes in 3M's debt activity during 2018."
+      },
+      {
+        "title": "2016 Debt Activity",
+        "node_id": "0156",
+        "start_index": 47,
+        "end_index": 47,
+        "summary": "This section describes the changes in 3M's debt activity during 2016."
+      },
+      {
+        "title": "Repurchases of Common Stock",
+        "node_id": "0157",
+        "start_index": 47,
+        "end_index": 47,
+        "summary": "This section describes the repurchases of 3M's common stock for various corporate purposes."
+      },
+      {
+        "title": "Dividends Paid to Shareholders",
+        "node_id": "0158",
+        "start_index": 47,
+        "end_index": 47,
+        "summary": "This section describes the dividends paid by 3M to its shareholders over the years."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0159",
+        "start_index": 49,
+        "end_index": 49,
+        "summary": "This section lists all the distinct sections and subsections found in the given text.",
+        "nodes": [
+          {
+            "title": "Page 49",
+            "node_id": "0160",
+            "start_index": 49,
+            "end_index": 49,
+            "summary": "This section provides an overview of the content on page 49."
+          },
+          {
+            "title": "Page 50",
+            "node_id": "0161",
+            "start_index": 50,
+            "end_index": 49,
+            "summary": "This section provides an overview of the content on page 50."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0162",
+        "start_index": 51,
+        "end_index": 51,
+        "summary": "This section lists the contents of the document."
+      },
+      {
+        "title": "Item 7A. Quantitative  and Qualitative Disclosures About Market Risk.",
+        "node_id": "0163",
+        "start_index": 51,
+        "end_index": 52,
+        "summary": "This section discusses the company's exposure to market risk and the measures taken to manage these risks.",
+        "nodes": [
+          {
+            "title": "Foreign Exchange Rates Risk",
+            "node_id": "0164",
+            "start_index": 51,
+            "end_index": 52,
+            "summary": "This section discusses the company's exposure to foreign exchange rates risk and the measures taken to manage these risks.",
+            "nodes": [
+              {
+                "title": "Translation of Foreign Currency Earnings",
+                "node_id": "0165",
+                "start_index": 51,
+                "end_index": 52,
+                "summary": "This section discusses the company's exposure to translation of foreign currency earnings and the measures taken to manage these risks."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Management\u2019s Report on Internal Control Over Financial Reporting",
+        "node_id": "0166",
+        "start_index": 53,
+        "end_index": 53,
+        "summary": "Description of the management's report on internal control over financial reporting.",
+        "nodes": [
+          {
+            "title": "Assessment of the Company\u2019s Internal Control Over Financial Reporting",
+            "node_id": "0167",
+            "start_index": 53,
+            "end_index": 53,
+            "summary": "Details of the assessment conducted by the management on the internal control over financial reporting."
+          },
+          {
+            "title": "Opinion on the Effectiveness of the Company\u2019s Internal Control Over Financial Reporting",
+            "node_id": "0168",
+            "start_index": 54,
+            "end_index": 53,
+            "summary": "Statement of the opinion expressed by the management on the effectiveness of the internal control over financial reporting."
+          }
+        ]
+      },
+      {
+        "title": "Report of Independent Registered Public Accounting Firm",
+        "node_id": "0169",
+        "start_index": 53,
+        "end_index": 53,
+        "summary": "Description of the report of the independent registered public accounting firm.",
+        "nodes": [
+          {
+            "title": "Opinions on the Financial Statements and Internal Control Over Financial Reporting",
+            "node_id": "0170",
+            "start_index": 53,
+            "end_index": 53,
+            "summary": "Statement of the opinions expressed by the independent registered public accounting firm on the financial statements and internal control over financial reporting."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0171",
+        "start_index": 58,
+        "end_index": 60
+      },
+      {
+        "title": "Consolidation",
+        "node_id": "0172",
+        "start_index": 61,
+        "end_index": 61,
+        "summary": "All subsidiaries are consolidated under 3M\u2019s financial statements."
+      },
+      {
+        "title": "Foreign Currency Translation",
+        "node_id": "0173",
+        "start_index": 61,
+        "end_index": 61,
+        "summary": "The process of translating the financial statements of foreign subsidiaries into the reporting currency of the parent company.",
+        "nodes": [
+          {
+            "title": "Venezuela Subsidiary",
+            "node_id": "0174",
+            "start_index": 61,
+            "end_index": 61,
+            "summary": "The financial statements of 3M\u2019s Venezuelan subsidiary are remeasured as if its functional currency were that of its parent because Venezuela\u2019s economic environment is considered highly inflationary."
+          },
+          {
+            "title": "Argentina Subsidiary",
+            "node_id": "0175",
+            "start_index": 62,
+            "end_index": 61,
+            "summary": "The financial statements of 3M\u2019s Argentine subsidiary are remeasured as if their functional currency were that of their parent because Argentina\u2019s economic environment is considered highly inflationary."
+          }
+        ]
+      },
+      {
+        "title": "Classification and Valuation",
+        "node_id": "0176",
+        "start_index": 62,
+        "end_index": 62,
+        "summary": "Explanation of how marketable securities are classified as either current or non-current, and how they are valued at fair value."
+      },
+      {
+        "title": "Review of Impairments",
+        "node_id": "0177",
+        "start_index": 62,
+        "end_index": 62,
+        "summary": "Description of the process used by 3M to review and assess impairments associated with its marketable securities."
+      },
+      {
+        "title": "Units",
+        "node_id": "0178",
+        "start_index": 63,
+        "end_index": 63,
+        "summary": "This section discusses units within the context of the document."
+      },
+      {
+        "title": "Business Segment Level",
+        "node_id": "0179",
+        "start_index": 63,
+        "end_index": 63,
+        "summary": "This section explains the business segment level within the document."
+      },
+      {
+        "title": "Reporting Units",
+        "node_id": "0180",
+        "start_index": 63,
+        "end_index": 63,
+        "summary": "This section describes the concept of reporting units within the document."
+      },
+      {
+        "title": "Overview of Revenue Recognition",
+        "node_id": "0181",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Brief description of the general principles of revenue recognition."
+      },
+      {
+        "title": "Timing of Revenue Recognition",
+        "node_id": "0182",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Explanation of when revenue is recognized based on the transfer of control to the customer."
+      },
+      {
+        "title": "Transaction Price Determination",
+        "node_id": "0183",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Description of how the transaction price is determined, including the use of the portfolio approach practical expedient under ASC 606."
+      },
+      {
+        "title": "Variable Consideration Estimation",
+        "node_id": "0184",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Explanation of the methods used to estimate variable consideration, including the use of the portfolio approach practical expedient under ASC 606."
+      },
+      {
+        "title": "Costs Incurred to Obtain a Contract",
+        "node_id": "0185",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Description of the costs incurred by 3M to obtain a contract, including the use of the \u201cright to invoice\u201d practical expedient under ASC 606."
+      },
+      {
+        "title": "Performance Obligations",
+        "node_id": "0186",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Explanation of the nature and timing of the performance obligations identified in the contract with the customer."
+      },
+      {
+        "title": "Contract Balances",
+        "node_id": "0187",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Description of the contract balances maintained by 3M, including the use of the portfolio approach practical expedient under ASC 606."
+      },
+      {
+        "title": "Revenue Recognition Examples",
+        "node_id": "0188",
+        "start_index": 64,
+        "end_index": 64,
+        "summary": "Illustrative examples of how 3M recognizes revenue for different types of contracts and performance obligations."
+      },
+      {
+        "title": "Research, development and related expenses",
+        "node_id": "0189",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section details the research, development, and related expenses of the company.",
+        "nodes": [
+          {
+            "title": "Research and development expenses",
+            "node_id": "0190",
+            "start_index": 65,
+            "end_index": 65,
+            "summary": "This subsection provides details on the research and development expenses of the company."
+          },
+          {
+            "title": "Related expenses",
+            "node_id": "0191",
+            "start_index": 66,
+            "end_index": 65,
+            "summary": "This subsection provides details on the related expenses of the company."
+          }
+        ]
+      },
+      {
+        "title": "Internal-use software",
+        "node_id": "0192",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides details on the internal-use software of the company."
+      },
+      {
+        "title": "Environmental",
+        "node_id": "0193",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides details on the environmental expenses of the company."
+      },
+      {
+        "title": "Income taxes",
+        "node_id": "0194",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides details on the income taxes of the company."
+      },
+      {
+        "title": "Earnings per share",
+        "node_id": "0195",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides details on the earnings per share of the company."
+      },
+      {
+        "title": "Stock-based compensation",
+        "node_id": "0196",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides details on the stock-based compensation of the company."
+      },
+      {
+        "title": "Income Taxes",
+        "node_id": "0197",
+        "start_index": 66,
+        "end_index": 66,
+        "summary": "The related deduction from taxes payable is based on the award\u2019s intrinsic value at the time of exercise (for an option) or on the fair value (for RSUs)."
+      },
+      {
+        "title": "New Accounting Pronouncements",
+        "node_id": "0198",
+        "start_index": 67,
+        "end_index": 67,
+        "summary": "This section discusses new accounting pronouncements and their impact on 3M.",
+        "nodes": [
+          {
+            "title": "ASU No. 2014-09, Revenue from Contracts with Customers",
+            "node_id": "0199",
+            "start_index": 67,
+            "end_index": 67,
+            "summary": "This subsection details the specific ASU related to revenue recognition and its impact on 3M.",
+            "nodes": [
+              {
+                "title": "Adoption and Impact",
+                "node_id": "0200",
+                "start_index": 67,
+                "end_index": 67,
+                "summary": "This sub-subsection provides details on the adoption process and the impact on 3M's financial statements."
+              }
+            ]
+          },
+          {
+            "title": "ASU No. 2016-01, Recognition and Measurement of Financial Assets and Financial Liabilities",
+            "node_id": "0201",
+            "start_index": 68,
+            "end_index": 68,
+            "summary": "This subsection details the specific ASU related to the recognition and measurement of financial assets and financial liabilities and its impact on 3M.",
+            "nodes": [
+              {
+                "title": "Adoption and Impact",
+                "node_id": "0202",
+                "start_index": 67,
+                "end_index": 67,
+                "summary": "This sub-subsection provides details on the adoption process and the impact on 3M's financial statements."
+              }
+            ]
+          },
+          {
+            "title": "ASU No. 2018-10 and 2018-11, and ASU No. 2018-20",
+            "node_id": "0203",
+            "start_index": 69,
+            "end_index": 67,
+            "summary": "This subsection details the specific ASUs related to the amendments to the standard and its impact on 3M.",
+            "nodes": [
+              {
+                "title": "Adoption and Impact",
+                "node_id": "0204",
+                "start_index": 67,
+                "end_index": 67,
+                "summary": "This sub-subsection provides details on the adoption process and the impact on 3M's financial statements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Leases",
+        "node_id": "0205",
+        "start_index": 67,
+        "end_index": 67,
+        "summary": "This section discusses the specific ASU related to leases and its impact on 3M.",
+        "nodes": [
+          {
+            "title": "Adoption and Impact",
+            "node_id": "0206",
+            "start_index": 67,
+            "end_index": 67,
+            "summary": "This sub-subsection provides details on the adoption process and the impact on 3M's financial statements."
+          }
+        ]
+      },
+      {
+        "title": "Certain Other Instruments",
+        "node_id": "0207",
+        "start_index": 68,
+        "end_index": 68,
+        "summary": "This section discusses various instruments including trade and other receivables, loans, held-to-maturity debt securities, net investments in leases and off-balance-sheet credit exposures."
+      },
+      {
+        "title": "ASU No. 2016-16",
+        "node_id": "0208",
+        "start_index": 68,
+        "end_index": 68,
+        "summary": "This section provides details about ASU No. 2016-16, which modifies existing guidance and is intended to reduce diversity in practice with respect to the accounting for the income tax consequences of intra-entity transfers of assets."
+      },
+      {
+        "title": "ASU No. 2017-01",
+        "node_id": "0209",
+        "start_index": 68,
+        "end_index": 68,
+        "summary": "This section provides details about ASU No. 2017-01, which narrows the existing definition of a business and provides a framework for evaluating whether a transaction should be accounted for as an acquisition (or disposal) of assets or a business."
+      },
+      {
+        "title": "ASU No. 2017-05",
+        "node_id": "0210",
+        "start_index": 68,
+        "end_index": 68,
+        "summary": "This section provides details about ASU No. 2017-05, which clarifies the scope of asset derecognition guidance and accounting for partial sales of nonfinancial assets."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0211",
+        "start_index": 69,
+        "end_index": 69,
+        "summary": "The table of contents lists the various topics covered in the document."
+      },
+      {
+        "title": "Financial Information",
+        "node_id": "0212",
+        "start_index": 69,
+        "end_index": 69,
+        "summary": "This section provides detailed financial information regarding the impacts of certain accounting standards on 3M's financial statements.",
+        "nodes": [
+          {
+            "title": "Impacts of Accounting Standards",
+            "node_id": "0213",
+            "start_index": 69,
+            "end_index": 69,
+            "summary": "This section details the impacts of certain accounting standards on 3M's financial statements.",
+            "nodes": [
+              {
+                "title": "ASU No. 2017-08",
+                "node_id": "0214",
+                "start_index": 69,
+                "end_index": 69,
+                "summary": "This section describes the impacts of ASU No. 2017-08 on 3M's financial statements."
+              },
+              {
+                "title": "ASU No. 2017-09",
+                "node_id": "0215",
+                "start_index": 70,
+                "end_index": 70,
+                "summary": "This section describes the impacts of ASU No. 2017-09 on 3M's financial statements."
+              },
+              {
+                "title": "ASU No. 2017-10",
+                "node_id": "0216",
+                "start_index": 71,
+                "end_index": 71,
+                "summary": "This section describes the impacts of ASU No. 2017-10 on 3M's financial statements."
+              },
+              {
+                "title": "ASU No. 2017-11",
+                "node_id": "0217",
+                "start_index": 72,
+                "end_index": 69,
+                "summary": "This section describes the impacts of ASU No. 2017-11 on 3M's financial statements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fair Value Hedges",
+        "node_id": "0218",
+        "start_index": 70,
+        "end_index": 70,
+        "summary": "This section discusses the accounting for fair value hedges."
+      },
+      {
+        "title": "3M ASU Adoption",
+        "node_id": "0219",
+        "start_index": 70,
+        "end_index": 70,
+        "summary": "This section provides details on how 3M will adopt the new ASUs."
+      },
+      {
+        "title": "Targeted Improvements",
+        "node_id": "0220",
+        "start_index": 70,
+        "end_index": 70,
+        "summary": "This section explains the targeted improvements made to the ASUs."
+      },
+      {
+        "title": "Prospectively",
+        "node_id": "0221",
+        "start_index": 71,
+        "end_index": 71,
+        "summary": "Explanation of prospectively changes."
+      },
+      {
+        "title": "ASU No. 2018-14",
+        "node_id": "0222",
+        "start_index": 71,
+        "end_index": 71,
+        "summary": "Summary of changes made by ASU No. 2018-14."
+      },
+      {
+        "title": "ASU No. 2018-15",
+        "node_id": "0223",
+        "start_index": 71,
+        "end_index": 71,
+        "summary": "Summary of changes made by ASU No. 2018-15."
+      },
+      {
+        "title": "Acquisitions Overview",
+        "node_id": "0224",
+        "start_index": 73,
+        "end_index": 73,
+        "summary": "Overview of acquisitions made by 3M."
+      },
+      {
+        "title": "2018 Acquisitions",
+        "node_id": "0225",
+        "start_index": 73,
+        "end_index": 73,
+        "summary": "No acquisitions that closed during 2018."
+      },
+      {
+        "title": "2017 Acquisitions",
+        "node_id": "0226",
+        "start_index": 73,
+        "end_index": 73,
+        "summary": "Details about specific acquisitions made by 3M in 2017.",
+        "nodes": [
+          {
+            "title": "Elution Technologies, LLC",
+            "node_id": "0227",
+            "start_index": 73,
+            "end_index": 73,
+            "summary": "Acquisition details for Elution Technologies, LLC."
+          },
+          {
+            "title": "Scott Safety",
+            "node_id": "0228",
+            "start_index": 74,
+            "end_index": 73,
+            "summary": "Acquisition details for Scott Safety."
+          }
+        ]
+      },
+      {
+        "title": "Library Systems Business",
+        "node_id": "0229",
+        "start_index": 75,
+        "end_index": 75,
+        "summary": "Details of the divestiture of 3M\u2019s library systems business in Q1 2016."
+      },
+      {
+        "title": "Pressurized Polyurethane Foam Adhesives Business",
+        "node_id": "0230",
+        "start_index": 75,
+        "end_index": 75,
+        "summary": "Details of the divestiture of 3M\u2019s pressurized polyurethane foam adhesives business in Q1 2016."
+      },
+      {
+        "title": "2018 Restructuring Actions",
+        "node_id": "0231",
+        "start_index": 77,
+        "end_index": 80,
+        "nodes": [
+          {
+            "title": "Second Quarter 2018",
+            "node_id": "0232",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0233",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0234",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0235",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0236",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0237",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0238",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0239",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0240",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Fourth Quarter 2018",
+            "node_id": "0241",
+            "start_index": 79,
+            "end_index": 80,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0242",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0243",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0244",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0245",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0246",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0247",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0248",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0249",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2017 Restructuring Actions",
+        "node_id": "0250",
+        "start_index": 77,
+        "end_index": 80,
+        "nodes": [
+          {
+            "title": "Second Quarter 2017",
+            "node_id": "0251",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0252",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0253",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0254",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0255",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0256",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0257",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0258",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0259",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Remaining Activities Related to This Restructuring",
+            "node_id": "0260",
+            "start_index": 79,
+            "end_index": 80,
+            "nodes": [
+              {
+                "title": "Expected Completion",
+                "node_id": "0261",
+                "start_index": 77,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Date",
+                    "node_id": "0262",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2018 Exit Activities",
+        "node_id": "0263",
+        "start_index": 77,
+        "end_index": 80,
+        "nodes": [
+          {
+            "title": "First Quarter 2018",
+            "node_id": "0264",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0265",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0266",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0267",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0268",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0269",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0270",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0271",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0272",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Fourth Quarter 2018",
+            "node_id": "0273",
+            "start_index": 79,
+            "end_index": 80,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0274",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0275",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0276",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0277",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0278",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0279",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0280",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0281",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2017 Exit Activities",
+        "node_id": "0282",
+        "start_index": 77,
+        "end_index": 80,
+        "nodes": [
+          {
+            "title": "First Quarter 2017",
+            "node_id": "0283",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0284",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0285",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0286",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0287",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0288",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0289",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0290",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0291",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Fourth Quarter 2017",
+            "node_id": "0292",
+            "start_index": 79,
+            "end_index": 80,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0293",
+                "start_index": 77,
+                "end_index": 77,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0294",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Selling, General and Administrative Expenses",
+                "node_id": "0295",
+                "start_index": 78,
+                "end_index": 78,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0296",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Research, Development and Related Expenses",
+                "node_id": "0297",
+                "start_index": 79,
+                "end_index": 79,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0298",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              },
+              {
+                "title": "Total",
+                "node_id": "0299",
+                "start_index": 80,
+                "end_index": 80,
+                "nodes": [
+                  {
+                    "title": "Amount",
+                    "node_id": "0300",
+                    "start_index": 77,
+                    "end_index": 80
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Note 7. Supplemental Balance Sheet Information",
+        "node_id": "0301",
+        "start_index": 81,
+        "end_index": 83,
+        "nodes": [
+          {
+            "title": "Accounts Payable",
+            "node_id": "0302",
+            "start_index": 81,
+            "end_index": 81,
+            "nodes": [
+              {
+                "title": "Supplemental Information",
+                "node_id": "0303",
+                "start_index": 81,
+                "end_index": 83,
+                "nodes": [
+                  {
+                    "title": "December 31, 2018",
+                    "node_id": "0304",
+                    "start_index": 81,
+                    "end_index": 83,
+                    "nodes": [
+                      {
+                        "title": "Derivatives Liabilities",
+                        "node_id": "0305",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "Total Derivatives Liabilities",
+                            "node_id": "0306",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Deferred Revenue",
+            "node_id": "0307",
+            "start_index": 82,
+            "end_index": 83,
+            "nodes": [
+              {
+                "title": "Supplemental Information",
+                "node_id": "0308",
+                "start_index": 81,
+                "end_index": 83,
+                "nodes": [
+                  {
+                    "title": "December 31, 2018",
+                    "node_id": "0309",
+                    "start_index": 81,
+                    "end_index": 83,
+                    "nodes": [
+                      {
+                        "title": "Amount",
+                        "node_id": "0310",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "$617",
+                            "node_id": "0311",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Note 8. Supplemental Equity and Comprehensive Income Information",
+        "node_id": "0312",
+        "start_index": 81,
+        "end_index": 83,
+        "nodes": [
+          {
+            "title": "Common Stock",
+            "node_id": "0313",
+            "start_index": 81,
+            "end_index": 81,
+            "nodes": [
+              {
+                "title": "Authorized and Issued Common Stock",
+                "node_id": "0314",
+                "start_index": 81,
+                "end_index": 83,
+                "nodes": [
+                  {
+                    "title": "Authorized Common Stock",
+                    "node_id": "0315",
+                    "start_index": 81,
+                    "end_index": 81,
+                    "nodes": [
+                      {
+                        "title": "Number of Shares",
+                        "node_id": "0316",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "3.0 billion",
+                            "node_id": "0317",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Issued Common Stock",
+                    "node_id": "0318",
+                    "start_index": 82,
+                    "end_index": 83,
+                    "nodes": [
+                      {
+                        "title": "Number of Shares",
+                        "node_id": "0319",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "944,033,056",
+                            "node_id": "0320",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Preferred Stock",
+            "node_id": "0321",
+            "start_index": 82,
+            "end_index": 83,
+            "nodes": [
+              {
+                "title": "Authorized and Unissued Preferred Stock",
+                "node_id": "0322",
+                "start_index": 81,
+                "end_index": 83,
+                "nodes": [
+                  {
+                    "title": "Authorized Preferred Stock",
+                    "node_id": "0323",
+                    "start_index": 81,
+                    "end_index": 81,
+                    "nodes": [
+                      {
+                        "title": "Number of Shares",
+                        "node_id": "0324",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "10 million",
+                            "node_id": "0325",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Unissued Preferred Stock",
+                    "node_id": "0326",
+                    "start_index": 82,
+                    "end_index": 83,
+                    "nodes": [
+                      {
+                        "title": "Number of Shares",
+                        "node_id": "0327",
+                        "start_index": 81,
+                        "end_index": 83,
+                        "nodes": [
+                          {
+                            "title": "0",
+                            "node_id": "0328",
+                            "start_index": 81,
+                            "end_index": 83
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Note 10. Income Taxes",
+        "node_id": "0329",
+        "start_index": 84,
+        "end_index": 84,
+        "summary": "This section provides detailed information about the company's income taxes.",
+        "nodes": [
+          {
+            "title": "Income Before Income Taxes",
+            "node_id": "0330",
+            "start_index": 84,
+            "end_index": 84,
+            "summary": "This section provides a breakdown of the company's income before income taxes."
+          },
+          {
+            "title": "Provision for Income Taxes",
+            "node_id": "0331",
+            "start_index": 85,
+            "end_index": 84,
+            "summary": "This section provides a detailed breakdown of the company's provision for income taxes."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0332",
+        "start_index": 86,
+        "end_index": 86,
+        "summary": "This section provides an overview of the table of contents.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0333",
+            "start_index": 86,
+            "end_index": 86,
+            "summary": "This section provides an overview of the table of contents.",
+            "nodes": [
+              {
+                "title": "Table of Contents",
+                "node_id": "0334",
+                "start_index": 86,
+                "end_index": 86,
+                "summary": "This section provides an overview of the table of contents."
+              }
+            ]
+          },
+          {
+            "title": "Page 86",
+            "node_id": "0335",
+            "start_index": 86,
+            "end_index": 86,
+            "summary": "This section provides an overview of the page 86 table of contents."
+          },
+          {
+            "title": "Page 87",
+            "node_id": "0336",
+            "start_index": 87,
+            "end_index": 87,
+            "summary": "This section provides an overview of the page 87 table of contents."
+          }
+        ]
+      },
+      {
+        "title": "Post-Swap Borrowing (Long-Term Debt, Including Current Portion)",
+        "node_id": "0337",
+        "start_index": 88,
+        "end_index": 89,
+        "summary": "This section details the post-swap borrowing, including long-term debt and current portions."
+      },
+      {
+        "title": "Page 90",
+        "node_id": "0338",
+        "start_index": 90,
+        "end_index": 90,
+        "summary": "This page contains the table of contents and some introductory text."
+      },
+      {
+        "title": "Page 91",
+        "node_id": "0339",
+        "start_index": 90,
+        "end_index": 90,
+        "summary": "This page continues the table of contents and provides more detailed information."
+      },
+      {
+        "title": "Qualified and Non-qualified",
+        "node_id": "0340",
+        "start_index": 92,
+        "end_index": 92,
+        "summary": "Summary of Qualified and Non-qualified sections.",
+        "nodes": [
+          {
+            "title": "Pension Benefits",
+            "node_id": "0341",
+            "start_index": 92,
+            "end_index": 92,
+            "summary": "Summary of Pension Benefits section."
+          },
+          {
+            "title": "Postretirement",
+            "node_id": "0342",
+            "start_index": 93,
+            "end_index": 92,
+            "summary": "Summary of Postretirement section."
+          }
+        ]
+      },
+      {
+        "title": "United States",
+        "node_id": "0343",
+        "start_index": 92,
+        "end_index": 92,
+        "summary": "Summary of United States section."
+      },
+      {
+        "title": "International",
+        "node_id": "0344",
+        "start_index": 92,
+        "end_index": 92,
+        "summary": "Summary of International section."
+      },
+      {
+        "title": "Page 94",
+        "node_id": "0345",
+        "start_index": 94,
+        "end_index": 94,
+        "summary": "This section provides a detailed table of contents for the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0346",
+            "start_index": 94,
+            "end_index": 94,
+            "summary": "This section lists all the distinct sections and subsections within the document."
+          }
+        ]
+      },
+      {
+        "title": "Page 95",
+        "node_id": "0347",
+        "start_index": 94,
+        "end_index": 94,
+        "summary": "This section provides a detailed table of contents for the document.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0348",
+            "start_index": 94,
+            "end_index": 94,
+            "summary": "This section lists all the distinct sections and subsections within the document."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0349",
+        "start_index": 96,
+        "end_index": 97
+      },
+      {
+        "title": "Equities",
+        "node_id": "0350",
+        "start_index": 98,
+        "end_index": 98,
+        "summary": "Consists primarily of mandates in public equity securities managed to various public equity indices.",
+        "nodes": [
+          {
+            "title": "Valuation Method",
+            "node_id": "0351",
+            "start_index": 98,
+            "end_index": 98,
+            "summary": "Publicly traded equities are valued at the closing price reported in the active market in which the individual securities are traded."
+          }
+        ]
+      },
+      {
+        "title": "Fixed Income",
+        "node_id": "0352",
+        "start_index": 98,
+        "end_index": 98,
+        "summary": "Includes domestic and foreign government, and corporate, (including mortgage backed and other debt) securities. Governments, corporate bonds and notes and mortgage backed securities are valued at the closing price reported if traded on an active market or at yields currently available on comparable securities of issuers with similar credit ratings or valued under a discounted cash flow approach that utilizes observable inputs, such as current yields of similar instruments, but includes adjustments for certain risks that may not be observable such as credit and liquidity risks."
+      },
+      {
+        "title": "Page 100",
+        "node_id": "0353",
+        "start_index": 100,
+        "end_index": 100,
+        "summary": "This section contains detailed financial information about cash flow hedging instruments.",
+        "nodes": [
+          {
+            "title": "Derivatives Not Designated as Hedging Instruments",
+            "node_id": "0354",
+            "start_index": 100,
+            "end_index": 100,
+            "summary": "This section discusses the value of derivative instruments after dedesignation and their inclusion in earnings."
+          },
+          {
+            "title": "Cash Flow Hedging \u2014 Interest Rate Contracts",
+            "node_id": "0355",
+            "start_index": 101,
+            "end_index": 101,
+            "summary": "This section details the Company's use of forward starting interest rate contracts to hedge exposure to variability in cash flows from interest payments on forecasted debt issuances."
+          },
+          {
+            "title": "Forward Starting Interest Rate Swaps",
+            "node_id": "0356",
+            "start_index": 102,
+            "end_index": 102,
+            "summary": "This section describes the Company's entry into forward starting interest rate swaps to hedge exposure to interest rate volatility associated with forecasted issuance of fixed rate debt."
+          },
+          {
+            "title": "Additional Forward Starting Interest Rate Swaps",
+            "node_id": "0357",
+            "start_index": 103,
+            "end_index": 103,
+            "summary": "This section details the Company's entry into additional forward starting interest rate swaps to hedge exposure to interest rate volatility associated with forecasted issuance of fixed rate debt."
+          },
+          {
+            "title": "Termination of Forward Starting Interest Rate Swaps",
+            "node_id": "0358",
+            "start_index": 104,
+            "end_index": 104,
+            "summary": "This section describes the termination of forward starting interest rate swaps by the Company and the resulting immaterial loss within accumulated other comprehensive income that will be amortized over the respective lives of the debt."
+          },
+          {
+            "title": "Forward Starting Interest Rate Swaps (Continued)",
+            "node_id": "0359",
+            "start_index": 105,
+            "end_index": 105,
+            "summary": "This section continues the discussion on the Company's entry into additional forward starting interest rate swaps to hedge exposure to interest rate volatility associated with forecasted issuance of fixed rate debt."
+          },
+          {
+            "title": "Termination of Additional Forward Starting Interest Rate Swaps",
+            "node_id": "0360",
+            "start_index": 106,
+            "end_index": 106,
+            "summary": "This section describes the termination of additional forward starting interest rate swaps by the Company and the resulting immaterial gain within accumulated other comprehensive income that will be amortized over the respective lives of the debt."
+          },
+          {
+            "title": "Forward Starting Interest Rate Swaps (Continued)",
+            "node_id": "0361",
+            "start_index": 107,
+            "end_index": 107,
+            "summary": "This section continues the discussion on the Company's entry into additional forward starting interest rate swaps to hedge exposure to interest rate volatility associated with forecasted issuance of fixed rate debt."
+          },
+          {
+            "title": "Termination of Additional Forward Starting Interest Rate Swaps",
+            "node_id": "0362",
+            "start_index": 108,
+            "end_index": 100,
+            "summary": "This section describes the termination of additional forward starting interest rate swaps by the Company and the resulting immaterial gain within accumulated other comprehensive income that will be amortized over the respective lives of the debt."
+          }
+        ]
+      },
+      {
+        "title": "Location in Consolidated Statements of Income and Comprehensive Income",
+        "node_id": "0363",
+        "start_index": 102,
+        "end_index": 102,
+        "summary": "This section describes the location of derivative instruments in the consolidated statements of income and comprehensive income."
+      },
+      {
+        "title": "Location in Consolidated Balance Sheet",
+        "node_id": "0364",
+        "start_index": 102,
+        "end_index": 102,
+        "summary": "This section describes the location of derivative instruments in the consolidated balance sheet."
+      },
+      {
+        "title": "Derivatives Designated as Hedging Instruments",
+        "node_id": "0365",
+        "start_index": 102,
+        "end_index": 102,
+        "summary": "This section provides details on the derivatives designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet.",
+        "nodes": [
+          {
+            "title": "Foreign Currency Forward/Option Contracts",
+            "node_id": "0366",
+            "start_index": 102,
+            "end_index": 102,
+            "summary": "This section provides details on the foreign currency forward/option contracts designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet."
+          },
+          {
+            "title": "Interest Rate Swap Contracts",
+            "node_id": "0367",
+            "start_index": 103,
+            "end_index": 102,
+            "summary": "This section provides details on the interest rate swap contracts designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet."
+          }
+        ]
+      },
+      {
+        "title": "Derivatives Not Designated as Hedging Instruments",
+        "node_id": "0368",
+        "start_index": 102,
+        "end_index": 102,
+        "summary": "This section provides details on the derivatives not designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet.",
+        "nodes": [
+          {
+            "title": "Foreign Currency Forward/Option Contracts",
+            "node_id": "0369",
+            "start_index": 102,
+            "end_index": 102,
+            "summary": "This section provides details on the foreign currency forward/option contracts not designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet."
+          },
+          {
+            "title": "Interest Rate Swap Contracts",
+            "node_id": "0370",
+            "start_index": 103,
+            "end_index": 102,
+            "summary": "This section provides details on the interest rate swap contracts not designated as hedging instruments, including their notional amounts, fair values, and locations in the consolidated balance sheet."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0371",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "This section lists the main sections and subsections of the document.",
+        "nodes": [
+          {
+            "title": "Credit Risk and Offsetting of Assets and Liabilities of Derivative Instruments",
+            "node_id": "0372",
+            "start_index": 105,
+            "end_index": 105,
+            "summary": "This section discusses the company's exposure to credit loss in derivative transactions and the measures taken to mitigate such risks."
+          },
+          {
+            "title": "Foreign Currency Effects",
+            "node_id": "0373",
+            "start_index": 106,
+            "end_index": 106,
+            "summary": "This section describes the impact of foreign currency transaction effects on the company's pre-tax income."
+          },
+          {
+            "title": "Fair Value Measurements",
+            "node_id": "0374",
+            "start_index": 107,
+            "end_index": 105,
+            "summary": "This section explains the company's approach to measuring fair value for assets and liabilities, including the hierarchy of inputs used in the measurement process."
+          }
+        ]
+      },
+      {
+        "title": "Page 107",
+        "node_id": "0375",
+        "start_index": 107,
+        "end_index": 107,
+        "summary": "This section contains the detailed content for Page 107.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0376",
+            "start_index": 107,
+            "end_index": 107,
+            "summary": "This section contains the Table of Contents for the document."
+          },
+          {
+            "title": "Marketable Securities",
+            "node_id": "0377",
+            "start_index": 108,
+            "end_index": 108,
+            "summary": "This section describes the methodology and inputs used to determine the fair value of marketable securities."
+          },
+          {
+            "title": "Derivative Instruments",
+            "node_id": "0378",
+            "start_index": 109,
+            "end_index": 107,
+            "summary": "This section details the methodologies and inputs used to determine the fair value of derivative instruments within the scope of ASC 815."
+          }
+        ]
+      },
+      {
+        "title": "Page 108",
+        "node_id": "0379",
+        "start_index": 107,
+        "end_index": 107,
+        "summary": "This section contains the detailed content for Page 108.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0380",
+            "start_index": 107,
+            "end_index": 107,
+            "summary": "This section contains the Table of Contents for the document."
+          },
+          {
+            "title": "Fair Value Measurements",
+            "node_id": "0381",
+            "start_index": 108,
+            "end_index": 107,
+            "summary": "This section provides a detailed breakdown of the fair value measurements for various assets and liabilities within the company."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0382",
+        "start_index": 109,
+        "end_index": 110
+      },
+      {
+        "title": "Significant Legal Proceedings",
+        "node_id": "0383",
+        "start_index": 111,
+        "end_index": 111,
+        "summary": "This section describes the significant legal proceedings in which the Company is involved.",
+        "nodes": [
+          {
+            "title": "Respirator Mask/Asbestos Litigation",
+            "node_id": "0384",
+            "start_index": 111,
+            "end_index": 111,
+            "summary": "This section details the Respirator Mask/Asbestos Litigation, including the number of claims, the types of injuries, and the outcomes of previous trials."
+          }
+        ]
+      },
+      {
+        "title": "Nature and Mix of Claims",
+        "node_id": "0385",
+        "start_index": 112,
+        "end_index": 112,
+        "summary": "This section details the nature and mix of claims, specifically focusing on the usage of the Company\u2019s mask or respirator products and the alleged exposure to various occupational dusts."
+      },
+      {
+        "title": "Silica Products for Respirators Sold Prior to July 11, 1995",
+        "node_id": "0386",
+        "start_index": 113,
+        "end_index": 113,
+        "summary": "This section discusses the sale of silica products for respirators before a specific date.",
+        "nodes": [
+          {
+            "title": "Difficulty in Determining How Long a Particular Respirator Remains in the Stream of Commerce After Being Sold",
+            "node_id": "0387",
+            "start_index": 114,
+            "end_index": 114,
+            "summary": "This section highlights the challenge in determining the duration a specific respirator remains in the market after its sale."
+          },
+          {
+            "title": "Arrangements Applied to Claims Arising Out of Alleged Use of Respirators Involving Exposure to Asbestos, Silica or Silica Products Prior to January 1, 1997",
+            "node_id": "0388",
+            "start_index": 115,
+            "end_index": 115,
+            "summary": "This section explains the agreements that have been applied to claims related to the alleged use of respirators involving exposure to asbestos, silica, or silica products prior to January 1, 1997."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0389",
+        "start_index": 114,
+        "end_index": 114,
+        "summary": "This section provides a brief overview of the table of contents."
+      },
+      {
+        "title": "Regulatory Activities Concerning PFAS",
+        "node_id": "0390",
+        "start_index": 114,
+        "end_index": 114,
+        "summary": "This section details the various regulatory activities concerning PFAS.",
+        "nodes": [
+          {
+            "title": "EPA's Human Health Effects Documents",
+            "node_id": "0391",
+            "start_index": 114,
+            "end_index": 114,
+            "summary": "This section describes the EPA's human health effects documents for PFOA and PFOS."
+          },
+          {
+            "title": "Peer Review of EPA's Draft Human Health Effects Documents",
+            "node_id": "0392",
+            "start_index": 115,
+            "end_index": 115,
+            "summary": "This section details the peer review process conducted by the EPA for its draft human health effects documents for PFOA and PFOS."
+          },
+          {
+            "title": "Lifetime Health Advisory Levels for PFOA and PFOS",
+            "node_id": "0393",
+            "start_index": 116,
+            "end_index": 116,
+            "summary": "This section provides an overview of the lifetime health advisory levels for PFOA and PFOS established by the EPA."
+          },
+          {
+            "title": "Monitoring of PFAS in Public Water Supplies",
+            "node_id": "0394",
+            "start_index": 117,
+            "end_index": 117,
+            "summary": "This section details the monitoring efforts undertaken by the EPA to assess the presence of PFAS in public water supplies."
+          },
+          {
+            "title": "Technical Advisory on Laboratory Analysis of Drinking Water Samples",
+            "node_id": "0395",
+            "start_index": 118,
+            "end_index": 114,
+            "summary": "This section provides an overview of the technical advisory issued by the EPA on laboratory analysis of drinking water samples containing PFAS."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0396",
+        "start_index": 115,
+        "end_index": 115
+      },
+      {
+        "title": "Case Transferred from Franklin County to Morgan County",
+        "node_id": "0397",
+        "start_index": 116,
+        "end_index": 116,
+        "summary": "The case was transferred from Franklin County to Morgan County."
+      },
+      {
+        "title": "West Morgan-East Lawrence Water & Sewer Authority Filing Individual Complaint",
+        "node_id": "0398",
+        "start_index": 116,
+        "end_index": 116,
+        "summary": "The West Morgan-East Lawrence Water & Sewer Authority filed an individual complaint against 3M and other companies."
+      },
+      {
+        "title": "King Case",
+        "node_id": "0399",
+        "start_index": 117,
+        "end_index": 117,
+        "summary": "An individual plaintiff filed a lawsuit in the U.S. District Court for the Northern District of Alabama."
+      },
+      {
+        "title": "Minnesota Litigation",
+        "node_id": "0400",
+        "start_index": 117,
+        "end_index": 117,
+        "summary": "The City of Lake Elmo filed a lawsuit in the U.S. District Court for the District of Minnesota against 3M."
+      },
+      {
+        "title": "State Attorneys General Litigation",
+        "node_id": "0401",
+        "start_index": 117,
+        "end_index": 117,
+        "summary": "The State of Minnesota, by its Attorney General, filed a lawsuit in Hennepin County District Court against 3M."
+      },
+      {
+        "title": "Current or Former Locations of Airports, Military Bases, or Fire Training Facilities",
+        "node_id": "0402",
+        "start_index": 118,
+        "end_index": 118,
+        "summary": "This section details the current or former locations of airports, military bases, or fire training facilities where PFAS contamination occurred.",
+        "nodes": [
+          {
+            "title": "PFAS Contamination",
+            "node_id": "0403",
+            "start_index": 118,
+            "end_index": 118,
+            "summary": "This section describes the PFAS contamination that occurred at the current or former locations of airports, military bases, or fire training facilities."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0404",
+        "start_index": 119,
+        "end_index": 119
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0405",
+        "start_index": 120,
+        "end_index": 120
+      },
+      {
+        "title": "Page 121",
+        "node_id": "0406",
+        "start_index": 121,
+        "end_index": 121,
+        "summary": "Summary of the content on Page 121.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0407",
+            "start_index": 121,
+            "end_index": 121,
+            "summary": "Summary of the Table of Contents section."
+          },
+          {
+            "title": "Representative Plaintiff\u2019s Claims",
+            "node_id": "0408",
+            "start_index": 122,
+            "end_index": 121,
+            "summary": "Summary of the Representative Plaintiff\u2019s Claims section."
+          }
+        ]
+      },
+      {
+        "title": "Page 122",
+        "node_id": "0409",
+        "start_index": 121,
+        "end_index": 121,
+        "summary": "Summary of the Table of Contents section.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0410",
+            "start_index": 121,
+            "end_index": 121,
+            "summary": "Summary of the Table of Contents section."
+          },
+          {
+            "title": "Stock-Based Compensation",
+            "node_id": "0411",
+            "start_index": 122,
+            "end_index": 121,
+            "summary": "Summary of the Stock-Based Compensation section."
+          }
+        ]
+      },
+      {
+        "title": "Stock Option Assumptions",
+        "node_id": "0412",
+        "start_index": 123,
+        "end_index": 123,
+        "summary": "Summary of Stock Option Assumptions.",
+        "nodes": [
+          {
+            "title": "Annual Grant Date",
+            "node_id": "0413",
+            "start_index": 123,
+            "end_index": 123,
+            "summary": "Summary of Annual Grant Date.",
+            "nodes": [
+              {
+                "title": "Expected Volatility",
+                "node_id": "0414",
+                "start_index": 123,
+                "end_index": 123,
+                "summary": "Summary of Expected Volatility.",
+                "nodes": [
+                  {
+                    "title": "Risk-Free Interest Rate",
+                    "node_id": "0415",
+                    "start_index": 123,
+                    "end_index": 123,
+                    "summary": "Summary of Risk-Free Interest Rate."
+                  },
+                  {
+                    "title": "Expected Life (Months)",
+                    "node_id": "0416",
+                    "start_index": 124,
+                    "end_index": 124,
+                    "summary": "Summary of Expected Life (Months)."
+                  },
+                  {
+                    "title": "Black-Scholes Fair Value",
+                    "node_id": "0417",
+                    "start_index": 125,
+                    "end_index": 123,
+                    "summary": "Summary of Black-Scholes Fair Value."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Page 125",
+        "node_id": "0418",
+        "start_index": 125,
+        "end_index": 125,
+        "summary": "This section contains the table of contents for the 10-K/10-Q filing."
+      },
+      {
+        "title": "Page 126",
+        "node_id": "0419",
+        "start_index": 126,
+        "end_index": 126,
+        "summary": "This section contains the detailed table of contents for the 10-K/10-Q filing.",
+        "nodes": [
+          {
+            "title": "Business Segment Information",
+            "node_id": "0420",
+            "start_index": 126,
+            "end_index": 126,
+            "summary": "This section contains the detailed table of contents for the 10-K/10-Q filing.",
+            "nodes": [
+              {
+                "title": "Net Sales",
+                "node_id": "0421",
+                "start_index": 126,
+                "end_index": 126,
+                "summary": "This section contains the detailed table of contents for the 10-K/10-Q filing."
+              },
+              {
+                "title": "Operating Income",
+                "node_id": "0422",
+                "start_index": 127,
+                "end_index": 126,
+                "summary": "This section contains the detailed table of contents for the 10-K/10-Q filing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Note 19. Geographic Areas",
+        "node_id": "0423",
+        "start_index": 127,
+        "end_index": 127,
+        "summary": "This section provides details about the geographic areas of the company.",
+        "nodes": [
+          {
+            "title": "Summary of Geographic Areas",
+            "node_id": "0424",
+            "start_index": 127,
+            "end_index": 127,
+            "summary": "This section summarizes the key points about the geographic areas of the company."
+          },
+          {
+            "title": "Detailed Breakdown of Geographic Areas",
+            "node_id": "0425",
+            "start_index": 128,
+            "end_index": 127,
+            "summary": "This section provides a detailed breakdown of the geographic areas of the company, including specific regions and countries."
+          }
+        ]
+      },
+      {
+        "title": "Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure.",
+        "node_id": "0426",
+        "start_index": 127,
+        "end_index": 127,
+        "summary": "This section provides details about changes and disagreements with accountants on accounting and financial disclosure.",
+        "nodes": [
+          {
+            "title": "Summary of Changes and Disagreements",
+            "node_id": "0427",
+            "start_index": 127,
+            "end_index": 127,
+            "summary": "This section summarizes the key points about the changes and disagreements with accountants on accounting and financial disclosure."
+          },
+          {
+            "title": "Detailed Breakdown of Changes and Disagreements",
+            "node_id": "0428",
+            "start_index": 128,
+            "end_index": 127,
+            "summary": "This section provides a detailed breakdown of the changes and disagreements with accountants on accounting and financial disclosure, including specific examples and explanations."
+          }
+        ]
+      },
+      {
+        "title": "Item 9A. Controls and Procedures.",
+        "node_id": "0429",
+        "start_index": 127,
+        "end_index": 127,
+        "summary": "This section provides details about the controls and procedures implemented by the company.",
+        "nodes": [
+          {
+            "title": "Summary of Controls and Procedures",
+            "node_id": "0430",
+            "start_index": 127,
+            "end_index": 127,
+            "summary": "This section summarizes the key points about the controls and procedures implemented by the company."
+          },
+          {
+            "title": "Detailed Breakdown of Controls and Procedures",
+            "node_id": "0431",
+            "start_index": 128,
+            "end_index": 127,
+            "summary": "This section provides a detailed breakdown of the controls and procedures implemented by the company, including specific examples and explanations."
+          }
+        ]
+      },
+      {
+        "title": "Part I",
+        "node_id": "0432",
+        "start_index": 129,
+        "end_index": 131,
+        "nodes": [
+          {
+            "title": "Item 15. Exhibit s, Financial Statement Schedules.",
+            "node_id": "0433",
+            "start_index": 129,
+            "end_index": 131,
+            "nodes": [
+              {
+                "title": "(a) (1) Financial Statements.",
+                "node_id": "0434",
+                "start_index": 129,
+                "end_index": 131,
+                "nodes": [
+                  {
+                    "title": "Consolidated Financial Statements",
+                    "node_id": "0435",
+                    "start_index": 129,
+                    "end_index": 131,
+                    "nodes": [
+                      {
+                        "title": "Index to Financial Statements",
+                        "node_id": "0436",
+                        "start_index": 129,
+                        "end_index": 131
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Page 132",
+        "node_id": "0437",
+        "start_index": 132,
+        "end_index": 132,
+        "summary": "This section provides an overview of the table of contents for the document."
+      },
+      {
+        "title": "Page 133",
+        "node_id": "0438",
+        "start_index": 132,
+        "end_index": 132,
+        "summary": "This section provides an overview of the table of contents for the document."
+      },
+      {
+        "title": "Page 134",
+        "node_id": "0439",
+        "start_index": 132,
+        "end_index": 132,
+        "summary": "This section provides an overview of the table of contents for the document."
+      },
+      {
+        "title": "Article 1 - General Provisions",
+        "node_id": "0440",
+        "start_index": 135,
+        "end_index": 135,
+        "summary": "This article provides general provisions related to the 3M Compensation Plan for Nonemployee Directors.",
+        "nodes": [
+          {
+            "title": "1.1 - Objective",
+            "node_id": "0441",
+            "start_index": 135,
+            "end_index": 135,
+            "summary": "The objective of the 3M Compensation Plan for Nonemployee Directors is to attract and retain highly qualified individuals to serve as nonemployee members of the 3M Board of Directors."
+          },
+          {
+            "title": "1.2 - Components of Compensation",
+            "node_id": "0442",
+            "start_index": 136,
+            "end_index": 135,
+            "summary": "This section outlines the various components of compensation for nonemployee directors under the 3M Compensation Plan."
+          }
+        ]
+      },
+      {
+        "title": "Article 2 - Annual Cash Retainer",
+        "node_id": "0443",
+        "start_index": 135,
+        "end_index": 135,
+        "summary": "This article details the Annual Cash Retainer component of the 3M Compensation Plan for Nonemployee Directors.",
+        "nodes": [
+          {
+            "title": "2.1 - General",
+            "node_id": "0444",
+            "start_index": 135,
+            "end_index": 135,
+            "summary": "This section provides general information regarding the Annual Cash Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "2.2 - Medium of Payment",
+            "node_id": "0445",
+            "start_index": 136,
+            "end_index": 136,
+            "summary": "This section details the medium of payment for the Annual Cash Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "2.3 - Timing of Payment",
+            "node_id": "0446",
+            "start_index": 137,
+            "end_index": 137,
+            "summary": "This section outlines the timing of payment for the Annual Cash Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "2.4 - Proration for New or Departing Directors; Special Appointments",
+            "node_id": "0447",
+            "start_index": 138,
+            "end_index": 135,
+            "summary": "This section details the proration for new or departing directors, as well as special appointments, for the Annual Cash Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          }
+        ]
+      },
+      {
+        "title": "Article 3 - Annual Stock Retainer",
+        "node_id": "0448",
+        "start_index": 135,
+        "end_index": 135,
+        "summary": "This article details the Annual Stock Retainer component of the 3M Compensation Plan for Nonemployee Directors.",
+        "nodes": [
+          {
+            "title": "3.1 - In General",
+            "node_id": "0449",
+            "start_index": 135,
+            "end_index": 135,
+            "summary": "This section provides general information regarding the Annual Stock Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "3.2 - Medium of Payment",
+            "node_id": "0450",
+            "start_index": 136,
+            "end_index": 136,
+            "summary": "This section details the medium of payment for the Annual Stock Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "3.3 - Timing of Payment",
+            "node_id": "0451",
+            "start_index": 137,
+            "end_index": 137,
+            "summary": "This section outlines the timing of payment for the Annual Stock Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          },
+          {
+            "title": "3.4 - Proration for New Directors",
+            "node_id": "0452",
+            "start_index": 138,
+            "end_index": 135,
+            "summary": "This section details the proration for new directors for the Annual Stock Retainer component of the 3M Compensation Plan for Nonemployee Directors."
+          }
+        ]
+      },
+      {
+        "title": "Shares Acquired",
+        "node_id": "0453",
+        "start_index": 137,
+        "end_index": 137,
+        "summary": "Shares acquired on or after October 1, 2007, as part of the Annual Stock Retainer."
+      },
+      {
+        "title": "Disposal Restrictions",
+        "node_id": "0454",
+        "start_index": 137,
+        "end_index": 137,
+        "summary": "Shares shall not be sold, exchanged, or otherwise disposed of on or before the date that the participant ceases to be a member of the Board."
+      },
+      {
+        "title": "Pursuant to the 3M Company 2016 Long-Term Incentive Plan (as amended from time to time, the \u201cPlan\u201d), 3M Company (the\n\u201cCompany\u201d) granted to the nonemployee member of the Company\u2019s Board of Directors (the\n\u201cBoard\u201d) listed below (\u201cParticipant\u201d) the\naward described below (the \u201cAward\u201d).  The shares of common stock of the Company issued pursuant to this Award (the\n\u201cShares\u201d) are\nsubject to the terms and conditions set forth in this Stock Issuance Award Agreement (this\n\u201cAgreement\u201d) and the Plan.  The Plan is\nincorporated into this Stock Issuance Award Agreement by reference.",
+        "node_id": "0455",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section describes the grant of the Award to the Participant under the Plan."
+      },
+      {
+        "title": "Participant:",
+        "node_id": "0456",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section identifies the Participant who received the Award."
+      },
+      {
+        "title": "Issuance Date:",
+        "node_id": "0457",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section identifies the date on which the Shares were issued to the Participant."
+      },
+      {
+        "title": "Number of Shares:",
+        "node_id": "0458",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section identifies the total number of Shares that were issued to the Participant."
+      },
+      {
+        "title": "Fee Type:",
+        "node_id": "0459",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section identifies the type of fee that was paid in connection with the issuance of the Shares to the Participant.",
+        "nodes": [
+          {
+            "title": "\u2612 Annual Stock Retainer",
+            "node_id": "0460",
+            "start_index": 139,
+            "end_index": 139,
+            "summary": "This option indicates that the fee type is an annual stock retainer."
+          },
+          {
+            "title": "\u2610 Annual Cash Retainer",
+            "node_id": "0461",
+            "start_index": 140,
+            "end_index": 139,
+            "summary": "This option indicates that the fee type is an annual cash retainer."
+          }
+        ]
+      },
+      {
+        "title": "Vesting Schedule:",
+        "node_id": "0462",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section identifies the vesting schedule for the Shares that were issued to the Participant.",
+        "nodes": [
+          {
+            "title": "The Shares shall be fully vested upon grant.",
+            "node_id": "0463",
+            "start_index": 139,
+            "end_index": 139,
+            "summary": "This option indicates that the Shares shall be fully vested upon grant."
+          }
+        ]
+      },
+      {
+        "title": "ELECTRONIC ACCEPTANCE OF AWARD:",
+        "node_id": "0464",
+        "start_index": 139,
+        "end_index": 139,
+        "summary": "This section provides instructions for the electronic acceptance of the award by the Participant.",
+        "nodes": [
+          {
+            "title": "By clicking on the \u201cACCEPT\u201d box on the \u201cGrant Terms and Agreement\u201d page, you agree to be bound by\nthe terms and conditions of this Agreement and the Plan.  You acknowledge that you have reviewed and\nfully understand all of the provisions of this Agreement and the Plan, and have had the opportunity to obtain\nadvice of counsel prior to accepting the grant of the Shares pursuant to this Agreement.",
+            "node_id": "0465",
+            "start_index": 139,
+            "end_index": 139,
+            "summary": "This option provides instructions for the electronic acceptance of the award by the Participant, including the requirement to click on the \u201cACCEPT\u201d box on the \u201cGrant Terms and Agreement\u201d page."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0466",
+        "start_index": 142,
+        "end_index": 143
+      },
+      {
+        "title": "Data Collection Purpose",
+        "node_id": "0467",
+        "start_index": 144,
+        "end_index": 144,
+        "summary": "Participant understands that the data is being collected for the purpose of implementing, administering, and managing the Plan."
+      },
+      {
+        "title": "Data Sharing Recipients",
+        "node_id": "0468",
+        "start_index": 144,
+        "end_index": 144,
+        "summary": "Participant understands that the data may be shared with various recipients, including the Company, Fidelity Investments, and any other stock plan service provider selected by the Company in the future."
+      },
+      {
+        "title": "Data Privacy and Protection",
+        "node_id": "0469",
+        "start_index": 144,
+        "end_index": 144,
+        "summary": "Participant understands that the data may be subject to different data privacy laws and protections in different countries, and that the Company may provide a list of potential recipients of the data upon request by the Participant."
+      },
+      {
+        "title": "Grant Details",
+        "node_id": "0470",
+        "start_index": 146,
+        "end_index": 146,
+        "summary": "Details about the grant, including the grant date and the number of DSUs granted."
+      },
+      {
+        "title": "Dividend Equivalents",
+        "node_id": "0471",
+        "start_index": 146,
+        "end_index": 146,
+        "summary": "Details about the Dividend Equivalents, including how they are calculated and when they are issued."
+      },
+      {
+        "title": "Settlement",
+        "node_id": "0472",
+        "start_index": 146,
+        "end_index": 146,
+        "summary": "Details about the settlement process, including when the DSUs will be settled and what happens if the participant separates from service before the DSUs are settled."
+      },
+      {
+        "title": "3.1 Nature of Grant",
+        "node_id": "0473",
+        "start_index": 149,
+        "end_index": 149,
+        "summary": "This subsection explains the nature of the DSUs granted to the participant.",
+        "nodes": [
+          {
+            "title": "3.1.1 Understanding DSUs",
+            "node_id": "0474",
+            "start_index": 149,
+            "end_index": 149,
+            "summary": "This sub-subsection provides an explanation of what DSUs are and how they function within the context of the Plan."
+          },
+          {
+            "title": "3.1.2 Participant's Acknowledgment",
+            "node_id": "0475",
+            "start_index": 150,
+            "end_index": 149,
+            "summary": "This sub-subsection requires the participant to acknowledge and agree to the terms and conditions outlined in the Plan and this Agreement."
+          }
+        ]
+      },
+      {
+        "title": "3.2 Relationship to Other Plans",
+        "node_id": "0476",
+        "start_index": 149,
+        "end_index": 149,
+        "summary": "This subsection explains the relationship between the DSUs granted to the participant and other plans offered by the Company."
+      },
+      {
+        "title": "3.3 No Advice Regarding Grant",
+        "node_id": "0477",
+        "start_index": 149,
+        "end_index": 149,
+        "summary": "This subsection states that the Company is not providing any tax, legal or financial advice to the participant regarding the DSUs granted to the participant."
+      },
+      {
+        "title": "3.4 Data Privacy",
+        "node_id": "0478",
+        "start_index": 149,
+        "end_index": 149,
+        "summary": "This subsection outlines the participant's consent to the collection, use and transfer of the participant's personal data in connection with the DSUs granted to the participant."
+      },
+      {
+        "title": "Parent Company",
+        "node_id": "0479",
+        "start_index": 151,
+        "end_index": 151,
+        "summary": "The parent company of the consolidated subsidiaries."
+      },
+      {
+        "title": "Consolidated Subsidiaries",
+        "node_id": "0480",
+        "start_index": 151,
+        "end_index": 151,
+        "summary": "A list of all consolidated subsidiaries of 3M Company.",
+        "nodes": [
+          {
+            "title": "3M Financial Management Company",
+            "node_id": "0481",
+            "start_index": 151,
+            "end_index": 151,
+            "summary": "A subsidiary company of 3M Company."
+          },
+          {
+            "title": "3M Global Channel Services, Inc.",
+            "node_id": "0482",
+            "start_index": 152,
+            "end_index": 151,
+            "summary": "Another subsidiary company of 3M Company."
+          }
+        ]
+      },
+      {
+        "title": "Section 302 Certification",
+        "node_id": "0483",
+        "start_index": 155,
+        "end_index": 157,
+        "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company.",
+        "nodes": [
+          {
+            "title": "1. Review of the Annual Report",
+            "node_id": "0484",
+            "start_index": 155,
+            "end_index": 155,
+            "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "2. No Untrue Statement",
+            "node_id": "0485",
+            "start_index": 156,
+            "end_index": 156,
+            "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "3. Fair Presentation of Financial Statements",
+            "node_id": "0486",
+            "start_index": 157,
+            "end_index": 157,
+            "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "4. Disclosure Controls and Procedures",
+            "node_id": "0487",
+            "start_index": 158,
+            "end_index": 158,
+            "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "5. Disclosure of Changes in Internal Control",
+            "node_id": "0488",
+            "start_index": 159,
+            "end_index": 157,
+            "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          }
+        ]
+      },
+      {
+        "title": "Section 31.2 - Sarbanes-Oxley Section 302 Certification",
+        "node_id": "0489",
+        "start_index": 155,
+        "end_index": 157,
+        "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company.",
+        "nodes": [
+          {
+            "title": "1. Review of the Annual Report",
+            "node_id": "0490",
+            "start_index": 155,
+            "end_index": 155,
+            "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "2. No Untrue Statement",
+            "node_id": "0491",
+            "start_index": 156,
+            "end_index": 156,
+            "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "3. Fair Presentation of Financial Statements",
+            "node_id": "0492",
+            "start_index": 157,
+            "end_index": 157,
+            "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "4. Disclosure Controls and Procedures",
+            "node_id": "0493",
+            "start_index": 158,
+            "end_index": 158,
+            "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          },
+          {
+            "title": "5. Disclosure of Changes in Internal Control",
+            "node_id": "0494",
+            "start_index": 159,
+            "end_index": 157,
+            "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report on Form 10-K of 3M Company."
+          }
+        ]
+      },
+      {
+        "title": "Exhibit 32.1 - Certification Pursuant to 18 U.S.C. Section 1350",
+        "node_id": "0495",
+        "start_index": 158,
+        "end_index": 159,
+        "summary": "Certification by Michael F. Roman, Chief Executive Officer, regarding the accuracy and completeness of the annual report."
+      },
+      {
+        "title": "Exhibit 32.2 - Certification Pursuant to 18 U.S.C. Section 1350",
+        "node_id": "0496",
+        "start_index": 159,
+        "end_index": 160,
+        "summary": "Certification by Nicholas C. Gangestad, Chief Financial Officer, regarding the accuracy and completeness of the annual report."
+      },
+      {
+        "title": "Exhibit 95 - Mine Safety Disclosures",
+        "node_id": "0497",
+        "start_index": 160,
+        "end_index": 160,
+        "summary": "Disclosures related to mine safety violations and legal actions for the year 2018."
+      }
+    ]
+  }
+}

@@ -25,9 +25,9 @@ TRAINING_DIR = Path(__file__).parent.parent / "data" / "training"
 ERRORS_DIR = Path(__file__).parent.parent / "data" / "errors"
 
 
-async def process(pdf_path: Path, provider: arbor.GroqProvider) -> None:
+async def process(pdf_path: Path, provider: arbor.GeminiProvider, output_dir: Path = TRAINING_DIR) -> None:
     arxiv_id = pdf_path.stem
-    out_file = TRAINING_DIR / f"{arxiv_id}.json"
+    out_file = output_dir / f"{arxiv_id}.json"
     err_file = ERRORS_DIR / f"{arxiv_id}.json"
 
     if out_file.exists():
@@ -40,33 +40,34 @@ async def process(pdf_path: Path, provider: arbor.GroqProvider) -> None:
 
     config = arbor.ArborConfig(
         add_node_ids=True,
-        add_summaries=True,
+        add_summaries=True,       # summaries essential for TreeGen training
         add_node_text=False,
-        max_tokens_per_node=8000,   # Groq free tier: 12k TPM limit
+        max_tokens_per_node=8000,
+        max_concurrent_llm_calls=5,
     )
 
     t0 = time.monotonic()
     try:
         tree = await asyncio.wait_for(
             arbor.generate_tree(str(pdf_path), provider, config),
-            timeout=300,
+            timeout=1800,
         )
     except Exception as e:
         elapsed = time.monotonic() - t0
         ERRORS_DIR.mkdir(parents=True, exist_ok=True)
         err_file.write_text(json.dumps({
             "arxiv_id": arxiv_id,
-            "error": str(e),
+            "error": type(e).__name__ if not str(e) else str(e),
             "elapsed_seconds": round(elapsed, 1),
             "timestamp": datetime.now(timezone.utc).isoformat(),
         }, indent=2))
-        print(f"  [error] {arxiv_id}: {e}", file=sys.stderr)
-        return
+        print(f"  [error] {arxiv_id}: {type(e).__name__}: {e}", file=sys.stderr)
+        sys.exit(1)
 
     elapsed = round(time.monotonic() - t0, 1)
     nodes = count_nodes(tree.structure)
 
-    TRAINING_DIR.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
     out_file.write_text(json.dumps({
         "arxiv_id": arxiv_id,
         "document_text": document_text,
@@ -75,7 +76,7 @@ async def process(pdf_path: Path, provider: arbor.GroqProvider) -> None:
         "tree": tree.to_dict(),
         "metadata": {
             "model": provider.model,
-            "provider": "groq",
+            "provider": "gemini",
             "generation_time_seconds": elapsed,
             "timestamp": datetime.now(timezone.utc).isoformat(),
         },
@@ -87,17 +88,19 @@ async def process(pdf_path: Path, provider: arbor.GroqProvider) -> None:
 def main():
     parser = argparse.ArgumentParser(description="Generate Arbor training data for a PDF")
     parser.add_argument("pdf", type=Path, help="Path to PDF file")
+    parser.add_argument("--output-dir", type=Path, default=TRAINING_DIR,
+                        help="Directory to write output JSON (default: data/training)")
     args = parser.parse_args()
 
     if not args.pdf.exists():
         sys.exit(f"File not found: {args.pdf}")
 
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        sys.exit("GROQ_API_KEY environment variable not set")
+        sys.exit("GEMINI_API_KEY environment variable not set")
 
-    provider = arbor.GroqProvider(api_key=api_key)
-    asyncio.run(process(args.pdf, provider))
+    provider = arbor.GeminiProvider(api_key=api_key, model="gemini-2.5-flash-lite")
+    asyncio.run(process(args.pdf, provider, output_dir=args.output_dir))
 
 
 if __name__ == "__main__":

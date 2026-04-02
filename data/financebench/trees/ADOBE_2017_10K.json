@@ -1,0 +1,3223 @@
+{
+  "tree": {
+    "doc_name": "ADOBE_2017_10K",
+    "total_pages": 107,
+    "structure": [
+      {
+        "title": "Form Type",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 1,
+        "summary": "This section specifies the type of form being filed, which in this case is a Form 10-K.",
+        "nodes": [
+          {
+            "title": "Annual Report",
+            "node_id": "0002",
+            "start_index": 1,
+            "end_index": 1,
+            "summary": "This section indicates that the form is an annual report, which is required to be filed by companies with publicly traded securities."
+          }
+        ]
+      },
+      {
+        "title": "Filing Date",
+        "node_id": "0003",
+        "start_index": 1,
+        "end_index": 1,
+        "summary": "This section specifies the date on which the form is being filed, which in this case is the date of the last business day of the registrant\u2019s most recently completed second fiscal quarter."
+      },
+      {
+        "title": "Company Information",
+        "node_id": "0004",
+        "start_index": 1,
+        "end_index": 1,
+        "summary": "This section provides basic information about the company, including its name, address, and certain identifying numbers.",
+        "nodes": [
+          {
+            "title": "Company Name",
+            "node_id": "0005",
+            "start_index": 1,
+            "end_index": 1,
+            "summary": "This section specifies the name of the company, which in this case is Adobe Systems Incorporated."
+          },
+          {
+            "title": "Company Address",
+            "node_id": "0006",
+            "start_index": 2,
+            "end_index": 2,
+            "summary": "This section specifies the physical address of the company, which in this case is 345 Park Avenue, San Jose, California 95110-2704."
+          },
+          {
+            "title": "Company Identifying Numbers",
+            "node_id": "0007",
+            "start_index": 3,
+            "end_index": 3,
+            "summary": "This section provides certain identifying numbers for the company, including its federal tax identification number and its state tax identification number.",
+            "nodes": [
+              {
+                "title": "Federal Tax Identification Number",
+                "node_id": "0008",
+                "start_index": 1,
+                "end_index": 1,
+                "summary": "This section specifies the federal tax identification number for the company, which in this case is 77-0019522."
+              },
+              {
+                "title": "State Tax Identification Number",
+                "node_id": "0009",
+                "start_index": 2,
+                "end_index": 2,
+                "summary": "This section specifies the state tax identification number for the company, which in this case is 0-15175."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PART I",
+        "node_id": "0010",
+        "start_index": 3,
+        "end_index": 3,
+        "summary": "Part I of the table of contents for Adobe Systems Incorporated's Form 10-K.",
+        "nodes": [
+          {
+            "title": "Item 1. Business",
+            "node_id": "0011",
+            "start_index": 4,
+            "end_index": 4,
+            "summary": "Item 1 of Part I in the table of contents for Adobe Systems Incorporated's Form 10-K."
+          },
+          {
+            "title": "Item 1A. Risk Factors",
+            "node_id": "0012",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Item 1A of Part I in the table of contents for Adobe Systems Incorporated's Form 10-K."
+          }
+        ]
+      },
+      {
+        "title": "ITEM 1. BUSINESS",
+        "node_id": "0013",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Detailed description of Adobe Systems Incorporated's business activities.",
+        "nodes": [
+          {
+            "title": "Founding and Incorporation",
+            "node_id": "0014",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Explanation of Adobe Systems Incorporated's founding and incorporation details."
+          },
+          {
+            "title": "Executive Offices and Principal Facilities",
+            "node_id": "0015",
+            "start_index": 6,
+            "end_index": 6,
+            "summary": "Description of Adobe Systems Incorporated's executive offices and principal facilities."
+          },
+          {
+            "title": "Business Overview",
+            "node_id": "0016",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "Summary of Adobe Systems Incorporated's business activities and strategies.",
+            "nodes": [
+              {
+                "title": "Innovation and Transformation",
+                "node_id": "0017",
+                "start_index": 8,
+                "end_index": 8,
+                "summary": "Explanation of Adobe Systems Incorporated's role in innovation and transformation within the digital media and experience industries."
+              },
+              {
+                "title": "Customer Base and Target Markets",
+                "node_id": "0018",
+                "start_index": 9,
+                "end_index": 9,
+                "summary": "Description of Adobe Systems Incorporated's customer base and target markets."
+              },
+              {
+                "title": "Business Model Evolution",
+                "node_id": "0019",
+                "start_index": 10,
+                "end_index": 10,
+                "summary": "Explanation of Adobe Systems Incorporated's evolution of its business model to provide a range of flexible solutions for its customers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0020",
+        "start_index": 3,
+        "end_index": 3
+      },
+      {
+        "title": "Market Overview",
+        "node_id": "0021",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Summary of the digital media and digital experience markets, including market trends and opportunities.",
+        "nodes": [
+          {
+            "title": "Digital Media Opportunity",
+            "node_id": "0022",
+            "start_index": 4,
+            "end_index": 4,
+            "summary": "Description of the digital media market opportunity, including the velocity of creation and consumption of digital content, and the demand for engaging online experiences."
+          },
+          {
+            "title": "Strategic Opportunities",
+            "node_id": "0023",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Discussion of strategic opportunities for the company in the digital media and digital experience markets, including the integration of products from each of these two areas of Adobe\u2019s business."
+          }
+        ]
+      },
+      {
+        "title": "Segments",
+        "node_id": "0024",
+        "start_index": 4,
+        "end_index": 4,
+        "summary": "Explanation of the company\u2019s business organization into three reportable segments: Digital Media, Digital Experience (formerly Digital Marketing), and Publishing (formerly Print and Publishing).",
+        "nodes": [
+          {
+            "title": "Digital Media",
+            "node_id": "0025",
+            "start_index": 4,
+            "end_index": 4,
+            "summary": "Description of the Digital Media segment, including the flagship product, Adobe Creative Cloud, and the strategic initiatives and opportunities for the segment."
+          },
+          {
+            "title": "Digital Experience (formerly Digital Marketing)",
+            "node_id": "0026",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Description of the Digital Experience segment, including the strategic initiatives and opportunities for the segment."
+          },
+          {
+            "title": "Publishing (formerly Print and Publishing)",
+            "node_id": "0027",
+            "start_index": 6,
+            "end_index": 6,
+            "summary": "Description of the Publishing segment, including the strategic initiatives and opportunities for the segment."
+          }
+        ]
+      },
+      {
+        "title": "Digital Media Segment",
+        "node_id": "0028",
+        "start_index": 5,
+        "end_index": 5,
+        "summary": "Description of Adobe's Digital Media segment, including Document Cloud business.",
+        "nodes": [
+          {
+            "title": "Document Cloud Business",
+            "node_id": "0029",
+            "start_index": 5,
+            "end_index": 5,
+            "summary": "Detailed description of Adobe's Document Cloud business, including Acrobat and Adobe Acrobat Reader.",
+            "nodes": [
+              {
+                "title": "Acrobat Family of Products",
+                "node_id": "0030",
+                "start_index": 5,
+                "end_index": 5,
+                "summary": "Overview of the Acrobat family of products, including Acrobat DC, Pro, Standard, and other versions."
+              },
+              {
+                "title": "Adobe Acrobat Reader",
+                "node_id": "0031",
+                "start_index": 6,
+                "end_index": 6,
+                "summary": "Description of Adobe Acrobat Reader, a free software application for viewing, printing, and filling out PDF files."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Digital Experience Opportunity",
+        "node_id": "0032",
+        "start_index": 6,
+        "end_index": 6,
+        "summary": "The increasing demand for personalized digital experiences among consumers.",
+        "nodes": [
+          {
+            "title": "Consumer Demand for Personalized Digital Experiences",
+            "node_id": "0033",
+            "start_index": 6,
+            "end_index": 6,
+            "summary": "Consumers today increasingly demand personalized content and experiences in their digital interactions, across multiple channels and devices."
+          }
+        ]
+      },
+      {
+        "title": "Strategic Initiatives",
+        "node_id": "0034",
+        "start_index": 6,
+        "end_index": 6,
+        "summary": "The company's strategic initiatives to capitalize on the digital experience opportunity.",
+        "nodes": [
+          {
+            "title": "Focus on Customer Engagement",
+            "node_id": "0035",
+            "start_index": 6,
+            "end_index": 6,
+            "summary": "The company focuses on enhancing customer engagement through digital experiences."
+          },
+          {
+            "title": "Leverage Partnerships",
+            "node_id": "0036",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "The company leverages strategic partnerships to enhance its digital experience offerings."
+          },
+          {
+            "title": "Differentiate Through Product Innovation",
+            "node_id": "0037",
+            "start_index": 8,
+            "end_index": 8,
+            "summary": "The company differentiates itself through continuous innovation in its digital experience products."
+          }
+        ]
+      },
+      {
+        "title": "Publishing Segment",
+        "node_id": "0038",
+        "start_index": 7,
+        "end_index": 7,
+        "summary": "Description of the company's Publishing segment, including its products and services.",
+        "nodes": [
+          {
+            "title": "Legacy Products and Services",
+            "node_id": "0039",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "Details about the company's legacy products and services, including their target markets and customer base."
+          },
+          {
+            "title": "E-Learning Solutions",
+            "node_id": "0040",
+            "start_index": 8,
+            "end_index": 8,
+            "summary": "Information about the company's e-learning solutions, including their features, benefits, and target audience."
+          }
+        ]
+      },
+      {
+        "title": "Digital Experience Segment",
+        "node_id": "0041",
+        "start_index": 7,
+        "end_index": 7,
+        "summary": "Description of the company's Digital Experience segment, including its products and services.",
+        "nodes": [
+          {
+            "title": "Web Conferencing Platform",
+            "node_id": "0042",
+            "start_index": 7,
+            "end_index": 7,
+            "summary": "Details about the company's web conferencing platform, including its features, benefits, and target audience."
+          },
+          {
+            "title": "Enterprise Document and Forms Platform",
+            "node_id": "0043",
+            "start_index": 8,
+            "end_index": 8,
+            "summary": "Information about the company's enterprise document and forms platform, including its features, benefits, and target audience."
+          }
+        ]
+      },
+      {
+        "title": "Consumer Digital Imaging and Video Editing Offerings",
+        "node_id": "0044",
+        "start_index": 8,
+        "end_index": 8,
+        "summary": "Description of the consumer digital imaging and video editing offerings.",
+        "nodes": [
+          {
+            "title": "Intense Competition",
+            "node_id": "0045",
+            "start_index": 8,
+            "end_index": 8,
+            "summary": "Explanation of the intense competition faced by the consumer digital imaging and video editing offerings."
+          }
+        ]
+      },
+      {
+        "title": "Stock Content Marketplace",
+        "node_id": "0046",
+        "start_index": 8,
+        "end_index": 8,
+        "summary": "Description of the stock content marketplace and its competition.",
+        "nodes": [
+          {
+            "title": "Key Competitors",
+            "node_id": "0047",
+            "start_index": 8,
+            "end_index": 8,
+            "summary": "List of key competitors in the stock content marketplace."
+          }
+        ]
+      },
+      {
+        "title": "Digital Media Offerings",
+        "node_id": "0048",
+        "start_index": 9,
+        "end_index": 10,
+        "summary": "Description of the digital media offerings provided by the company.",
+        "nodes": [
+          {
+            "title": "Creative Cloud",
+            "node_id": "0049",
+            "start_index": 9,
+            "end_index": 9,
+            "summary": "Detailed description of the Creative Cloud product, including its features, benefits, and target audience.",
+            "nodes": [
+              {
+                "title": "Photoshop and Lightroom",
+                "node_id": "0050",
+                "start_index": 9,
+                "end_index": 9,
+                "summary": "Description of the Photoshop and Lightroom products, including their features, benefits, and target audience."
+              },
+              {
+                "title": "InDesign",
+                "node_id": "0051",
+                "start_index": 10,
+                "end_index": 10,
+                "summary": "Description of the InDesign product, including its features, benefits, and target audience."
+              }
+            ]
+          },
+          {
+            "title": "Adobe Premiere Pro",
+            "node_id": "0052",
+            "start_index": 10,
+            "end_index": 10,
+            "summary": "Description of the Adobe Premiere Pro product, including its features, benefits, and target audience."
+          },
+          {
+            "title": "Adobe Dimension",
+            "node_id": "0053",
+            "start_index": 11,
+            "end_index": 11,
+            "summary": "Description of the Adobe Dimension product, including its features, benefits, and target audience."
+          },
+          {
+            "title": "After Effects",
+            "node_id": "0054",
+            "start_index": 12,
+            "end_index": 12,
+            "summary": "Description of the After Effects product, including its features, benefits, and target audience."
+          },
+          {
+            "title": "Typekit",
+            "node_id": "0055",
+            "start_index": 13,
+            "end_index": 13,
+            "summary": "Description of the Typekit product, including its features, benefits, and target audience."
+          },
+          {
+            "title": "Behance",
+            "node_id": "0056",
+            "start_index": 14,
+            "end_index": 14,
+            "summary": "Description of the Behance product, including its features, benefits, and target audience."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0057",
+        "start_index": 11,
+        "end_index": 11
+      },
+      {
+        "title": "Marketing and Sales",
+        "node_id": "0058",
+        "start_index": 12,
+        "end_index": 12,
+        "summary": "Details about how Adobe markets and licenses its products, both directly and through sales channels.",
+        "nodes": [
+          {
+            "title": "Direct Marketing and Licensing",
+            "node_id": "0059",
+            "start_index": 12,
+            "end_index": 12,
+            "summary": "Information about how Adobe markets and licenses its products directly to customers using its sales force and certain local offices."
+          },
+          {
+            "title": "Sales Channels",
+            "node_id": "0060",
+            "start_index": 13,
+            "end_index": 13,
+            "summary": "Details about how Adobe markets and licenses its products through sales channels, which include distributors, retailers, software developers, SIs, ISVs and VARs, as well as through OEM and hardware bundle customers."
+          }
+        ]
+      },
+      {
+        "title": "Services and Support",
+        "node_id": "0061",
+        "start_index": 13,
+        "end_index": 13,
+        "summary": "Description of the various services and support offerings provided by Adobe to its customers and partners.",
+        "nodes": [
+          {
+            "title": "Consulting Services",
+            "node_id": "0062",
+            "start_index": 14,
+            "end_index": 14,
+            "summary": "Details about the consulting services provided by Adobe to its customers and partners."
+          }
+        ]
+      },
+      {
+        "title": "Programmatic Services and Support",
+        "node_id": "0063",
+        "start_index": 14,
+        "end_index": 15,
+        "summary": "Description of Adobe's programmatic services and support."
+      },
+      {
+        "title": "Customer Success Account Management",
+        "node_id": "0064",
+        "start_index": 14,
+        "end_index": 15,
+        "summary": "Description of Adobe's Customer Success Account Management program."
+      },
+      {
+        "title": "Technical Support",
+        "node_id": "0065",
+        "start_index": 14,
+        "end_index": 15,
+        "summary": "Description of Adobe's technical support services."
+      },
+      {
+        "title": "Employee Relations",
+        "node_id": "0066",
+        "start_index": 14,
+        "end_index": 15,
+        "summary": "Description of Adobe's employee relations policies and practices."
+      },
+      {
+        "title": "Mark Garrett",
+        "node_id": "0067",
+        "start_index": 16,
+        "end_index": 17,
+        "summary": "Executive Vice President and Chief Financial Officer of Adobe."
+      },
+      {
+        "title": "Matthew Thompson",
+        "node_id": "0068",
+        "start_index": 16,
+        "end_index": 17,
+        "summary": "Executive Vice President, Worldwide Field Operations of Adobe."
+      },
+      {
+        "title": "Michael Dillon",
+        "node_id": "0069",
+        "start_index": 16,
+        "end_index": 17,
+        "summary": "Executive Vice President, General Counsel and Corporate Secretary of Adobe."
+      },
+      {
+        "title": "Forward-Looking Statements",
+        "node_id": "0070",
+        "start_index": 18,
+        "end_index": 18,
+        "summary": "Explains that the company's forward-looking statements could differ materially from actual results due to various factors.",
+        "nodes": [
+          {
+            "title": "Factors That Could Cause Differences",
+            "node_id": "0071",
+            "start_index": 18,
+            "end_index": 18,
+            "summary": "Lists several factors that could cause the company's actual results to differ materially from its forward-looking statements."
+          }
+        ]
+      },
+      {
+        "title": "Market Share and Results of Operations",
+        "node_id": "0072",
+        "start_index": 18,
+        "end_index": 18,
+        "summary": "Discusses how the company's market share and results of operations could be adversely affected by various factors.",
+        "nodes": [
+          {
+            "title": "Adverse Effects on Market Share and Results of Operations",
+            "node_id": "0073",
+            "start_index": 18,
+            "end_index": 18,
+            "summary": "Lists several factors that could adversely affect the company's market share and results of operations."
+          }
+        ]
+      },
+      {
+        "title": "Complex Sales Cycles",
+        "node_id": "0074",
+        "start_index": 19,
+        "end_index": 19,
+        "summary": "The section details the complexities involved in the sales cycles for enterprise offerings.",
+        "nodes": [
+          {
+            "title": "Factors Contributing to Complexity",
+            "node_id": "0075",
+            "start_index": 19,
+            "end_index": 19,
+            "summary": "This subsection lists several factors that contribute to the complexity of the sales cycles for enterprise offerings."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0076",
+        "start_index": 20,
+        "end_index": 20
+      },
+      {
+        "title": "Privacy and Data Security Laws",
+        "node_id": "0077",
+        "start_index": 21,
+        "end_index": 21,
+        "summary": "The company faces risks due to the increasing focus on privacy issues and the expansion of laws in this area.",
+        "nodes": [
+          {
+            "title": "U.S. Privacy and Data Security Laws",
+            "node_id": "0078",
+            "start_index": 21,
+            "end_index": 21,
+            "summary": "The company is subject to U.S. privacy and data security laws, which apply to its various businesses."
+          },
+          {
+            "title": "More Stringent Data Protection Laws",
+            "node_id": "0079",
+            "start_index": 22,
+            "end_index": 22,
+            "summary": "The company operates in countries with more stringent data protection laws than those in the United States, and these laws may be inconsistent across jurisdictions and are subject to evolving and differing interpretations."
+          }
+        ]
+      },
+      {
+        "title": "Cybersecurity Risks",
+        "node_id": "0080",
+        "start_index": 21,
+        "end_index": 21,
+        "summary": "The company faces cybersecurity risks that could lead to reduced revenue or liability claims.",
+        "nodes": [
+          {
+            "title": "Security Vulnerabilities in Products and Systems",
+            "node_id": "0081",
+            "start_index": 21,
+            "end_index": 21,
+            "summary": "Security vulnerabilities in the company's products and systems could lead to reduced revenue or to liability claims."
+          },
+          {
+            "title": "Maintaining the Security of Products, Computers, and Networks",
+            "node_id": "0082",
+            "start_index": 22,
+            "end_index": 22,
+            "summary": "Maintaining the security of the company's products, computers, and networks is a critical issue for the company and its customers."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0083",
+        "start_index": 22,
+        "end_index": 23
+      },
+      {
+        "title": "Foreign Currency Fluctuations and Controls",
+        "node_id": "0084",
+        "start_index": 24,
+        "end_index": 24,
+        "summary": "..."
+      },
+      {
+        "title": "International and Regional Economic, Political and Labor Conditions",
+        "node_id": "0085",
+        "start_index": 24,
+        "end_index": 24,
+        "summary": "..."
+      },
+      {
+        "title": "Tax Laws (Including U.S. Taxes on Foreign Subsidiaries)",
+        "node_id": "0086",
+        "start_index": 24,
+        "end_index": 24,
+        "summary": "..."
+      },
+      {
+        "title": "Increased Financial Accounting and Reporting Burdens and Complexities",
+        "node_id": "0087",
+        "start_index": 24,
+        "end_index": 24,
+        "summary": "..."
+      },
+      {
+        "title": "Disclosure of Confidential Information and Trade Secrets",
+        "node_id": "0088",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "The company faces risks associated with the unauthorized disclosure or publication of its confidential information and trade secrets."
+      },
+      {
+        "title": "Third-Party Intellectual Property Disputes",
+        "node_id": "0089",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "The company is subject to risks associated with third-party intellectual property disputes, including those initiated by patent assertion entities."
+      },
+      {
+        "title": "Currency Fluctuations and Hedging Risks",
+        "node_id": "0090",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "The company faces risks associated with currency fluctuations and the effectiveness of its hedging activities."
+      },
+      {
+        "title": "Customer Service and Technical Support Risks",
+        "node_id": "0091",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "The company faces risks associated with the quality and reliability of its customer service and technical support activities."
+      },
+      {
+        "title": "Sales and Distribution Channel Risks",
+        "node_id": "0092",
+        "start_index": 26,
+        "end_index": 26,
+        "summary": "The company faces risks associated with the effectiveness and reliability of its sales and distribution channel activities."
+      },
+      {
+        "title": "Risk of Inability to Recruit and Retain Key Personnel",
+        "node_id": "0093",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "Describes the risk associated with the inability to recruit and retain key personnel.",
+        "nodes": [
+          {
+            "title": "Dependence on Senior Management",
+            "node_id": "0094",
+            "start_index": 28,
+            "end_index": 28,
+            "summary": "Explains the risk associated with the dependence on senior management."
+          },
+          {
+            "title": "Risk of Loss of Specialized Knowledge and Skills",
+            "node_id": "0095",
+            "start_index": 29,
+            "end_index": 29,
+            "summary": "Describes the risk associated with the loss of specialized knowledge and skills."
+          }
+        ]
+      },
+      {
+        "title": "Risk of Declining Stock Price, Market Capitalization or Cash Flows",
+        "node_id": "0096",
+        "start_index": 28,
+        "end_index": 28,
+        "summary": "Describes the risk associated with declining stock price, market capitalization or cash flows."
+      },
+      {
+        "title": "None.",
+        "node_id": "0097",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "There are no unresolved staff comments for this item."
+      },
+      {
+        "title": "Office Buildings and Land in San Jose, California",
+        "node_id": "0098",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's office buildings and land in San Jose, California."
+      },
+      {
+        "title": "Buildings and Land in Lehi, Utah",
+        "node_id": "0099",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's buildings and land in Lehi, Utah."
+      },
+      {
+        "title": "Buildings and Land in San Francisco, California",
+        "node_id": "0100",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's buildings and land in San Francisco, California."
+      },
+      {
+        "title": "Data Center in Hillsboro, Oregon",
+        "node_id": "0101",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's data center in Hillsboro, Oregon."
+      },
+      {
+        "title": "Buildings and Land in Bangalore, India",
+        "node_id": "0102",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's buildings and land in Bangalore, India."
+      },
+      {
+        "title": "Buildings and Land in Noida, India",
+        "node_id": "0103",
+        "start_index": 30,
+        "end_index": 30,
+        "summary": "Details about Adobe's buildings and land in Noida, India."
+      },
+      {
+        "title": "Overview of Legal Proceedings",
+        "node_id": "0104",
+        "start_index": 31,
+        "end_index": 31,
+        "summary": "This subsection provides an overview of the legal proceedings involving the company."
+      },
+      {
+        "title": "Intellectual Property Disputes",
+        "node_id": "0105",
+        "start_index": 31,
+        "end_index": 31,
+        "summary": "This subsection discusses the intellectual property disputes involving the company."
+      },
+      {
+        "title": "Other Legal Proceedings",
+        "node_id": "0106",
+        "start_index": 31,
+        "end_index": 31,
+        "summary": "This subsection discusses other legal proceedings involving the company."
+      },
+      {
+        "title": "Not Applicable",
+        "node_id": "0107",
+        "start_index": 31,
+        "end_index": 31,
+        "summary": "This subsection explains why there are no mine safety disclosures in this section."
+      },
+      {
+        "title": "Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+        "node_id": "0108",
+        "start_index": 32,
+        "end_index": 32,
+        "summary": "Details the market for the company's common stock, including stock prices, trading volume, and other relevant information.",
+        "nodes": [
+          {
+            "title": "Market Information for Common Stock",
+            "node_id": "0109",
+            "start_index": 32,
+            "end_index": 32,
+            "summary": "Provides details on the market performance of the company's common stock.",
+            "nodes": [
+              {
+                "title": "Price Range",
+                "node_id": "0110",
+                "start_index": 32,
+                "end_index": 32,
+                "summary": "Lists the highest and lowest prices at which the company's common stock was traded during a specific period."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Market Information for Common Stock",
+        "node_id": "0111",
+        "start_index": 32,
+        "end_index": 32,
+        "summary": "Information about the trading price range of the company's common stock.",
+        "nodes": [
+          {
+            "title": "Trading Price Range",
+            "node_id": "0112",
+            "start_index": 32,
+            "end_index": 32,
+            "summary": "The highest and lowest trading prices of the company's common stock during the specified period."
+          }
+        ]
+      },
+      {
+        "title": "Stockholders",
+        "node_id": "0113",
+        "start_index": 32,
+        "end_index": 32,
+        "summary": "Information about the number of stockholders of record and the estimated total number of stockholders represented by these record holders."
+      },
+      {
+        "title": "Dividends",
+        "node_id": "0114",
+        "start_index": 32,
+        "end_index": 32,
+        "summary": "Information about the company's policy on declaring and paying cash dividends on its common stock."
+      },
+      {
+        "title": "Issuer Purchases of Equity Securities",
+        "node_id": "0115",
+        "start_index": 32,
+        "end_index": 32,
+        "summary": "Summary of stock repurchases for the three months ended December 1, 2017, including details about the prepayment agreement with a large financial institution."
+      },
+      {
+        "title": "Fiscal Years",
+        "node_id": "0116",
+        "start_index": 34,
+        "end_index": 34,
+        "summary": "The fiscal years presented below are as of the Friday closest to November 30 for the five fiscal periods through 2017.",
+        "nodes": [
+          {
+            "title": "2017",
+            "node_id": "0117",
+            "start_index": 34,
+            "end_index": 34,
+            "summary": "Revenue: $7,301,505; Gross profit: $6,291,014; Income before income taxes: $2,137,641; Net income: $1,693,954."
+          },
+          {
+            "title": "2016",
+            "node_id": "0118",
+            "start_index": 35,
+            "end_index": 35,
+            "summary": "Revenue: $5,854,430; Gross profit: $5,034,522; Income before income taxes: $1,435,138; Net income: $1,168,782."
+          },
+          {
+            "title": "2015",
+            "node_id": "0119",
+            "start_index": 36,
+            "end_index": 36,
+            "summary": "Revenue: $4,795,511; Gross profit: $4,051,194; Income before income taxes: $873,781; Net income: $629,551."
+          },
+          {
+            "title": "2014",
+            "node_id": "0120",
+            "start_index": 37,
+            "end_index": 37,
+            "summary": "Revenue: $4,147,065; Gross profit: $3,524,985; Income before income taxes: $361,376; Net income: $268,395."
+          },
+          {
+            "title": "2013",
+            "node_id": "0121",
+            "start_index": 38,
+            "end_index": 38,
+            "summary": "Revenue: $4,055,240; Gross profit: $3,468,683; Income before income taxes: $356,141; Net income: $289,985."
+          }
+        ]
+      },
+      {
+        "title": "Acquisitions",
+        "node_id": "0122",
+        "start_index": 35,
+        "end_index": 35,
+        "summary": "The company acquired TubeMogul and Fotolia, integrating them into their respective segments.",
+        "nodes": [
+          {
+            "title": "Acquisition of TubeMogul",
+            "node_id": "0123",
+            "start_index": 35,
+            "end_index": 35,
+            "summary": "The company acquired TubeMogul for $560.8 million, integrating it into the Digital Marketing segment."
+          },
+          {
+            "title": "Acquisition of Fotolia",
+            "node_id": "0124",
+            "start_index": 36,
+            "end_index": 36,
+            "summary": "The company acquired Fotolia for $807.5 million, integrating it into the Digital Media segment."
+          }
+        ]
+      },
+      {
+        "title": "Critical Accounting Policies and Estimates",
+        "node_id": "0125",
+        "start_index": 35,
+        "end_index": 35,
+        "summary": "The company discusses its critical accounting policies and estimates, including revenue recognition and income taxes.",
+        "nodes": [
+          {
+            "title": "Revenue Recognition",
+            "node_id": "0126",
+            "start_index": 35,
+            "end_index": 35,
+            "summary": "The company recognizes revenue based on the four revenue recognition criteria: persuasive evidence of an arrangement exists; we have delivered the product or performed the service; the fee is fixed or determinable; and collection is probable."
+          },
+          {
+            "title": "Income Taxes",
+            "node_id": "0127",
+            "start_index": 36,
+            "end_index": 36,
+            "summary": "The company discusses its critical accounting policies and estimates related to income taxes."
+          }
+        ]
+      },
+      {
+        "title": "Overview of Revenue Recognition Criteria",
+        "node_id": "0128",
+        "start_index": 36,
+        "end_index": 36,
+        "summary": "The section provides an overview of the revenue recognition criteria.",
+        "nodes": [
+          {
+            "title": "Revenue Recognition for Software Arrangements",
+            "node_id": "0129",
+            "start_index": 36,
+            "end_index": 36,
+            "summary": "This subsection discusses the revenue recognition process for software arrangements.",
+            "nodes": [
+              {
+                "title": "Arrangement Fee Recognition",
+                "node_id": "0130",
+                "start_index": 36,
+                "end_index": 36,
+                "summary": "This section explains how the arrangement fee is recognized ratably over the performance period."
+              },
+              {
+                "title": "Changes in Assumptions or Judgments",
+                "node_id": "0131",
+                "start_index": 37,
+                "end_index": 37,
+                "summary": "This section discusses how changes in assumptions or judgments can affect the revenue recognition process for software arrangements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0132",
+        "start_index": 37,
+        "end_index": 38
+      },
+      {
+        "title": "Digital Media ARR Growth",
+        "node_id": "0133",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The Digital Media ARR grew significantly from fiscal 2016 to fiscal 2017.",
+        "nodes": [
+          {
+            "title": "ARR Metrics",
+            "node_id": "0134",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The Digital Media ARR metrics show a significant increase from fiscal 2016 to fiscal 2017."
+          }
+        ]
+      },
+      {
+        "title": "Subscription Revenue Growth",
+        "node_id": "0135",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The subscription revenue for the fiscal year 2017 grew significantly compared to the fiscal year 2016.",
+        "nodes": [
+          {
+            "title": "Subscription Metrics",
+            "node_id": "0136",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The subscription metrics for the fiscal year 2017 show a significant increase compared to the fiscal year 2016."
+          }
+        ]
+      },
+      {
+        "title": "Cost of Revenue",
+        "node_id": "0137",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The cost of revenue for the fiscal year 2017 increased significantly compared to the fiscal year 2016.",
+        "nodes": [
+          {
+            "title": "Cost of Revenue Metrics",
+            "node_id": "0138",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The cost of revenue metrics for the fiscal year 2017 show a significant increase compared to the fiscal year 2016."
+          }
+        ]
+      },
+      {
+        "title": "Operating Expenses",
+        "node_id": "0139",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The operating expenses for the fiscal year 2017 increased significantly compared to the fiscal year 2016.",
+        "nodes": [
+          {
+            "title": "Operating Expenses Metrics",
+            "node_id": "0140",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The operating expenses metrics for the fiscal year 2017 show a significant increase compared to the fiscal year 2016."
+          }
+        ]
+      },
+      {
+        "title": "Net Income",
+        "node_id": "0141",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The net income for the fiscal year 2017 increased significantly compared to the fiscal year 2016.",
+        "nodes": [
+          {
+            "title": "Net Income Metrics",
+            "node_id": "0142",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The net income metrics for the fiscal year 2017 show a significant increase compared to the fiscal year 2016."
+          }
+        ]
+      },
+      {
+        "title": "Net Cash Flow from Operations",
+        "node_id": "0143",
+        "start_index": 39,
+        "end_index": 40,
+        "summary": "The net cash flow from operations for the fiscal year 2017 increased significantly compared to the fiscal year 2016.",
+        "nodes": [
+          {
+            "title": "Net Cash Flow from Operations Metrics",
+            "node_id": "0144",
+            "start_index": 39,
+            "end_index": 40,
+            "summary": "The net cash flow from operations metrics for the fiscal year 2017 show a significant increase compared to the fiscal year 2016."
+          }
+        ]
+      },
+      {
+        "title": "Segments",
+        "node_id": "0145",
+        "start_index": 41,
+        "end_index": 41,
+        "summary": "The company categorizes its products into three main segments: Digital Media, Digital Marketing, and Print and Publishing.",
+        "nodes": [
+          {
+            "title": "Digital Media",
+            "node_id": "0146",
+            "start_index": 41,
+            "end_index": 41,
+            "summary": "The Digital Media segment provides tools and solutions for creating, publishing, promoting, and monetizing digital content.",
+            "nodes": [
+              {
+                "title": "Revenue Growth",
+                "node_id": "0147",
+                "start_index": 41,
+                "end_index": 41,
+                "summary": "The Digital Media segment experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+              }
+            ]
+          },
+          {
+            "title": "Digital Marketing",
+            "node_id": "0148",
+            "start_index": 42,
+            "end_index": 42,
+            "summary": "The Digital Marketing segment provides solutions and services for creating, managing, executing, measuring, and optimizing digital advertising and marketing.",
+            "nodes": [
+              {
+                "title": "Revenue Growth",
+                "node_id": "0149",
+                "start_index": 41,
+                "end_index": 41,
+                "summary": "The Digital Marketing segment experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+              }
+            ]
+          },
+          {
+            "title": "Print and Publishing",
+            "node_id": "0150",
+            "start_index": 43,
+            "end_index": 43,
+            "summary": "The Print and Publishing segment addresses market opportunities ranging from diverse authoring and publishing needs to legacy type and OEM printing businesses.",
+            "nodes": [
+              {
+                "title": "Revenue Growth",
+                "node_id": "0151",
+                "start_index": 41,
+                "end_index": 41,
+                "summary": "The Print and Publishing segment experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Geographical Information",
+        "node_id": "0152",
+        "start_index": 41,
+        "end_index": 41,
+        "summary": "The company provides detailed geographical information on revenue growth for the fiscal years 2017, 2016, and 2015.",
+        "nodes": [
+          {
+            "title": "Americas",
+            "node_id": "0153",
+            "start_index": 41,
+            "end_index": 41,
+            "summary": "The Americas region experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+          },
+          {
+            "title": "EMEA",
+            "node_id": "0154",
+            "start_index": 42,
+            "end_index": 42,
+            "summary": "The EMEA region experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+          },
+          {
+            "title": "APAC",
+            "node_id": "0155",
+            "start_index": 43,
+            "end_index": 43,
+            "summary": "The APAC region experienced significant revenue growth during fiscal years 2017, 2016, and 2015."
+          }
+        ]
+      },
+      {
+        "title": "Foreign Currency Impact on Revenue",
+        "node_id": "0156",
+        "start_index": 43,
+        "end_index": 43,
+        "summary": "The section provides details on the foreign currency impact on revenue, including the overall change in revenue for fiscal 2017 and fiscal 2016, and the breakdown of the impact by different currency pairs.",
+        "nodes": [
+          {
+            "title": "Overall Change in Revenue",
+            "node_id": "0157",
+            "start_index": 43,
+            "end_index": 43,
+            "summary": "The overall change in revenue for fiscal 2017 and fiscal 2016, including the breakdown of the impact by different currency pairs.",
+            "nodes": [
+              {
+                "title": "Impact of Foreign Currency Exchange Rates",
+                "node_id": "0158",
+                "start_index": 43,
+                "end_index": 43,
+                "summary": "The impact of foreign currency exchange rates on revenue, including the breakdown of the impact by different currency pairs.",
+                "nodes": [
+                  {
+                    "title": "Impact of Euro",
+                    "node_id": "0159",
+                    "start_index": 43,
+                    "end_index": 43,
+                    "summary": "The impact of the Euro on revenue, including the breakdown of the impact by different Euro-based transactions."
+                  },
+                  {
+                    "title": "Impact of British Pound",
+                    "node_id": "0160",
+                    "start_index": 44,
+                    "end_index": 44,
+                    "summary": "The impact of the British Pound on revenue, including the breakdown of the impact by different British Pound-based transactions."
+                  },
+                  {
+                    "title": "Impact of Japanese Yen",
+                    "node_id": "0161",
+                    "start_index": 45,
+                    "end_index": 45,
+                    "summary": "The impact of the Japanese Yen on revenue, including the breakdown of the impact by different Japanese Yen-based transactions."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hedging Impact on Revenue",
+        "node_id": "0162",
+        "start_index": 43,
+        "end_index": 43,
+        "summary": "The section provides details on the hedging impact on revenue, including the breakdown of the impact by different currency pairs and the overall hedging impact on revenue.",
+        "nodes": [
+          {
+            "title": "Impact of Euro",
+            "node_id": "0163",
+            "start_index": 43,
+            "end_index": 43,
+            "summary": "The impact of the Euro on revenue, including the breakdown of the impact by different Euro-based transactions and the overall hedging impact on revenue."
+          },
+          {
+            "title": "Impact of British Pound",
+            "node_id": "0164",
+            "start_index": 44,
+            "end_index": 44,
+            "summary": "The impact of the British Pound on revenue, including the breakdown of the impact by different British Pound-based transactions and the overall hedging impact on revenue."
+          },
+          {
+            "title": "Impact of Japanese Yen",
+            "node_id": "0165",
+            "start_index": 45,
+            "end_index": 45,
+            "summary": "The impact of the Japanese Yen on revenue, including the breakdown of the impact by different Japanese Yen-based transactions and the overall hedging impact on revenue."
+          }
+        ]
+      },
+      {
+        "title": "Unbilled Deferred Revenue Backlog",
+        "node_id": "0166",
+        "start_index": 43,
+        "end_index": 43,
+        "summary": "The section provides details on the unbilled deferred revenue backlog, including the overall amount of unbilled deferred revenue backlog and the breakdown of the amount by different types of unbilled deferred revenue backlog.",
+        "nodes": [
+          {
+            "title": "Overall Amount of Unbilled Deferred Revenue Backlog",
+            "node_id": "0167",
+            "start_index": 43,
+            "end_index": 43,
+            "summary": "The overall amount of unbilled deferred revenue backlog, including the breakdown of the amount by different types of unbilled deferred revenue backlog."
+          },
+          {
+            "title": "Breakdown of the Amount of Unbilled Deferred Revenue Backlog by Different Types of Unbilled Deferred Revenue Backlog",
+            "node_id": "0168",
+            "start_index": 44,
+            "end_index": 44,
+            "summary": "The breakdown of the amount of unbilled deferred revenue backlog by different types of unbilled deferred revenue backlog, including the overall amount of unbilled deferred revenue backlog and the breakdown of the amount by different types of unbilled deferred revenue backlog."
+          }
+        ]
+      },
+      {
+        "title": "Research and Development, Sales and Marketing and General and Administrative Expenses",
+        "node_id": "0169",
+        "start_index": 46,
+        "end_index": 46,
+        "summary": "This section provides a detailed analysis of the changes in research and development, sales and marketing, and general and administrative expenses during fiscal 2017 compared to fiscal 2016 and fiscal 2015.",
+        "nodes": [
+          {
+            "title": "Research and Development Expenses",
+            "node_id": "0170",
+            "start_index": 46,
+            "end_index": 46,
+            "summary": "This section provides a detailed analysis of the changes in research and development expenses during fiscal 2017 compared to fiscal 2016 and fiscal 2015.",
+            "nodes": [
+              {
+                "title": "Research and Development Expenses Increased During Fiscal 2017 Compared to Fiscal 2016",
+                "node_id": "0171",
+                "start_index": 46,
+                "end_index": 46,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in research and development expenses during fiscal 2017 compared to fiscal 2016."
+              },
+              {
+                "title": "Research and Development Expenses Increased During Fiscal 2016 Compared to Fiscal 2015",
+                "node_id": "0172",
+                "start_index": 47,
+                "end_index": 47,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in research and development expenses during fiscal 2016 compared to fiscal 2015."
+              }
+            ]
+          },
+          {
+            "title": "Sales and Marketing Expenses",
+            "node_id": "0173",
+            "start_index": 47,
+            "end_index": 47,
+            "summary": "This section provides a detailed analysis of the changes in sales and marketing expenses during fiscal 2017 compared to fiscal 2016 and fiscal 2015.",
+            "nodes": [
+              {
+                "title": "Sales and Marketing Expenses Increased During Fiscal 2017 Compared to Fiscal 2016",
+                "node_id": "0174",
+                "start_index": 46,
+                "end_index": 46,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in sales and marketing expenses during fiscal 2017 compared to fiscal 2016."
+              },
+              {
+                "title": "Sales and Marketing Expenses Increased During Fiscal 2016 Compared to Fiscal 2015",
+                "node_id": "0175",
+                "start_index": 47,
+                "end_index": 47,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in sales and marketing expenses during fiscal 2016 compared to fiscal 2015."
+              }
+            ]
+          },
+          {
+            "title": "General and Administrative Expenses",
+            "node_id": "0176",
+            "start_index": 48,
+            "end_index": 48,
+            "summary": "This section provides a detailed analysis of the changes in general and administrative expenses during fiscal 2017 compared to fiscal 2016 and fiscal 2015.",
+            "nodes": [
+              {
+                "title": "General and Administrative Expenses Increased During Fiscal 2017 Compared to Fiscal 2016",
+                "node_id": "0177",
+                "start_index": 46,
+                "end_index": 46,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in general and administrative expenses during fiscal 2017 compared to fiscal 2016."
+              },
+              {
+                "title": "General and Administrative Expenses Increased During Fiscal 2016 Compared to Fiscal 2015",
+                "node_id": "0178",
+                "start_index": 47,
+                "end_index": 47,
+                "summary": "This section provides a detailed analysis of the reasons behind the increase in general and administrative expenses during fiscal 2016 compared to fiscal 2015."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Interest Expense",
+        "node_id": "0179",
+        "start_index": 48,
+        "end_index": 48,
+        "summary": "Interest expense increased during fiscal 2017 and 2016 due to various factors.",
+        "nodes": [
+          {
+            "title": "Increase in Interest Expense During Fiscal 2017",
+            "node_id": "0180",
+            "start_index": 48,
+            "end_index": 48,
+            "summary": "Interest expense increased during fiscal 2017 due to various factors."
+          },
+          {
+            "title": "Increase in Interest Expense During Fiscal 2016",
+            "node_id": "0181",
+            "start_index": 49,
+            "end_index": 49,
+            "summary": "Interest expense increased during fiscal 2016 due to various factors."
+          }
+        ]
+      },
+      {
+        "title": "Investment Gains (Losses), Net",
+        "node_id": "0182",
+        "start_index": 48,
+        "end_index": 48,
+        "summary": "Investment gains (losses), net consist of unrealized holding gains and losses associated with deferred compensation plan assets and gains and losses associated with direct and indirect investments in privately held companies."
+      },
+      {
+        "title": "Provision for Income Taxes",
+        "node_id": "0183",
+        "start_index": 48,
+        "end_index": 48,
+        "summary": "The provision for income taxes includes various components such as effective tax rate, percentage of total revenue, and more.",
+        "nodes": [
+          {
+            "title": "Effective Tax Rate",
+            "node_id": "0184",
+            "start_index": 48,
+            "end_index": 48,
+            "summary": "The effective tax rate is calculated based on the income before taxes and the income tax expense. It reflects the actual tax burden on the company's income."
+          },
+          {
+            "title": "Percentage of Total Revenue",
+            "node_id": "0185",
+            "start_index": 49,
+            "end_index": 49,
+            "summary": "The percentage of total revenue is calculated based on the income before taxes and the total revenue. It reflects the proportion of the company's income that is subject to income taxes."
+          }
+        ]
+      },
+      {
+        "title": "Net Cash Provided by Operating Activities",
+        "node_id": "0186",
+        "start_index": 50,
+        "end_index": 50,
+        "summary": "The section explains how the company generated cash from its operating activities.",
+        "nodes": [
+          {
+            "title": "Net Income",
+            "node_id": "0187",
+            "start_index": 50,
+            "end_index": 50,
+            "summary": "The section details the company's net income for the fiscal year."
+          },
+          {
+            "title": "Non-Cash Items",
+            "node_id": "0188",
+            "start_index": 51,
+            "end_index": 51,
+            "summary": "The section explains the impact of non-cash items on the net cash provided by operating activities."
+          }
+        ]
+      },
+      {
+        "title": "Net Cash Used for Investing Activities",
+        "node_id": "0189",
+        "start_index": 50,
+        "end_index": 50,
+        "summary": "The section explains how the company used cash for investing activities during the fiscal year.",
+        "nodes": [
+          {
+            "title": "Purchases of Short-Term Investments",
+            "node_id": "0190",
+            "start_index": 50,
+            "end_index": 50,
+            "summary": "The section details the company's purchases of short-term investments during the fiscal year."
+          },
+          {
+            "title": "Acquisition of TubeMogul",
+            "node_id": "0191",
+            "start_index": 51,
+            "end_index": 51,
+            "summary": "The section provides details about the company's acquisition of TubeMogul during the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Net Cash Used for Financing Activities",
+        "node_id": "0192",
+        "start_index": 50,
+        "end_index": 50,
+        "summary": "The section explains how the company used cash for financing activities during the fiscal year.",
+        "nodes": [
+          {
+            "title": "Treasury Stock Repurchases",
+            "node_id": "0193",
+            "start_index": 50,
+            "end_index": 50,
+            "summary": "The section details the company's treasury stock repurchases during the fiscal year."
+          },
+          {
+            "title": "Excess Tax Benefits from Stock-Based Compensation",
+            "node_id": "0194",
+            "start_index": 51,
+            "end_index": 51,
+            "summary": "The section explains the impact of excess tax benefits from stock-based compensation on the net cash used for financing activities during the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Investments",
+        "node_id": "0195",
+        "start_index": 51,
+        "end_index": 51,
+        "summary": "The company's investments as of December 1, 2017.",
+        "nodes": [
+          {
+            "title": "Foreign Subsidiaries",
+            "node_id": "0196",
+            "start_index": 51,
+            "end_index": 51,
+            "summary": "Approximately 89% of the investments were held by foreign subsidiaries."
+          },
+          {
+            "title": "Material Repatriation Tax Effects",
+            "node_id": "0197",
+            "start_index": 52,
+            "end_index": 52,
+            "summary": "The investments were subject to material repatriation tax effects."
+          }
+        ]
+      },
+      {
+        "title": "Subsequent Events",
+        "node_id": "0198",
+        "start_index": 51,
+        "end_index": 51,
+        "summary": "The company purchased land near its headquarters in San Jose, California for a total purchase price of $68 million."
+      },
+      {
+        "title": "Contractual Obligations",
+        "node_id": "0199",
+        "start_index": 51,
+        "end_index": 51,
+        "summary": "The company's principal commitments as of December 1, 2017.",
+        "nodes": [
+          {
+            "title": "Total Contractual Obligations",
+            "node_id": "0200",
+            "start_index": 51,
+            "end_index": 51,
+            "summary": "The company's total contractual obligations as of December 1, 2017.",
+            "nodes": [
+              {
+                "title": "Notes, Including Interest",
+                "node_id": "0201",
+                "start_index": 51,
+                "end_index": 51,
+                "summary": "The company's notes, including interest, as of December 1, 2017."
+              },
+              {
+                "title": "Operating Lease Obligations",
+                "node_id": "0202",
+                "start_index": 52,
+                "end_index": 52,
+                "summary": "The company's operating lease obligations as of December 1, 2017."
+              },
+              {
+                "title": "Purchase Obligations",
+                "node_id": "0203",
+                "start_index": 53,
+                "end_index": 53,
+                "summary": "The company's purchase obligations as of December 1, 2017."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Foreign Currency Exposures and Hedging Instruments",
+        "node_id": "0204",
+        "start_index": 53,
+        "end_index": 54,
+        "summary": "Describes the company's foreign currency exposures and the hedging instruments used to manage these risks.",
+        "nodes": [
+          {
+            "title": "Significant Foreign Currency Revenue Exposures",
+            "node_id": "0205",
+            "start_index": 53,
+            "end_index": 53,
+            "summary": "Lists the company's significant foreign currency revenue exposures for fiscal years 2017, 2016, and 2015.",
+            "nodes": [
+              {
+                "title": "Fiscal Year 2017",
+                "node_id": "0206",
+                "start_index": 53,
+                "end_index": 53,
+                "summary": "Details the company's significant foreign currency revenue exposures for fiscal year 2017."
+              },
+              {
+                "title": "Fiscal Year 2016",
+                "node_id": "0207",
+                "start_index": 54,
+                "end_index": 54,
+                "summary": "Details the company's significant foreign currency revenue exposures for fiscal year 2016."
+              },
+              {
+                "title": "Fiscal Year 2015",
+                "node_id": "0208",
+                "start_index": 55,
+                "end_index": 55,
+                "summary": "Details the company's significant foreign currency revenue exposures for fiscal year 2015."
+              }
+            ]
+          },
+          {
+            "title": "Notional Equivalent of Outstanding Foreign Exchange Contracts",
+            "node_id": "0209",
+            "start_index": 54,
+            "end_index": 54,
+            "summary": "Provides details on the notional equivalent of the company's outstanding foreign exchange contracts as of December 1, 2017.",
+            "nodes": [
+              {
+                "title": "Total Notional Equivalent",
+                "node_id": "0210",
+                "start_index": 53,
+                "end_index": 53,
+                "summary": "Details the total notional equivalent of the company's outstanding foreign exchange contracts as of December 1, 2017."
+              },
+              {
+                "title": "Notional Equivalent by Currency",
+                "node_id": "0211",
+                "start_index": 54,
+                "end_index": 54,
+                "summary": "Details the notional equivalent of the company's outstanding foreign exchange contracts by currency as of December 1, 2017.",
+                "nodes": [
+                  {
+                    "title": "Euros",
+                    "node_id": "0212",
+                    "start_index": 53,
+                    "end_index": 53,
+                    "summary": "Details the notional equivalent of the company's outstanding foreign exchange contracts in Euros as of December 1, 2017."
+                  },
+                  {
+                    "title": "British Pounds",
+                    "node_id": "0213",
+                    "start_index": 54,
+                    "end_index": 54,
+                    "summary": "Details the notional equivalent of the company's outstanding foreign exchange contracts in British Pounds as of December 1, 2017."
+                  },
+                  {
+                    "title": "Japanese Yen",
+                    "node_id": "0214",
+                    "start_index": 55,
+                    "end_index": 55,
+                    "summary": "Details the notional equivalent of the company's outstanding foreign exchange contracts in Japanese Yen as of December 1, 2017."
+                  },
+                  {
+                    "title": "Other Foreign Currencies",
+                    "node_id": "0215",
+                    "start_index": 56,
+                    "end_index": 56,
+                    "summary": "Details the notional equivalent of the company's outstanding foreign exchange contracts in other foreign currencies as of December 1, 2017."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Master Netting Arrangements",
+            "node_id": "0216",
+            "start_index": 55,
+            "end_index": 55,
+            "summary": "Details the company's master netting arrangements that have the ability to further limit credit-related losses with the same counterparty by permitting net settlement transactions."
+          },
+          {
+            "title": "Sensitivity Analysis",
+            "node_id": "0217",
+            "start_index": 56,
+            "end_index": 56,
+            "summary": "Details the company's sensitivity analysis performed on all of its foreign exchange derivatives as of December 1, 2017."
+          }
+        ]
+      },
+      {
+        "title": "Interest Rate Risk",
+        "node_id": "0218",
+        "start_index": 55,
+        "end_index": 55,
+        "summary": "Describes the company's exposure to interest rate risk and provides details on the company's hedging activities.",
+        "nodes": [
+          {
+            "title": "Short-Term Investments and Fixed Income Securities",
+            "node_id": "0219",
+            "start_index": 55,
+            "end_index": 55,
+            "summary": "Provides details on the company's short-term investments and fixed income securities, including their maturities and exposure to interest rate risk.",
+            "nodes": [
+              {
+                "title": "Debt Securities Classified as Short-Term Investments",
+                "node_id": "0220",
+                "start_index": 55,
+                "end_index": 55,
+                "summary": "Details the company's debt securities classified as short-term investments, including their maturities and exposure to interest rate risk.",
+                "nodes": [
+                  {
+                    "title": "Market Value Exposure",
+                    "node_id": "0221",
+                    "start_index": 55,
+                    "end_index": 55,
+                    "summary": "Describes the company's exposure to changes in market value due to fluctuations in interest rates.",
+                    "nodes": [
+                      {
+                        "title": "Hedging Activities",
+                        "node_id": "0222",
+                        "start_index": 55,
+                        "end_index": 55,
+                        "summary": "Details the company's hedging activities, including the types of financial instruments used, the objectives of the hedging activities, and the effectiveness of the hedging activities in managing the company's exposure to interest rate risk."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0223",
+        "start_index": 56,
+        "end_index": 60
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0224",
+        "start_index": 61,
+        "end_index": 62,
+        "nodes": [
+          {
+            "title": "ADOBE SYSTEMS INCORPORATED",
+            "node_id": "0225",
+            "start_index": 61,
+            "end_index": 62,
+            "nodes": [
+              {
+                "title": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+                "node_id": "0226",
+                "start_index": 61,
+                "end_index": 61,
+                "nodes": [
+                  {
+                    "title": "In thousands",
+                    "node_id": "0227",
+                    "start_index": 61,
+                    "end_index": 62
+                  }
+                ]
+              },
+              {
+                "title": "Years Ended",
+                "node_id": "0228",
+                "start_index": 62,
+                "end_index": 62
+              },
+              {
+                "title": "December 1, 2017",
+                "node_id": "0229",
+                "start_index": 63,
+                "end_index": 63
+              },
+              {
+                "title": "December 2, 2016",
+                "node_id": "0230",
+                "start_index": 64,
+                "end_index": 64
+              },
+              {
+                "title": "November 27, 2015",
+                "node_id": "0231",
+                "start_index": 65,
+                "end_index": 65
+              },
+              {
+                "title": "Cash flows from operating activities:",
+                "node_id": "0232",
+                "start_index": 66,
+                "end_index": 66
+              },
+              {
+                "title": "Net income",
+                "node_id": "0233",
+                "start_index": 67,
+                "end_index": 67
+              },
+              {
+                "title": "Adjustments to reconcile net income to net cash provided by operating activities:",
+                "node_id": "0234",
+                "start_index": 68,
+                "end_index": 68
+              },
+              {
+                "title": "Depreciation, amortization and accretion",
+                "node_id": "0235",
+                "start_index": 69,
+                "end_index": 69
+              },
+              {
+                "title": "Stock-based compensation",
+                "node_id": "0236",
+                "start_index": 70,
+                "end_index": 70
+              },
+              {
+                "title": "Deferred income taxes",
+                "node_id": "0237",
+                "start_index": 71,
+                "end_index": 71
+              },
+              {
+                "title": "Gain on the sale of property",
+                "node_id": "0238",
+                "start_index": 72,
+                "end_index": 72
+              },
+              {
+                "title": "Unrealized (gains) losses on investments",
+                "node_id": "0239",
+                "start_index": 73,
+                "end_index": 73
+              },
+              {
+                "title": "Excess tax benefits from stock-based compensation",
+                "node_id": "0240",
+                "start_index": 74,
+                "end_index": 74
+              },
+              {
+                "title": "Other non-cash items",
+                "node_id": "0241",
+                "start_index": 75,
+                "end_index": 75
+              },
+              {
+                "title": "Changes in operating assets and liabilities, net of acquired assets and",
+                "node_id": "0242",
+                "start_index": 76,
+                "end_index": 76
+              },
+              {
+                "title": "acquired liabilities:",
+                "node_id": "0243",
+                "start_index": 77,
+                "end_index": 77
+              },
+              {
+                "title": "Trade receivables, net",
+                "node_id": "0244",
+                "start_index": 78,
+                "end_index": 78
+              },
+              {
+                "title": "Prepaid expenses and other current assets",
+                "node_id": "0245",
+                "start_index": 79,
+                "end_index": 79
+              },
+              {
+                "title": "Trade payables",
+                "node_id": "0246",
+                "start_index": 80,
+                "end_index": 80
+              },
+              {
+                "title": "Accrued expenses",
+                "node_id": "0247",
+                "start_index": 81,
+                "end_index": 81
+              },
+              {
+                "title": "Income taxes payable",
+                "node_id": "0248",
+                "start_index": 82,
+                "end_index": 82
+              },
+              {
+                "title": "Deferred revenue",
+                "node_id": "0249",
+                "start_index": 83,
+                "end_index": 83
+              },
+              {
+                "title": "Cash flows from investing activities:",
+                "node_id": "0250",
+                "start_index": 84,
+                "end_index": 84
+              },
+              {
+                "title": "Purchases of short-term investments",
+                "node_id": "0251",
+                "start_index": 85,
+                "end_index": 85
+              },
+              {
+                "title": "Maturities of short-term investments",
+                "node_id": "0252",
+                "start_index": 86,
+                "end_index": 86
+              },
+              {
+                "title": "Proceeds from sales of short-term investments",
+                "node_id": "0253",
+                "start_index": 87,
+                "end_index": 87
+              },
+              {
+                "title": "Acquisitions, net of cash acquired",
+                "node_id": "0254",
+                "start_index": 88,
+                "end_index": 88
+              },
+              {
+                "title": "Purchases of property and equipment",
+                "node_id": "0255",
+                "start_index": 89,
+                "end_index": 89
+              },
+              {
+                "title": "Proceeds from sale of property",
+                "node_id": "0256",
+                "start_index": 90,
+                "end_index": 90
+              },
+              {
+                "title": "Purchases of long-term investments, intangibles and other assets",
+                "node_id": "0257",
+                "start_index": 91,
+                "end_index": 91
+              },
+              {
+                "title": "Cash flows from financing activities:",
+                "node_id": "0258",
+                "start_index": 92,
+                "end_index": 92
+              },
+              {
+                "title": "Purchases of treasury stock",
+                "node_id": "0259",
+                "start_index": 93,
+                "end_index": 93
+              },
+              {
+                "title": "Proceeds from issuance of treasury stock",
+                "node_id": "0260",
+                "start_index": 94,
+                "end_index": 94
+              },
+              {
+                "title": "Taxes paid related to net share settlement of equity awards",
+                "node_id": "0261",
+                "start_index": 95,
+                "end_index": 95
+              },
+              {
+                "title": "Excess tax benefits from stock-based compensation",
+                "node_id": "0262",
+                "start_index": 96,
+                "end_index": 96
+              },
+              {
+                "title": "Net cash used for financing activities",
+                "node_id": "0263",
+                "start_index": 97,
+                "end_index": 97
+              },
+              {
+                "title": "Effect of foreign currency exchange rates on cash and cash equivalents",
+                "node_id": "0264",
+                "start_index": 98,
+                "end_index": 98
+              },
+              {
+                "title": "Net increase (decrease) in cash and cash equivalents",
+                "node_id": "0265",
+                "start_index": 99,
+                "end_index": 99
+              },
+              {
+                "title": "Cash and cash equivalents at beginning of year",
+                "node_id": "0266",
+                "start_index": 100,
+                "end_index": 100
+              },
+              {
+                "title": "Cash and cash equivalents at end of year",
+                "node_id": "0267",
+                "start_index": 101,
+                "end_index": 101
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0268",
+        "start_index": 63,
+        "end_index": 64
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0269",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "The table of contents provides an overview of the financial statements and supplementary data for Adobe Systems Incorporated."
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0270",
+        "start_index": 65,
+        "end_index": 65,
+        "summary": "This section provides detailed notes to the consolidated financial statements for Adobe Systems Incorporated.",
+        "nodes": [
+          {
+            "title": "Page 65",
+            "node_id": "0271",
+            "start_index": 65,
+            "end_index": 65,
+            "summary": "This page contains the table of contents and the notes to the consolidated financial statements for Adobe Systems Incorporated."
+          },
+          {
+            "title": "Page 66",
+            "node_id": "0272",
+            "start_index": 66,
+            "end_index": 66,
+            "summary": "This page contains the notes to the consolidated financial statements for Adobe Systems Incorporated."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0273",
+        "start_index": 67,
+        "end_index": 68
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0274",
+        "start_index": 70,
+        "end_index": 70,
+        "summary": "This section provides detailed notes to the consolidated financial statements, including information about recent accounting pronouncements, acquisitions, and cash, cash equivalents, and short-term investments.",
+        "nodes": [
+          {
+            "title": "Recent Accounting Pronouncements Not Yet Effective",
+            "node_id": "0275",
+            "start_index": 71,
+            "end_index": 71,
+            "summary": "This section discusses recent accounting pronouncements that have not yet become effective, but which may have potential significance to the company's consolidated financial statements."
+          },
+          {
+            "title": "Acquisitions",
+            "node_id": "0276",
+            "start_index": 72,
+            "end_index": 72,
+            "summary": "This section provides details about the company's acquisitions, including the dates of acquisition, the names of the acquired companies, and the impact of the acquisitions on the company's consolidated financial statements.",
+            "nodes": [
+              {
+                "title": "TubeMogul",
+                "node_id": "0277",
+                "start_index": 73,
+                "end_index": 73,
+                "summary": "This section provides details about the company's acquisition of TubeMogul, including the date of acquisition, the name of the acquired company, and the impact of the acquisition on the company's consolidated financial statements."
+              },
+              {
+                "title": "Fotolia",
+                "node_id": "0278",
+                "start_index": 74,
+                "end_index": 74,
+                "summary": "This section provides details about the company's acquisition of Fotolia, including the date of acquisition, the name of the acquired company, and the impact of the acquisition on the company's consolidated financial statements."
+              }
+            ]
+          },
+          {
+            "title": "Cash, Cash Equivalents and Short-Term Investments",
+            "node_id": "0279",
+            "start_index": 75,
+            "end_index": 75,
+            "summary": "This section provides details about the company's cash, cash equivalents, and short-term investments, including the carrying amounts, the classification of the investments, and the impact of the investments on the company's consolidated financial statements."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0280",
+        "start_index": 71,
+        "end_index": 74
+      },
+      {
+        "title": "Adobe Systems Incorporated",
+        "node_id": "0281",
+        "start_index": 71,
+        "end_index": 74,
+        "nodes": [
+          {
+            "title": "Notes to Consolidated Financial Statements (Continued)",
+            "node_id": "0282",
+            "start_index": 71,
+            "end_index": 74,
+            "nodes": [
+              {
+                "title": "72 - Fair Value Measurements",
+                "node_id": "0283",
+                "start_index": 71,
+                "end_index": 74,
+                "nodes": [
+                  {
+                    "title": "Assets",
+                    "node_id": "0284",
+                    "start_index": 71,
+                    "end_index": 74,
+                    "nodes": [
+                      {
+                        "title": "Cash Equivalents",
+                        "node_id": "0285",
+                        "start_index": 71,
+                        "end_index": 74,
+                        "nodes": [
+                          {
+                            "title": "Money Market Mutual Funds",
+                            "node_id": "0286",
+                            "start_index": 71,
+                            "end_index": 74
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0287",
+        "start_index": 75,
+        "end_index": 75,
+        "summary": "A list of contents for the financial statements and supplementary data section."
+      },
+      {
+        "title": "Adobes Systems Incorporated",
+        "node_id": "0288",
+        "start_index": 75,
+        "end_index": 75,
+        "summary": "The name of the company providing the financial statements and supplementary data."
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0289",
+        "start_index": 75,
+        "end_index": 75,
+        "summary": "A continuation of the notes to the consolidated financial statements.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0290",
+            "start_index": 75,
+            "end_index": 75,
+            "summary": "A list of contents for the financial statements and supplementary data section."
+          },
+          {
+            "title": "Adobes Systems Incorporated",
+            "node_id": "0291",
+            "start_index": 76,
+            "end_index": 76,
+            "summary": "The name of the company providing the financial statements and supplementary data."
+          },
+          {
+            "title": "Page 75",
+            "node_id": "0292",
+            "start_index": 77,
+            "end_index": 77,
+            "summary": "The page number indicating where the financial statement content begins."
+          },
+          {
+            "title": "Table of Contents",
+            "node_id": "0293",
+            "start_index": 78,
+            "end_index": 78,
+            "summary": "A list of contents for the financial statements and supplementary data section."
+          },
+          {
+            "title": "Adobes Systems Incorporated",
+            "node_id": "0294",
+            "start_index": 79,
+            "end_index": 79,
+            "summary": "The name of the company providing the financial statements and supplementary data."
+          },
+          {
+            "title": "Page 76",
+            "node_id": "0295",
+            "start_index": 80,
+            "end_index": 80,
+            "summary": "The page number indicating where the financial statement content continues."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0296",
+        "start_index": 77,
+        "end_index": 80
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0297",
+        "start_index": 81,
+        "end_index": 81,
+        "summary": "This subsection lists the contents of the document, including the table of contents itself."
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0298",
+        "start_index": 81,
+        "end_index": 81,
+        "summary": "This section provides detailed notes to the consolidated financial statements, including information on income tax provisions, deferred tax assets and liabilities, unrecognized tax benefits, and the impact of tax examinations.",
+        "nodes": [
+          {
+            "title": "Total income tax expense differs from the expected tax expense (computed by multiplying the U.S. federal statutory rate of 35% by income before income taxes) as a result of the following (in thousands):",
+            "node_id": "0299",
+            "start_index": 81,
+            "end_index": 81,
+            "summary": "This subsection provides a detailed breakdown of the differences between the actual income tax expense and the expected tax expense, based on the U.S. federal statutory rate of 35%. The differences are attributed to various factors, including state and foreign tax credits, stock-based compensation, and the resolution of income tax examinations.",
+            "nodes": [
+              {
+                "title": "2017",
+                "node_id": "0300",
+                "start_index": 81,
+                "end_index": 81,
+                "summary": "This subsection provides a detailed breakdown of the differences between the actual income tax expense and the expected tax expense for the fiscal year 2017, based on the U.S. federal statutory rate of 35%. The differences are attributed to various factors, including state and foreign tax credits, stock-based compensation, and the resolution of income tax examinations."
+              },
+              {
+                "title": "2016",
+                "node_id": "0301",
+                "start_index": 82,
+                "end_index": 82,
+                "summary": "This subsection provides a detailed breakdown of the differences between the actual income tax expense and the expected tax expense for the fiscal year 2016, based on the U.S. federal statutory rate of 35%. The differences are attributed to various factors, including state and foreign tax credits, stock-based compensation, and the resolution of income tax examinations."
+              },
+              {
+                "title": "2015",
+                "node_id": "0302",
+                "start_index": 83,
+                "end_index": 83,
+                "summary": "This subsection provides a detailed breakdown of the differences between the actual income tax expense and the expected tax expense for the fiscal year 2015, based on the U.S. federal statutory rate of 35%. The differences are attributed to various factors, including state and foreign tax credits, stock-based compensation, and the resolution of income tax examinations."
+              }
+            ]
+          },
+          {
+            "title": "State and Foreign Tax Credit Carryforwards",
+            "node_id": "0303",
+            "start_index": 82,
+            "end_index": 82,
+            "summary": "This subsection provides a detailed breakdown of the state and foreign tax credit carryforwards, including the amount of the carryforwards and the expiration dates of the carryforwards."
+          },
+          {
+            "title": "Capitalized Expenses",
+            "node_id": "0304",
+            "start_index": 83,
+            "end_index": 83,
+            "summary": "This subsection provides a detailed breakdown of the capitalized expenses, including the amount of the capitalized expenses and the purpose of the capitalized expenses."
+          },
+          {
+            "title": "Benefits Relating to Tax Positions",
+            "node_id": "0305",
+            "start_index": 84,
+            "end_index": 84,
+            "summary": "This subsection provides a detailed breakdown of the benefits relating to tax positions, including the amount of the benefits and the specific tax positions that generated the benefits."
+          },
+          {
+            "title": "Other",
+            "node_id": "0306",
+            "start_index": 85,
+            "end_index": 85,
+            "summary": "This subsection provides a detailed breakdown of the other items, including the amount of the other items and the specific nature of the other items."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0307",
+        "start_index": 83,
+        "end_index": 83,
+        "summary": "This section lists the contents of the financial statements and supplementary data of Adobe Systems Incorporated."
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0308",
+        "start_index": 83,
+        "end_index": 83,
+        "summary": "This section provides detailed notes to the consolidated financial statements of Adobe Systems Incorporated.",
+        "nodes": [
+          {
+            "title": "Subsequent to December 1, 2017",
+            "node_id": "0309",
+            "start_index": 83,
+            "end_index": 83,
+            "summary": "This section discusses the subsequent events that occurred after December 1, 2017, for Adobe Systems Incorporated.",
+            "nodes": [
+              {
+                "title": "Adoption of the Tax Cuts and Jobs Act (the \u201cAct\u201d))",
+                "node_id": "0310",
+                "start_index": 83,
+                "end_index": 83,
+                "summary": "This section explains the adoption of the Tax Cuts and Jobs Act (the \u201cAct\u201d)) by Adobe Systems Incorporated and the broad tax reforms that are applicable to Adobe.",
+                "nodes": [
+                  {
+                    "title": "Changes in U.S. Corporate Tax Rate",
+                    "node_id": "0311",
+                    "start_index": 83,
+                    "end_index": 83,
+                    "summary": "This section describes the changes in the U.S. corporate tax rate from 35% to 21% effective January 1, 2018, for Adobe Systems Incorporated."
+                  },
+                  {
+                    "title": "Impact on Undistributed Foreign Earnings",
+                    "node_id": "0312",
+                    "start_index": 84,
+                    "end_index": 84,
+                    "summary": "This section discusses the impact of the changes in the U.S. corporate tax rate on the undistributed foreign earnings of Adobe Systems Incorporated."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Deferred Compensation Plan",
+            "node_id": "0313",
+            "start_index": 84,
+            "end_index": 84,
+            "summary": "This section provides details about the Deferred Compensation Plan of Adobe Systems Incorporated, including the eligibility criteria, contribution limits, and distribution options."
+          },
+          {
+            "title": "Stock-Based Compensation Programs",
+            "node_id": "0314",
+            "start_index": 85,
+            "end_index": 85,
+            "summary": "This section provides details about the various stock-based compensation programs of Adobe Systems Incorporated, including the types of compensation offered, the eligibility criteria, and the vesting schedules."
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0315",
+        "start_index": 85,
+        "end_index": 87,
+        "nodes": [
+          {
+            "title": "Page 85",
+            "node_id": "0316",
+            "start_index": 85,
+            "end_index": 85,
+            "nodes": [
+              {
+                "title": "Table of Contents",
+                "node_id": "0317",
+                "start_index": 85,
+                "end_index": 85
+              },
+              {
+                "title": "Summary of Restricted Stock Units",
+                "node_id": "0318",
+                "start_index": 86,
+                "end_index": 86,
+                "nodes": [
+                  {
+                    "title": "2017",
+                    "node_id": "0319",
+                    "start_index": 85,
+                    "end_index": 85,
+                    "nodes": [
+                      {
+                        "title": "Beginning outstanding balance",
+                        "node_id": "0320",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Awarded",
+                        "node_id": "0321",
+                        "start_index": 86,
+                        "end_index": 86
+                      },
+                      {
+                        "title": "Released",
+                        "node_id": "0322",
+                        "start_index": 87,
+                        "end_index": 87
+                      },
+                      {
+                        "title": "Forfeited",
+                        "node_id": "0323",
+                        "start_index": 88,
+                        "end_index": 88
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2016",
+                    "node_id": "0324",
+                    "start_index": 86,
+                    "end_index": 86,
+                    "nodes": [
+                      {
+                        "title": "Beginning outstanding balance",
+                        "node_id": "0325",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Awarded",
+                        "node_id": "0326",
+                        "start_index": 86,
+                        "end_index": 86
+                      },
+                      {
+                        "title": "Released",
+                        "node_id": "0327",
+                        "start_index": 87,
+                        "end_index": 87
+                      },
+                      {
+                        "title": "Forfeited",
+                        "node_id": "0328",
+                        "start_index": 88,
+                        "end_index": 88
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2015",
+                    "node_id": "0329",
+                    "start_index": 87,
+                    "end_index": 87,
+                    "nodes": [
+                      {
+                        "title": "Beginning outstanding balance",
+                        "node_id": "0330",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Awarded",
+                        "node_id": "0331",
+                        "start_index": 86,
+                        "end_index": 86
+                      },
+                      {
+                        "title": "Released",
+                        "node_id": "0332",
+                        "start_index": 87,
+                        "end_index": 87
+                      },
+                      {
+                        "title": "Forfeited",
+                        "node_id": "0333",
+                        "start_index": 88,
+                        "end_index": 88
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Summary of Performance Shares",
+                "node_id": "0334",
+                "start_index": 87,
+                "end_index": 87,
+                "nodes": [
+                  {
+                    "title": "2017",
+                    "node_id": "0335",
+                    "start_index": 85,
+                    "end_index": 85,
+                    "nodes": [
+                      {
+                        "title": "Shares Granted and Achieved",
+                        "node_id": "0336",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Aggregate Intrinsic Value",
+                        "node_id": "0337",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2016",
+                    "node_id": "0338",
+                    "start_index": 86,
+                    "end_index": 86,
+                    "nodes": [
+                      {
+                        "title": "Shares Granted and Achieved",
+                        "node_id": "0339",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Aggregate Intrinsic Value",
+                        "node_id": "0340",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2015",
+                    "node_id": "0341",
+                    "start_index": 87,
+                    "end_index": 87,
+                    "nodes": [
+                      {
+                        "title": "Shares Granted and Achieved",
+                        "node_id": "0342",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Aggregate Intrinsic Value",
+                        "node_id": "0343",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Page 86",
+            "node_id": "0344",
+            "start_index": 86,
+            "end_index": 87,
+            "nodes": [
+              {
+                "title": "Summary of Stock Options",
+                "node_id": "0345",
+                "start_index": 85,
+                "end_index": 87,
+                "nodes": [
+                  {
+                    "title": "2017",
+                    "node_id": "0346",
+                    "start_index": 85,
+                    "end_index": 85,
+                    "nodes": [
+                      {
+                        "title": "Grants to Executive Officers",
+                        "node_id": "0347",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Grants to Non-Employee Directors",
+                        "node_id": "0348",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2016",
+                    "node_id": "0349",
+                    "start_index": 86,
+                    "end_index": 86,
+                    "nodes": [
+                      {
+                        "title": "Grants to Executive Officers",
+                        "node_id": "0350",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Grants to Non-Employee Directors",
+                        "node_id": "0351",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  },
+                  {
+                    "title": "2015",
+                    "node_id": "0352",
+                    "start_index": 87,
+                    "end_index": 87,
+                    "nodes": [
+                      {
+                        "title": "Grants to Executive Officers",
+                        "node_id": "0353",
+                        "start_index": 85,
+                        "end_index": 85
+                      },
+                      {
+                        "title": "Grants to Non-Employee Directors",
+                        "node_id": "0354",
+                        "start_index": 86,
+                        "end_index": 87
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0355",
+        "start_index": 88,
+        "end_index": 90,
+        "nodes": [
+          {
+            "title": "Page 88",
+            "node_id": "0356",
+            "start_index": 88,
+            "end_index": 90,
+            "nodes": [
+              {
+                "title": "Income Statement Classifications",
+                "node_id": "0357",
+                "start_index": 88,
+                "end_index": 90,
+                "nodes": [
+                  {
+                    "title": "Option Grants and Stock Purchase Rights",
+                    "node_id": "0358",
+                    "start_index": 88,
+                    "end_index": 90,
+                    "nodes": [
+                      {
+                        "title": "2017",
+                        "node_id": "0359",
+                        "start_index": 88,
+                        "end_index": 90,
+                        "nodes": [
+                          {
+                            "title": "2016",
+                            "node_id": "0360",
+                            "start_index": 88,
+                            "end_index": 90
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Page 89",
+        "node_id": "0361",
+        "start_index": 88,
+        "end_index": 90,
+        "nodes": [
+          {
+            "title": "Components of Accumulated Other Comprehensive Income (Loss)",
+            "node_id": "0362",
+            "start_index": 88,
+            "end_index": 90,
+            "nodes": [
+              {
+                "title": "2017",
+                "node_id": "0363",
+                "start_index": 88,
+                "end_index": 90,
+                "nodes": [
+                  {
+                    "title": "2016",
+                    "node_id": "0364",
+                    "start_index": 88,
+                    "end_index": 90,
+                    "nodes": [
+                      {
+                        "title": "2015",
+                        "node_id": "0365",
+                        "start_index": 88,
+                        "end_index": 90
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Page 90",
+        "node_id": "0366",
+        "start_index": 88,
+        "end_index": 90,
+        "nodes": [
+          {
+            "title": "Net Income Per Share",
+            "node_id": "0367",
+            "start_index": 88,
+            "end_index": 90,
+            "nodes": [
+              {
+                "title": "Basic Net Income Per Share",
+                "node_id": "0368",
+                "start_index": 88,
+                "end_index": 90,
+                "nodes": [
+                  {
+                    "title": "Diluted Net Income Per Share",
+                    "node_id": "0369",
+                    "start_index": 88,
+                    "end_index": 90,
+                    "nodes": [
+                      {
+                        "title": "Unconditional Purchase Obligations",
+                        "node_id": "0370",
+                        "start_index": 88,
+                        "end_index": 90,
+                        "nodes": [
+                          {
+                            "title": "Lease Commitments",
+                            "node_id": "0371",
+                            "start_index": 88,
+                            "end_index": 90
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0372",
+        "start_index": 91,
+        "end_index": 91,
+        "summary": "This section lists the contents of the document."
+      },
+      {
+        "title": "Adobe Systems Incorporated",
+        "node_id": "0373",
+        "start_index": 91,
+        "end_index": 91,
+        "summary": "This section provides details about Adobe Systems Incorporated.",
+        "nodes": [
+          {
+            "title": "Notes to Consolidated Financial Statements (Continued)",
+            "node_id": "0374",
+            "start_index": 91,
+            "end_index": 91,
+            "summary": "This section provides detailed notes to the consolidated financial statements.",
+            "nodes": [
+              {
+                "title": "Operating Leases",
+                "node_id": "0375",
+                "start_index": 91,
+                "end_index": 91,
+                "summary": "This section provides details about the company's operating leases.",
+                "nodes": [
+                  {
+                    "title": "Fiscal Year 2018",
+                    "node_id": "0376",
+                    "start_index": 91,
+                    "end_index": 91,
+                    "summary": "This section provides details about the company's operating lease payments for the fiscal year 2018."
+                  },
+                  {
+                    "title": "Fiscal Year 2019",
+                    "node_id": "0377",
+                    "start_index": 92,
+                    "end_index": 92,
+                    "summary": "This section provides details about the company's operating lease payments for the fiscal year 2019."
+                  },
+                  {
+                    "title": "Fiscal Year 2020",
+                    "node_id": "0378",
+                    "start_index": 93,
+                    "end_index": 93,
+                    "summary": "This section provides details about the company's operating lease payments for the fiscal year 2020."
+                  },
+                  {
+                    "title": "Fiscal Year 2021",
+                    "node_id": "0379",
+                    "start_index": 94,
+                    "end_index": 94,
+                    "summary": "This section provides details about the company's operating lease payments for the fiscal year 2021."
+                  },
+                  {
+                    "title": "Fiscal Year 2022",
+                    "node_id": "0380",
+                    "start_index": 95,
+                    "end_index": 95,
+                    "summary": "This section provides details about the company's operating lease payments for the fiscal year 2022."
+                  },
+                  {
+                    "title": "Thereafter",
+                    "node_id": "0381",
+                    "start_index": 96,
+                    "end_index": 96,
+                    "summary": "This section provides details about the company's operating lease payments after the specified fiscal years."
+                  }
+                ]
+              },
+              {
+                "title": "Other",
+                "node_id": "0382",
+                "start_index": 92,
+                "end_index": 92,
+                "summary": "This section provides details about the company's other financial obligations.",
+                "nodes": [
+                  {
+                    "title": "Subsequent to December 1, 2017",
+                    "node_id": "0383",
+                    "start_index": 91,
+                    "end_index": 91,
+                    "summary": "This section provides details about the company's subsequent financial obligations after December 1, 2017."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0384",
+        "start_index": 93,
+        "end_index": 95
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0385",
+        "start_index": 96,
+        "end_index": 96,
+        "summary": "This section lists the contents of the financial statements and supplementary data for Adobe Systems Incorporated."
+      },
+      {
+        "title": "Page 96",
+        "node_id": "0386",
+        "start_index": 96,
+        "end_index": 96,
+        "summary": "This section contains the financial statements and supplementary data for Adobe Systems Incorporated as listed on page 96.",
+        "nodes": [
+          {
+            "title": "Table of Contents",
+            "node_id": "0387",
+            "start_index": 96,
+            "end_index": 96,
+            "summary": "This section lists the contents of the financial statements and supplementary data for Adobe Systems Incorporated as listed on page 96."
+          }
+        ]
+      },
+      {
+        "title": "Page 97",
+        "node_id": "0388",
+        "start_index": 96,
+        "end_index": 96,
+        "summary": "This section contains the financial statements and supplementary data for Adobe Systems Incorporated as listed on page 97.",
+        "nodes": [
+          {
+            "title": "Report of Independent Registered Public Accounting Firm",
+            "node_id": "0389",
+            "start_index": 96,
+            "end_index": 96,
+            "summary": "This section provides the report of the independent registered public accounting firm, KPMG LLP, for Adobe Systems Incorporated as listed on page 97.",
+            "nodes": [
+              {
+                "title": "KPMG LLP",
+                "node_id": "0390",
+                "start_index": 96,
+                "end_index": 96,
+                "summary": "This section provides the name and address of the independent registered public accounting firm, KPMG LLP, for Adobe Systems Incorporated as listed on page 97."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ITEM 9A. CONTROLS AND PROCEDURES",
+        "node_id": "0391",
+        "start_index": 98,
+        "end_index": 98,
+        "summary": "Disclosure Controls and Procedures",
+        "nodes": [
+          {
+            "title": "Disclosure Controls and Procedures",
+            "node_id": "0392",
+            "start_index": 98,
+            "end_index": 98,
+            "summary": "Our management has evaluated, under the supervision and with the participation of our Chief Executive Officer and Chief Financial Officer, the effectiveness of our disclosure controls and procedures as of December 1, 2017. Based on their evaluation as of December 1, 2017, our Chief Executive Officer and Chief Financial Officer have concluded that our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended) were effective at the reasonable assurance level to ensure that the information required to be disclosed by us in this Annual Report on Form 10-K was (i) recorded, processed, summarized and reported within the time periods specified in the SEC\u2019s rules and regulations and (ii) accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, to allow timely decisions regarding required disclosure."
+          }
+        ]
+      },
+      {
+        "title": "Disclosure Controls and Procedures",
+        "node_id": "0393",
+        "start_index": 98,
+        "end_index": 98,
+        "summary": "Describes the process of evaluating the effectiveness of disclosure controls and procedures.",
+        "nodes": [
+          {
+            "title": "Evaluation Process",
+            "node_id": "0394",
+            "start_index": 98,
+            "end_index": 98,
+            "summary": "Details the steps taken to evaluate the effectiveness of disclosure controls and procedures.",
+            "nodes": [
+              {
+                "title": "Evaluation Date",
+                "node_id": "0395",
+                "start_index": 98,
+                "end_index": 98,
+                "summary": "States the date on which the evaluation of the effectiveness of disclosure controls and procedures was conducted."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.",
+        "node_id": "0396",
+        "start_index": 98,
+        "end_index": 98,
+        "summary": "This item discusses the departure of certain officers from the company.",
+        "nodes": [
+          {
+            "title": "Departure of Mark Garrett",
+            "node_id": "0397",
+            "start_index": 98,
+            "end_index": 98,
+            "summary": "Mark Garrett, Executive Vice President and Chief Financial Officer, has notified the company of his intent to retire during 2018."
+          },
+          {
+            "title": "Departure of Mike Dillon",
+            "node_id": "0398",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "Mike Dillon, Executive Vice President and General Counsel, has notified the company of his intent to retire during 2018."
+          }
+        ]
+      },
+      {
+        "title": "ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE",
+        "node_id": "0399",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "This item provides information about the directors, executive officers, and corporate governance practices of the company.",
+        "nodes": [
+          {
+            "title": "Information from 2018 Proxy Statement",
+            "node_id": "0400",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information provided here is taken from the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Information from 2018 Proxy Statement",
+        "node_id": "0401",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details about directors, executive officers, and corporate governance as provided in the 2018 Proxy Statement."
+      },
+      {
+        "title": "Proxy Statement Reference",
+        "node_id": "0402",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "The information required by this Item 11 of Form 10-K is incorporated herein by reference to our 2018 Proxy Statement."
+      },
+      {
+        "title": "Security Ownership of Certain Beneficial Owners",
+        "node_id": "0403",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details the security ownership of specific beneficial owners."
+      },
+      {
+        "title": "Security Ownership of Management",
+        "node_id": "0404",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details the security ownership of the company's management."
+      },
+      {
+        "title": "Related Stockholder Matters",
+        "node_id": "0405",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details any related matters concerning the company's stockholders."
+      },
+      {
+        "title": "Certain Relationships and Related Transactions",
+        "node_id": "0406",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details on specific relationships and related transactions involving the company."
+      },
+      {
+        "title": "Director Independence",
+        "node_id": "0407",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Information on the independence of the company's directors."
+      },
+      {
+        "title": "Information from 2018 Proxy Statement",
+        "node_id": "0408",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Details on principal accounting fees and services as provided in the 2018 Proxy Statement."
+      },
+      {
+        "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+        "node_id": "0409",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Discusses the directors, executive officers, and corporate governance policies of the company.",
+        "nodes": [
+          {
+            "title": "Incorporated by Reference",
+            "node_id": "0410",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information required for this item is included in the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Item 11. Executive Compensation",
+        "node_id": "0411",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Discusses the compensation of the company\u2019s executive officers.",
+        "nodes": [
+          {
+            "title": "Incorporated by Reference",
+            "node_id": "0412",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information required for this item is included in the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+        "node_id": "0413",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Discusses the security ownership of certain beneficial owners and management of the company, as well as related stockholder matters.",
+        "nodes": [
+          {
+            "title": "Incorporated by Reference",
+            "node_id": "0414",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information required for this item is included in the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+        "node_id": "0415",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Discusses the certain relationships and related transactions involving the company, as well as the independence of the company\u2019s directors.",
+        "nodes": [
+          {
+            "title": "Incorporated by Reference",
+            "node_id": "0416",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information required for this item is included in the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Item 14. Principal Accounting Fees and Services",
+        "node_id": "0417",
+        "start_index": 99,
+        "end_index": 99,
+        "summary": "Discusses the principal accounting fees and services provided by the company\u2019s independent registered public accounting firm.",
+        "nodes": [
+          {
+            "title": "Incorporated by Reference",
+            "node_id": "0418",
+            "start_index": 99,
+            "end_index": 99,
+            "summary": "The information required for this item is included in the 2018 Proxy Statement, which will be filed with the SEC within 120 days after the end of the fiscal year."
+          }
+        ]
+      },
+      {
+        "title": "Untitled Section",
+        "node_id": "0419",
+        "start_index": 99,
+        "end_index": 102
+      },
+      {
+        "title": "Exhibit 10.30B",
+        "node_id": "0420",
+        "start_index": 103,
+        "end_index": 103,
+        "summary": "Form of Stock Option Grant Notice and Award Agreement."
+      },
+      {
+        "title": "Exhibit 10.30C",
+        "node_id": "0421",
+        "start_index": 103,
+        "end_index": 103,
+        "summary": "Form of Stock Option Grant Notice and Award Agreement (Non-U.S.)."
+      },
+      {
+        "title": "Exhibit 10.31",
+        "node_id": "0422",
+        "start_index": 103,
+        "end_index": 103,
+        "summary": "Adobe Systems Incorporated 2014 Executive Severance Plan in the Event of a Change of Control."
+      },
+      {
+        "title": "Table of Contents",
+        "node_id": "0423",
+        "start_index": 104,
+        "end_index": 104,
+        "summary": "Incorporated by Reference** Exhibit Number Exhibit Description Form Filing Date Exhibit Number SEC File No. Filed Herewith 101.LAB XBRL Taxonomy Extension Labels X 101.PRE XBRL Taxonomy Extension Presentation X 101.DEF XBRL Taxonomy Extension Definition X ____________________________ * Compensatory plan or arrangement. ** References to Exhibits 10.9 through 10.11 are to filings made by Omniture, Inc. \u2020 The certifications attached as Exhibits 32.1 and 32.2 that accompany this Annual Report on Form 10-K, are not deemed filed with the Securities and Exchange Commission and are not to be incorporated by reference into any filing of Adobe Systems Incorporated under the Securities Act of 1933, as amended, or the Securities Exchange Act of 1934, as amended, whether made before or after the date of this Form 10-K, irrespective of any general incorporation language contained in such filing. \u2020\u2020 References to Exhibits 10.33 through 10.34 are to filings made by TubeMogul, Inc.",
+        "nodes": [
+          {
+            "title": "Exhibit 104",
+            "node_id": "0424",
+            "start_index": 104,
+            "end_index": 104,
+            "summary": "None."
+          }
+        ]
+      },
+      {
+        "title": "Mark Garrett",
+        "node_id": "0425",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Executive Vice President and Chief Financial Officer (Principal Financial Officer)."
+      },
+      {
+        "title": "Shantanu Narayen",
+        "node_id": "0426",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Chairman of the Board of Directors, President and Chief Executive Officer (Principal Executive Officer)."
+      },
+      {
+        "title": "John Murphy",
+        "node_id": "0427",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Senior Vice President, Corporate Controller and Chief Accounting Officer (Principal Accounting Officer)."
+      },
+      {
+        "title": "James Daley",
+        "node_id": "0428",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Amy Banse",
+        "node_id": "0429",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Edward Barnholt",
+        "node_id": "0430",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Robert Burgess",
+        "node_id": "0431",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Frank Calderoni",
+        "node_id": "0432",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Laura Desmond",
+        "node_id": "0433",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Charles Geschke",
+        "node_id": "0434",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Daniel Rosensweig",
+        "node_id": "0435",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "John Warthen",
+        "node_id": "0436",
+        "start_index": 105,
+        "end_index": 105,
+        "summary": "Director."
+      },
+      {
+        "title": "Acrobat",
+        "node_id": "0437",
+        "start_index": 108,
+        "end_index": 108,
+        "summary": "Trademark for Acrobat product."
+      },
+      {
+        "title": "Adobe",
+        "node_id": "0438",
+        "start_index": 110,
+        "end_index": 110,
+        "summary": "Trademark for Adobe product."
+      }
+    ]
+  }
+}

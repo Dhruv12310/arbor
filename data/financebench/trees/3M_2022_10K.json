@@ -1,0 +1,3791 @@
+{
+  "tree": {
+    "doc_name": "3M_2022_10K",
+    "structure": [
+      {
+        "title": "Filing content (pages 1-3)",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 3
+      },
+      {
+        "title": "Business Segment",
+        "node_id": "0002",
+        "start_index": 4,
+        "end_index": 5,
+        "nodes": [
+          {
+            "title": "Safety and Industrial",
+            "node_id": "0003",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Transportation and Electronics",
+            "node_id": "0004",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Health Care",
+            "node_id": "0005",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Consumer",
+            "node_id": "0006",
+            "start_index": 5,
+            "end_index": 5
+          }
+        ]
+      },
+      {
+        "title": "Workforce Overview",
+        "node_id": "0007",
+        "start_index": 6,
+        "end_index": 6
+      },
+      {
+        "title": "Talent Management",
+        "node_id": "0008",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Succession Planning",
+            "node_id": "0009",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "High-Potential Leadership Development Programs",
+            "node_id": "0010",
+            "start_index": 6,
+            "end_index": 6,
+            "nodes": [
+              {
+                "title": "Leadership Development Programs",
+                "node_id": "0011",
+                "start_index": 6,
+                "end_index": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Employee Development",
+        "node_id": "0012",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Regular Coaching and Support",
+            "node_id": "0013",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Global Online Employee Learning Platform",
+            "node_id": "0014",
+            "start_index": 6,
+            "end_index": 6
+          }
+        ]
+      },
+      {
+        "title": "Diversity, Equity and Inclusion",
+        "node_id": "0015",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Commitments to Advance Global Diversity in Management",
+            "node_id": "0016",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Additional Specific Goals to Continue Advancing Pay Equity and to Increase the Company's Diversity with Underrepresented Groups",
+            "node_id": "0017",
+            "start_index": 6,
+            "end_index": 6
+          }
+        ]
+      },
+      {
+        "title": "Compensation and Benefits",
+        "node_id": "0018",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Trust-Based Approach to Work",
+            "node_id": "0019",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Professional and Flexible Work Environment",
+            "node_id": "0020",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Total Compensation for Employees",
+            "node_id": "0021",
+            "start_index": 6,
+            "end_index": 6
+          },
+          {
+            "title": "Competitive Market-Based Pay and Comprehensive Benefits",
+            "node_id": "0022",
+            "start_index": 6,
+            "end_index": 6
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 7-7)",
+        "node_id": "0023",
+        "start_index": 7,
+        "end_index": 7
+      },
+      {
+        "title": "Cautionary Note Concerning Factors That May Affect Future Results",
+        "node_id": "0024",
+        "start_index": 8,
+        "end_index": 9
+      },
+      {
+        "title": "Filing content (pages 10-10)",
+        "node_id": "0025",
+        "start_index": 10,
+        "end_index": 10
+      },
+      {
+        "title": "Risks Related to the Global Economy and Public Health Crises",
+        "node_id": "0026",
+        "start_index": 11,
+        "end_index": 11,
+        "nodes": [
+          {
+            "title": "Disruptions in Financial Markets",
+            "node_id": "0027",
+            "start_index": 11,
+            "end_index": 11
+          },
+          {
+            "title": "Economic Downturns",
+            "node_id": "0028",
+            "start_index": 11,
+            "end_index": 11
+          }
+        ]
+      },
+      {
+        "title": "Impact on Financial Performance",
+        "node_id": "0029",
+        "start_index": 12,
+        "end_index": 12
+      },
+      {
+        "title": "Risks Related to Our Products and Customer Preferences",
+        "node_id": "0030",
+        "start_index": 12,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "Demand for the Company\u2019s Products",
+            "node_id": "0031",
+            "start_index": 12,
+            "end_index": 12,
+            "nodes": [
+              {
+                "title": "Development and Timing of Competitive Products",
+                "node_id": "0032",
+                "start_index": 12,
+                "end_index": 12
+              },
+              {
+                "title": "Company\u2019s Pricing Strategies",
+                "node_id": "0033",
+                "start_index": 12,
+                "end_index": 12
+              },
+              {
+                "title": "Changes in Customer Order Patterns",
+                "node_id": "0034",
+                "start_index": 12,
+                "end_index": 12
+              },
+              {
+                "title": "Changes in Customers\u2019 Preferences for Our Products",
+                "node_id": "0035",
+                "start_index": 12,
+                "end_index": 12
+              },
+              {
+                "title": "Changes in the Business Environment Related to Disruptive Technologies",
+                "node_id": "0036",
+                "start_index": 12,
+                "end_index": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 13-13)",
+        "node_id": "0037",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Impact on Projected Growth Rates",
+        "node_id": "0038",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Risks Related to Our Business",
+        "node_id": "0039",
+        "start_index": 14,
+        "end_index": 14,
+        "nodes": [
+          {
+            "title": "* Risks Related to Cybersecurity",
+            "node_id": "0040",
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "title": "* Risks Related to Acquisitions and Strategic Alliances",
+            "node_id": "0041",
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "title": "* Risks Related to Tax Laws and Regulations",
+            "node_id": "0042",
+            "start_index": 14,
+            "end_index": 14
+          }
+        ]
+      },
+      {
+        "title": "Risks Related to Financial and Capital Markets and Tax Matters",
+        "node_id": "0043",
+        "start_index": 14,
+        "end_index": 14,
+        "nodes": [
+          {
+            "title": "* Defined Benefit Pension and Postretirement Plans",
+            "node_id": "0044",
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "title": "* Changes in Tax Laws and Regulations",
+            "node_id": "0045",
+            "start_index": 14,
+            "end_index": 14
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 15-18)",
+        "node_id": "0046",
+        "start_index": 15,
+        "end_index": 18
+      },
+      {
+        "title": "Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
+        "node_id": "0047",
+        "start_index": 19,
+        "end_index": 20,
+        "nodes": [
+          {
+            "title": "Overview",
+            "node_id": "0048",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Results of Operations",
+            "node_id": "0049",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Performance by Business Segment",
+            "node_id": "0050",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Performance by Geographic Area",
+            "node_id": "0051",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Critical Accounting Estimates",
+            "node_id": "0052",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "New Accounting Pronouncements",
+            "node_id": "0053",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Financial Condition and Liquidity",
+            "node_id": "0054",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Financial Instruments",
+            "node_id": "0055",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Forward-looking Statements",
+            "node_id": "0056",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Certain amounts adjusted for special items - (non-GAAP measures)",
+            "node_id": "0057",
+            "start_index": 20,
+            "end_index": 20
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 21-22)",
+        "node_id": "0058",
+        "start_index": 21,
+        "end_index": 22
+      },
+      {
+        "title": "Sales and Operating Income (Loss) by Business Segment",
+        "node_id": "0059",
+        "start_index": 23,
+        "end_index": 25,
+        "nodes": [
+          {
+            "title": "2022 Results",
+            "node_id": "0060",
+            "start_index": 23,
+            "end_index": 23,
+            "nodes": [
+              {
+                "title": "Net Sales",
+                "node_id": "0061",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Safety and Industrial",
+                    "node_id": "0062",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Transportation and Electronics",
+                    "node_id": "0063",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Health Care",
+                    "node_id": "0064",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Consumer",
+                    "node_id": "0065",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Corporate and Unallocated",
+                    "node_id": "0066",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              },
+              {
+                "title": "Operating Income (Loss)",
+                "node_id": "0067",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Safety and Industrial",
+                    "node_id": "0068",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Transportation and Electronics",
+                    "node_id": "0069",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Health Care",
+                    "node_id": "0070",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Consumer",
+                    "node_id": "0071",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Corporate and Unallocated",
+                    "node_id": "0072",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "2021 Results",
+            "node_id": "0073",
+            "start_index": 24,
+            "end_index": 25,
+            "nodes": [
+              {
+                "title": "Net Sales",
+                "node_id": "0074",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0075",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0076",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0077",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0078",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              },
+              {
+                "title": "Operating Income (Loss)",
+                "node_id": "0079",
+                "start_index": 24,
+                "end_index": 25,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0080",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0081",
+                    "start_index": 24,
+                    "end_index": 24
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0082",
+                    "start_index": 25,
+                    "end_index": 25
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0083",
+                    "start_index": 25,
+                    "end_index": 25
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sales by Geographic Area",
+        "node_id": "0084",
+        "start_index": 23,
+        "end_index": 25,
+        "nodes": [
+          {
+            "title": "2022 Results",
+            "node_id": "0085",
+            "start_index": 23,
+            "end_index": 23,
+            "nodes": [
+              {
+                "title": "Net Sales",
+                "node_id": "0086",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0087",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0088",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0089",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0090",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              },
+              {
+                "title": "Operating Income (Loss)",
+                "node_id": "0091",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0092",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0093",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0094",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0095",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "2021 Results",
+            "node_id": "0096",
+            "start_index": 24,
+            "end_index": 25,
+            "nodes": [
+              {
+                "title": "Net Sales",
+                "node_id": "0097",
+                "start_index": 23,
+                "end_index": 23,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0098",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0099",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0100",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0101",
+                    "start_index": 23,
+                    "end_index": 23
+                  }
+                ]
+              },
+              {
+                "title": "Operating Income (Loss)",
+                "node_id": "0102",
+                "start_index": 24,
+                "end_index": 25,
+                "nodes": [
+                  {
+                    "title": "Americas",
+                    "node_id": "0103",
+                    "start_index": 23,
+                    "end_index": 23
+                  },
+                  {
+                    "title": "Asia Pacific",
+                    "node_id": "0104",
+                    "start_index": 24,
+                    "end_index": 24
+                  },
+                  {
+                    "title": "Europe, Middle East & Africa",
+                    "node_id": "0105",
+                    "start_index": 25,
+                    "end_index": 25
+                  },
+                  {
+                    "title": "Other Unallocated",
+                    "node_id": "0106",
+                    "start_index": 25,
+                    "end_index": 25
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 26-27)",
+        "node_id": "0107",
+        "start_index": 26,
+        "end_index": 27
+      },
+      {
+        "title": "Interest Expense (Net of Interest Income)",
+        "node_id": "0108",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "Decrease in 2022 Compared to 2021",
+            "node_id": "0109",
+            "start_index": 28,
+            "end_index": 28
+          },
+          {
+            "title": "Decrease in 2021 Compared to 2020",
+            "node_id": "0110",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Non-service Pension and Postretirement Net Benefit",
+        "node_id": "0111",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "Decrease in 2022 Compared to 2021",
+            "node_id": "0112",
+            "start_index": 28,
+            "end_index": 28
+          },
+          {
+            "title": "Decrease in 2021 Compared to 2020",
+            "node_id": "0113",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 29-29)",
+        "node_id": "0114",
+        "start_index": 29,
+        "end_index": 29
+      },
+      {
+        "title": "Safety and Industrial Business",
+        "node_id": "0115",
+        "start_index": 30,
+        "end_index": 32,
+        "nodes": [
+          {
+            "title": "2022 Results",
+            "node_id": "0116",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "2021 Results",
+            "node_id": "0117",
+            "start_index": 31,
+            "end_index": 32
+          }
+        ]
+      },
+      {
+        "title": "Transportation and Electronics Business",
+        "node_id": "0118",
+        "start_index": 30,
+        "end_index": 32,
+        "nodes": [
+          {
+            "title": "2022 Results",
+            "node_id": "0119",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "2021 Results",
+            "node_id": "0120",
+            "start_index": 31,
+            "end_index": 32
+          }
+        ]
+      },
+      {
+        "title": "Health Care Business",
+        "node_id": "0121",
+        "start_index": 30,
+        "end_index": 32,
+        "nodes": [
+          {
+            "title": "2022 Results",
+            "node_id": "0122",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "2021 Results",
+            "node_id": "0123",
+            "start_index": 31,
+            "end_index": 32
+          }
+        ]
+      },
+      {
+        "title": "Sales Data",
+        "node_id": "0124",
+        "start_index": 33,
+        "end_index": 33,
+        "nodes": [
+          {
+            "title": "Sales (millions)",
+            "node_id": "0125",
+            "start_index": 33,
+            "end_index": 33
+          },
+          {
+            "title": "Sales Change Analysis",
+            "node_id": "0126",
+            "start_index": 33,
+            "end_index": 33
+          }
+        ]
+      },
+      {
+        "title": "Operating Income Data",
+        "node_id": "0127",
+        "start_index": 33,
+        "end_index": 33,
+        "nodes": [
+          {
+            "title": "Operating Income (millions)",
+            "node_id": "0128",
+            "start_index": 33,
+            "end_index": 33
+          },
+          {
+            "title": "Operating Income Margin Changes",
+            "node_id": "0129",
+            "start_index": 33,
+            "end_index": 33
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 34-34)",
+        "node_id": "0130",
+        "start_index": 34,
+        "end_index": 34
+      },
+      {
+        "title": "Discount Rate Explanation",
+        "node_id": "0131",
+        "start_index": 35,
+        "end_index": 35
+      },
+      {
+        "title": "Defined Benefit Obligations",
+        "node_id": "0132",
+        "start_index": 35,
+        "end_index": 35
+      },
+      {
+        "title": "Definition of Reporting Units",
+        "node_id": "0133",
+        "start_index": 36,
+        "end_index": 36,
+        "nodes": [
+          {
+            "title": "Correspondence to Divisions",
+            "node_id": "0134",
+            "start_index": 36,
+            "end_index": 36
+          }
+        ]
+      },
+      {
+        "title": "Criteria for Impairment Testing",
+        "node_id": "0135",
+        "start_index": 36,
+        "end_index": 36,
+        "nodes": [
+          {
+            "title": "Annual Test in Fourth Quarter",
+            "node_id": "0136",
+            "start_index": 36,
+            "end_index": 36,
+            "nodes": [
+              {
+                "title": "Test Completed as of October 1, 2022",
+                "node_id": "0137",
+                "start_index": 36,
+                "end_index": 36
+              }
+            ]
+          },
+          {
+            "title": "Combination of Reporting Units",
+            "node_id": "0138",
+            "start_index": 36,
+            "end_index": 36
+          }
+        ]
+      },
+      {
+        "title": "Overview of Financial Condition and Liquidity",
+        "node_id": "0139",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Strength and Stability of 3M\u2019s Business Model",
+        "node_id": "0140",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Free Cash Flow Capability and Proven Capital Markets Access",
+        "node_id": "0141",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Filing content (pages 38-38)",
+        "node_id": "0142",
+        "start_index": 38,
+        "end_index": 38
+      },
+      {
+        "title": "Cash Flows from Operating Activities",
+        "node_id": "0143",
+        "start_index": 39,
+        "end_index": 39
+      },
+      {
+        "title": "Cash Flows from Investing Activities",
+        "node_id": "0144",
+        "start_index": 39,
+        "end_index": 39
+      },
+      {
+        "title": "Cash Flows from Financing Activities",
+        "node_id": "0145",
+        "start_index": 39,
+        "end_index": 39
+      },
+      {
+        "title": "Filing content (pages 40-40)",
+        "node_id": "0146",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Major GAAP Cash Flow Categories",
+        "node_id": "0147",
+        "start_index": 41,
+        "end_index": 41
+      },
+      {
+        "title": "FINANCIAL INSTRUMENTS",
+        "node_id": "0148",
+        "start_index": 41,
+        "end_index": 41
+      },
+      {
+        "title": "Filing content (pages 42-45)",
+        "node_id": "0149",
+        "start_index": 42,
+        "end_index": 45
+      },
+      {
+        "title": "Critical Audit Matters",
+        "node_id": "0150",
+        "start_index": 46,
+        "end_index": 46
+      },
+      {
+        "title": "Tax-free Determination of the Split-off of the Food Safety Division",
+        "node_id": "0151",
+        "start_index": 46,
+        "end_index": 46
+      },
+      {
+        "title": "3M Company and Subsidiaries",
+        "node_id": "0152",
+        "start_index": 47,
+        "end_index": 51,
+        "nodes": [
+          {
+            "title": "Consolidated Statement of Income",
+            "node_id": "0153",
+            "start_index": 47,
+            "end_index": 48
+          },
+          {
+            "title": "Consolidated Statement of Comprehensive Income (Loss)",
+            "node_id": "0154",
+            "start_index": 48,
+            "end_index": 50
+          },
+          {
+            "title": "Consolidated Statement of Changes in Equity",
+            "node_id": "0155",
+            "start_index": 51,
+            "end_index": 51
+          },
+          {
+            "title": "Consolidated Statement of Cash Flows",
+            "node_id": "0156",
+            "start_index": 51,
+            "end_index": 51
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 52-52)",
+        "node_id": "0157",
+        "start_index": 52,
+        "end_index": 52
+      },
+      {
+        "title": "Consolidation Definition",
+        "node_id": "0158",
+        "start_index": 53,
+        "end_index": 53
+      },
+      {
+        "title": "Intercompany Eliminations",
+        "node_id": "0159",
+        "start_index": 53,
+        "end_index": 53
+      },
+      {
+        "title": "Other Assets",
+        "node_id": "0160",
+        "start_index": 54,
+        "end_index": 54,
+        "nodes": [
+          {
+            "title": "Deferred Income Taxes",
+            "node_id": "0161",
+            "start_index": 54,
+            "end_index": 54
+          },
+          {
+            "title": "Product and Other Insurance Receivables",
+            "node_id": "0162",
+            "start_index": 54,
+            "end_index": 54
+          },
+          {
+            "title": "Cash Surrender Value of Life Insurance Policies",
+            "node_id": "0163",
+            "start_index": 54,
+            "end_index": 54
+          },
+          {
+            "title": "Medical Equipment in Rental Arrangements Utilized Primarily by Hospitals and Other Medical Clinics",
+            "node_id": "0164",
+            "start_index": 54,
+            "end_index": 54
+          }
+        ]
+      },
+      {
+        "title": "Impairment Testing for Intangible Assets",
+        "node_id": "0165",
+        "start_index": 55,
+        "end_index": 55
+      },
+      {
+        "title": "Restructuring Actions",
+        "node_id": "0166",
+        "start_index": 55,
+        "end_index": 55,
+        "nodes": [
+          {
+            "title": "Employee-Related Severance Charges",
+            "node_id": "0167",
+            "start_index": 55,
+            "end_index": 55
+          },
+          {
+            "title": "Contract Termination and Other Charges",
+            "node_id": "0168",
+            "start_index": 55,
+            "end_index": 55
+          }
+        ]
+      },
+      {
+        "title": "Revenue Recognition Policies",
+        "node_id": "0169",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Financial Reporting Practices",
+        "node_id": "0170",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Specific Disclosures Related to Revenue",
+        "node_id": "0171",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Specific Disclosures Related to Financial Statements",
+        "node_id": "0172",
+        "start_index": 56,
+        "end_index": 56
+      },
+      {
+        "title": "Basic Earnings Per Share",
+        "node_id": "0173",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Diluted Earnings Per Share",
+        "node_id": "0174",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Stock-Based Compensation",
+        "node_id": "0175",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Comprehensive Income",
+        "node_id": "0176",
+        "start_index": 57,
+        "end_index": 57
+      },
+      {
+        "title": "Fair value measurements",
+        "node_id": "0177",
+        "start_index": 58,
+        "end_index": 58
+      },
+      {
+        "title": "Fair value measurements",
+        "node_id": "0178",
+        "start_index": 58,
+        "end_index": 58
+      },
+      {
+        "title": "Fair value measurements",
+        "node_id": "0179",
+        "start_index": 58,
+        "end_index": 58
+      },
+      {
+        "title": "New Accounting Pronouncements",
+        "node_id": "0180",
+        "start_index": 59,
+        "end_index": 60
+      },
+      {
+        "title": "New Accounting Pronouncements",
+        "node_id": "0181",
+        "start_index": 59,
+        "end_index": 60
+      },
+      {
+        "title": "New Accounting Pronouncements",
+        "node_id": "0182",
+        "start_index": 59,
+        "end_index": 60
+      },
+      {
+        "title": "Acquisitions",
+        "node_id": "0183",
+        "start_index": 61,
+        "end_index": 61
+      },
+      {
+        "title": "Divestitures",
+        "node_id": "0184",
+        "start_index": 61,
+        "end_index": 61,
+        "nodes": [
+          {
+            "title": "2022 Divestitures",
+            "node_id": "0185",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "2021 Divestitures",
+            "node_id": "0186",
+            "start_index": 61,
+            "end_index": 61
+          },
+          {
+            "title": "2020 Divestitures",
+            "node_id": "0187",
+            "start_index": 61,
+            "end_index": 61
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 62-74)",
+        "node_id": "0188",
+        "start_index": 62,
+        "end_index": 74
+      },
+      {
+        "title": "Post-Swap Borrowing (Long-Term Debt, Including Current Portion)",
+        "node_id": "0189",
+        "start_index": 75,
+        "end_index": 76
+      },
+      {
+        "title": "Long-Term Debt Issuances and Fixed-to-Floating Interest Rate Swaps",
+        "node_id": "0190",
+        "start_index": 77,
+        "end_index": 78,
+        "nodes": [
+          {
+            "title": "Issuance Details",
+            "node_id": "0191",
+            "start_index": 77,
+            "end_index": 77,
+            "nodes": [
+              {
+                "title": "Issuance of $1.75 Billion Fixed Rate Notes",
+                "node_id": "0192",
+                "start_index": 77,
+                "end_index": 77
+              },
+              {
+                "title": "Issuance of $600 Million Floating Rate Notes",
+                "node_id": "0193",
+                "start_index": 77,
+                "end_index": 77
+              }
+            ]
+          },
+          {
+            "title": "Interest Rate Swap Details",
+            "node_id": "0194",
+            "start_index": 78,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Swap of $800 Million Notional Amount",
+                "node_id": "0195",
+                "start_index": 78,
+                "end_index": 78
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Long-Term Debt Maturities and Extinguishments",
+        "node_id": "0196",
+        "start_index": 77,
+        "end_index": 78,
+        "nodes": [
+          {
+            "title": "Extinguishments Details",
+            "node_id": "0197",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Extinguishment of $600 Million Notional Amount",
+                "node_id": "0198",
+                "start_index": 77,
+                "end_index": 77
+              },
+              {
+                "title": "Extinguishment of $500 Million Notional Amount",
+                "node_id": "0199",
+                "start_index": 78,
+                "end_index": 78
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Floating Rate Notes",
+        "node_id": "0200",
+        "start_index": 77,
+        "end_index": 78,
+        "nodes": [
+          {
+            "title": "Put Provision Details",
+            "node_id": "0201",
+            "start_index": 77,
+            "end_index": 78,
+            "nodes": [
+              {
+                "title": "Put Provision on $60 Million Floating Rate Note",
+                "node_id": "0202",
+                "start_index": 77,
+                "end_index": 78
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Note 13: Pension and Postretirement Benefit Plans",
+        "node_id": "0203",
+        "start_index": 77,
+        "end_index": 78,
+        "nodes": [
+          {
+            "title": "Primary U.S. Defined-Benefit Pension Plan",
+            "node_id": "0204",
+            "start_index": 77,
+            "end_index": 77
+          },
+          {
+            "title": "Postretirement Health Care and Life Insurance Benefits",
+            "node_id": "0205",
+            "start_index": 78,
+            "end_index": 78
+          }
+        ]
+      },
+      {
+        "title": "Amounts Recognized in the Consolidated Balance Sheet as of December 31",
+        "node_id": "0206",
+        "start_index": 79,
+        "end_index": 79,
+        "nodes": [
+          {
+            "title": "Qualified and Non-qualified Pension Benefits",
+            "node_id": "0207",
+            "start_index": 79,
+            "end_index": 79
+          },
+          {
+            "title": "Postretirement Benefits",
+            "node_id": "0208",
+            "start_index": 79,
+            "end_index": 79
+          }
+        ]
+      },
+      {
+        "title": "Other Changes in Plan Assets and Benefit Obligations Recognized in Other Comprehensive (Income) Loss",
+        "node_id": "0209",
+        "start_index": 79,
+        "end_index": 79
+      },
+      {
+        "title": "Filing content (pages 80-80)",
+        "node_id": "0210",
+        "start_index": 80,
+        "end_index": 80
+      },
+      {
+        "title": "Future Pension and Postretirement Benefit Payments",
+        "node_id": "0211",
+        "start_index": 81,
+        "end_index": 82
+      },
+      {
+        "title": "Filing content (pages 83-89)",
+        "node_id": "0212",
+        "start_index": 83,
+        "end_index": 89
+      },
+      {
+        "title": "Statement of Income",
+        "node_id": "0213",
+        "start_index": 90,
+        "end_index": 90
+      },
+      {
+        "title": "Location and Impact of Cash Flow and Fair Value Derivative Instruments and Derivatives Not Designated as Hedging Instruments",
+        "node_id": "0214",
+        "start_index": 90,
+        "end_index": 90,
+        "nodes": [
+          {
+            "title": "Location and Amount of Gain (Loss) Recognized in Income",
+            "node_id": "0215",
+            "start_index": 90,
+            "end_index": 90,
+            "nodes": [
+              {
+                "title": "Cost of Sales",
+                "node_id": "0216",
+                "start_index": 90,
+                "end_index": 90
+              },
+              {
+                "title": "Other Expense (Income), Net",
+                "node_id": "0217",
+                "start_index": 90,
+                "end_index": 90
+              }
+            ]
+          },
+          {
+            "title": "Information Regarding Cash Flow and Fair Value Hedging Relationships",
+            "node_id": "0218",
+            "start_index": 90,
+            "end_index": 90,
+            "nodes": [
+              {
+                "title": "Total amounts of income and expense line items presented in the consolidated statement of income in which the effects of derivatives are recorded",
+                "node_id": "0219",
+                "start_index": 90,
+                "end_index": 90
+              },
+              {
+                "title": "Gain or (Loss) on Cash Flow Hedging Relationships",
+                "node_id": "0220",
+                "start_index": 90,
+                "end_index": 90
+              },
+              {
+                "title": "Interest Rate Contracts",
+                "node_id": "0221",
+                "start_index": 90,
+                "end_index": 90
+              },
+              {
+                "title": "Derivatives Not Designated as Hedging Instruments",
+                "node_id": "0222",
+                "start_index": 90,
+                "end_index": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 91-92)",
+        "node_id": "0223",
+        "start_index": 91,
+        "end_index": 92
+      },
+      {
+        "title": "Available-for-sale marketable securities \u2014 certain U.S. municipal securities only",
+        "node_id": "0224",
+        "start_index": 93,
+        "end_index": 93
+      },
+      {
+        "title": "In addition, the plan assets of 3M\u2019s pension and postretirement benefit plans are measured at fair value on a recurring basis (at least annually). Refer to Note 13.",
+        "node_id": "0225",
+        "start_index": 93,
+        "end_index": 93
+      },
+      {
+        "title": "Assets and Liabilities that are Measured at Fair Value on a Nonrecurring Basis",
+        "node_id": "0226",
+        "start_index": 93,
+        "end_index": 93
+      },
+      {
+        "title": "Filing content (pages 94-94)",
+        "node_id": "0227",
+        "start_index": 94,
+        "end_index": 94
+      },
+      {
+        "title": "Respirator Mask/Asbestos Litigation",
+        "node_id": "0228",
+        "start_index": 95,
+        "end_index": 95
+      },
+      {
+        "title": "Current Volume of New and Pending Matters",
+        "node_id": "0229",
+        "start_index": 96,
+        "end_index": 96
+      },
+      {
+        "title": "Future Filing Expectations",
+        "node_id": "0230",
+        "start_index": 96,
+        "end_index": 96
+      },
+      {
+        "title": "Claims Alleging More Serious Injuries",
+        "node_id": "0231",
+        "start_index": 96,
+        "end_index": 96
+      },
+      {
+        "title": "Comprehensive Legal Review",
+        "node_id": "0232",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Claims Data Analysis",
+        "node_id": "0233",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Estimation of Probable Loss",
+        "node_id": "0234",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Development of Best Estimate of Probable Liability",
+        "node_id": "0235",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Adjustments to Accruals",
+        "node_id": "0236",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Legal Defense Costs and Settlements",
+        "node_id": "0237",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Accrual for Respirator Mask/Asbestos Liabilities",
+        "node_id": "0238",
+        "start_index": 97,
+        "end_index": 97
+      },
+      {
+        "title": "Filing content (pages 98-98)",
+        "node_id": "0239",
+        "start_index": 98,
+        "end_index": 98
+      },
+      {
+        "title": "PFAS Phase-Out Decision",
+        "node_id": "0240",
+        "start_index": 99,
+        "end_index": 99
+      },
+      {
+        "title": "PFAS Manufacturing Cease",
+        "node_id": "0241",
+        "start_index": 99,
+        "end_index": 99
+      },
+      {
+        "title": "Ongoing Life Cycle Management",
+        "node_id": "0242",
+        "start_index": 99,
+        "end_index": 99
+      },
+      {
+        "title": "Company's Decision to Exit PFAS Manufacturing",
+        "node_id": "0243",
+        "start_index": 99,
+        "end_index": 99
+      },
+      {
+        "title": "Introduction to PFAS Contamination",
+        "node_id": "0244",
+        "start_index": 100,
+        "end_index": 100
+      },
+      {
+        "title": "Dyneon's Recycling Process",
+        "node_id": "0245",
+        "start_index": 100,
+        "end_index": 100
+      },
+      {
+        "title": "PFAS Contamination Investigation",
+        "node_id": "0246",
+        "start_index": 100,
+        "end_index": 100
+      },
+      {
+        "title": "Regulatory Authorities' Demands",
+        "node_id": "0247",
+        "start_index": 100,
+        "end_index": 100
+      },
+      {
+        "title": "Ongoing Cooperation with Authorities",
+        "node_id": "0248",
+        "start_index": 100,
+        "end_index": 100
+      },
+      {
+        "title": "Filing content (pages 101-101)",
+        "node_id": "0249",
+        "start_index": 101,
+        "end_index": 101
+      },
+      {
+        "title": "United States: Federal Activity",
+        "node_id": "0250",
+        "start_index": 102,
+        "end_index": 102,
+        "nodes": [
+          {
+            "title": "EPA's PFAS Activities",
+            "node_id": "0251",
+            "start_index": 102,
+            "end_index": 102
+          },
+          {
+            "title": "PFAS Regulatory Actions",
+            "node_id": "0252",
+            "start_index": 102,
+            "end_index": 102
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 103-103)",
+        "node_id": "0253",
+        "start_index": 103,
+        "end_index": 103
+      },
+      {
+        "title": "Litigation Related to Historical PFAS Manufacturing Operations in Alabama",
+        "node_id": "0254",
+        "start_index": 104,
+        "end_index": 104,
+        "nodes": [
+          {
+            "title": "Settlement with West Morgan-East Lawrence Water & Sewer Authority",
+            "node_id": "0255",
+            "start_index": 104,
+            "end_index": 104
+          },
+          {
+            "title": "Settlement with Tennessee Riverkeeper Organization",
+            "node_id": "0256",
+            "start_index": 104,
+            "end_index": 104
+          },
+          {
+            "title": "Settlement with Class Action Plaintiffs Represented by the St. John Plaintiff Class",
+            "node_id": "0257",
+            "start_index": 104,
+            "end_index": 104
+          }
+        ]
+      },
+      {
+        "title": "Overview of AFFF Litigation",
+        "node_id": "0258",
+        "start_index": 105,
+        "end_index": 105,
+        "nodes": [
+          {
+            "title": "State Attorneys General Actions",
+            "node_id": "0259",
+            "start_index": 105,
+            "end_index": 105,
+            "nodes": [
+              {
+                "title": "New Jersey",
+                "node_id": "0260",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "New Hampshire",
+                "node_id": "0261",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Vermont",
+                "node_id": "0262",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Illinois",
+                "node_id": "0263",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "California",
+                "node_id": "0264",
+                "start_index": 105,
+                "end_index": 105
+              }
+            ]
+          },
+          {
+            "title": "Aqueous Film Forming Foam (AFFF) Environmental Litigation",
+            "node_id": "0265",
+            "start_index": 105,
+            "end_index": 105,
+            "nodes": [
+              {
+                "title": "Manufacturing and Marketing of AFFF",
+                "node_id": "0266",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Pending Lawsuits",
+                "node_id": "0267",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Multi-District Litigation (MDL)",
+                "node_id": "0268",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "State and Territorial Sovereigns",
+                "node_id": "0269",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Putative Class Actions",
+                "node_id": "0270",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Remediation and Natural Resource Damages",
+                "node_id": "0271",
+                "start_index": 105,
+                "end_index": 105
+              },
+              {
+                "title": "Civil Penalties and Other Relief",
+                "node_id": "0272",
+                "start_index": 105,
+                "end_index": 105
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "MDL Proceedings Overview",
+        "node_id": "0273",
+        "start_index": 106,
+        "end_index": 106,
+        "nodes": [
+          {
+            "title": "MDL Court Selection",
+            "node_id": "0274",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Selection of Bellwether Cases",
+            "node_id": "0275",
+            "start_index": 106,
+            "end_index": 106
+          }
+        ]
+      },
+      {
+        "title": "Product and Environmental Litigation",
+        "node_id": "0276",
+        "start_index": 106,
+        "end_index": 106,
+        "nodes": [
+          {
+            "title": "Individual and Class Action Complaints",
+            "node_id": "0277",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Contamination Allegations",
+            "node_id": "0278",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Failure to Warn Allegations",
+            "node_id": "0279",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Injuries and Damages Allegations",
+            "node_id": "0280",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Investigation and Remediation Costs Allegations",
+            "node_id": "0281",
+            "start_index": 106,
+            "end_index": 106
+          },
+          {
+            "title": "Medical Monitoring Costs Allegations",
+            "node_id": "0282",
+            "start_index": 106,
+            "end_index": 106
+          }
+        ]
+      },
+      {
+        "title": "Cases in Alabama and Georgia",
+        "node_id": "0283",
+        "start_index": 107,
+        "end_index": 107
+      },
+      {
+        "title": "Cases in California",
+        "node_id": "0284",
+        "start_index": 107,
+        "end_index": 107
+      },
+      {
+        "title": "Cases in North Carolina",
+        "node_id": "0285",
+        "start_index": 107,
+        "end_index": 107
+      },
+      {
+        "title": "Cases in Delaware",
+        "node_id": "0286",
+        "start_index": 107,
+        "end_index": 107
+      },
+      {
+        "title": "New Jersey",
+        "node_id": "0287",
+        "start_index": 108,
+        "end_index": 108,
+        "nodes": [
+          {
+            "title": "Middlesex Water Company",
+            "node_id": "0288",
+            "start_index": 108,
+            "end_index": 108
+          },
+          {
+            "title": "Borough of Hopatcong",
+            "node_id": "0289",
+            "start_index": 108,
+            "end_index": 108
+          },
+          {
+            "title": "Pequannock Township",
+            "node_id": "0290",
+            "start_index": 108,
+            "end_index": 108
+          }
+        ]
+      },
+      {
+        "title": "South Carolina",
+        "node_id": "0291",
+        "start_index": 108,
+        "end_index": 108
+      },
+      {
+        "title": "Massachusetts",
+        "node_id": "0292",
+        "start_index": 108,
+        "end_index": 108
+      },
+      {
+        "title": "Maine",
+        "node_id": "0293",
+        "start_index": 108,
+        "end_index": 108
+      },
+      {
+        "title": "Ohio",
+        "node_id": "0294",
+        "start_index": 108,
+        "end_index": 108
+      },
+      {
+        "title": "Illinois EPA Approval",
+        "node_id": "0295",
+        "start_index": 109,
+        "end_index": 109,
+        "nodes": [
+          {
+            "title": "Cordova May 2000 Site Remediation Agreement",
+            "node_id": "0296",
+            "start_index": 109,
+            "end_index": 109,
+            "nodes": [
+              {
+                "title": "Continued Operations",
+                "node_id": "0297",
+                "start_index": 109,
+                "end_index": 109
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Minnesota PFAS Compounds",
+        "node_id": "0298",
+        "start_index": 109,
+        "end_index": 109,
+        "nodes": [
+          {
+            "title": "Settlement Agreement and Consent Order",
+            "node_id": "0299",
+            "start_index": 109,
+            "end_index": 109,
+            "nodes": [
+              {
+                "title": "Principal Obligations",
+                "node_id": "0300",
+                "start_index": 109,
+                "end_index": 109,
+                "nodes": [
+                  {
+                    "title": "Evaluating Releases",
+                    "node_id": "0301",
+                    "start_index": 109,
+                    "end_index": 109
+                  },
+                  {
+                    "title": "Providing Treatment or Alternative Drinking Water",
+                    "node_id": "0302",
+                    "start_index": 109,
+                    "end_index": 109
+                  },
+                  {
+                    "title": "Remediating Identified Sources",
+                    "node_id": "0303",
+                    "start_index": 109,
+                    "end_index": 109
+                  },
+                  {
+                    "title": "Sharing Information with Regulatory Authorities",
+                    "node_id": "0304",
+                    "start_index": 109,
+                    "end_index": 109
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Grand Jury Subpoena",
+        "node_id": "0305",
+        "start_index": 110,
+        "end_index": 110
+      },
+      {
+        "title": "Cordova Facility PFAS Matters",
+        "node_id": "0306",
+        "start_index": 110,
+        "end_index": 110
+      },
+      {
+        "title": "Cottage Grove Facility PFAS Matters",
+        "node_id": "0307",
+        "start_index": 110,
+        "end_index": 110
+      },
+      {
+        "title": "Other Environmental Litigation",
+        "node_id": "0308",
+        "start_index": 110,
+        "end_index": 110
+      },
+      {
+        "title": "Product Liability Litigation",
+        "node_id": "0309",
+        "start_index": 111,
+        "end_index": 111
+      },
+      {
+        "title": "Filing content (pages 112-112)",
+        "node_id": "0310",
+        "start_index": 112,
+        "end_index": 112
+      },
+      {
+        "title": "As of December 31, 2022",
+        "node_id": "0311",
+        "start_index": 113,
+        "end_index": 113,
+        "nodes": [
+          {
+            "title": "Significant Increase in Number of Claimants",
+            "node_id": "0312",
+            "start_index": 113,
+            "end_index": 113
+          },
+          {
+            "title": "Transition Orders Issued by MDL Judge",
+            "node_id": "0313",
+            "start_index": 113,
+            "end_index": 113
+          }
+        ]
+      },
+      {
+        "title": "Court Ordered Mediations",
+        "node_id": "0314",
+        "start_index": 114,
+        "end_index": 114
+      },
+      {
+        "title": "Single Plaintiff Trial",
+        "node_id": "0315",
+        "start_index": 114,
+        "end_index": 114
+      },
+      {
+        "title": "MDL Court Order",
+        "node_id": "0316",
+        "start_index": 114,
+        "end_index": 114
+      },
+      {
+        "title": "Eleventh Circuit Court of Appeals",
+        "node_id": "0317",
+        "start_index": 114,
+        "end_index": 114
+      },
+      {
+        "title": "State Court Cases",
+        "node_id": "0318",
+        "start_index": 114,
+        "end_index": 114,
+        "nodes": [
+          {
+            "title": "Missouri State Court Cases",
+            "node_id": "0319",
+            "start_index": 114,
+            "end_index": 114,
+            "nodes": [
+              {
+                "title": "Missouri Case - September/October 2022",
+                "node_id": "0320",
+                "start_index": 114,
+                "end_index": 114
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 115-115)",
+        "node_id": "0321",
+        "start_index": 115,
+        "end_index": 115
+      },
+      {
+        "title": "Summary of Table of Contents",
+        "node_id": "0322",
+        "start_index": 116,
+        "end_index": 116
+      },
+      {
+        "title": "Content Summary",
+        "node_id": "0323",
+        "start_index": 116,
+        "end_index": 117
+      },
+      {
+        "title": "Maturities of Lease Liabilities",
+        "node_id": "0324",
+        "start_index": 118,
+        "end_index": 118,
+        "nodes": [
+          {
+            "title": "December 31, 2022",
+            "node_id": "0325",
+            "start_index": 118,
+            "end_index": 118,
+            "nodes": [
+              {
+                "title": "Finance Leases",
+                "node_id": "0326",
+                "start_index": 118,
+                "end_index": 118
+              },
+              {
+                "title": "Operating Leases",
+                "node_id": "0327",
+                "start_index": 118,
+                "end_index": 118
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Stock Option Program",
+        "node_id": "0328",
+        "start_index": 118,
+        "end_index": 118,
+        "nodes": [
+          {
+            "title": "Annual Stock Option Grant",
+            "node_id": "0329",
+            "start_index": 118,
+            "end_index": 118
+          },
+          {
+            "title": "Other Minor Grants",
+            "node_id": "0330",
+            "start_index": 118,
+            "end_index": 118
+          },
+          {
+            "title": "Cash Settled Restricted Stock Units and Stock Appreciation Rights",
+            "node_id": "0331",
+            "start_index": 118,
+            "end_index": 118
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 119-119)",
+        "node_id": "0332",
+        "start_index": 119,
+        "end_index": 119
+      },
+      {
+        "title": "Restricted Stock and Restricted Stock Units",
+        "node_id": "0333",
+        "start_index": 120,
+        "end_index": 121,
+        "nodes": [
+          {
+            "title": "Nonvested balance \u2014 As of January 1",
+            "node_id": "0334",
+            "start_index": 120,
+            "end_index": 120
+          },
+          {
+            "title": "Total fair value of restricted stock and restricted stock units that vested during December 31, 2022, 2021 and 2020",
+            "node_id": "0335",
+            "start_index": 121,
+            "end_index": 121
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 122-124)",
+        "node_id": "0336",
+        "start_index": 122,
+        "end_index": 124
+      },
+      {
+        "title": "Item 10. Directors, Executive Officers and Corporate Governance.",
+        "node_id": "0337",
+        "start_index": 125,
+        "end_index": 127,
+        "nodes": [
+          {
+            "title": "Proposal No. 1",
+            "node_id": "0338",
+            "start_index": 125,
+            "end_index": 125
+          },
+          {
+            "title": "Corporate Governance At 3M \u2014 Board Membership Criteria \u2014 Identification, Evaluation, and Selection of Nominees",
+            "node_id": "0339",
+            "start_index": 126,
+            "end_index": 127,
+            "nodes": [
+              {
+                "title": "Shareholder Nominations",
+                "node_id": "0340",
+                "start_index": 125,
+                "end_index": 125
+              },
+              {
+                "title": "Proxy Access Nominations",
+                "node_id": "0341",
+                "start_index": 126,
+                "end_index": 127
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Item 11. Executive Compensation.",
+        "node_id": "0342",
+        "start_index": 125,
+        "end_index": 127,
+        "nodes": [
+          {
+            "title": "Executive Compensation",
+            "node_id": "0343",
+            "start_index": 125,
+            "end_index": 125,
+            "nodes": [
+              {
+                "title": "Compensation Committee Report",
+                "node_id": "0344",
+                "start_index": 125,
+                "end_index": 125
+              },
+              {
+                "title": "Compensation Committee Interlocks and Insider Participation",
+                "node_id": "0345",
+                "start_index": 125,
+                "end_index": 125
+              }
+            ]
+          },
+          {
+            "title": "Stock Retention Requirement",
+            "node_id": "0346",
+            "start_index": 126,
+            "end_index": 127
+          }
+        ]
+      },
+      {
+        "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters.",
+        "node_id": "0347",
+        "start_index": 125,
+        "end_index": 127,
+        "nodes": [
+          {
+            "title": "Security Ownership of Management",
+            "node_id": "0348",
+            "start_index": 125,
+            "end_index": 125
+          },
+          {
+            "title": "Security Ownership of Certain Beneficial Owners",
+            "node_id": "0349",
+            "start_index": 126,
+            "end_index": 126
+          },
+          {
+            "title": "Equity Compensation Plans Information (1)",
+            "node_id": "0350",
+            "start_index": 127,
+            "end_index": 127,
+            "nodes": [
+              {
+                "title": "Plan Category (options and shares in thousands)",
+                "node_id": "0351",
+                "start_index": 125,
+                "end_index": 125
+              },
+              {
+                "title": "Number of securities to be issued upon exercise of outstanding options, warrants and rights (in thousands)",
+                "node_id": "0352",
+                "start_index": 126,
+                "end_index": 126
+              },
+              {
+                "title": "Weighted-average exercise price of outstanding options, warrants and rights ($ per share)",
+                "node_id": "0353",
+                "start_index": 127,
+                "end_index": 127
+              },
+              {
+                "title": "Number of securities remaining available for future issuance under equity compensation plans (excluding securities reflected in column (A)) (in thousands)",
+                "node_id": "0354",
+                "start_index": 127,
+                "end_index": 127
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence.",
+        "node_id": "0355",
+        "start_index": 125,
+        "end_index": 127,
+        "nodes": [
+          {
+            "title": "Certain Relationships and Related Transactions",
+            "node_id": "0356",
+            "start_index": 125,
+            "end_index": 125
+          },
+          {
+            "title": "Director Independence",
+            "node_id": "0357",
+            "start_index": 126,
+            "end_index": 126
+          },
+          {
+            "title": "Related Person Transaction Policy and Procedures",
+            "node_id": "0358",
+            "start_index": 127,
+            "end_index": 127
+          }
+        ]
+      },
+      {
+        "title": "Item 14. Principal Accounting Fees and Services.",
+        "node_id": "0359",
+        "start_index": 125,
+        "end_index": 127,
+        "nodes": [
+          {
+            "title": "Audit Committee Matters",
+            "node_id": "0360",
+            "start_index": 125,
+            "end_index": 127,
+            "nodes": [
+              {
+                "title": "Audit Committee Policy on Pre-Approval of Audit and Permissible Non-Audit Services of the Independent Accounting Firm",
+                "node_id": "0361",
+                "start_index": 125,
+                "end_index": 125
+              },
+              {
+                "title": "Fees of the Independent Accounting Firm",
+                "node_id": "0362",
+                "start_index": 126,
+                "end_index": 127
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 128-129)",
+        "node_id": "0363",
+        "start_index": 128,
+        "end_index": 129
+      },
+      {
+        "title": "Award; Vesting; Forfeiture and Settlement",
+        "node_id": "0364",
+        "start_index": 130,
+        "end_index": 130,
+        "nodes": [
+          {
+            "title": "Performance Shares and Dividend Equivalents",
+            "node_id": "0365",
+            "start_index": 130,
+            "end_index": 130
+          }
+        ]
+      },
+      {
+        "title": "Article I. Award; Vesting; Forfeiture and Settlement",
+        "node_id": "0366",
+        "start_index": 130,
+        "end_index": 130,
+        "nodes": [
+          {
+            "title": "1.1 Performance Shares and Dividend Equivalents",
+            "node_id": "0367",
+            "start_index": 130,
+            "end_index": 130
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 131-133)",
+        "node_id": "0368",
+        "start_index": 131,
+        "end_index": 133
+      },
+      {
+        "title": "Termination Prior to Performance Period",
+        "node_id": "0369",
+        "start_index": 134,
+        "end_index": 134,
+        "nodes": [
+          {
+            "title": "Qualifying Termination",
+            "node_id": "0370",
+            "start_index": 134,
+            "end_index": 134
+          },
+          {
+            "title": "Retirement",
+            "node_id": "0371",
+            "start_index": 134,
+            "end_index": 134
+          }
+        ]
+      },
+      {
+        "title": "Termination Following Change in Control",
+        "node_id": "0372",
+        "start_index": 134,
+        "end_index": 134
+      },
+      {
+        "title": "Filing content (pages 135-135)",
+        "node_id": "0373",
+        "start_index": 135,
+        "end_index": 135
+      },
+      {
+        "title": "Subsection (a)",
+        "node_id": "0374",
+        "start_index": 136,
+        "end_index": 136
+      },
+      {
+        "title": "Subsection (b)",
+        "node_id": "0375",
+        "start_index": 136,
+        "end_index": 136
+      },
+      {
+        "title": "Subsection (c)",
+        "node_id": "0376",
+        "start_index": 136,
+        "end_index": 136
+      },
+      {
+        "title": "Filing content (pages 137-137)",
+        "node_id": "0377",
+        "start_index": 137,
+        "end_index": 137
+      },
+      {
+        "title": "FICA-Related Taxes",
+        "node_id": "0378",
+        "start_index": 138,
+        "end_index": 138
+      },
+      {
+        "title": "Tax-Related Items",
+        "node_id": "0379",
+        "start_index": 138,
+        "end_index": 138
+      },
+      {
+        "title": "Obligation to Pay",
+        "node_id": "0380",
+        "start_index": 138,
+        "end_index": 138
+      },
+      {
+        "title": "Filing content (pages 139-142)",
+        "node_id": "0381",
+        "start_index": 139,
+        "end_index": 142
+      },
+      {
+        "title": "Appendix A - Vesting Terms",
+        "node_id": "0382",
+        "start_index": 143,
+        "end_index": 143
+      },
+      {
+        "title": "Appendix B - Global Appendix",
+        "node_id": "0383",
+        "start_index": 143,
+        "end_index": 143
+      },
+      {
+        "title": "Filing content (pages 144-144)",
+        "node_id": "0384",
+        "start_index": 144,
+        "end_index": 144
+      },
+      {
+        "title": "Data Privacy Laws Compliance",
+        "node_id": "0385",
+        "start_index": 145,
+        "end_index": 145
+      },
+      {
+        "title": "Acknowledgements and Agreements",
+        "node_id": "0386",
+        "start_index": 145,
+        "end_index": 145
+      },
+      {
+        "title": "Country-Specific Notifications",
+        "node_id": "0387",
+        "start_index": 145,
+        "end_index": 145,
+        "nodes": [
+          {
+            "title": "Argentina",
+            "node_id": "0388",
+            "start_index": 145,
+            "end_index": 145,
+            "nodes": [
+              {
+                "title": "Securities Law Information",
+                "node_id": "0389",
+                "start_index": 145,
+                "end_index": 145
+              },
+              {
+                "title": "Exchange Control Information",
+                "node_id": "0390",
+                "start_index": 145,
+                "end_index": 145
+              },
+              {
+                "title": "Foreign Asset/Account Reporting Information",
+                "node_id": "0391",
+                "start_index": 145,
+                "end_index": 145
+              }
+            ]
+          },
+          {
+            "title": "Australia",
+            "node_id": "0392",
+            "start_index": 145,
+            "end_index": 145,
+            "nodes": [
+              {
+                "title": "Securities Law Information",
+                "node_id": "0393",
+                "start_index": 145,
+                "end_index": 145
+              },
+              {
+                "title": "Exchange Control Information",
+                "node_id": "0394",
+                "start_index": 145,
+                "end_index": 145
+              },
+              {
+                "title": "Foreign Asset/Account Reporting Information",
+                "node_id": "0395",
+                "start_index": 145,
+                "end_index": 145
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 146-148)",
+        "node_id": "0396",
+        "start_index": 146,
+        "end_index": 148
+      },
+      {
+        "title": "China",
+        "node_id": "0397",
+        "start_index": 149,
+        "end_index": 149,
+        "nodes": [
+          {
+            "title": "SAFE Regulations",
+            "node_id": "0398",
+            "start_index": 149,
+            "end_index": 149
+          },
+          {
+            "title": "Immediate Sale of Shares",
+            "node_id": "0399",
+            "start_index": 149,
+            "end_index": 149
+          }
+        ]
+      },
+      {
+        "title": "Colombia",
+        "node_id": "0400",
+        "start_index": 149,
+        "end_index": 149,
+        "nodes": [
+          {
+            "title": "Labor Law Acknowledgment",
+            "node_id": "0401",
+            "start_index": 149,
+            "end_index": 149
+          },
+          {
+            "title": "Securities Law Information",
+            "node_id": "0402",
+            "start_index": 149,
+            "end_index": 149
+          }
+        ]
+      },
+      {
+        "title": "Costa Rica",
+        "node_id": "0403",
+        "start_index": 149,
+        "end_index": 149
+      },
+      {
+        "title": "Filing content (pages 150-150)",
+        "node_id": "0404",
+        "start_index": 150,
+        "end_index": 150
+      },
+      {
+        "title": "Croatian Terms and Conditions",
+        "node_id": "0405",
+        "start_index": 151,
+        "end_index": 151,
+        "nodes": [
+          {
+            "title": "Cash Settlement",
+            "node_id": "0406",
+            "start_index": 151,
+            "end_index": 151
+          },
+          {
+            "title": "Notifications - Exchange Control Information",
+            "node_id": "0407",
+            "start_index": 151,
+            "end_index": 151
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 152-156)",
+        "node_id": "0408",
+        "start_index": 152,
+        "end_index": 156
+      },
+      {
+        "title": "Issuance Conditions",
+        "node_id": "0409",
+        "start_index": 157,
+        "end_index": 157
+      },
+      {
+        "title": "Procedures for Issuance",
+        "node_id": "0410",
+        "start_index": 157,
+        "end_index": 157
+      },
+      {
+        "title": "Tax Withholding Obligations",
+        "node_id": "0411",
+        "start_index": 157,
+        "end_index": 157
+      },
+      {
+        "title": "Filing content (pages 158-158)",
+        "node_id": "0412",
+        "start_index": 158,
+        "end_index": 158
+      },
+      {
+        "title": "Employee Rights and Consent",
+        "node_id": "0413",
+        "start_index": 159,
+        "end_index": 159
+      },
+      {
+        "title": "Data Protection and Privacy",
+        "node_id": "0414",
+        "start_index": 159,
+        "end_index": 159
+      },
+      {
+        "title": "Company Obligations and Notifications",
+        "node_id": "0415",
+        "start_index": 159,
+        "end_index": 159
+      },
+      {
+        "title": "Filing content (pages 160-160)",
+        "node_id": "0416",
+        "start_index": 160,
+        "end_index": 160
+      },
+      {
+        "title": "Participant Declaration",
+        "node_id": "0417",
+        "start_index": 161,
+        "end_index": 161
+      },
+      {
+        "title": "Filing content (pages 162-163)",
+        "node_id": "0418",
+        "start_index": 162,
+        "end_index": 163
+      },
+      {
+        "title": "Securities Law Information",
+        "node_id": "0419",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Exchange Control Information",
+        "node_id": "0420",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Foreign Asset/Account Reporting Information",
+        "node_id": "0421",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Anti-Corruption Information",
+        "node_id": "0422",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Labor Law Information",
+        "node_id": "0423",
+        "start_index": 164,
+        "end_index": 164
+      },
+      {
+        "title": "Filing content (pages 165-165)",
+        "node_id": "0424",
+        "start_index": 165,
+        "end_index": 165
+      },
+      {
+        "title": "Spanish Securities Law Information",
+        "node_id": "0425",
+        "start_index": 166,
+        "end_index": 166
+      },
+      {
+        "title": "Swedish Terms and Conditions",
+        "node_id": "0426",
+        "start_index": 166,
+        "end_index": 166
+      },
+      {
+        "title": "Swiss Notifications",
+        "node_id": "0427",
+        "start_index": 166,
+        "end_index": 166
+      },
+      {
+        "title": "Taiwanese Data Privacy Provisions",
+        "node_id": "0428",
+        "start_index": 166,
+        "end_index": 166
+      },
+      {
+        "title": "Filing content (pages 167-167)",
+        "node_id": "0429",
+        "start_index": 167,
+        "end_index": 167
+      },
+      {
+        "title": "Exchange Control Information",
+        "node_id": "0430",
+        "start_index": 168,
+        "end_index": 168,
+        "nodes": [
+          {
+            "title": "Participant Required to Repatriate Proceeds",
+            "node_id": "0431",
+            "start_index": 168,
+            "end_index": 168
+          },
+          {
+            "title": "Participant Required to Convert or Deposit Proceeds",
+            "node_id": "0432",
+            "start_index": 168,
+            "end_index": 168
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 169-172)",
+        "node_id": "0433",
+        "start_index": 169,
+        "end_index": 172
+      },
+      {
+        "title": "Exercise of the Option",
+        "node_id": "0434",
+        "start_index": 173,
+        "end_index": 173,
+        "nodes": [
+          {
+            "title": "Exercise Procedures",
+            "node_id": "0435",
+            "start_index": 173,
+            "end_index": 173
+          },
+          {
+            "title": "Exercise Timeframe",
+            "node_id": "0436",
+            "start_index": 173,
+            "end_index": 173
+          }
+        ]
+      },
+      {
+        "title": "Tax Withholding Requirements",
+        "node_id": "0437",
+        "start_index": 173,
+        "end_index": 173,
+        "nodes": [
+          {
+            "title": "Withholding Methods",
+            "node_id": "0438",
+            "start_index": 173,
+            "end_index": 173
+          },
+          {
+            "title": "Tax-Related Items",
+            "node_id": "0439",
+            "start_index": 173,
+            "end_index": 173
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 174-176)",
+        "node_id": "0440",
+        "start_index": 174,
+        "end_index": 176
+      },
+      {
+        "title": "Defined Terms; Titles",
+        "node_id": "0441",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Conformity to Applicable Laws",
+        "node_id": "0442",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Successors and Assigns",
+        "node_id": "0443",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Entire Agreement and Imposition of Other Terms",
+        "node_id": "0444",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Severability",
+        "node_id": "0445",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Waiver",
+        "node_id": "0446",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Limitation on Participant\u2019s Rights",
+        "node_id": "0447",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Entire Agreement and Imposition of Other Terms",
+        "node_id": "0448",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Severability",
+        "node_id": "0449",
+        "start_index": 177,
+        "end_index": 177
+      },
+      {
+        "title": "Filing content (pages 178-178)",
+        "node_id": "0450",
+        "start_index": 178,
+        "end_index": 178
+      },
+      {
+        "title": "Data Privacy Provisions for Participants in the EEA+",
+        "node_id": "0451",
+        "start_index": 179,
+        "end_index": 180
+      },
+      {
+        "title": "Data Privacy Provisions for Participants Outside the EEA+",
+        "node_id": "0452",
+        "start_index": 179,
+        "end_index": 180
+      },
+      {
+        "title": "Terms and Conditions",
+        "node_id": "0453",
+        "start_index": 181,
+        "end_index": 183,
+        "nodes": [
+          {
+            "title": "Divisions and Offer",
+            "node_id": "0454",
+            "start_index": 181,
+            "end_index": 181
+          },
+          {
+            "title": "Risk Factors",
+            "node_id": "0455",
+            "start_index": 182,
+            "end_index": 182
+          },
+          {
+            "title": "Common Stock in a U.S. Corporation",
+            "node_id": "0456",
+            "start_index": 183,
+            "end_index": 183
+          },
+          {
+            "title": "Grant and Exercise Price of the Option",
+            "node_id": "0457",
+            "start_index": 183,
+            "end_index": 183
+          },
+          {
+            "title": "Statutory Terms and Conditions",
+            "node_id": "0458",
+            "start_index": 183,
+            "end_index": 183
+          }
+        ]
+      },
+      {
+        "title": "Exclusions from Liability",
+        "node_id": "0459",
+        "start_index": 184,
+        "end_index": 185,
+        "nodes": [
+          {
+            "title": "Contravention of Terms",
+            "node_id": "0460",
+            "start_index": 184,
+            "end_index": 184,
+            "nodes": [
+              {
+                "title": "Reasonable Inquiry",
+                "node_id": "0461",
+                "start_index": 184,
+                "end_index": 184
+              },
+              {
+                "title": "Reasonable Grounds",
+                "node_id": "0462",
+                "start_index": 184,
+                "end_index": 184
+              }
+            ]
+          },
+          {
+            "title": "Knowledge of Contravention",
+            "node_id": "0463",
+            "start_index": 185,
+            "end_index": 185
+          },
+          {
+            "title": "Reliance on Information",
+            "node_id": "0464",
+            "start_index": 185,
+            "end_index": 185
+          }
+        ]
+      },
+      {
+        "title": "Shares Acquired Under the Plan",
+        "node_id": "0465",
+        "start_index": 186,
+        "end_index": 186
+      },
+      {
+        "title": "Tax on Financial Transaction (IOF)",
+        "node_id": "0466",
+        "start_index": 186,
+        "end_index": 186
+      },
+      {
+        "title": "Filing content (pages 187-187)",
+        "node_id": "0467",
+        "start_index": 187,
+        "end_index": 187
+      },
+      {
+        "title": "Opciones de Valores No Inscritos",
+        "node_id": "0468",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Informaci\u00f3n P\u00fablica y Ofertas P\u00fablicas",
+        "node_id": "0469",
+        "start_index": 188,
+        "end_index": 188
+      },
+      {
+        "title": "Filing content (pages 189-189)",
+        "node_id": "0470",
+        "start_index": 189,
+        "end_index": 189
+      },
+      {
+        "title": "COSTA RICA",
+        "node_id": "0471",
+        "start_index": 190,
+        "end_index": 190
+      },
+      {
+        "title": "DOMINICAN REPUBLIC",
+        "node_id": "0472",
+        "start_index": 190,
+        "end_index": 190
+      },
+      {
+        "title": "ECUADOR",
+        "node_id": "0473",
+        "start_index": 190,
+        "end_index": 190,
+        "nodes": [
+          {
+            "title": "Notifications",
+            "node_id": "0474",
+            "start_index": 190,
+            "end_index": 190,
+            "nodes": [
+              {
+                "title": "Foreign Asset/Account Reporting Information",
+                "node_id": "0475",
+                "start_index": 190,
+                "end_index": 190
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 191-191)",
+        "node_id": "0476",
+        "start_index": 191,
+        "end_index": 191
+      },
+      {
+        "title": "Definition and Terms",
+        "node_id": "0477",
+        "start_index": 192,
+        "end_index": 192
+      },
+      {
+        "title": "Holding Periods for Managing Corporate Officers",
+        "node_id": "0478",
+        "start_index": 192,
+        "end_index": 192
+      },
+      {
+        "title": "Filing content (pages 193-193)",
+        "node_id": "0479",
+        "start_index": 193,
+        "end_index": 193
+      },
+      {
+        "title": "Exchange Control Information",
+        "node_id": "0480",
+        "start_index": 194,
+        "end_index": 194
+      },
+      {
+        "title": "Foreign Asset/Account Reporting Information",
+        "node_id": "0481",
+        "start_index": 194,
+        "end_index": 194
+      },
+      {
+        "title": "Filing content (pages 195-195)",
+        "node_id": "0482",
+        "start_index": 195,
+        "end_index": 195
+      },
+      {
+        "title": "Israel Tax Provisions",
+        "node_id": "0483",
+        "start_index": 196,
+        "end_index": 196,
+        "nodes": [
+          {
+            "title": "Exercise Procedure and Responsibility for Taxes",
+            "node_id": "0484",
+            "start_index": 196,
+            "end_index": 196
+          }
+        ]
+      },
+      {
+        "title": "Japan Exchange Control Information",
+        "node_id": "0485",
+        "start_index": 196,
+        "end_index": 196
+      },
+      {
+        "title": "Korea Foreign Asset/Account Reporting Information",
+        "node_id": "0486",
+        "start_index": 196,
+        "end_index": 196
+      },
+      {
+        "title": "Filing content (pages 197-197)",
+        "node_id": "0487",
+        "start_index": 197,
+        "end_index": 197
+      },
+      {
+        "title": "Address and Telephone Number",
+        "node_id": "0488",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Email Address",
+        "node_id": "0489",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Date of Birth",
+        "node_id": "0490",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Social Insurance",
+        "node_id": "0491",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Passport or Other Identification Number",
+        "node_id": "0492",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Salary",
+        "node_id": "0493",
+        "start_index": 198,
+        "end_index": 198
+      },
+      {
+        "title": "Filing content (pages 199-201)",
+        "node_id": "0494",
+        "start_index": 199,
+        "end_index": 201
+      },
+      {
+        "title": "Securities Law Notice",
+        "node_id": "0495",
+        "start_index": 202,
+        "end_index": 202
+      },
+      {
+        "title": "Director Notification",
+        "node_id": "0496",
+        "start_index": 202,
+        "end_index": 202,
+        "nodes": [
+          {
+            "title": "Notification Requirements",
+            "node_id": "0497",
+            "start_index": 202,
+            "end_index": 202
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 203-206)",
+        "node_id": "0498",
+        "start_index": 203,
+        "end_index": 206
+      },
+      {
+        "title": "Data Privacy Provisions",
+        "node_id": "0499",
+        "start_index": 207,
+        "end_index": 207
+      },
+      {
+        "title": "Notifications",
+        "node_id": "0500",
+        "start_index": 207,
+        "end_index": 207,
+        "nodes": [
+          {
+            "title": "Securities Law Information",
+            "node_id": "0501",
+            "start_index": 207,
+            "end_index": 207
+          },
+          {
+            "title": "Exchange Control Information",
+            "node_id": "0502",
+            "start_index": 207,
+            "end_index": 207
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 208-213)",
+        "node_id": "0503",
+        "start_index": 208,
+        "end_index": 213
+      },
+      {
+        "title": "Section 2.1 - Grant of RSUs",
+        "node_id": "0504",
+        "start_index": 214,
+        "end_index": 214,
+        "nodes": [
+          {
+            "title": "Subsection 2.1(a) - Nature of the Grant",
+            "node_id": "0505",
+            "start_index": 214,
+            "end_index": 214
+          },
+          {
+            "title": "Subsection 2.1(b) - Vesting and Settlement of RSUs",
+            "node_id": "0506",
+            "start_index": 214,
+            "end_index": 214
+          },
+          {
+            "title": "Subsection 2.1(c) - Delivery of Notice and Market Sell Order",
+            "node_id": "0507",
+            "start_index": 214,
+            "end_index": 214
+          },
+          {
+            "title": "Subsection 2.1(d) - Option to Treat Failure to Provide Payment as Election to Satisfy Tax-Related Items",
+            "node_id": "0508",
+            "start_index": 214,
+            "end_index": 214
+          },
+          {
+            "title": "Subsection 2.1(e) - Right to Deduct Amount from Salary or Other Compensation",
+            "node_id": "0509",
+            "start_index": 214,
+            "end_index": 214
+          },
+          {
+            "title": "Subsection 2.1(f) - Treatment of FICA-Related Taxes",
+            "node_id": "0510",
+            "start_index": 214,
+            "end_index": 214
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 215-215)",
+        "node_id": "0511",
+        "start_index": 215,
+        "end_index": 215
+      },
+      {
+        "title": "k (1)",
+        "node_id": "0512",
+        "start_index": 216,
+        "end_index": 216
+      },
+      {
+        "title": "k (2)",
+        "node_id": "0513",
+        "start_index": 216,
+        "end_index": 216
+      },
+      {
+        "title": "k (3)",
+        "node_id": "0514",
+        "start_index": 216,
+        "end_index": 216
+      },
+      {
+        "title": "Filing content (pages 217-217)",
+        "node_id": "0515",
+        "start_index": 217,
+        "end_index": 217
+      },
+      {
+        "title": "Section 409A Intent",
+        "node_id": "0516",
+        "start_index": 218,
+        "end_index": 218
+      },
+      {
+        "title": "Compliance with Section 409A",
+        "node_id": "0517",
+        "start_index": 218,
+        "end_index": 218
+      },
+      {
+        "title": "Filing content (pages 219-219)",
+        "node_id": "0518",
+        "start_index": 219,
+        "end_index": 219
+      },
+      {
+        "title": "Data Privacy Consent Overview",
+        "node_id": "0519",
+        "start_index": 220,
+        "end_index": 220
+      },
+      {
+        "title": "Understanding of Data Privacy Consent",
+        "node_id": "0520",
+        "start_index": 220,
+        "end_index": 220
+      },
+      {
+        "title": "Data Privacy Consent Details",
+        "node_id": "0521",
+        "start_index": 220,
+        "end_index": 220,
+        "nodes": [
+          {
+            "title": "Notifications - Securities Law Information",
+            "node_id": "0522",
+            "start_index": 220,
+            "end_index": 220
+          },
+          {
+            "title": "Notifications - Exchange Control Information",
+            "node_id": "0523",
+            "start_index": 220,
+            "end_index": 220
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 221-223)",
+        "node_id": "0524",
+        "start_index": 221,
+        "end_index": 223
+      },
+      {
+        "title": "Sworn Statements and Registration with CIRS",
+        "node_id": "0525",
+        "start_index": 224,
+        "end_index": 224,
+        "nodes": [
+          {
+            "title": "Submission of Sworn Statements",
+            "node_id": "0526",
+            "start_index": 224,
+            "end_index": 224
+          },
+          {
+            "title": "Registration with CIRS",
+            "node_id": "0527",
+            "start_index": 224,
+            "end_index": 224
+          }
+        ]
+      },
+      {
+        "title": "China Specific Provisions",
+        "node_id": "0528",
+        "start_index": 224,
+        "end_index": 224,
+        "nodes": [
+          {
+            "title": "Terms and Conditions",
+            "node_id": "0529",
+            "start_index": 224,
+            "end_index": 224,
+            "nodes": [
+              {
+                "title": "Labor Law Acknowledgment",
+                "node_id": "0530",
+                "start_index": 224,
+                "end_index": 224
+              },
+              {
+                "title": "Notifications",
+                "node_id": "0531",
+                "start_index": 224,
+                "end_index": 224,
+                "nodes": [
+                  {
+                    "title": "Securities Law Information",
+                    "node_id": "0532",
+                    "start_index": 224,
+                    "end_index": 224
+                  },
+                  {
+                    "title": "Exchange Control Information",
+                    "node_id": "0533",
+                    "start_index": 224,
+                    "end_index": 224
+                  },
+                  {
+                    "title": "Foreign Asset/Account Reporting Information",
+                    "node_id": "0534",
+                    "start_index": 224,
+                    "end_index": 224
+                  }
+                ]
+              },
+              {
+                "title": "Terms and Conditions",
+                "node_id": "0535",
+                "start_index": 224,
+                "end_index": 224,
+                "nodes": [
+                  {
+                    "title": "Labor Law Acknowledgment",
+                    "node_id": "0536",
+                    "start_index": 224,
+                    "end_index": 224
+                  },
+                  {
+                    "title": "Notifications",
+                    "node_id": "0537",
+                    "start_index": 224,
+                    "end_index": 224,
+                    "nodes": [
+                      {
+                        "title": "Securities Law Information",
+                        "node_id": "0538",
+                        "start_index": 224,
+                        "end_index": 224
+                      },
+                      {
+                        "title": "Exchange Control Information",
+                        "node_id": "0539",
+                        "start_index": 224,
+                        "end_index": 224
+                      },
+                      {
+                        "title": "Foreign Asset/Account Reporting Information",
+                        "node_id": "0540",
+                        "start_index": 224,
+                        "end_index": 224
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Exchange Control Information",
+                    "node_id": "0541",
+                    "start_index": 224,
+                    "end_index": 224
+                  },
+                  {
+                    "title": "Foreign Asset/Account Reporting Information",
+                    "node_id": "0542",
+                    "start_index": 224,
+                    "end_index": 224
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Costa Rica Specific Provisions",
+            "node_id": "0543",
+            "start_index": 224,
+            "end_index": 224
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 225-225)",
+        "node_id": "0544",
+        "start_index": 225,
+        "end_index": 225
+      },
+      {
+        "title": "Notifications - Exchange Control Information",
+        "node_id": "0545",
+        "start_index": 226,
+        "end_index": 226,
+        "nodes": [
+          {
+            "title": "Reporting Requirements",
+            "node_id": "0546",
+            "start_index": 226,
+            "end_index": 226
+          },
+          {
+            "title": "Consultation with Legal Advisor",
+            "node_id": "0547",
+            "start_index": 226,
+            "end_index": 226
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 227-230)",
+        "node_id": "0548",
+        "start_index": 227,
+        "end_index": 230
+      },
+      {
+        "title": "Securities Law Information",
+        "node_id": "0549",
+        "start_index": 231,
+        "end_index": 231
+      },
+      {
+        "title": "Notifications",
+        "node_id": "0550",
+        "start_index": 231,
+        "end_index": 231,
+        "nodes": [
+          {
+            "title": "Foreign Asset/Account Reporting Information",
+            "node_id": "0551",
+            "start_index": 231,
+            "end_index": 231,
+            "nodes": [
+              {
+                "title": "Italy",
+                "node_id": "0552",
+                "start_index": 231,
+                "end_index": 231
+              },
+              {
+                "title": "Japan",
+                "node_id": "0553",
+                "start_index": 231,
+                "end_index": 231
+              },
+              {
+                "title": "Korea",
+                "node_id": "0554",
+                "start_index": 231,
+                "end_index": 231
+              },
+              {
+                "title": "Latvia",
+                "node_id": "0555",
+                "start_index": 231,
+                "end_index": 231
+              }
+            ]
+          },
+          {
+            "title": "Foreign Asset Tax Information",
+            "node_id": "0556",
+            "start_index": 231,
+            "end_index": 231
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 232-232)",
+        "node_id": "0557",
+        "start_index": 232,
+        "end_index": 232
+      },
+      {
+        "title": "Acknowledgment of the Agreement",
+        "node_id": "0558",
+        "start_index": 233,
+        "end_index": 233,
+        "nodes": [
+          {
+            "title": "Participation in the Plan",
+            "node_id": "0559",
+            "start_index": 233,
+            "end_index": 233
+          }
+        ]
+      },
+      {
+        "title": "Notification Obligation",
+        "node_id": "0560",
+        "start_index": 233,
+        "end_index": 233
+      },
+      {
+        "title": "Filing content (pages 234-234)",
+        "node_id": "0561",
+        "start_index": 234,
+        "end_index": 234
+      },
+      {
+        "title": "Nature of the Offer",
+        "node_id": "0562",
+        "start_index": 235,
+        "end_index": 235,
+        "nodes": [
+          {
+            "title": "Terms and Conditions of the Offer",
+            "node_id": "0563",
+            "start_index": 235,
+            "end_index": 235
+          }
+        ]
+      },
+      {
+        "title": "Participant's Rights and Responsibilities",
+        "node_id": "0564",
+        "start_index": 235,
+        "end_index": 235,
+        "nodes": [
+          {
+            "title": "Rights Under the Plan",
+            "node_id": "0565",
+            "start_index": 235,
+            "end_index": 235
+          },
+          {
+            "title": "Responsibilities Under the Plan",
+            "node_id": "0566",
+            "start_index": 235,
+            "end_index": 235
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 236-241)",
+        "node_id": "0567",
+        "start_index": 236,
+        "end_index": 241
+      },
+      {
+        "title": "Notifications",
+        "node_id": "0568",
+        "start_index": 242,
+        "end_index": 242,
+        "nodes": [
+          {
+            "title": "Exchange Control Information",
+            "node_id": "0569",
+            "start_index": 242,
+            "end_index": 242
+          }
+        ]
+      },
+      {
+        "title": "Participant Obligations",
+        "node_id": "0570",
+        "start_index": 242,
+        "end_index": 242,
+        "nodes": [
+          {
+            "title": "Inward Remittance",
+            "node_id": "0571",
+            "start_index": 242,
+            "end_index": 242
+          },
+          {
+            "title": "Bank of Thailand Reporting",
+            "node_id": "0572",
+            "start_index": 242,
+            "end_index": 242
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 243-245)",
+        "node_id": "0573",
+        "start_index": 243,
+        "end_index": 245
+      },
+      {
+        "title": "Power of Attorney",
+        "node_id": "0574",
+        "start_index": 246,
+        "end_index": 246,
+        "nodes": [
+          {
+            "title": "Directors and Officers",
+            "node_id": "0575",
+            "start_index": 246,
+            "end_index": 246,
+            "nodes": [
+              {
+                "title": "Michael F. Roman",
+                "node_id": "0576",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Monish Patolawala",
+                "node_id": "0577",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Theresa E. Reinseth",
+                "node_id": "0578",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Amy E. Hood",
+                "node_id": "0579",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Thomas K. Brown",
+                "node_id": "0580",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Muhtar Kent",
+                "node_id": "0581",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Pamela J. Craig",
+                "node_id": "0582",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Suzan Kereere",
+                "node_id": "0583",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Dambisa F. Moyo",
+                "node_id": "0584",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Michael L. Eskew",
+                "node_id": "0585",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "Gregory R. Page",
+                "node_id": "0586",
+                "start_index": 246,
+                "end_index": 246
+              },
+              {
+                "title": "James R. Fitterling",
+                "node_id": "0587",
+                "start_index": 246,
+                "end_index": 246
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 247-249)",
+        "node_id": "0588",
+        "start_index": 247,
+        "end_index": 249
+      },
+      {
+        "title": "Exhibit 32.1 - Sarbanes-Oxley Certification",
+        "node_id": "0589",
+        "start_index": 250,
+        "end_index": 251
+      },
+      {
+        "title": "Exhibit 32.2 - Sarbanes-Oxley Certification",
+        "node_id": "0590",
+        "start_index": 251,
+        "end_index": 252
+      },
+      {
+        "title": "Exhibit 95 - Mine Safety Disclosures",
+        "node_id": "0591",
+        "start_index": 252,
+        "end_index": 252
+      }
+    ]
+  }
+}

@@ -36,6 +36,13 @@ from arbor.core.types import (
     ArborConfig,
     ProcessingMode,
     FlatTOCItem,
+    BudgetExceededError,
+    TreeLoadedEvent,
+    NavigatingEvent,
+    NodeFoundEvent,
+    AnswerEvent,
+    ErrorEvent,
+    ArborEvent,
 )
 
 # Providers
@@ -43,6 +50,7 @@ from arbor.providers.base import LLMProvider
 from arbor.providers.openai_provider import OpenAIProvider, GroqProvider, OpenAICompatibleProvider
 from arbor.providers.ollama_provider import OllamaProvider
 from arbor.providers.anthropic_provider import AnthropicProvider
+from arbor.providers.gemini_provider import GeminiProvider
 try:
     from arbor.providers.finetuned_provider import ArborFineTunedProvider
 except Exception:  # bitsandbytes/transformers not installed or broken env
@@ -59,10 +67,19 @@ __all__ = [
     "ArborConfig",
     "ProcessingMode",
     "FlatTOCItem",
+    "BudgetExceededError",
+    # Streaming event types
+    "TreeLoadedEvent",
+    "NavigatingEvent",
+    "NodeFoundEvent",
+    "AnswerEvent",
+    "ErrorEvent",
+    "ArborEvent",
     # Pipeline
     "generate_tree",
     "search_tree",
     "query",
+    "query_stream",
     # Providers
     "LLMProvider",
     "OpenAIProvider",
@@ -70,10 +87,11 @@ __all__ = [
     "OpenAICompatibleProvider",
     "OllamaProvider",
     "AnthropicProvider",
+    "GeminiProvider",
     "ArborFineTunedProvider",
 ]
 
 # Core pipeline functions
 from arbor.core.tree_generator import generate_tree
 from arbor.core.tree_searcher import search_tree
-from arbor.core.rag_pipeline import query
+from arbor.core.rag_pipeline import query, query_stream

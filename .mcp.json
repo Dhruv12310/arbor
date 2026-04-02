@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "arbor": {
+      "command": "python",
+      "args": ["-m", "arbor.mcp_server"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
+    }
+  }
+}

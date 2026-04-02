@@ -1,0 +1,2945 @@
+{
+  "tree": {
+    "doc_name": "ADOBE_2016_10K",
+    "structure": [
+      {
+        "title": "Filing content (pages 1-1)",
+        "node_id": "0001",
+        "start_index": 1,
+        "end_index": 1
+      },
+      {
+        "title": "United States",
+        "node_id": "0002",
+        "start_index": 2,
+        "end_index": 2,
+        "nodes": [
+          {
+            "title": "Securities and Exchange Commission",
+            "node_id": "0003",
+            "start_index": 2,
+            "end_index": 2,
+            "nodes": [
+              {
+                "title": "Washington, D.C.",
+                "node_id": "0004",
+                "start_index": 2,
+                "end_index": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PART I",
+        "node_id": "0005",
+        "start_index": 3,
+        "end_index": 3,
+        "nodes": [
+          {
+            "title": "Item 1. Business",
+            "node_id": "0006",
+            "start_index": 3,
+            "end_index": 3
+          },
+          {
+            "title": "Item 1A. Risk Factors",
+            "node_id": "0007",
+            "start_index": 3,
+            "end_index": 3
+          }
+        ]
+      },
+      {
+        "title": "ITEM 1. BUSINESS",
+        "node_id": "0008",
+        "start_index": 4,
+        "end_index": 4,
+        "nodes": [
+          {
+            "title": "Founding and Incorporation",
+            "node_id": "0009",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Executive Offices and Principal Facilities",
+            "node_id": "0010",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Business Overview",
+            "node_id": "0011",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Strategic Growth Areas",
+            "node_id": "0012",
+            "start_index": 4,
+            "end_index": 4
+          }
+        ]
+      },
+      {
+        "title": "Founding and Incorporation",
+        "node_id": "0013",
+        "start_index": 4,
+        "end_index": 4,
+        "nodes": [
+          {
+            "title": "Incorporation in California",
+            "node_id": "0014",
+            "start_index": 4,
+            "end_index": 4
+          },
+          {
+            "title": "Reincorporation in Delaware",
+            "node_id": "0015",
+            "start_index": 4,
+            "end_index": 4
+          }
+        ]
+      },
+      {
+        "title": "Form 10-K",
+        "node_id": "0016",
+        "start_index": 5,
+        "end_index": 5,
+        "nodes": [
+          {
+            "title": "Annual Report",
+            "node_id": "0017",
+            "start_index": 5,
+            "end_index": 5
+          }
+        ]
+      },
+      {
+        "title": "Market Overview",
+        "node_id": "0018",
+        "start_index": 5,
+        "end_index": 5,
+        "nodes": [
+          {
+            "title": "Digital Media Trends",
+            "node_id": "0019",
+            "start_index": 5,
+            "end_index": 5
+          },
+          {
+            "title": "Digital Marketing Trends",
+            "node_id": "0020",
+            "start_index": 5,
+            "end_index": 5
+          }
+        ]
+      },
+      {
+        "title": "Digital Marketing Opportunity",
+        "node_id": "0021",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Consumer Demand for Personalized Experiences",
+            "node_id": "0022",
+            "start_index": 6,
+            "end_index": 6
+          }
+        ]
+      },
+      {
+        "title": "Marketing Strategy",
+        "node_id": "0023",
+        "start_index": 6,
+        "end_index": 6,
+        "nodes": [
+          {
+            "title": "Focus on Comprehensive and Integrated Marketing Solutions",
+            "node_id": "0024",
+            "start_index": 6,
+            "end_index": 6
+          }
+        ]
+      },
+      {
+        "title": "Mark One",
+        "node_id": "0025",
+        "start_index": 7,
+        "end_index": 7,
+        "nodes": [
+          {
+            "title": "Annual Report",
+            "node_id": "0026",
+            "start_index": 7,
+            "end_index": 7
+          }
+        ]
+      },
+      {
+        "title": "Business Segments",
+        "node_id": "0027",
+        "start_index": 8,
+        "end_index": 8,
+        "nodes": [
+          {
+            "title": "Digital Media Segment",
+            "node_id": "0028",
+            "start_index": 8,
+            "end_index": 8
+          },
+          {
+            "title": "Digital Marketing Segment",
+            "node_id": "0029",
+            "start_index": 8,
+            "end_index": 8
+          },
+          {
+            "title": "Print and Publishing Segment",
+            "node_id": "0030",
+            "start_index": 8,
+            "end_index": 8
+          }
+        ]
+      },
+      {
+        "title": "Overview of Creative Cloud",
+        "node_id": "0031",
+        "start_index": 8,
+        "end_index": 8,
+        "nodes": [
+          {
+            "title": "Features of Creative Cloud",
+            "node_id": "0032",
+            "start_index": 8,
+            "end_index": 8
+          }
+        ]
+      },
+      {
+        "title": "Photoshop",
+        "node_id": "0033",
+        "start_index": 8,
+        "end_index": 8,
+        "nodes": [
+          {
+            "title": "Features of Photoshop",
+            "node_id": "0034",
+            "start_index": 8,
+            "end_index": 8
+          }
+        ]
+      },
+      {
+        "title": "Illustrator",
+        "node_id": "0035",
+        "start_index": 8,
+        "end_index": 8,
+        "nodes": [
+          {
+            "title": "Features of Illustrator",
+            "node_id": "0036",
+            "start_index": 8,
+            "end_index": 8
+          }
+        ]
+      },
+      {
+        "title": "InDesign",
+        "node_id": "0037",
+        "start_index": 8,
+        "end_index": 8,
+        "nodes": [
+          {
+            "title": "Features of InDesign",
+            "node_id": "0038",
+            "start_index": 8,
+            "end_index": 8
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 9-9)",
+        "node_id": "0039",
+        "start_index": 9,
+        "end_index": 9
+      },
+      {
+        "title": "Executive Offices and Principal Facilities",
+        "node_id": "0040",
+        "start_index": 10,
+        "end_index": 10
+      },
+      {
+        "title": "Typekit",
+        "node_id": "0041",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Behance",
+        "node_id": "0042",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Spark",
+        "node_id": "0043",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Document Cloud",
+        "node_id": "0044",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Sign",
+        "node_id": "0045",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Analytics",
+        "node_id": "0046",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Target",
+        "node_id": "0047",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Social",
+        "node_id": "0048",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Media Optimizer",
+        "node_id": "0049",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Experience Manager",
+        "node_id": "0050",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Adobe Campaign",
+        "node_id": "0051",
+        "start_index": 10,
+        "end_index": 11
+      },
+      {
+        "title": "Business Overview",
+        "node_id": "0052",
+        "start_index": 12,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "Innovations and Transformations",
+            "node_id": "0053",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Customer Segments and Target Markets",
+            "node_id": "0054",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Strategic Growth Areas",
+            "node_id": "0055",
+            "start_index": 12,
+            "end_index": 12
+          }
+        ]
+      },
+      {
+        "title": "Adobe Audience Manager",
+        "node_id": "0056",
+        "start_index": 12,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "Consolidation of Audience Information",
+            "node_id": "0057",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Identification, Quantification, and Optimization of High-Value Target Audiences",
+            "node_id": "0058",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Integrated, Secure, Privacy-Friendly Management System",
+            "node_id": "0059",
+            "start_index": 12,
+            "end_index": 12
+          }
+        ]
+      },
+      {
+        "title": "Adobe Primetime",
+        "node_id": "0060",
+        "start_index": 12,
+        "end_index": 12,
+        "nodes": [
+          {
+            "title": "PayTV Pass",
+            "node_id": "0061",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "DRM (Digital Rights Management)",
+            "node_id": "0062",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Ad Insertion",
+            "node_id": "0063",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Ad Decisioning",
+            "node_id": "0064",
+            "start_index": 12,
+            "end_index": 12
+          },
+          {
+            "title": "Video Player SDK",
+            "node_id": "0065",
+            "start_index": 12,
+            "end_index": 12
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 13-13)",
+        "node_id": "0066",
+        "start_index": 13,
+        "end_index": 13
+      },
+      {
+        "title": "Competitive Landscape",
+        "node_id": "0067",
+        "start_index": 14,
+        "end_index": 14,
+        "nodes": [
+          {
+            "title": "Large Companies",
+            "node_id": "0068",
+            "start_index": 14,
+            "end_index": 14
+          },
+          {
+            "title": "Point Product Solutions",
+            "node_id": "0069",
+            "start_index": 14,
+            "end_index": 14
+          }
+        ]
+      },
+      {
+        "title": "Market Trends and Challenges",
+        "node_id": "0070",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Adobe's Competitive Advantage",
+        "node_id": "0071",
+        "start_index": 14,
+        "end_index": 14
+      },
+      {
+        "title": "Marketing and Sales",
+        "node_id": "0072",
+        "start_index": 15,
+        "end_index": 16,
+        "nodes": [
+          {
+            "title": "Direct Sales",
+            "node_id": "0073",
+            "start_index": 15,
+            "end_index": 15
+          },
+          {
+            "title": "Sales Through Websites",
+            "node_id": "0074",
+            "start_index": 16,
+            "end_index": 16
+          }
+        ]
+      },
+      {
+        "title": "Order Fulfillment",
+        "node_id": "0075",
+        "start_index": 15,
+        "end_index": 16,
+        "nodes": [
+          {
+            "title": "Procurement",
+            "node_id": "0076",
+            "start_index": 15,
+            "end_index": 15
+          },
+          {
+            "title": "Production",
+            "node_id": "0077",
+            "start_index": 16,
+            "end_index": 16
+          },
+          {
+            "title": "Inventory and Fulfillment",
+            "node_id": "0078",
+            "start_index": 16,
+            "end_index": 16
+          }
+        ]
+      },
+      {
+        "title": "Services and Support",
+        "node_id": "0079",
+        "start_index": 15,
+        "end_index": 16,
+        "nodes": [
+          {
+            "title": "Consulting",
+            "node_id": "0080",
+            "start_index": 15,
+            "end_index": 15
+          },
+          {
+            "title": "Customer Success Management",
+            "node_id": "0081",
+            "start_index": 16,
+            "end_index": 16
+          },
+          {
+            "title": "Technical Support",
+            "node_id": "0082",
+            "start_index": 16,
+            "end_index": 16
+          },
+          {
+            "title": "Learning Services",
+            "node_id": "0083",
+            "start_index": 16,
+            "end_index": 16
+          }
+        ]
+      },
+      {
+        "title": "Investments",
+        "node_id": "0084",
+        "start_index": 15,
+        "end_index": 16
+      },
+      {
+        "title": "Product Development",
+        "node_id": "0085",
+        "start_index": 17,
+        "end_index": 18,
+        "nodes": [
+          {
+            "title": "Rapid Technological Change",
+            "node_id": "0086",
+            "start_index": 17,
+            "end_index": 17
+          },
+          {
+            "title": "High Level of Investment",
+            "node_id": "0087",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Enhancement of Existing Solutions",
+            "node_id": "0088",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Development of New Solutions",
+            "node_id": "0089",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Internal Development",
+            "node_id": "0090",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Acquisition of External Products",
+            "node_id": "0091",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Licensing and Technology Transfer Agreements",
+            "node_id": "0092",
+            "start_index": 18,
+            "end_index": 18
+          },
+          {
+            "title": "Research and Development Expenses",
+            "node_id": "0093",
+            "start_index": 18,
+            "end_index": 18
+          }
+        ]
+      },
+      {
+        "title": "Product Protection",
+        "node_id": "0094",
+        "start_index": 17,
+        "end_index": 18,
+        "nodes": [
+          {
+            "title": "Domestic and Foreign Patents and Pending Applications",
+            "node_id": "0095",
+            "start_index": 17,
+            "end_index": 17
+          },
+          {
+            "title": "Intellectual Property Ownership Rights",
+            "node_id": "0096",
+            "start_index": 18,
+            "end_index": 18
+          }
+        ]
+      },
+      {
+        "title": "Product Distribution Methods",
+        "node_id": "0097",
+        "start_index": 17,
+        "end_index": 18,
+        "nodes": [
+          {
+            "title": "Right to Use Licensing Method",
+            "node_id": "0098",
+            "start_index": 17,
+            "end_index": 17,
+            "nodes": [
+              {
+                "title": "License Agreement",
+                "node_id": "0099",
+                "start_index": 17,
+                "end_index": 17
+              },
+              {
+                "title": "Restrictions on Use",
+                "node_id": "0100",
+                "start_index": 17,
+                "end_index": 17
+              }
+            ]
+          },
+          {
+            "title": "Software as a Service (SaaS) and On-Demand Distribution Methods",
+            "node_id": "0101",
+            "start_index": 18,
+            "end_index": 18,
+            "nodes": [
+              {
+                "title": "Online Terms of Use",
+                "node_id": "0102",
+                "start_index": 17,
+                "end_index": 17
+              },
+              {
+                "title": "Enterprise Licensing Agreements",
+                "node_id": "0103",
+                "start_index": 18,
+                "end_index": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Executive Leadership",
+        "node_id": "0104",
+        "start_index": 19,
+        "end_index": 19,
+        "nodes": [
+          {
+            "title": "Bryan Lamkin",
+            "node_id": "0105",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Ann Lewnes",
+            "node_id": "0106",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Donna Morris",
+            "node_id": "0107",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Abhay Parasnis",
+            "node_id": "0108",
+            "start_index": 19,
+            "end_index": 19
+          },
+          {
+            "title": "Bradley Rencher",
+            "node_id": "0109",
+            "start_index": 19,
+            "end_index": 19
+          }
+        ]
+      },
+      {
+        "title": "Corporate Structure and Operations",
+        "node_id": "0110",
+        "start_index": 20,
+        "end_index": 20,
+        "nodes": [
+          {
+            "title": "Geographical Presence",
+            "node_id": "0111",
+            "start_index": 20,
+            "end_index": 20
+          },
+          {
+            "title": "Operations and Facilities",
+            "node_id": "0112",
+            "start_index": 20,
+            "end_index": 20
+          }
+        ]
+      },
+      {
+        "title": "Risk Factors Related to Business Operations",
+        "node_id": "0113",
+        "start_index": 21,
+        "end_index": 21,
+        "nodes": [
+          {
+            "title": "Risk of Customer Attrition Due to Product Enhancements",
+            "node_id": "0114",
+            "start_index": 21,
+            "end_index": 21
+          }
+        ]
+      },
+      {
+        "title": "Subscription Model Risks",
+        "node_id": "0115",
+        "start_index": 21,
+        "end_index": 21,
+        "nodes": [
+          {
+            "title": "Revenue Recognition Timing Risks",
+            "node_id": "0116",
+            "start_index": 21,
+            "end_index": 21
+          },
+          {
+            "title": "Potential Reductions in Cash Flows",
+            "node_id": "0117",
+            "start_index": 21,
+            "end_index": 21
+          }
+        ]
+      },
+      {
+        "title": "Customer Renewal Rate Risks",
+        "node_id": "0118",
+        "start_index": 21,
+        "end_index": 21,
+        "nodes": [
+          {
+            "title": "Factors Influencing Customer Renewal Rates",
+            "node_id": "0119",
+            "start_index": 21,
+            "end_index": 21
+          }
+        ]
+      },
+      {
+        "title": "Economic and Political Conditions",
+        "node_id": "0120",
+        "start_index": 22,
+        "end_index": 22,
+        "nodes": [
+          {
+            "title": "Slowing Economic Growth",
+            "node_id": "0121",
+            "start_index": 22,
+            "end_index": 22
+          },
+          {
+            "title": "Government Spending Cuts",
+            "node_id": "0122",
+            "start_index": 22,
+            "end_index": 22
+          }
+        ]
+      },
+      {
+        "title": "Cybersecurity Risks",
+        "node_id": "0123",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Potential Security Vulnerabilities",
+            "node_id": "0124",
+            "start_index": 23,
+            "end_index": 23
+          },
+          {
+            "title": "Impact of Cybersecurity Incidents",
+            "node_id": "0125",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Data Breach Risks",
+        "node_id": "0126",
+        "start_index": 23,
+        "end_index": 23,
+        "nodes": [
+          {
+            "title": "Unauthorized Access to Customer Data",
+            "node_id": "0127",
+            "start_index": 23,
+            "end_index": 23
+          },
+          {
+            "title": "Data Collection and Storage Risks",
+            "node_id": "0128",
+            "start_index": 23,
+            "end_index": 23
+          }
+        ]
+      },
+      {
+        "title": "Risk Factors Related to Operations",
+        "node_id": "0129",
+        "start_index": 24,
+        "end_index": 24,
+        "nodes": [
+          {
+            "title": "Data Loss or Corruption",
+            "node_id": "0130",
+            "start_index": 24,
+            "end_index": 24
+          },
+          {
+            "title": "Incomplete or Inaccurate Data",
+            "node_id": "0131",
+            "start_index": 24,
+            "end_index": 24
+          }
+        ]
+      },
+      {
+        "title": "Risk Factors Related to Acquisitions",
+        "node_id": "0132",
+        "start_index": 24,
+        "end_index": 24,
+        "nodes": [
+          {
+            "title": "Difficulty in Integrating Acquired Businesses",
+            "node_id": "0133",
+            "start_index": 24,
+            "end_index": 24
+          },
+          {
+            "title": "Entry into New Markets",
+            "node_id": "0134",
+            "start_index": 24,
+            "end_index": 24
+          }
+        ]
+      },
+      {
+        "title": "Risk Factors Related to Technological Trends and Competitor Actions",
+        "node_id": "0135",
+        "start_index": 25,
+        "end_index": 25,
+        "nodes": [
+          {
+            "title": "Risk of Technological Obsolescence Due to Failure to Anticipate Customer Needs and Technological Trends",
+            "node_id": "0136",
+            "start_index": 25,
+            "end_index": 25
+          }
+        ]
+      },
+      {
+        "title": "Legal Risks",
+        "node_id": "0137",
+        "start_index": 26,
+        "end_index": 26,
+        "nodes": [
+          {
+            "title": "Regulatory Focus on Privacy Issues",
+            "node_id": "0138",
+            "start_index": 26,
+            "end_index": 26
+          },
+          {
+            "title": "Expanding Laws and Regulations",
+            "node_id": "0139",
+            "start_index": 26,
+            "end_index": 26
+          }
+        ]
+      },
+      {
+        "title": "Failure to Manage Sales and Distribution Channels",
+        "node_id": "0140",
+        "start_index": 27,
+        "end_index": 27,
+        "nodes": [
+          {
+            "title": "Impact on Revenue",
+            "node_id": "0141",
+            "start_index": 27,
+            "end_index": 27
+          },
+          {
+            "title": "Harm to Business",
+            "node_id": "0142",
+            "start_index": 27,
+            "end_index": 27
+          }
+        ]
+      },
+      {
+        "title": "Dependence on Key Personnel",
+        "node_id": "0143",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "High Demand for Experienced IT Personnel",
+            "node_id": "0144",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Tax Risks",
+        "node_id": "0145",
+        "start_index": 28,
+        "end_index": 28,
+        "nodes": [
+          {
+            "title": "Changes in Tax Rules and Regulations",
+            "node_id": "0146",
+            "start_index": 28,
+            "end_index": 28
+          },
+          {
+            "title": "Repatriation of Earnings",
+            "node_id": "0147",
+            "start_index": 28,
+            "end_index": 28
+          }
+        ]
+      },
+      {
+        "title": "Market Price Volatility",
+        "node_id": "0148",
+        "start_index": 29,
+        "end_index": 30,
+        "nodes": [
+          {
+            "title": "Factors Impacting Market Price",
+            "node_id": "0149",
+            "start_index": 29,
+            "end_index": 30
+          }
+        ]
+      },
+      {
+        "title": "Global Risks",
+        "node_id": "0150",
+        "start_index": 29,
+        "end_index": 30,
+        "nodes": [
+          {
+            "title": "Foreign Currency Fluctuations",
+            "node_id": "0151",
+            "start_index": 29,
+            "end_index": 29
+          },
+          {
+            "title": "Tax Laws and Regulations",
+            "node_id": "0152",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Data Privacy and Security",
+            "node_id": "0153",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Compliance with Regulatory Requirements",
+            "node_id": "0154",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Employee and Third-Party Complaints",
+            "node_id": "0155",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Corporate Governance",
+            "node_id": "0156",
+            "start_index": 30,
+            "end_index": 30
+          },
+          {
+            "title": "Regulatory, Political, and Market Conditions",
+            "node_id": "0157",
+            "start_index": 30,
+            "end_index": 30
+          }
+        ]
+      },
+      {
+        "title": "Details of Unresolved Staff Comments",
+        "node_id": "0158",
+        "start_index": 31,
+        "end_index": 31,
+        "nodes": [
+          {
+            "title": "Explanation of No Unresolved Staff Comments",
+            "node_id": "0159",
+            "start_index": 31,
+            "end_index": 31
+          }
+        ]
+      },
+      {
+        "title": "Office Buildings in San Jose, California",
+        "node_id": "0160",
+        "start_index": 32,
+        "end_index": 32,
+        "nodes": [
+          {
+            "title": "East Tower",
+            "node_id": "0161",
+            "start_index": 32,
+            "end_index": 32
+          },
+          {
+            "title": "West Tower",
+            "node_id": "0162",
+            "start_index": 32,
+            "end_index": 32
+          },
+          {
+            "title": "Almaden Tower",
+            "node_id": "0163",
+            "start_index": 32,
+            "end_index": 32
+          }
+        ]
+      },
+      {
+        "title": "Office Buildings in Lehi, Utah",
+        "node_id": "0164",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Office Buildings in San Francisco, California",
+        "node_id": "0165",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Office Buildings in Seattle, Washington",
+        "node_id": "0166",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Office Buildings in Lehi, Utah",
+        "node_id": "0167",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Office Buildings in Bangalore, India",
+        "node_id": "0168",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Office Buildings in Noida, India",
+        "node_id": "0169",
+        "start_index": 32,
+        "end_index": 32
+      },
+      {
+        "title": "Not Applicable",
+        "node_id": "0170",
+        "start_index": 33,
+        "end_index": 33
+      },
+      {
+        "title": "Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+        "node_id": "0171",
+        "start_index": 34,
+        "end_index": 34,
+        "nodes": [
+          {
+            "title": "Market Information for Common Stock",
+            "node_id": "0172",
+            "start_index": 34,
+            "end_index": 34,
+            "nodes": [
+              {
+                "title": "Trading Symbol",
+                "node_id": "0173",
+                "start_index": 34,
+                "end_index": 34
+              },
+              {
+                "title": "Price Range",
+                "node_id": "0174",
+                "start_index": 34,
+                "end_index": 34,
+                "nodes": [
+                  {
+                    "title": "Fiscal 2016",
+                    "node_id": "0175",
+                    "start_index": 34,
+                    "end_index": 34,
+                    "nodes": [
+                      {
+                        "title": "First Quarter",
+                        "node_id": "0176",
+                        "start_index": 34,
+                        "end_index": 34
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Market Information for Common Stock",
+        "node_id": "0177",
+        "start_index": 34,
+        "end_index": 34,
+        "nodes": [
+          {
+            "title": "Trading Price Range",
+            "node_id": "0178",
+            "start_index": 34,
+            "end_index": 34,
+            "nodes": [
+              {
+                "title": "Fiscal 2016",
+                "node_id": "0179",
+                "start_index": 34,
+                "end_index": 34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Stockholders",
+        "node_id": "0180",
+        "start_index": 34,
+        "end_index": 34
+      },
+      {
+        "title": "Dividends",
+        "node_id": "0181",
+        "start_index": 34,
+        "end_index": 34
+      },
+      {
+        "title": "Issuer Purchases of Equity Securities",
+        "node_id": "0182",
+        "start_index": 34,
+        "end_index": 34
+      },
+      {
+        "title": "Filing content (pages 35-36)",
+        "node_id": "0183",
+        "start_index": 35,
+        "end_index": 36
+      },
+      {
+        "title": "Fiscal Years",
+        "node_id": "0184",
+        "start_index": 37,
+        "end_index": 37
+      },
+      {
+        "title": "Acquisitions",
+        "node_id": "0185",
+        "start_index": 37,
+        "end_index": 37,
+        "nodes": [
+          {
+            "title": "Fotolia Acquisition",
+            "node_id": "0186",
+            "start_index": 37,
+            "end_index": 37
+          },
+          {
+            "title": "TubeMogul Acquisition",
+            "node_id": "0187",
+            "start_index": 37,
+            "end_index": 37
+          }
+        ]
+      },
+      {
+        "title": "Critical Accounting Policies and Estimates",
+        "node_id": "0188",
+        "start_index": 37,
+        "end_index": 37,
+        "nodes": [
+          {
+            "title": "Assumptions, Judgments and Estimates",
+            "node_id": "0189",
+            "start_index": 37,
+            "end_index": 37
+          },
+          {
+            "title": "Impact of Assumptions, Judgments and Estimates",
+            "node_id": "0190",
+            "start_index": 37,
+            "end_index": 37
+          }
+        ]
+      },
+      {
+        "title": "Revenue Recognition Policies",
+        "node_id": "0191",
+        "start_index": 38,
+        "end_index": 38,
+        "nodes": [
+          {
+            "title": "Software Arrangements",
+            "node_id": "0192",
+            "start_index": 38,
+            "end_index": 38,
+            "nodes": [
+              {
+                "title": "VSOE of Fair Value",
+                "node_id": "0193",
+                "start_index": 38,
+                "end_index": 38
+              },
+              {
+                "title": "Best-Estimated Selling Price (BESP)",
+                "node_id": "0194",
+                "start_index": 38,
+                "end_index": 38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Business Combinations",
+        "node_id": "0195",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "Allocation of Purchase Price",
+            "node_id": "0196",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "Goodwill Impairment",
+        "node_id": "0197",
+        "start_index": 39,
+        "end_index": 39,
+        "nodes": [
+          {
+            "title": "Qualitative Assessment",
+            "node_id": "0198",
+            "start_index": 39,
+            "end_index": 39
+          },
+          {
+            "title": "Quantitative Analysis",
+            "node_id": "0199",
+            "start_index": 39,
+            "end_index": 39
+          }
+        ]
+      },
+      {
+        "title": "Annual Impairment Test Results",
+        "node_id": "0200",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Accounting for Income Taxes",
+        "node_id": "0201",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Recent Accounting Pronouncements",
+        "node_id": "0202",
+        "start_index": 40,
+        "end_index": 40
+      },
+      {
+        "title": "Filing content (pages 41-42)",
+        "node_id": "0203",
+        "start_index": 41,
+        "end_index": 42
+      },
+      {
+        "title": "Revenue (dollars in millions)",
+        "node_id": "0204",
+        "start_index": 43,
+        "end_index": 43,
+        "nodes": [
+          {
+            "title": "Fiscal 2016 Revenue Compared to Fiscal 2015 Revenue",
+            "node_id": "0205",
+            "start_index": 43,
+            "end_index": 43,
+            "nodes": [
+              {
+                "title": "Digital Media",
+                "node_id": "0206",
+                "start_index": 43,
+                "end_index": 43
+              },
+              {
+                "title": "Digital Marketing",
+                "node_id": "0207",
+                "start_index": 43,
+                "end_index": 43
+              },
+              {
+                "title": "Print and Publishing",
+                "node_id": "0208",
+                "start_index": 43,
+                "end_index": 43
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Segment Information (dollars in millions)",
+        "node_id": "0209",
+        "start_index": 43,
+        "end_index": 43,
+        "nodes": [
+          {
+            "title": "Digital Media",
+            "node_id": "0210",
+            "start_index": 43,
+            "end_index": 43
+          },
+          {
+            "title": "Digital Marketing",
+            "node_id": "0211",
+            "start_index": 43,
+            "end_index": 43
+          },
+          {
+            "title": "Print and Publishing",
+            "node_id": "0212",
+            "start_index": 43,
+            "end_index": 43
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 44-44)",
+        "node_id": "0213",
+        "start_index": 44,
+        "end_index": 44
+      },
+      {
+        "title": "Digital Marketing Revenue Growth",
+        "node_id": "0214",
+        "start_index": 45,
+        "end_index": 47,
+        "nodes": [
+          {
+            "title": "Revenue by Geography",
+            "node_id": "0215",
+            "start_index": 45,
+            "end_index": 45,
+            "nodes": [
+              {
+                "title": "Americas",
+                "node_id": "0216",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Revenue Breakdown",
+                    "node_id": "0217",
+                    "start_index": 45,
+                    "end_index": 45,
+                    "nodes": [
+                      {
+                        "title": "Subscription",
+                        "node_id": "0218",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0219",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Revenue Impact",
+                        "node_id": "0220",
+                        "start_index": 45,
+                        "end_index": 45
+                      },
+                      {
+                        "title": "Services and Support",
+                        "node_id": "0221",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0222",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "EMEA",
+                "node_id": "0223",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Revenue Breakdown",
+                    "node_id": "0224",
+                    "start_index": 45,
+                    "end_index": 45,
+                    "nodes": [
+                      {
+                        "title": "Subscription",
+                        "node_id": "0225",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0226",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Revenue Impact",
+                        "node_id": "0227",
+                        "start_index": 45,
+                        "end_index": 45
+                      },
+                      {
+                        "title": "Services and Support",
+                        "node_id": "0228",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0229",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "APAC",
+                "node_id": "0230",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Revenue Breakdown",
+                    "node_id": "0231",
+                    "start_index": 45,
+                    "end_index": 45,
+                    "nodes": [
+                      {
+                        "title": "Subscription",
+                        "node_id": "0232",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0233",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Revenue Impact",
+                        "node_id": "0234",
+                        "start_index": 45,
+                        "end_index": 45
+                      },
+                      {
+                        "title": "Services and Support",
+                        "node_id": "0235",
+                        "start_index": 45,
+                        "end_index": 45,
+                        "nodes": [
+                          {
+                            "title": "Revenue Impact",
+                            "node_id": "0236",
+                            "start_index": 45,
+                            "end_index": 45
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Cost of Subscription Revenue",
+            "node_id": "0237",
+            "start_index": 46,
+            "end_index": 47,
+            "nodes": [
+              {
+                "title": "Third-Party Royalties",
+                "node_id": "0238",
+                "start_index": 45,
+                "end_index": 45,
+                "nodes": [
+                  {
+                    "title": "Description of Third-Party Royalties",
+                    "node_id": "0239",
+                    "start_index": 45,
+                    "end_index": 45
+                  }
+                ]
+              },
+              {
+                "title": "Operating Lease Payments",
+                "node_id": "0240",
+                "start_index": 46,
+                "end_index": 46,
+                "nodes": [
+                  {
+                    "title": "Description of Operating Lease Payments",
+                    "node_id": "0241",
+                    "start_index": 46,
+                    "end_index": 46
+                  }
+                ]
+              },
+              {
+                "title": "Salaries and Related Expenses",
+                "node_id": "0242",
+                "start_index": 47,
+                "end_index": 47,
+                "nodes": [
+                  {
+                    "title": "Description of Salaries and Related Expenses",
+                    "node_id": "0243",
+                    "start_index": 47,
+                    "end_index": 47
+                  }
+                ]
+              },
+              {
+                "title": "Amortization of Intangible Assets",
+                "node_id": "0244",
+                "start_index": 47,
+                "end_index": 47,
+                "nodes": [
+                  {
+                    "title": "Description of Amortization of Intangible Assets",
+                    "node_id": "0245",
+                    "start_index": 47,
+                    "end_index": 47
+                  }
+                ]
+              },
+              {
+                "title": "Allocated Overhead",
+                "node_id": "0246",
+                "start_index": 47,
+                "end_index": 47,
+                "nodes": [
+                  {
+                    "title": "Description of Allocated Overhead",
+                    "node_id": "0247",
+                    "start_index": 47,
+                    "end_index": 47
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cost of Product Revenue",
+        "node_id": "0248",
+        "start_index": 48,
+        "end_index": 48,
+        "nodes": [
+          {
+            "title": "Summary of Cost Decrease",
+            "node_id": "0249",
+            "start_index": 48,
+            "end_index": 48
+          },
+          {
+            "title": "Detailed Breakdown of Cost Decrease",
+            "node_id": "0250",
+            "start_index": 48,
+            "end_index": 48,
+            "nodes": [
+              {
+                "title": "Amortization of Purchased Intangibles",
+                "node_id": "0251",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Localization Costs",
+                "node_id": "0252",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Royalty Costs",
+                "node_id": "0253",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Cost of Sales",
+                "node_id": "0254",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Excess and Obsolete Inventory",
+                "node_id": "0255",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Various Individually Insignificant Items",
+                "node_id": "0256",
+                "start_index": 48,
+                "end_index": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sales and Marketing",
+        "node_id": "0257",
+        "start_index": 48,
+        "end_index": 48,
+        "nodes": [
+          {
+            "title": "Summary of Expense Increase",
+            "node_id": "0258",
+            "start_index": 48,
+            "end_index": 48
+          },
+          {
+            "title": "Detailed Breakdown of Expense Increase",
+            "node_id": "0259",
+            "start_index": 48,
+            "end_index": 48,
+            "nodes": [
+              {
+                "title": "Compensation and Related Benefits",
+                "node_id": "0260",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Compensation Associated with Cash and Stock-Based Incentives",
+                "node_id": "0261",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Professional and Consulting Fees",
+                "node_id": "0262",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Various Individually Insignificant Items",
+                "node_id": "0263",
+                "start_index": 48,
+                "end_index": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "General and Administrative",
+        "node_id": "0264",
+        "start_index": 48,
+        "end_index": 48,
+        "nodes": [
+          {
+            "title": "Summary of Expense Increase",
+            "node_id": "0265",
+            "start_index": 48,
+            "end_index": 48
+          },
+          {
+            "title": "Detailed Breakdown of Expense Increase",
+            "node_id": "0266",
+            "start_index": 48,
+            "end_index": 48,
+            "nodes": [
+              {
+                "title": "Compensation and Related Benefits",
+                "node_id": "0267",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Professional and Consulting Fees",
+                "node_id": "0268",
+                "start_index": 48,
+                "end_index": 48
+              },
+              {
+                "title": "Various Individually Insignificant Items",
+                "node_id": "0269",
+                "start_index": 48,
+                "end_index": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 49-50)",
+        "node_id": "0270",
+        "start_index": 49,
+        "end_index": 50
+      },
+      {
+        "title": "Non-Operating Income (Expense), Net",
+        "node_id": "0271",
+        "start_index": 51,
+        "end_index": 52,
+        "nodes": [
+          {
+            "title": "Interest and Other Income (Expense), Net",
+            "node_id": "0272",
+            "start_index": 51,
+            "end_index": 51,
+            "nodes": [
+              {
+                "title": "Interest Income",
+                "node_id": "0273",
+                "start_index": 51,
+                "end_index": 51
+              },
+              {
+                "title": "Other Income (Expense), Net",
+                "node_id": "0274",
+                "start_index": 51,
+                "end_index": 51
+              }
+            ]
+          },
+          {
+            "title": "Investment Gains (Losses), Net",
+            "node_id": "0275",
+            "start_index": 52,
+            "end_index": 52
+          }
+        ]
+      },
+      {
+        "title": "Provision for Income Taxes",
+        "node_id": "0276",
+        "start_index": 51,
+        "end_index": 52,
+        "nodes": [
+          {
+            "title": "Effective Tax Rate",
+            "node_id": "0277",
+            "start_index": 51,
+            "end_index": 51
+          },
+          {
+            "title": "Provision for Income Taxes",
+            "node_id": "0278",
+            "start_index": 52,
+            "end_index": 52
+          }
+        ]
+      },
+      {
+        "title": "Liquidity and Capital Resources",
+        "node_id": "0279",
+        "start_index": 53,
+        "end_index": 54,
+        "nodes": [
+          {
+            "title": "Summary of Cash Flows",
+            "node_id": "0280",
+            "start_index": 53,
+            "end_index": 53,
+            "nodes": [
+              {
+                "title": "Net Increase (Decrease) in Cash and Cash Equivalents",
+                "node_id": "0281",
+                "start_index": 53,
+                "end_index": 53,
+                "nodes": [
+                  {
+                    "title": "Net Increase in Cash and Cash Equivalents",
+                    "node_id": "0282",
+                    "start_index": 53,
+                    "end_index": 53
+                  },
+                  {
+                    "title": "Net Decrease in Cash and Cash Equivalents",
+                    "node_id": "0283",
+                    "start_index": 53,
+                    "end_index": 53
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Cash Flows from Operating Activities",
+            "node_id": "0284",
+            "start_index": 54,
+            "end_index": 54,
+            "nodes": [
+              {
+                "title": "Net Cash Provided by Operating Activities",
+                "node_id": "0285",
+                "start_index": 53,
+                "end_index": 53,
+                "nodes": [
+                  {
+                    "title": "USD 2.20 billion",
+                    "node_id": "0286",
+                    "start_index": 53,
+                    "end_index": 53
+                  }
+                ]
+              },
+              {
+                "title": "Net Cash Used in Operating Activities",
+                "node_id": "0287",
+                "start_index": 53,
+                "end_index": 53
+              },
+              {
+                "title": "Net Cash Provided by Operating Activities",
+                "node_id": "0288",
+                "start_index": 54,
+                "end_index": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cash Flows from Investing Activities",
+        "node_id": "0289",
+        "start_index": 53,
+        "end_index": 54,
+        "nodes": [
+          {
+            "title": "Net Cash Used in Investing Activities",
+            "node_id": "0290",
+            "start_index": 53,
+            "end_index": 54,
+            "nodes": [
+              {
+                "title": "USD 960.0 million",
+                "node_id": "0291",
+                "start_index": 53,
+                "end_index": 53
+              },
+              {
+                "title": "USD 1.49 billion",
+                "node_id": "0292",
+                "start_index": 54,
+                "end_index": 54
+              },
+              {
+                "title": "USD 490.7 million",
+                "node_id": "0293",
+                "start_index": 54,
+                "end_index": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cash Flows from Financing Activities",
+        "node_id": "0294",
+        "start_index": 53,
+        "end_index": 54,
+        "nodes": [
+          {
+            "title": "Net Cash Used in Financing Activities",
+            "node_id": "0295",
+            "start_index": 53,
+            "end_index": 54,
+            "nodes": [
+              {
+                "title": "USD 1.09 billion",
+                "node_id": "0296",
+                "start_index": 53,
+                "end_index": 53
+              },
+              {
+                "title": "USD 507.3 million",
+                "node_id": "0297",
+                "start_index": 54,
+                "end_index": 54
+              },
+              {
+                "title": "USD 490.7 million",
+                "node_id": "0298",
+                "start_index": 54,
+                "end_index": 54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cash from Operations",
+        "node_id": "0299",
+        "start_index": 55,
+        "end_index": 55
+      },
+      {
+        "title": "Business Plan and Revenue Prospects",
+        "node_id": "0300",
+        "start_index": 55,
+        "end_index": 55
+      },
+      {
+        "title": "Existing Cash Balances and Available Credit Facility",
+        "node_id": "0301",
+        "start_index": 55,
+        "end_index": 56,
+        "nodes": [
+          {
+            "title": "Credit Agreement Details",
+            "node_id": "0302",
+            "start_index": 55,
+            "end_index": 55
+          },
+          {
+            "title": "Amendments to Credit Agreement",
+            "node_id": "0303",
+            "start_index": 55,
+            "end_index": 56
+          }
+        ]
+      },
+      {
+        "title": "Foreign Currency Exposures and Hedging Instruments",
+        "node_id": "0304",
+        "start_index": 57,
+        "end_index": 57,
+        "nodes": [
+          {
+            "title": "Significant Foreign Currency Revenue Exposures",
+            "node_id": "0305",
+            "start_index": 57,
+            "end_index": 57
+          },
+          {
+            "title": "Hedging Instruments Used",
+            "node_id": "0306",
+            "start_index": 57,
+            "end_index": 57
+          }
+        ]
+      },
+      {
+        "title": "Balance Sheet Hedging\u2014Hedging of Foreign Currency Assets and Liabilities",
+        "node_id": "0307",
+        "start_index": 57,
+        "end_index": 57,
+        "nodes": [
+          {
+            "title": "Outstanding Balance Sheet Hedging Derivatives",
+            "node_id": "0308",
+            "start_index": 57,
+            "end_index": 57
+          },
+          {
+            "title": "Maturities of Outstanding Balance Sheet Hedging Derivatives",
+            "node_id": "0309",
+            "start_index": 57,
+            "end_index": 57
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 58-58)",
+        "node_id": "0310",
+        "start_index": 58,
+        "end_index": 58
+      },
+      {
+        "title": "Interest Rate Risk",
+        "node_id": "0311",
+        "start_index": 59,
+        "end_index": 59,
+        "nodes": [
+          {
+            "title": "Short-Term Investments and Fixed Income Securities",
+            "node_id": "0312",
+            "start_index": 59,
+            "end_index": 59,
+            "nodes": [
+              {
+                "title": "Due within one year",
+                "node_id": "0313",
+                "start_index": 59,
+                "end_index": 59
+              },
+              {
+                "title": "Due between one and two years",
+                "node_id": "0314",
+                "start_index": 59,
+                "end_index": 59
+              },
+              {
+                "title": "Due between two and three years",
+                "node_id": "0315",
+                "start_index": 59,
+                "end_index": 59
+              },
+              {
+                "title": "Due after three years",
+                "node_id": "0316",
+                "start_index": 59,
+                "end_index": 59
+              }
+            ]
+          },
+          {
+            "title": "Sensitivity Analysis",
+            "node_id": "0317",
+            "start_index": 59,
+            "end_index": 59,
+            "nodes": [
+              {
+                "title": "Hypothetical Fair Values",
+                "node_id": "0318",
+                "start_index": 59,
+                "end_index": 59
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Senior Notes",
+        "node_id": "0319",
+        "start_index": 59,
+        "end_index": 59
+      },
+      {
+        "title": "Other Market Risk",
+        "node_id": "0320",
+        "start_index": 59,
+        "end_index": 59
+      },
+      {
+        "title": "Filing content (pages 60-64)",
+        "node_id": "0321",
+        "start_index": 60,
+        "end_index": 64
+      },
+      {
+        "title": "ADOBE SYSTEMS INCORPORATED",
+        "node_id": "0322",
+        "start_index": 65,
+        "end_index": 66,
+        "nodes": [
+          {
+            "title": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+            "node_id": "0323",
+            "start_index": 65,
+            "end_index": 65,
+            "nodes": [
+              {
+                "title": "Years Ended",
+                "node_id": "0324",
+                "start_index": 65,
+                "end_index": 65,
+                "nodes": [
+                  {
+                    "title": "December 2, 2016",
+                    "node_id": "0325",
+                    "start_index": 65,
+                    "end_index": 65,
+                    "nodes": [
+                      {
+                        "title": "November 27, 2015",
+                        "node_id": "0326",
+                        "start_index": 65,
+                        "end_index": 65
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Supplemental disclosures",
+            "node_id": "0327",
+            "start_index": 66,
+            "end_index": 66,
+            "nodes": [
+              {
+                "title": "Cash paid for income taxes, net of refunds",
+                "node_id": "0328",
+                "start_index": 65,
+                "end_index": 65,
+                "nodes": [
+                  {
+                    "title": "249,884",
+                    "node_id": "0329",
+                    "start_index": 65,
+                    "end_index": 65
+                  },
+                  {
+                    "title": "203,010",
+                    "node_id": "0330",
+                    "start_index": 65,
+                    "end_index": 65
+                  },
+                  {
+                    "title": "20,140",
+                    "node_id": "0331",
+                    "start_index": 65,
+                    "end_index": 65
+                  }
+                ]
+              },
+              {
+                "title": "Cash paid for interest",
+                "node_id": "0332",
+                "start_index": 66,
+                "end_index": 66,
+                "nodes": [
+                  {
+                    "title": "66,193",
+                    "node_id": "0333",
+                    "start_index": 65,
+                    "end_index": 65
+                  },
+                  {
+                    "title": "56,014",
+                    "node_id": "0334",
+                    "start_index": 66,
+                    "end_index": 66
+                  },
+                  {
+                    "title": "68,886",
+                    "node_id": "0335",
+                    "start_index": 66,
+                    "end_index": 66
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements (Continued)",
+        "node_id": "0336",
+        "start_index": 67,
+        "end_index": 67,
+        "nodes": [
+          {
+            "title": "Determination of Revenue Recognition Criteria",
+            "node_id": "0337",
+            "start_index": 67,
+            "end_index": 67,
+            "nodes": [
+              {
+                "title": "Multiple-Element Arrangements",
+                "node_id": "0338",
+                "start_index": 67,
+                "end_index": 67,
+                "nodes": [
+                  {
+                    "title": "Software and Non-Software Elements",
+                    "node_id": "0339",
+                    "start_index": 67,
+                    "end_index": 67
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 68-68)",
+        "node_id": "0340",
+        "start_index": 68,
+        "end_index": 68
+      },
+      {
+        "title": "Revenue Reserve Rollforward",
+        "node_id": "0341",
+        "start_index": 69,
+        "end_index": 69,
+        "nodes": [
+          {
+            "title": "Revenue Reserve Rollforward (in thousands)",
+            "node_id": "0342",
+            "start_index": 69,
+            "end_index": 69
+          }
+        ]
+      },
+      {
+        "title": "Deferred Revenue",
+        "node_id": "0343",
+        "start_index": 69,
+        "end_index": 69
+      },
+      {
+        "title": "Allowance for Doubtful Accounts",
+        "node_id": "0344",
+        "start_index": 69,
+        "end_index": 69
+      },
+      {
+        "title": "Property and Equipment",
+        "node_id": "0345",
+        "start_index": 69,
+        "end_index": 69
+      },
+      {
+        "title": "Goodwill, Purchased Intangibles and Other Long-Lived Assets",
+        "node_id": "0346",
+        "start_index": 69,
+        "end_index": 69
+      },
+      {
+        "title": "Software Development Costs",
+        "node_id": "0347",
+        "start_index": 69,
+        "end_index": 69
+      },
+      {
+        "title": "Filing content (pages 70-70)",
+        "node_id": "0348",
+        "start_index": 70,
+        "end_index": 70
+      },
+      {
+        "title": "Internal Use Software",
+        "node_id": "0349",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Income Taxes",
+        "node_id": "0350",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Taxes Collected from Customers",
+        "node_id": "0351",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Treasury Stock",
+        "node_id": "0352",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Advertising Expenses",
+        "node_id": "0353",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Foreign Currency Translation",
+        "node_id": "0354",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Foreign Currency and Other Hedging Instruments",
+        "node_id": "0355",
+        "start_index": 71,
+        "end_index": 71
+      },
+      {
+        "title": "Filing content (pages 72-72)",
+        "node_id": "0356",
+        "start_index": 72,
+        "end_index": 72
+      },
+      {
+        "title": "ADOBE SYSTEMS INCORPORATED",
+        "node_id": "0357",
+        "start_index": 73,
+        "end_index": 73
+      },
+      {
+        "title": "NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued)",
+        "node_id": "0358",
+        "start_index": 73,
+        "end_index": 73
+      },
+      {
+        "title": "Filing content (pages 74-77)",
+        "node_id": "0359",
+        "start_index": 74,
+        "end_index": 77
+      },
+      {
+        "title": "Cash, Cash Equivalents and Short-Term Investments",
+        "node_id": "0360",
+        "start_index": 78,
+        "end_index": 78,
+        "nodes": [
+          {
+            "title": "Cash and Cash Equivalents",
+            "node_id": "0361",
+            "start_index": 78,
+            "end_index": 78
+          },
+          {
+            "title": "Short-Term Investments",
+            "node_id": "0362",
+            "start_index": 78,
+            "end_index": 78
+          }
+        ]
+      },
+      {
+        "title": "ADOBE SYSTEMS INCORPORATED",
+        "node_id": "0363",
+        "start_index": 79,
+        "end_index": 79,
+        "nodes": [
+          {
+            "title": "NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued)",
+            "node_id": "0364",
+            "start_index": 79,
+            "end_index": 79
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 80-80)",
+        "node_id": "0365",
+        "start_index": 80,
+        "end_index": 80
+      },
+      {
+        "title": "Notes to Consolidated Financial Statements",
+        "node_id": "0366",
+        "start_index": 81,
+        "end_index": 81,
+        "nodes": [
+          {
+            "title": "Note 6. Property and Equipment",
+            "node_id": "0367",
+            "start_index": 81,
+            "end_index": 81
+          },
+          {
+            "title": "Note 7. Goodwill and Purchased and Other Intangibles",
+            "node_id": "0368",
+            "start_index": 81,
+            "end_index": 81
+          },
+          {
+            "title": "Note 8. Accrued Expenses",
+            "node_id": "0369",
+            "start_index": 81,
+            "end_index": 81
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 82-89)",
+        "node_id": "0370",
+        "start_index": 82,
+        "end_index": 89
+      },
+      {
+        "title": "Summary of Performance Shares",
+        "node_id": "0371",
+        "start_index": 90,
+        "end_index": 92,
+        "nodes": [
+          {
+            "title": "Fiscal 2016",
+            "node_id": "0372",
+            "start_index": 90,
+            "end_index": 92,
+            "nodes": [
+              {
+                "title": "Shares Granted",
+                "node_id": "0373",
+                "start_index": 90,
+                "end_index": 92,
+                "nodes": [
+                  {
+                    "title": "Maximum Shares Eligible",
+                    "node_id": "0374",
+                    "start_index": 90,
+                    "end_index": 92,
+                    "nodes": [
+                      {
+                        "title": "Shares Achieved",
+                        "node_id": "0375",
+                        "start_index": 90,
+                        "end_index": 92
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Summary of Employee Stock Purchase Plan Shares",
+        "node_id": "0376",
+        "start_index": 90,
+        "end_index": 92,
+        "nodes": [
+          {
+            "title": "Fiscal 2016",
+            "node_id": "0377",
+            "start_index": 90,
+            "end_index": 92,
+            "nodes": [
+              {
+                "title": "Shares Purchased",
+                "node_id": "0378",
+                "start_index": 90,
+                "end_index": 92,
+                "nodes": [
+                  {
+                    "title": "Average Subscription Date Fair Value",
+                    "node_id": "0379",
+                    "start_index": 90,
+                    "end_index": 92
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 93-96)",
+        "node_id": "0380",
+        "start_index": 93,
+        "end_index": 96
+      },
+      {
+        "title": "Notes",
+        "node_id": "0381",
+        "start_index": 97,
+        "end_index": 97,
+        "nodes": [
+          {
+            "title": "Notes",
+            "node_id": "0382",
+            "start_index": 97,
+            "end_index": 97
+          },
+          {
+            "title": "Fair Value of Interest Rate Swap",
+            "node_id": "0383",
+            "start_index": 97,
+            "end_index": 97
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 98-100)",
+        "node_id": "0384",
+        "start_index": 98,
+        "end_index": 100
+      },
+      {
+        "title": "Note 17. Industry Segment, Geographic Information and Significant Customers",
+        "node_id": "0385",
+        "start_index": 101,
+        "end_index": 101,
+        "nodes": [
+          {
+            "title": "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
+            "node_id": "0386",
+            "start_index": 101,
+            "end_index": 101
+          },
+          {
+            "title": "Reportable Segments",
+            "node_id": "0387",
+            "start_index": 101,
+            "end_index": 101
+          },
+          {
+            "title": "Geographic Information",
+            "node_id": "0388",
+            "start_index": 101,
+            "end_index": 101
+          },
+          {
+            "title": "Significant Customers",
+            "node_id": "0389",
+            "start_index": 101,
+            "end_index": 101
+          }
+        ]
+      },
+      {
+        "title": "Report of Independent Registered Public Accounting Firm",
+        "node_id": "0390",
+        "start_index": 102,
+        "end_index": 102,
+        "nodes": [
+          {
+            "title": "KPMG LLP",
+            "node_id": "0391",
+            "start_index": 102,
+            "end_index": 102
+          }
+        ]
+      },
+      {
+        "title": "Disclosure Controls and Procedures",
+        "node_id": "0392",
+        "start_index": 103,
+        "end_index": 103,
+        "nodes": [
+          {
+            "title": "Evaluation of Disclosure Controls and Procedures",
+            "node_id": "0393",
+            "start_index": 103,
+            "end_index": 103
+          },
+          {
+            "title": "Conclusion Regarding Effectiveness of Disclosure Controls and Procedures",
+            "node_id": "0394",
+            "start_index": 103,
+            "end_index": 103
+          },
+          {
+            "title": "Evaluation Process",
+            "node_id": "0395",
+            "start_index": 103,
+            "end_index": 103
+          }
+        ]
+      },
+      {
+        "title": "Transaction Details",
+        "node_id": "0396",
+        "start_index": 103,
+        "end_index": 103,
+        "nodes": [
+          {
+            "title": "Subscription Purchase",
+            "node_id": "0397",
+            "start_index": 103,
+            "end_index": 103
+          }
+        ]
+      },
+      {
+        "title": "Sanctions Compliance",
+        "node_id": "0398",
+        "start_index": 103,
+        "end_index": 103,
+        "nodes": [
+          {
+            "title": "Account Deactivation",
+            "node_id": "0399",
+            "start_index": 103,
+            "end_index": 103
+          },
+          {
+            "title": "Revenue Details",
+            "node_id": "0400",
+            "start_index": 103,
+            "end_index": 103,
+            "nodes": [
+              {
+                "title": "Total Revenue",
+                "node_id": "0401",
+                "start_index": 103,
+                "end_index": 103
+              }
+            ]
+          },
+          {
+            "title": "Voluntary Disclosure",
+            "node_id": "0402",
+            "start_index": 103,
+            "end_index": 103,
+            "nodes": [
+              {
+                "title": "Disclosure to OFAC",
+                "node_id": "0403",
+                "start_index": 103,
+                "end_index": 103
+              },
+              {
+                "title": "Cooperation with Regulatory Inquiries",
+                "node_id": "0404",
+                "start_index": 103,
+                "end_index": 103
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE",
+        "node_id": "0405",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "ITEM 11. EXECUTIVE COMPENSATION",
+        "node_id": "0406",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS",
+        "node_id": "0407",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR INDEPENDENCE",
+        "node_id": "0408",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "ITEM 14. PRINCIPAL ACCOUNTING FEES AND SERVICES",
+        "node_id": "0409",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "Information from 2017 Proxy Statement",
+        "node_id": "0410",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "PART III",
+        "node_id": "0411",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "Security Ownership of Certain Beneficial Owners",
+        "node_id": "0412",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "Security Ownership of Management",
+        "node_id": "0413",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "Information Required by Item 13",
+        "node_id": "0414",
+        "start_index": 104,
+        "end_index": 104,
+        "nodes": [
+          {
+            "title": "Incorporation by Reference",
+            "node_id": "0415",
+            "start_index": 104,
+            "end_index": 104
+          }
+        ]
+      },
+      {
+        "title": "Proxy Statement Reference",
+        "node_id": "0416",
+        "start_index": 104,
+        "end_index": 104
+      },
+      {
+        "title": "Item 15. Exhibits, Financial Statement Schedules",
+        "node_id": "0417",
+        "start_index": 104,
+        "end_index": 104,
+        "nodes": [
+          {
+            "title": "1. Financial Statements",
+            "node_id": "0418",
+            "start_index": 104,
+            "end_index": 104
+          },
+          {
+            "title": "2. Exhibits",
+            "node_id": "0419",
+            "start_index": 104,
+            "end_index": 104
+          }
+        ]
+      },
+      {
+        "title": "1. Financial Statements",
+        "node_id": "0420",
+        "start_index": 104,
+        "end_index": 104,
+        "nodes": [
+          {
+            "title": "Index to Consolidated Financial Statements",
+            "node_id": "0421",
+            "start_index": 104,
+            "end_index": 104
+          }
+        ]
+      },
+      {
+        "title": "2. Exhibits",
+        "node_id": "0422",
+        "start_index": 104,
+        "end_index": 104,
+        "nodes": [
+          {
+            "title": "Index to Exhibits",
+            "node_id": "0423",
+            "start_index": 104,
+            "end_index": 104
+          }
+        ]
+      },
+      {
+        "title": "Mark Garrett",
+        "node_id": "0424",
+        "start_index": 105,
+        "end_index": 105,
+        "nodes": [
+          {
+            "title": "Shantanu Narayen",
+            "node_id": "0425",
+            "start_index": 105,
+            "end_index": 105
+          }
+        ]
+      },
+      {
+        "title": "Filing content (pages 106-107)",
+        "node_id": "0426",
+        "start_index": 106,
+        "end_index": 107
+      },
+      {
+        "title": "Acrobat",
+        "node_id": "0427",
+        "start_index": 108,
+        "end_index": 108
+      },
+      {
+        "title": "Filing content (pages 109-109)",
+        "node_id": "0428",
+        "start_index": 109,
+        "end_index": 109
+      },
+      {
+        "title": "Adobe",
+        "node_id": "0429",
+        "start_index": 110,
+        "end_index": 110
+      },
+      {
+        "title": "Filing content (pages 111-111)",
+        "node_id": "0430",
+        "start_index": 111,
+        "end_index": 111
+      },
+      {
+        "title": "Exhibits",
+        "node_id": "0431",
+        "start_index": 112,
+        "end_index": 112,
+        "nodes": [
+          {
+            "title": "Exhibit 21",
+            "node_id": "0432",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 23.1",
+            "node_id": "0433",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 31.1",
+            "node_id": "0434",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 31.2",
+            "node_id": "0435",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 32.1",
+            "node_id": "0436",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 32.2",
+            "node_id": "0437",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.INS",
+            "node_id": "0438",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.SCH",
+            "node_id": "0439",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.CAL",
+            "node_id": "0440",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.LAB",
+            "node_id": "0441",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.PRE",
+            "node_id": "0442",
+            "start_index": 112,
+            "end_index": 112
+          },
+          {
+            "title": "Exhibit 101.DEF",
+            "node_id": "0443",
+            "start_index": 112,
+            "end_index": 112
+          }
+        ]
+      }
+    ]
+  }
+}
