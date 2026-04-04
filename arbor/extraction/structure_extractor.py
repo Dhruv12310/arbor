@@ -436,22 +436,29 @@ def _chunk_by_pages(total_pages: int, chunk_size: int) -> list[TreeNode]:
 
 # ── Recursive refinement of large nodes ──────────────────────────────────────
 
-def _refine_large_nodes(doc, nodes: list[TreeNode], max_span: int = 15) -> None:
+def _refine_large_nodes(
+    doc, nodes: list[TreeNode], max_span: int = 15, chunk_size: int = 10
+) -> None:
     """
-    For any leaf node spanning more than max_span pages, try to find sub-sections
-    using font-heading detection within those pages and attach them as children.
+    For any leaf node spanning more than max_span pages, try to find sub-sections:
+      1. Font-heading detection within the page range (preferred — semantic titles)
+      2. Fixed-size page chunking within the range (fallback — always works)
     Modifies nodes in-place. Recurses into existing children.
     """
     for node in nodes:
         if node.nodes:
-            _refine_large_nodes(doc, node.nodes, max_span)
+            _refine_large_nodes(doc, node.nodes, max_span, chunk_size)
             continue
         span = node.end_index - node.start_index
         if span <= max_span:
             continue
+        # Try font headings first
         sub = _font_headings_in_range(doc, node.start_index, node.end_index)
         if len(sub) >= 2:
             node.nodes = sub
+        else:
+            # Fallback: chunk within this node's page range
+            node.nodes = _chunk_range(node.start_index, node.end_index, chunk_size)
 
 
 def _font_headings_in_range(
@@ -498,6 +505,19 @@ def _font_headings_in_range(
         ep = headings[i + 1][1] - 1 if i + 1 < len(headings) else end_page
         ep = max(sp, ep)
         nodes.append(TreeNode(title=title, start_index=sp, end_index=ep))
+    return nodes
+
+
+def _chunk_range(start_page: int, end_page: int, chunk_size: int) -> list[TreeNode]:
+    """Split a page range into fixed-size chunks (used as refinement fallback)."""
+    nodes: list[TreeNode] = []
+    for sp in range(start_page, end_page + 1, chunk_size):
+        ep = min(sp + chunk_size - 1, end_page)
+        nodes.append(TreeNode(
+            title=f"Pages {sp}–{ep}",
+            start_index=sp,
+            end_index=ep,
+        ))
     return nodes
 
 
