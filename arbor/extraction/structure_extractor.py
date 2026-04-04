@@ -100,6 +100,9 @@ def extract_structure(
     if nodes is None:
         nodes, strategy = _chunk_by_pages(total_pages, chunk_size), "page_chunks"
 
+    # Refine: any node spanning >15 pages with no children gets sub-section detection
+    _refine_large_nodes(doc, nodes, max_span=15)
+
     doc.close()
 
     # Assign sequential node IDs across all nodes
@@ -428,6 +431,73 @@ def _chunk_by_pages(total_pages: int, chunk_size: int) -> list[TreeNode]:
             start_index=start,
             end_index=end,
         ))
+    return nodes
+
+
+# ── Recursive refinement of large nodes ──────────────────────────────────────
+
+def _refine_large_nodes(doc, nodes: list[TreeNode], max_span: int = 15) -> None:
+    """
+    For any leaf node spanning more than max_span pages, try to find sub-sections
+    using font-heading detection within those pages and attach them as children.
+    Modifies nodes in-place. Recurses into existing children.
+    """
+    for node in nodes:
+        if node.nodes:
+            _refine_large_nodes(doc, node.nodes, max_span)
+            continue
+        span = node.end_index - node.start_index
+        if span <= max_span:
+            continue
+        sub = _font_headings_in_range(doc, node.start_index, node.end_index)
+        if len(sub) >= 2:
+            node.nodes = sub
+
+
+def _font_headings_in_range(
+    doc, start_page: int, end_page: int
+) -> list[TreeNode]:
+    """
+    Detect sub-headings by font size within a specific page range (1-indexed).
+    Uses a slightly stricter threshold (1.15x) than the top-level scan.
+    """
+    spans: list[tuple[float, str, int]] = []
+    for page_num in range(start_page - 1, min(end_page, len(doc))):  # 0-indexed
+        page = doc[page_num]
+        blocks = page.get_text("dict", flags=0).get("blocks", [])
+        for block in blocks:
+            for line in block.get("lines", []):
+                for span in line.get("spans", []):
+                    text = span.get("text", "").strip()
+                    size = span.get("size", 0)
+                    if text and size > 0:
+                        spans.append((size, text, page_num + 1))  # back to 1-indexed
+
+    if not spans:
+        return []
+
+    size_counts = Counter(round(s, 1) for s, _, _ in spans)
+    body_size = size_counts.most_common(1)[0][0]
+    heading_threshold = body_size * 1.15
+
+    headings: list[tuple[str, int]] = []
+    seen_pages: set[int] = set()
+    for size, text, page_num in spans:
+        if (size >= heading_threshold
+                and len(text) > 3
+                and _looks_like_section_title(text)
+                and page_num not in seen_pages):
+            headings.append((text, page_num))
+            seen_pages.add(page_num)
+
+    if len(headings) < 2:
+        return []
+
+    nodes: list[TreeNode] = []
+    for i, (title, sp) in enumerate(headings):
+        ep = headings[i + 1][1] - 1 if i + 1 < len(headings) else end_page
+        ep = max(sp, ep)
+        nodes.append(TreeNode(title=title, start_index=sp, end_index=ep))
     return nodes
 
 
