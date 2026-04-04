@@ -304,10 +304,25 @@ def _try_multiline_toc(
     if len(unique) < min_sections:
         return None, "multiline_toc"
 
-    # Build flat TreeNodes with inferred end pages
+    # Separate top-level entries (ITEM X / PART X) from sub-entries
+    # Top-level sections get end_page = start of next top-level section - 1
+    # Sub-entries get end_page = start of next entry - 1 (original behavior)
+    _TOP_LEVEL_RE = re.compile(r'^(ITEM\s+\d|PART\s+[IVX])', re.IGNORECASE)
+
+    def _is_top_level(title: str) -> bool:
+        return bool(_TOP_LEVEL_RE.match(title))
+
+    top_level_pages = [pg for title, pg in unique if _is_top_level(title)]
+
     nodes: list[TreeNode] = []
     for i, (title, start_page) in enumerate(unique):
-        end_page = unique[i + 1][1] - 1 if i + 1 < len(unique) else total_pages
+        if _is_top_level(title):
+            # End at the start of the next top-level section - 1
+            next_top = next((pg for pg in top_level_pages if pg > start_page), None)
+            end_page = (next_top - 1) if next_top else total_pages
+        else:
+            # Sub-entry: end at next entry start - 1
+            end_page = unique[i + 1][1] - 1 if i + 1 < len(unique) else total_pages
         end_page = max(start_page, end_page)
         nodes.append(TreeNode(title=title, start_index=start_page, end_index=end_page))
 
