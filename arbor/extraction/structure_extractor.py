@@ -207,13 +207,24 @@ def _looks_like_section_title(text: str) -> bool:
     # Reject lines starting lowercase — continuation of prior sentence
     if t[0].islower():
         return False
+    # Reject parentheticals like "(ii)", "(iv)", "(i.e. ...)"
+    if t.startswith('('):
+        return False
+    # Reject pure numbers or single tokens that are clearly not headings
+    if t.isdigit():
+        return False
     # Reject very long lines — likely a sentence, not a title
     if len(t) > 100:
+        return False
+    # Reject all-caps lines shorter than 4 words that look like legal boilerplate
+    words = t.split()
+    if t.isupper() and len(words) > 8:
         return False
     # Reject obvious body-text phrases
     _BODY_PHRASES = (
         ' as well as ', ' and to ', ' in the ', ' of the ',
         ' for the ', ' with the ', ' by the ', ' to the ',
+        ' shall be ', ' will be ', ' may be ', ' referred to as ',
     )
     tl = t.lower()
     if any(p in tl for p in _BODY_PHRASES) and not _TITLE_PATTERNS.match(t):
@@ -443,7 +454,8 @@ def _refine_large_nodes(
     For any leaf node spanning more than max_span pages, try to find sub-sections:
       1. Font-heading detection within the page range (preferred — semantic titles)
       2. Fixed-size page chunking within the range (fallback — always works)
-    Modifies nodes in-place. Recurses into existing children.
+    Ensures no pages are orphaned: gaps before the first heading are filled
+    with a chunk node. Modifies nodes in-place. Recurses into existing children.
     """
     for node in nodes:
         if node.nodes:
@@ -455,7 +467,13 @@ def _refine_large_nodes(
         # Try font headings first
         sub = _font_headings_in_range(doc, node.start_index, node.end_index)
         if len(sub) >= 2:
-            node.nodes = sub
+            # Fill any gap between parent start and first heading
+            if sub[0].start_index > node.start_index:
+                gap_end = sub[0].start_index - 1
+                prefix = _chunk_range(node.start_index, gap_end, chunk_size)
+                node.nodes = prefix + sub
+            else:
+                node.nodes = sub
         else:
             # Fallback: chunk within this node's page range
             node.nodes = _chunk_range(node.start_index, node.end_index, chunk_size)
