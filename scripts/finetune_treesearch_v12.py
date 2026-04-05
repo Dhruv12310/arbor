@@ -117,7 +117,8 @@ print(f"Base train (cross-domain)  : {len(base_train)} examples")
 print(f"StructDirect train (new)   : {len(sd_train)} examples")
 print(f"Eval                       : {len(eval_raw)} examples")
 
-# 1x oversample: SD examples blended once (v11 10x caused memorization)
+# 1x blend: ~2800 SD examples from all 84 docs — no oversampling needed
+# (v11 used 10x on 130 examples and caused memorization — F1 dropped to 0.880)
 combined_train = base_train + sd_train * 1
 random.seed(42)
 random.shuffle(combined_train)
