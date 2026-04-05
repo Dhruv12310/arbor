@@ -112,7 +112,7 @@ def extract_structure(
     # Assign sequential node IDs across all nodes
     _assign_node_ids(nodes)
 
-    tree = DocumentTree(doc_name=doc_name, structure=nodes)
+    tree = DocumentTree(doc_name=doc_name, structure=nodes, extraction_strategy=strategy)
     print(f"[StructDirect] {doc_name}: {strategy}, "
           f"{_count_nodes(nodes)} sections, {total_pages} pages")
     return tree

@@ -75,6 +75,7 @@ class DocumentTree:
     doc_name: str
     structure: list[TreeNode]
     doc_description: Optional[str] = None
+    extraction_strategy: Optional[str] = None  # e.g. "embedded_toc", "multiline_toc", etc.
 
     def to_dict(self) -> dict:
         d: dict = {
@@ -83,6 +84,8 @@ class DocumentTree:
         }
         if self.doc_description is not None:
             d["doc_description"] = self.doc_description
+        if self.extraction_strategy is not None:
+            d["extraction_strategy"] = self.extraction_strategy
         return d
 
     @classmethod
@@ -91,6 +94,7 @@ class DocumentTree:
             doc_name=d["doc_name"],
             structure=[TreeNode.from_dict(n) for n in d.get("structure", [])],
             doc_description=d.get("doc_description"),
+            extraction_strategy=d.get("extraction_strategy"),
         )
 
 
