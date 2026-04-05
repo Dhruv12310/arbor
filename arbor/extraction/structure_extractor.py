@@ -104,16 +104,6 @@ def extract_structure(
     # insert a chunk covering the gap so no pages are unreachable
     _fill_parent_gaps(nodes)
 
-    # Fill gaps between sibling nodes at every level (e.g. embedded_toc bookmarks
-    # that skip pages between consecutive sections)
-    _fill_sibling_gaps(nodes)
-
-    # Extend collapsed top-level "Financial Statements" sections.
-    # In some SEC filings (e.g. Activision), Item 8 collapses to 1 page because
-    # Item 9 starts at the same TOC-printed page. The actual financial content
-    # lands in a later section. Detect and fix this.
-    _fix_collapsed_financial_statements(nodes, total_pages)
-
     # Refine: any node spanning >15 pages with no children gets sub-section detection
     _refine_large_nodes(doc, nodes, max_span=15)
 
