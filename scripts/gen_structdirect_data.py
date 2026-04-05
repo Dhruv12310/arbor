@@ -1,19 +1,14 @@
 # gen_structdirect_data.py
 # ========================
-# Generates training data for TreeSearch v12 from StructDirect-extracted trees.
-# Run this BEFORE finetune_treesearch_v12.py.
+# Generates training data for TreeSearch v11 from StructDirect-extracted trees.
+# Run this BEFORE finetune_treesearch_v11.py.
 #
-# Changes vs v11 generator:
-#   - Expanded from 7 docs to all 84 FinanceBench docs
-#     → ~2800 unique examples (was ~130), no oversampling needed
-#   - Covers all filing types: 10-K, 10-Q, 8-K, Earnings releases
-#   - Skips PDFs that fail extraction (try/except per doc) so one bad PDF
-#     doesn't abort the whole run
+# Fixes vs v10 generator:
 #   - Multi-node targets: when evidence spans 2 sections (e.g. Adobe pages 58 AND 62),
 #     navigate_to correctly lists BOTH nodes instead of just one
 #   - Truncation guard: node lists > 20 entries are chunked into windows of 20
 #     so prompts stay under 500 tokens and never hit the 4096 seq limit
-#   - Augmented with synthetic template examples for all docs
+#   - Augmented with synthetic template examples for all 7 docs
 #   - Shuffled duplicates for position-invariance training
 #
 # Output: structdirect_train.jsonl saved to Drive
@@ -40,41 +35,7 @@ OUT_FILE = "/content/drive/MyDrive/arbor-training-data/structdirect_train.jsonl"
 TARGET_DOCS = [
     "3M_2018_10K", "3M_2022_10K", "3M_2023Q2_10Q",
     "ACTIVISIONBLIZZARD_2019_10K",
-    "ADOBE_2015_10K", "ADOBE_2016_10K", "ADOBE_2017_10K", "ADOBE_2022_10K",
-    "AES_2022_10K",
-    "AMAZON_2017_10K", "AMAZON_2019_10K",
-    "AMCOR_2020_10K", "AMCOR_2022_8K_dated-2022-07-01", "AMCOR_2023_10K",
-    "AMCOR_2023Q2_10Q", "AMCOR_2023Q4_EARNINGS",
-    "AMD_2015_10K", "AMD_2022_10K",
-    "AMERICANEXPRESS_2022_10K",
-    "AMERICANWATERWORKS_2020_10K", "AMERICANWATERWORKS_2021_10K", "AMERICANWATERWORKS_2022_10K",
-    "BESTBUY_2017_10K", "BESTBUY_2019_10K", "BESTBUY_2023_10K", "BESTBUY_2024Q2_10Q",
-    "BLOCK_2016_10K", "BLOCK_2020_10K",
-    "BOEING_2018_10K", "BOEING_2022_10K",
-    "COCACOLA_2017_10K", "COCACOLA_2021_10K", "COCACOLA_2022_10K",
-    "CORNING_2020_10K", "CORNING_2021_10K", "CORNING_2022_10K",
-    "COSTCO_2021_10K",
-    "CVSHEALTH_2018_10K", "CVSHEALTH_2022_10K",
-    "FOOTLOCKER_2022_8K_dated_2022-08-19", "FOOTLOCKER_2022_8K_dated-2022-05-20",
-    "GENERALMILLS_2019_10K", "GENERALMILLS_2020_10K", "GENERALMILLS_2022_10K",
-    "JOHNSON_JOHNSON_2022_10K", "JOHNSON_JOHNSON_2022Q4_EARNINGS",
-    "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30", "JOHNSON_JOHNSON_2023Q2_EARNINGS",
-    "JPMORGAN_2021Q1_10Q", "JPMORGAN_2022_10K", "JPMORGAN_2022Q2_10Q", "JPMORGAN_2023Q2_10Q",
-    "KRAFTHEINZ_2019_10K",
-    "LOCKHEEDMARTIN_2020_10K", "LOCKHEEDMARTIN_2021_10K", "LOCKHEEDMARTIN_2022_10K",
-    "MGMRESORTS_2018_10K", "MGMRESORTS_2020_10K", "MGMRESORTS_2022_10K",
-    "MGMRESORTS_2022Q4_EARNINGS", "MGMRESORTS_2023Q2_10Q",
-    "MICROSOFT_2016_10K", "MICROSOFT_2023_10K",
-    "NETFLIX_2015_10K", "NETFLIX_2017_10K",
-    "NIKE_2018_10K", "NIKE_2019_10K", "NIKE_2021_10K", "NIKE_2023_10K",
-    "PAYPAL_2022_10K",
-    "PEPSICO_2021_10K", "PEPSICO_2022_10K",
-    "PEPSICO_2023_8K_dated-2023-05-05", "PEPSICO_2023_8K_dated-2023-05-30",
-    "PEPSICO_2023Q1_EARNINGS",
-    "PFIZER_2021_10K", "Pfizer_2023Q2_10Q",
-    "ULTABEAUTY_2023_10K", "ULTABEAUTY_2023Q4_EARNINGS",
-    "VERIZON_2021_10K", "VERIZON_2022_10K",
-    "WALMART_2018_10K", "WALMART_2019_10K", "WALMART_2020_10K",
+    "ADOBE_2015_10K", "ADOBE_2016_10K", "ADOBE_2017_10K",
 ]
 
 SYSTEM_PROMPT = (
@@ -165,18 +126,10 @@ def title_matches_keywords(title, keywords):
     return any(k in tl for k in keywords)
 
 # ── Extract trees ──────────────────────────────────────────────────────────────
-print(f"Extracting trees for {len(TARGET_DOCS)} docs...")
+print("Extracting trees...")
 trees = {}
-failed = []
 for doc in TARGET_DOCS:
-    try:
-        trees[doc] = extract_structure(f"{PDF_DIR}/{doc}.pdf")
-    except Exception as e:
-        print(f"  SKIP {doc}: {e}")
-        failed.append(doc)
-print(f"Extracted: {len(trees)} trees | Failed: {len(failed)}")
-if failed:
-    print(f"  Failed docs: {failed}")
+    trees[doc] = extract_structure(f"{PDF_DIR}/{doc}.pdf")
 
 # ── Load QA pairs ──────────────────────────────────────────────────────────────
 all_qa   = [json.loads(l) for l in open(QA_FILE, encoding="utf-8").read().strip().splitlines()]
@@ -254,12 +207,13 @@ with open(OUT_FILE, "w", encoding="utf-8") as f:
     for ex in unique:
         f.write(json.dumps(ex, ensure_ascii=False) + "\n")
 
+print(f"\nReal QA     : {len(examples)}")
+print(f"Synthetic   : {len(synthetic)}")
+print(f"Total unique: {len(unique)}")
+print(f"Skipped     : {skipped} QA pairs")
+print(f"Saved to    : {OUT_FILE}")
+
+# Verify multi-node targets are present
 multi_node = [ex for ex in unique if len(json.loads(ex["messages"][2]["content"])["navigate_to"]) > 1]
-print(f"\nDocs extracted : {len(trees)} / {len(TARGET_DOCS)}")
-print(f"Real QA        : {len(examples)}")
-print(f"Synthetic      : {len(synthetic)}")
-print(f"Total unique   : {len(unique)}")
-print(f"Multi-node     : {len(multi_node)} (navigate_to > 1)")
-print(f"Skipped QA     : {skipped} (no evidence pages)")
-print(f"Saved to       : {OUT_FILE}")
+print(f"Multi-node examples (navigate_to > 1): {len(multi_node)}")
 """
