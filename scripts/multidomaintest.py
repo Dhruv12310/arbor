@@ -267,7 +267,7 @@ print(f"\nExtracted: {len(tree_cache)} trees | Skipped: {len(skipped)}")
 # ║  CELL 6 — Generate questions per PDF (cached)           ║
 # ╚══════════════════════════════════════════════════════════╝
 """
-import pymupdf
+import time, pymupdf
 
 def extract_first_pages_text(pdf_path: str, n_pages: int = 3) -> str:
     doc = pymupdf.open(pdf_path)
