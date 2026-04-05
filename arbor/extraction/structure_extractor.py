@@ -104,6 +104,16 @@ def extract_structure(
     # insert a chunk covering the gap so no pages are unreachable
     _fill_parent_gaps(nodes)
 
+    # Fill gaps between sibling nodes at every level (e.g. embedded_toc bookmarks
+    # that skip pages between consecutive sections)
+    _fill_sibling_gaps(nodes)
+
+    # Extend collapsed top-level "Financial Statements" sections.
+    # In some SEC filings (e.g. Activision), Item 8 collapses to 1 page because
+    # Item 9 starts at the same TOC-printed page. The actual financial content
+    # lands in a later section. Detect and fix this.
+    _fix_collapsed_financial_statements(nodes, total_pages)
+
     # Refine: any node spanning >15 pages with no children gets sub-section detection
     _refine_large_nodes(doc, nodes, max_span=15)
 
@@ -487,6 +497,102 @@ def _fill_parent_gaps(nodes: list[TreeNode]) -> None:
             node.nodes.insert(0, gap_node)
         # Recurse
         _fill_parent_gaps(node.nodes)
+
+
+# ── Fill sibling gaps ────────────────────────────────────────────────────────
+
+def _fill_sibling_gaps(nodes: list[TreeNode]) -> None:
+    """
+    Fill page gaps between consecutive sibling nodes at every level.
+
+    Example: if sibling A ends at page 57 and sibling B starts at page 63,
+    pages 58-62 are unreachable. Insert a 'Pages 58-62' chunk to cover them.
+
+    Also recurses into all children so gaps are filled at every depth.
+    """
+    if not nodes:
+        return
+
+    # Collect gap insertions first (reverse order so indices stay valid)
+    inserts: list[tuple[int, TreeNode]] = []
+    for i in range(len(nodes) - 1):
+        gap_start = nodes[i].end_index + 1
+        gap_end   = nodes[i + 1].start_index - 1
+        if gap_start <= gap_end:
+            inserts.append((i + 1, TreeNode(
+                title=f"Pages {gap_start}–{gap_end}",
+                start_index=gap_start,
+                end_index=gap_end,
+            )))
+
+    for idx, gap_node in reversed(inserts):
+        nodes.insert(idx, gap_node)
+
+    # Recurse into children (including any newly inserted gap nodes)
+    for node in nodes:
+        if node.nodes:
+            _fill_sibling_gaps(node.nodes)
+
+
+# ── Fix collapsed "Financial Statements" sections ─────────────────────────────
+
+_FINANCIAL_STMT_RE = re.compile(
+    r'financial\s+statement', re.IGNORECASE
+)
+
+def _fix_collapsed_financial_statements(
+    nodes: list[TreeNode], total_pages: int
+) -> None:
+    """
+    In some SEC 10-K filings (e.g. Activision Blizzard), the multiline_toc
+    collapses 'Item 8. Financial Statements' to a single page because Item 9
+    starts at the same TOC-printed page number.
+
+    Detection: a top-level node whose title matches 'Financial Statement*'
+    and whose page span is <= 2 pages, while total_pages > 50.
+
+    Fix: extend Item 8's end_index to just before the next PART or Exhibit
+    section, absorbing the collapsed Items 9/9A/9B/PART-III nodes as children.
+    The absorbed nodes become children of Item 8 so navigation can still reach
+    them individually.
+    """
+    if total_pages < 50:
+        return  # Only applies to full 10-K filings
+
+    for i, node in enumerate(nodes):
+        span = node.end_index - node.start_index
+        if not _FINANCIAL_STMT_RE.search(node.title):
+            continue
+        if span > 2:
+            continue  # Already has reasonable extent — skip
+
+        # Find how far to extend: absorb consecutive small Items (9, 9A, 9B)
+        # until we hit a PART or Exhibit or a section with span > 5 pages
+        absorb_until = i  # last index to absorb (inclusive)
+        for j in range(i + 1, len(nodes)):
+            sibling = nodes[j]
+            sibling_span = sibling.end_index - sibling.start_index
+            title_upper = sibling.title.upper()
+            # Stop at PART X, Exhibit, or any large section
+            if (re.match(r'PART\s+[IVX]', title_upper)
+                    or 'EXHIBIT' in title_upper
+                    or sibling_span > 5):
+                break
+            absorb_until = j
+
+        if absorb_until <= i:
+            continue  # Nothing to absorb
+
+        # Extend Item 8's end_index to include absorbed siblings
+        new_end = nodes[absorb_until].end_index
+        absorbed = nodes[i + 1: absorb_until + 1]
+
+        # Move absorbed nodes as children of Item 8
+        node.end_index = new_end
+        node.nodes = absorbed + node.nodes  # prepend so order is chronological
+
+        # Remove absorbed nodes from top-level list
+        del nodes[i + 1: absorb_until + 1]
 
 
 # ── Recursive refinement of large nodes ──────────────────────────────────────
