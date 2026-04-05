@@ -100,6 +100,10 @@ def extract_structure(
     if nodes is None:
         nodes, strategy = _chunk_by_pages(total_pages, chunk_size), "page_chunks"
 
+    # Fill gaps: if a node has children but its start_page precedes the first child,
+    # insert a chunk covering the gap so no pages are unreachable
+    _fill_parent_gaps(nodes)
+
     # Refine: any node spanning >15 pages with no children gets sub-section detection
     _refine_large_nodes(doc, nodes, max_span=15)
 
@@ -458,6 +462,31 @@ def _chunk_by_pages(total_pages: int, chunk_size: int) -> list[TreeNode]:
             end_index=end,
         ))
     return nodes
+
+
+# ── Fill parent-to-first-child gaps ──────────────────────────────────────────
+
+def _fill_parent_gaps(nodes: list[TreeNode]) -> None:
+    """
+    If a parent node starts before its first child, the pages between
+    parent.start and first_child.start - 1 are unreachable via child navigation.
+    Insert a chunk node covering that gap as the first child.
+    Recurses into existing children.
+    """
+    for node in nodes:
+        if not node.nodes:
+            continue
+        first_child_start = node.nodes[0].start_index
+        if first_child_start > node.start_index + 1:
+            # Gap exists — insert a chunk covering it
+            gap_node = TreeNode(
+                title=f"{node.title} — Cover / Intro (pages {node.start_index}–{first_child_start - 1})",
+                start_index=node.start_index,
+                end_index=first_child_start - 1,
+            )
+            node.nodes.insert(0, gap_node)
+        # Recurse
+        _fill_parent_gaps(node.nodes)
 
 
 # ── Recursive refinement of large nodes ──────────────────────────────────────
