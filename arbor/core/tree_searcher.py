@@ -23,6 +23,7 @@ from arbor.core.types import (
     BudgetExceededError,
     DocumentTree,
     NavigatingEvent,
+    NavigationDecisionEvent,
     NodeFoundEvent,
     SearchResult,
     TreeNode,
@@ -278,6 +279,13 @@ async def _search_multihop(
 
             navigate_to: list[str] = data.get("navigate_to", [])
             selected = [n for n in window if n.node_id in set(navigate_to)]
+
+            await _emit(NavigationDecisionEvent(
+                level=depth,
+                shown_ids=[n.node_id for n in window if n.node_id],
+                selected_ids=[n.node_id for n in selected if n.node_id],
+                current_path=list(current_path),
+            ))
 
             # Mark selected nodes as visited, then recurse or collect
             recurse_tasks = []

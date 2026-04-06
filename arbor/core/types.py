@@ -185,6 +185,17 @@ class NodeFoundEvent:
 
 
 @dataclass
+class NavigationDecisionEvent:
+    """Emitted after each model decision in multihop navigation.
+    Captures what was shown, what was selected, and where in the tree."""
+    type: str = "navigation_decision"
+    level: int = 0
+    shown_ids: list = field(default_factory=list)
+    selected_ids: list = field(default_factory=list)
+    current_path: list = field(default_factory=list)
+
+
+@dataclass
 class AnswerEvent:
     """Emitted as the final event with the generated answer."""
     type: str = "answer"
@@ -202,7 +213,7 @@ class ErrorEvent:
 
 
 # Union type for type-hinting event handlers
-ArborEvent = TreeLoadedEvent | NavigatingEvent | NodeFoundEvent | AnswerEvent | ErrorEvent
+ArborEvent = TreeLoadedEvent | NavigatingEvent | NavigationDecisionEvent | NodeFoundEvent | AnswerEvent | ErrorEvent
 
 
 # Intermediate type used during TOC processing (before tree conversion)
