@@ -214,8 +214,16 @@ def _looks_like_section_title(text: str) -> bool:
     # Reject parentheticals like "(ii)", "(iv)", "(i.e. ...)"
     if t.startswith('('):
         return False
-    # Reject pure numbers or single tokens that are clearly not headings
+    # Reject pure integers
     if t.isdigit():
+        return False
+    # Reject float/decimal patterns: "14.8", "3.14", "1.2.3", "14.8.1"
+    if re.match(r'^\d[\d\.]*$', t):
+        return False
+    # Reject titles where <30% of characters are letters and the title is short
+    # catches: "8ρgd4", "§3.2", "—IV—", mixed symbol garbage from bad TOC parsing
+    alpha_ratio = sum(c.isalpha() for c in t) / len(t)
+    if alpha_ratio < 0.3 and len(t) < 20:
         return False
     # Reject very long lines — likely a sentence, not a title
     if len(t) > 100:

@@ -82,29 +82,44 @@ async def search_tree(
     max_hops: int = 5,
     config: Optional[ArborConfig] = None,
     event_cb: Optional[Callable] = None,
+    question_hint: Optional[str] = None,
+    doc_type: Optional[str] = None,
 ) -> SearchResult:
     """
     Find tree nodes that likely contain the answer to a question.
 
     Args:
-        tree:       The DocumentTree to search.
-        question:   The user's question.
-        provider:   LLM provider for reasoning.
-        preference: Optional domain guidance (e.g. "Check Item 7 for financials").
-                    Only used in oneshot mode.
-        multihop:   If True, navigate level-by-level (required for v8 fine-tuned model).
-                    If False (default), send the full tree in one call.
-        max_hops:   Maximum depth to explore in multihop mode (overridden by config).
-        config:     ArborConfig with budget controls and retry settings.
-        event_cb:   Optional async or sync callback receiving streaming event objects.
+        tree:           The DocumentTree to search.
+        question:       The user's question.
+        provider:       LLM provider for reasoning.
+        preference:     Optional domain guidance. Only used in oneshot mode.
+        multihop:       If True, navigate level-by-level (required for fine-tuned model).
+        max_hops:       Maximum depth. Auto-scaled by tree size if not set via config.
+        config:         ArborConfig with budget controls and retry settings.
+        event_cb:       Optional async or sync callback receiving streaming event objects.
+        question_hint:  Optional one-line question-type hint prepended at depth 1.
+                        e.g. "METADATA — answer is in the title page or first section."
+        doc_type:       Optional document type string prepended to system context.
+                        e.g. "10-K annual report" or "academic research paper"
 
     Returns:
         SearchResult with thinking, node_ids, and resolved TreeNode objects.
     """
     if multihop:
-        effective_max_hops = config.max_hops if config else max_hops
+        if config and config.max_hops:
+            effective_max_hops = config.max_hops
+        else:
+            # Adaptive max_hops: scale with tree size so deep docs get enough hops
+            total_nodes = _count_tree_nodes(tree.structure)
+            if total_nodes > 200:
+                effective_max_hops = 12
+            elif total_nodes > 100:
+                effective_max_hops = 10
+            else:
+                effective_max_hops = max_hops
         return await _search_multihop(
-            tree, question, provider, effective_max_hops, config, event_cb
+            tree, question, provider, effective_max_hops, config, event_cb,
+            question_hint=question_hint, doc_type=doc_type,
         )
     return await _search_oneshot(tree, question, provider, preference)
 
@@ -149,6 +164,8 @@ async def _search_multihop(
     max_hops: int,
     config: Optional[ArborConfig],
     event_cb: Optional[Callable],
+    question_hint: Optional[str] = None,
+    doc_type: Optional[str] = None,
 ) -> SearchResult:
     """
     Navigate the tree level-by-level.
@@ -167,6 +184,11 @@ async def _search_multihop(
     final_node_ids: list[str] = []
     retries = config.max_retries_on_bad_json if config else 2
     visited: set[str] = set()  # tracks all node IDs explored across hops
+
+    # Build doc-type aware system prompt
+    system_prompt = _MULTIHOP_SYSTEM
+    if doc_type:
+        system_prompt = f"Document type: {doc_type}\n\n{_MULTIHOP_SYSTEM}"
 
     budget = _BudgetTracker(
         max_hops=max_hops,
@@ -227,8 +249,14 @@ async def _search_multihop(
                     + ", ".join(f"[{n.node_id}] {n.title}" for n in window_visited)
                 )
 
+            # Question-type hint: only shown at root level (depth=1, no parent path yet)
+            hint_line = ""
+            if question_hint and not current_path:
+                hint_line = f"Question type: {question_hint}\n\n"
+
             user_content = (
                 f"Question: {question}\n\n"
+                f"{hint_line}"
                 f"{location_line}"
                 f"Sections at this level:\n"
                 f"{_format_sections(window)}"
@@ -236,7 +264,7 @@ async def _search_multihop(
                 f"Which sections should we explore next?"
             )
             prompt = (
-                f"<|im_start|>system\n{_MULTIHOP_SYSTEM}<|im_end|>\n"
+                f"<|im_start|>system\n{system_prompt}<|im_end|>\n"
                 f"<|im_start|>user\n{user_content}<|im_end|>\n"
                 f"<|im_start|>assistant\n"
             )
@@ -350,6 +378,10 @@ def _enforce_navigate_schema(data: dict, valid_ids: set[str]) -> bool:
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _count_tree_nodes(nodes: list[TreeNode]) -> int:
+    return sum(1 + _count_tree_nodes(n.nodes) for n in nodes)
+
 
 def _chunk_nodes(nodes: list[TreeNode], size: int) -> list[list[TreeNode]]:
     return [nodes[i : i + size] for i in range(0, len(nodes), size)]

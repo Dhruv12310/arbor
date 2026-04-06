@@ -428,6 +428,39 @@ def check_extraction_coverage(tree, target_pages: list[int]) -> dict:
         coverage[pg] = node.node_id if node else None
     return coverage
 
+def classify_question(question: str) -> str:
+    """
+    One haiku call to classify question type before navigation.
+    Returns a short hint string prepended to the depth-1 navigation prompt.
+    Cost: ~$0.02 per 120-question run.
+    """
+    prompt = (
+        f"Classify this document question into exactly one category:\n"
+        f"- METADATA: asks about authors, affiliations, dates, DOIs, funding, version numbers\n"
+        f"- RESULTS: asks for specific numbers, metrics, scores, percentages from experiments\n"
+        f"- FINANCIAL: asks for financial figures, ratios, costs from financial statements\n"
+        f"- METHODOLOGY: asks how something works, what approach was used\n"
+        f"- GENERAL: anything else\n\n"
+        f"Question: {question}\n\n"
+        f"Reply with exactly one word: METADATA, RESULTS, FINANCIAL, METHODOLOGY, or GENERAL"
+    )
+    resp = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=10,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    category = resp.content[0].text.strip().upper()
+    # Map to a navigation hint
+    hints = {
+        "METADATA":    "METADATA — answer is in the title page, header, or first section of the document.",
+        "RESULTS":     "RESULTS — answer is a specific number/metric found in Results, Experiments, or Evaluation sections.",
+        "FINANCIAL":   "FINANCIAL — answer is in Financial Statements, MD&A, or Balance Sheet sections.",
+        "METHODOLOGY": "METHODOLOGY — answer describes a method/approach found in Methods, Design, or Architecture sections.",
+        "GENERAL":     None,
+    }
+    return hints.get(category, None)
+
+
 def judge_answer(question: str, retrieved_text: str, pdf_id: str, domain: str) -> dict:
     """
     Two-pass Claude judge (more reliable than combined reasoning+verdict call).
@@ -554,8 +587,20 @@ async def run_full_eval():
             print(f"         Q: {question[:90]}")
 
             try:
+                # ── Question-type classification (one haiku call) ─────────────
+                q_hint = classify_question(question)
+
+                # ── Doc-type hint from source ─────────────────────────────────
+                if source == "financebench":
+                    d_type = "10-K / 10-Q / 8-K financial filing"
+                else:
+                    d_type = f"academic research paper ({domain})"
+
                 # ── Navigation ───────────────────────────────────────────────
-                sr = await search_tree(tree, question, provider, multihop=True, config=config)
+                sr = await search_tree(
+                    tree, question, provider, multihop=True, config=config,
+                    question_hint=q_hint, doc_type=d_type,
+                )
 
                 retrieved_nodes = sr.nodes
                 result["retrieved_nodes"] = sr.node_ids
