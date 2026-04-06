@@ -107,17 +107,20 @@ async def search_tree(
         SearchResult with thinking, node_ids, and resolved TreeNode objects.
     """
     if multihop:
-        if config and config.max_hops:
-            effective_max_hops = config.max_hops
+        # Adaptive max_hops: always scale with tree size.
+        # config.max_hops acts as a floor, not a ceiling — large docs need more hops
+        # regardless of what the caller requested.
+        total_nodes_for_hops = _count_tree_nodes(tree.structure)
+        if total_nodes_for_hops > 200:
+            adaptive = 12
+        elif total_nodes_for_hops > 100:
+            adaptive = 10
         else:
-            # Adaptive max_hops: scale with tree size so deep docs get enough hops
-            total_nodes = _count_tree_nodes(tree.structure)
-            if total_nodes > 200:
-                effective_max_hops = 12
-            elif total_nodes > 100:
-                effective_max_hops = 10
-            else:
-                effective_max_hops = max_hops
+            adaptive = max_hops
+        if config and config.max_hops:
+            effective_max_hops = max(config.max_hops, adaptive)
+        else:
+            effective_max_hops = adaptive
         return await _search_multihop(
             tree, question, provider, effective_max_hops, config, event_cb,
             question_hint=question_hint, doc_type=doc_type,
@@ -186,10 +189,15 @@ async def _search_multihop(
     retries = config.max_retries_on_bad_json if config else 2
     visited: set[str] = set()  # tracks all node IDs explored across hops
 
+    # Pre-compute doc-level stats once (used in every navigate_level call)
+    _total_nodes = _count_tree_nodes(tree.structure)
+    _total_pages = max((n.end_index for n in tree.structure), default=0) if tree.structure else 0
+    _doc_stats = f"~{_total_pages} pages, {_total_nodes} sections total"
+
     # Build doc-type aware system prompt
     system_prompt = _MULTIHOP_SYSTEM
     if doc_type:
-        system_prompt = f"Document type: {doc_type}\n\n{_MULTIHOP_SYSTEM}"
+        system_prompt = f"Document type: {doc_type} ({_doc_stats})\n\n{_MULTIHOP_SYSTEM}"
 
     budget = _BudgetTracker(
         max_hops=max_hops,
@@ -229,12 +237,25 @@ async def _search_multihop(
 
         # Chunk wide levels into windows
         windows = _chunk_nodes(nodes, _MAX_NODES_PER_WINDOW)
+        total_at_level = len(nodes)
+        found_in_level = False  # track if any window at this level returned a selection
 
-        for window in windows:
+        for win_idx, window in enumerate(windows):
             budget.nodes_examined += len(window)
             budget.check(final_node_ids[:])
 
             valid_ids = {n.node_id for n in window if n.node_id}
+
+            # Doc context: shown at every call so model knows document scale
+            doc_context_line = f"Document: {_doc_stats}\n"
+
+            # Section count annotation: tells model it may be seeing a fraction of this level
+            if len(windows) > 1:
+                start_num = win_idx * _MAX_NODES_PER_WINDOW + 1
+                end_num   = min((win_idx + 1) * _MAX_NODES_PER_WINDOW, total_at_level)
+                count_line = f"(showing sections {start_num}–{end_num} of {total_at_level} at this level)\n"
+            else:
+                count_line = ""
 
             # Breadcrumb: tell the model where in the document it currently is
             location_line = ""
@@ -256,10 +277,12 @@ async def _search_multihop(
                 hint_line = f"Question type: {question_hint}\n\n"
 
             user_content = (
+                f"{doc_context_line}"
                 f"Question: {question}\n\n"
                 f"{hint_line}"
                 f"{location_line}"
                 f"Sections at this level:\n"
+                f"{count_line}"
                 f"{_format_sections(window)}"
                 f"{visited_line}\n\n"
                 f"Which sections should we explore next?"
@@ -307,6 +330,13 @@ async def _search_multihop(
 
             if recurse_tasks:
                 await asyncio.gather(*recurse_tasks)
+
+            # Once we've selected nodes in any window, stop processing further windows
+            # at this level — the model identified the relevant region, no need to
+            # scan all remaining windows (avoids 10+ calls on 200-node CVS/Verizon levels)
+            if selected:
+                found_in_level = True
+                break
 
     await navigate_level(tree.structure, depth=1, current_path=[])
 
