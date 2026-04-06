@@ -23,7 +23,7 @@
 # ║  CELL 1 — Install dependencies                          ║
 # ╚══════════════════════════════════════════════════════════╝
 """
-!pip install -q "unsloth[colab-new]" pymupdf trl transformers accelerate bitsandbytes peft
+!pip install -q "unsloth[colab-new]" pymupdf trl transformers accelerate bitsandbytes peft nest_asyncio
 """
 
 
@@ -444,20 +444,28 @@ async def run_dagger_for_doc(doc_name, qs, tree):
 
 
 # Run over all docs that have trees
+# Colab runs inside a live event loop — asyncio.run() raises RuntimeError.
+# Collect all coroutines and await them together with nest_asyncio.
+import nest_asyncio
+nest_asyncio.apply()
+
 total_docs = len([d for d in by_doc if d in tree_cache])
 print(f"Running DAgger over {total_docs} documents...")
 
-for i, (doc_name, qs) in enumerate(by_doc.items()):
-    if doc_name not in tree_cache:
-        for _ in qs:
-            stats["questions_skipped"] += 1
-        continue
+async def run_all():
+    for i, (doc_name, qs) in enumerate(by_doc.items()):
+        if doc_name not in tree_cache:
+            for _ in qs:
+                stats["questions_skipped"] += 1
+            continue
 
-    asyncio.run(run_dagger_for_doc(doc_name, qs, tree_cache[doc_name]))
+        await run_dagger_for_doc(doc_name, qs, tree_cache[doc_name])
 
-    if (i + 1) % 10 == 0:
-        print(f"  [{i+1}/{total_docs}] decisions: {stats['decisions_captured']}, "
-              f"corrections: {stats['corrections_generated']}")
+        if (i + 1) % 10 == 0:
+            print(f"  [{i+1}/{total_docs}] decisions: {stats['decisions_captured']}, "
+                  f"corrections: {stats['corrections_generated']}")
+
+asyncio.run(run_all())
 
 print("\nDAgger stats:")
 for k, v in stats.items():
