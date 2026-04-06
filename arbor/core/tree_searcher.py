@@ -166,6 +166,7 @@ async def _search_multihop(
     all_thinking: list[str] = []
     final_node_ids: list[str] = []
     retries = config.max_retries_on_bad_json if config else 2
+    visited: set[str] = set()  # tracks all node IDs explored across hops
 
     budget = _BudgetTracker(
         max_hops=max_hops,
@@ -182,7 +183,14 @@ async def _search_multihop(
         else:
             event_cb(evt)
 
-    async def navigate_level(nodes: list[TreeNode], depth: int) -> None:
+    async def navigate_level(
+        nodes: list[TreeNode],
+        depth: int,
+        current_path: Optional[list[str]] = None,
+    ) -> None:
+        if current_path is None:
+            current_path = []
+
         # Budget checks
         budget.check_hops(depth, final_node_ids[:])
         budget.check(final_node_ids[:])
@@ -205,10 +213,26 @@ async def _search_multihop(
 
             valid_ids = {n.node_id for n in window if n.node_id}
 
+            # Breadcrumb: tell the model where in the document it currently is
+            location_line = ""
+            if current_path:
+                location_line = f"Current location: {' > '.join(current_path)}\n\n"
+
+            # Visited: show nodes already explored so the model avoids re-picking them
+            window_visited = [n for n in window if n.node_id and n.node_id in visited]
+            visited_line = ""
+            if window_visited:
+                visited_line = (
+                    "\n\nAlready explored: "
+                    + ", ".join(f"[{n.node_id}] {n.title}" for n in window_visited)
+                )
+
             user_content = (
                 f"Question: {question}\n\n"
+                f"{location_line}"
                 f"Sections at this level:\n"
-                f"{_format_sections(window)}\n\n"
+                f"{_format_sections(window)}"
+                f"{visited_line}\n\n"
                 f"Which sections should we explore next?"
             )
             prompt = (
@@ -227,11 +251,15 @@ async def _search_multihop(
             navigate_to: list[str] = data.get("navigate_to", [])
             selected = [n for n in window if n.node_id in set(navigate_to)]
 
-            # Feature 5: parallel branch recursion
+            # Mark selected nodes as visited, then recurse or collect
             recurse_tasks = []
             for node in selected:
+                if node.node_id:
+                    visited.add(node.node_id)
                 if node.nodes:
-                    recurse_tasks.append(navigate_level(node.nodes, depth + 1))
+                    recurse_tasks.append(
+                        navigate_level(node.nodes, depth + 1, current_path + [node.title])
+                    )
                 else:
                     if node.node_id:
                         final_node_ids.append(node.node_id)
@@ -244,7 +272,7 @@ async def _search_multihop(
             if recurse_tasks:
                 await asyncio.gather(*recurse_tasks)
 
-    await navigate_level(tree.structure, depth=1)
+    await navigate_level(tree.structure, depth=1, current_path=[])
 
     # Deduplicate while preserving order
     seen: set[str] = set()

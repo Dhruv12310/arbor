@@ -163,6 +163,139 @@ def title_matches_keywords(title, keywords):
     tl = title.lower()
     return any(k in tl for k in keywords)
 
+def add_recovery_examples(tree, question, evidence_pages, examples, doc, max_distractors=3):
+    """
+    Recovery training: model navigated into wrong branch, must correct course.
+    Shows top-level list again with "Previously explored: [wrong_node]" prefix.
+    Correct answer is the evidence-containing node.
+
+    Mirrors DAgger / imitation-with-corrections: trains the model on states
+    that arise from its own navigation errors (not just perfect oracle paths).
+    """
+    top_level = tree.structure
+    evidence_set = set(nodes_containing_pages(top_level, evidence_pages))
+    if not evidence_set:
+        return
+
+    wrong_nodes = [n for n in top_level if n.node_id not in evidence_set]
+    random.shuffle(wrong_nodes)
+
+    for wrong_node in wrong_nodes[:max_distractors]:
+        evidence_titles = [n.title for n in top_level if n.node_id in evidence_set]
+        thinking = (
+            f"I previously explored '{wrong_node.title}' which did not contain the answer. "
+            f"The question asks: '{question[:60]}'. "
+            f"The answer is more likely in '{', '.join(evidence_titles)}'."
+        )
+
+        node_list = top_level[:]
+        if len(node_list) > MAX_NODES_PER_HOP:
+            id_to_idx = {n.node_id: i for i, n in enumerate(node_list)}
+            positions = [id_to_idx[t] for t in evidence_set if t in id_to_idx]
+            if positions:
+                center = sum(positions) // len(positions)
+                half   = MAX_NODES_PER_HOP // 2
+                start  = max(0, center - half)
+                end    = min(len(node_list), start + MAX_NODES_PER_HOP)
+                start  = max(0, end - MAX_NODES_PER_HOP)
+                node_list = node_list[start:end]
+
+        target_ids = [t for t in list(evidence_set) if any(n.node_id == t for n in node_list)]
+        if not target_ids:
+            continue
+
+        user_content = (
+            f"Question: {question}\n\n"
+            f"Previously explored: [{wrong_node.node_id}] {wrong_node.title} "
+            f"(pages {wrong_node.start_index}-{wrong_node.end_index}) — no relevant content found.\n\n"
+            f"Sections at this level:\n"
+            f"{format_node_list(node_list)}"
+        )
+        examples.append({"doc": doc, "messages": [
+            {"role": "system",    "content": SYSTEM_PROMPT},
+            {"role": "user",      "content": user_content},
+            {"role": "assistant", "content": json.dumps({
+                "thinking":    thinking,
+                "navigate_to": target_ids,
+            })},
+        ]})
+
+
+def add_negative_examples(tree, question, evidence_pages, examples, doc):
+    """
+    Hard negative training: shows the model a semantically plausible but wrong
+    neighboring section and trains it to explicitly reject it in favor of the
+    correct section.
+
+    Mirrors Word2Vec negative sampling: the model must distinguish the right
+    section from a close-but-wrong neighbor, not just learn what's correct.
+    """
+    top_level = tree.structure
+    evidence_set = set(nodes_containing_pages(top_level, evidence_pages))
+    if not evidence_set:
+        return
+
+    id_to_idx = {n.node_id: i for i, n in enumerate(top_level)}
+
+    for correct_id in list(evidence_set):
+        correct_idx = id_to_idx.get(correct_id)
+        if correct_idx is None:
+            continue
+
+        # Closest DFS neighbor that does NOT contain evidence (hard negative)
+        best_neighbor = None
+        best_dist = float("inf")
+        for n in top_level:
+            if n.node_id in evidence_set:
+                continue
+            dist = abs(id_to_idx.get(n.node_id, 999) - correct_idx)
+            if dist < best_dist:
+                best_dist = dist
+                best_neighbor = n
+
+        if best_neighbor is None:
+            continue
+
+        correct_node = next((n for n in top_level if n.node_id == correct_id), None)
+        if correct_node is None:
+            continue
+
+        thinking = (
+            f"Although '[{best_neighbor.node_id}] {best_neighbor.title}' "
+            f"(pages {best_neighbor.start_index}-{best_neighbor.end_index}) is nearby, "
+            f"it does not contain the answer. "
+            f"The answer requires '[{correct_id}] {correct_node.title}' "
+            f"(pages {correct_node.start_index}-{correct_node.end_index})."
+        )
+
+        node_list = top_level[:]
+        if len(node_list) > MAX_NODES_PER_HOP:
+            center = (id_to_idx.get(correct_id, 0) + id_to_idx.get(best_neighbor.node_id, 0)) // 2
+            half   = MAX_NODES_PER_HOP // 2
+            start  = max(0, center - half)
+            end    = min(len(node_list), start + MAX_NODES_PER_HOP)
+            start  = max(0, end - MAX_NODES_PER_HOP)
+            node_list = node_list[start:end]
+
+        target_ids = [t for t in list(evidence_set) if any(n.node_id == t for n in node_list)]
+        if not target_ids:
+            continue
+
+        user_content = (
+            f"Question: {question}\n\n"
+            f"Sections at this level:\n"
+            f"{format_node_list(node_list)}"
+        )
+        examples.append({"doc": doc, "messages": [
+            {"role": "system",    "content": SYSTEM_PROMPT},
+            {"role": "user",      "content": user_content},
+            {"role": "assistant", "content": json.dumps({
+                "thinking":    thinking,
+                "navigate_to": target_ids,
+            })},
+        ]})
+        break  # one hard negative per QA pair to avoid class imbalance
+
 # ── Extract trees ──────────────────────────────────────────────────────────────
 print(f"Extracting trees for {len(TARGET_DOCS)} docs...")
 trees = {}
@@ -213,6 +346,8 @@ for qa in qa_pairs:
                 add_hops(children, depth + 1)
 
     add_hops(tree.structure)
+    add_recovery_examples(tree, question, evidence_pages, examples, doc)
+    add_negative_examples(tree, question, evidence_pages, examples, doc)
 
 print(f"Real QA examples: {len(examples)}")
 

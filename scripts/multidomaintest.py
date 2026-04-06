@@ -430,42 +430,54 @@ def check_extraction_coverage(tree, target_pages: list[int]) -> dict:
 
 def judge_answer(question: str, retrieved_text: str, pdf_id: str, domain: str) -> dict:
     """
-    Claude judges whether retrieved_text answers the question.
+    Two-pass Claude judge (more reliable than combined reasoning+verdict call).
+    Pass 1: strict YES/NO verdict (max_tokens=5, no hedging possible).
+    Pass 2: diagnosis only on NO — one sentence on what section would have the answer.
     Returns {answered: bool, confidence: str, reasoning: str, correct_section_hint: str}
     """
-    prompt = f"""You are evaluating a document retrieval system.
-
-PDF: {pdf_id} (domain: {domain})
-Question: {question}
-
-Retrieved text from the document:
----
-{retrieved_text[:2500]}
----
-
-Evaluate:
-1. Does the retrieved text DIRECTLY answer the question? (yes/no)
-2. If no, what section/topic would likely contain the answer?
-
-Return ONLY valid JSON:
-{{
-  "answered": true/false,
-  "confidence": "high/medium/low",
-  "reasoning": "brief explanation (1-2 sentences)",
-  "correct_section_hint": "if not answered, what section likely has the answer (empty string if answered)"
-}}"""
-
-    resp = claude.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=256,
-        messages=[{"role": "user", "content": prompt}]
+    # Pass 1 — strict verdict only
+    verdict_prompt = (
+        f"PDF: {pdf_id} (domain: {domain})\n"
+        f"Question: {question}\n\n"
+        f"Retrieved text:\n---\n{retrieved_text[:2500]}\n---\n\n"
+        f"Does this text DIRECTLY answer the question? Reply with exactly: YES or NO"
     )
-    raw = resp.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    return json.loads(raw.strip())
+    resp1 = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=5,
+        messages=[{"role": "user", "content": verdict_prompt}]
+    )
+    verdict = resp1.content[0].text.strip().upper()
+    answered = verdict.startswith("YES")
+
+    if answered:
+        return {
+            "answered": True,
+            "confidence": "high",
+            "reasoning": "Text directly answers the question.",
+            "correct_section_hint": "",
+        }
+
+    # Pass 2 — diagnosis only (runs on FAIL cases)
+    diag_prompt = (
+        f"PDF: {pdf_id} (domain: {domain})\n"
+        f"Question: {question}\n\n"
+        f"The retrieved text did NOT answer this question. "
+        f"In one sentence, what topic or section of the document would contain the answer?"
+    )
+    resp2 = claude.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=128,
+        messages=[{"role": "user", "content": diag_prompt}]
+    )
+    hint = resp2.content[0].text.strip()
+
+    return {
+        "answered": False,
+        "confidence": "high",
+        "reasoning": hint,
+        "correct_section_hint": hint,
+    }
 
 def diagnose_failure(pdf_path: str, tree, question: str,
                      retrieved_nodes, correct_section_hint: str,
