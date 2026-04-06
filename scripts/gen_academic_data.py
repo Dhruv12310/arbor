@@ -490,8 +490,8 @@ def generate_path_examples(pdf_id, domain, question, tree_structure, target_id, 
 # ── Haiku auto-labeling ───────────────────────────────────────────────────────
 
 tier2_examples = []
-tier2_stats = {"generated": 0, "passed": 0, "failed_hallucinated": 0,
-               "failed_coarse": 0, "failed_metadata_page": 0, "api_errors": 0}
+tier2_stats = {"generated": 0, "passed": 0, "failed_hallucinated_node_id": 0,
+               "failed_parent_too_coarse": 0, "failed_metadata_not_on_first_pages": 0, "api_errors": 0}
 
 # Sample up to 210 PDFs (all of them). For speed, process in order.
 for i, (pdf_id, tree) in enumerate(useful_trees.items()):
