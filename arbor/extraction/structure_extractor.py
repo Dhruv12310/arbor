@@ -305,13 +305,17 @@ def _try_multiline_toc(
     if not entries:
         return None, "multiline_toc"
 
-    # Sort by page number, deduplicate, drop obvious noise
-    seen: set[int] = set()
+    # Sort by page number, deduplicate, drop obvious noise.
+    # Deduplicate on (title, page) NOT page alone — multiple short sections
+    # (e.g., 10-K Items 3, 4, 5) legitimately share the same TOC page number
+    # and must all be preserved.
+    seen: set[tuple] = set()
     unique: list[tuple[str, int]] = []
     for title, pg in sorted(entries, key=lambda x: x[1]):
-        if pg not in seen and len(title) > 3:
+        key = (title.strip().lower(), pg)
+        if key not in seen and len(title) > 3:
             unique.append((title, pg))
-            seen.add(pg)
+            seen.add(key)
 
     if len(unique) < min_sections:
         return None, "multiline_toc"

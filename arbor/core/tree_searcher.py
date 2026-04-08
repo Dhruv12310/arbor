@@ -238,7 +238,6 @@ async def _search_multihop(
         # Chunk wide levels into windows
         windows = _chunk_nodes(nodes, _MAX_NODES_PER_WINDOW)
         total_at_level = len(nodes)
-        found_in_level = False  # track if any window at this level returned a selection
 
         for win_idx, window in enumerate(windows):
             budget.nodes_examined += len(window)
@@ -330,13 +329,6 @@ async def _search_multihop(
 
             if recurse_tasks:
                 await asyncio.gather(*recurse_tasks)
-
-            # Once we've selected nodes in any window, stop processing further windows
-            # at this level — the model identified the relevant region, no need to
-            # scan all remaining windows (avoids 10+ calls on 200-node CVS/Verizon levels)
-            if selected:
-                found_in_level = True
-                break
 
     await navigate_level(tree.structure, depth=1, current_path=[])
 
