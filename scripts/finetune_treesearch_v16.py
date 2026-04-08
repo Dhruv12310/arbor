@@ -18,12 +18,12 @@
 #        Multi-evidence merging: paths to Items 3,4,5 now valid
 #      - v14b_success_replay.jsonl: 106 examples (same count, improved quality)
 #
-#   3. Training mix (v16):
-#      - structdirect_train.jsonl:    3,287  (base navigation, ~60%)
-#      - dagger_corrections.jsonl:    202 × 4 = 808  (v14b DAgger, ~15%)
+#   3. Training mix (v16 retrain):
+#      - structdirect_train.jsonl:    1,402 × 3 = 4,206  (clean nav, ~74%)
+#      - dagger_corrections.jsonl:    202 × 4 = 808  (v14b DAgger, ~14%)
 #      - dagger_v15_targeted.jsonl:   139 × 4 = 556  (targeted fixes, ~10%)
 #      - v14b_success_replay.jsonl:   106    (anti-forgetting, ~2%)
-#      Total: ~4,757 examples
+#      Total: ~5,676 examples
 #
 #   4. doc_type=None at inference (no change from v15)
 #   5. load_best_model_at_end=False — NEVER CHANGE THIS
@@ -199,26 +199,31 @@ else:
     replay_raw = []
     print(f"  Replay buffer  : NOT FOUND — training without it")
 
-# Oversample DAgger 4x (same as v14b/v15)
+# Oversample: StructDirect 3x (1,402 * 3 = 4,206), DAgger 4x
+# StructDirect was reduced from 3,287 to 1,402 after filtering garbage synthetic
+# examples (>3 targets). 3x oversampling keeps total training size healthy (~5,676).
 random.seed(42)
-dagger_oversampled    = dagger_raw * 4
+struct_oversampled     = struct_raw * 3
+dagger_oversampled     = dagger_raw * 4
 dagger_v15_oversampled = dagger_v15_raw * 4
 
+random.shuffle(struct_oversampled)
 random.shuffle(dagger_oversampled)
 random.shuffle(dagger_v15_oversampled)
 
-print(f"\n  DAgger v14b 4x : {len(dagger_oversampled):,}")
-print(f"  DAgger v15  4x : {len(dagger_v15_oversampled):,}")
+print(f"\n  StructDirect 3x : {len(struct_oversampled):,}")
+print(f"  DAgger v14b 4x  : {len(dagger_oversampled):,}")
+print(f"  DAgger v15  4x  : {len(dagger_v15_oversampled):,}")
 
 # Build final training mix
-all_train = struct_raw + dagger_oversampled + dagger_v15_oversampled + replay_raw
+all_train = struct_oversampled + dagger_oversampled + dagger_v15_oversampled + replay_raw
 total = len(all_train)
 print(f"\n  Total examples before shuffle: {total:,}")
 print(f"  Mix breakdown:")
-print(f"    StructDirect   : {len(struct_raw)/total*100:.1f}%")
-print(f"    DAgger v14b 4x : {len(dagger_oversampled)/total*100:.1f}%")
-print(f"    DAgger v15  4x : {len(dagger_v15_oversampled)/total*100:.1f}%")
-print(f"    Replay         : {len(replay_raw)/total*100:.1f}%")
+print(f"    StructDirect 3x : {len(struct_oversampled)/total*100:.1f}%")
+print(f"    DAgger v14b 4x  : {len(dagger_oversampled)/total*100:.1f}%")
+print(f"    DAgger v15  4x  : {len(dagger_v15_oversampled)/total*100:.1f}%")
+print(f"    Replay          : {len(replay_raw)/total*100:.1f}%")
 
 normalize_system_prompt(all_train)
 normalize_system_prompt(eval_raw)

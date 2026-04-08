@@ -162,7 +162,9 @@ def title_matches_keywords(title, keywords):
 def add_hops(node_list, doc, question, evidence_pages, tree, examples, depth=0):
     """Generate training examples at this level and recurse into children."""
     targets = nodes_containing_pages(node_list, evidence_pages)
-    if not targets or depth > 3:
+    # Cap at 4 targets: more than this means overlapping sections or broad evidence —
+    # the training signal becomes "go everywhere" which corrupts navigation.
+    if not targets or depth > 3 or len(targets) > 4:
         return
     examples.append(make_example(doc, question, node_list, targets))
     shuffled = node_list[:]
@@ -331,11 +333,15 @@ for qa in qa_pairs:
 print(f"Real QA examples: {len(examples)}")
 
 # ── Part 2: Synthetic template examples ──────────────────────────────────────
+# Cap targets at 3: too many matches = noisy keyword, skip the example entirely.
+# This prevents "navigate_to all 46 Notes sub-sections" garbage that corrupts training.
+MAX_SYNTHETIC_TARGETS = 3
+
 synthetic = []
 for doc, tree in trees.items():
     for question, keywords in FINANCIAL_TEMPLATES:
         targets = [n.node_id for n in tree.structure if title_matches_keywords(n.title, keywords)]
-        if not targets:
+        if not targets or len(targets) > MAX_SYNTHETIC_TARGETS:
             continue
         synthetic.append(make_example(doc, question, tree.structure, targets))
         for parent_id in targets:
@@ -345,6 +351,8 @@ for doc, tree in trees.items():
             child_targets = [n.node_id for n in children if title_matches_keywords(n.title, keywords)]
             if not child_targets:
                 child_targets = [children[0].node_id]
+            if len(child_targets) > MAX_SYNTHETIC_TARGETS:
+                continue
             synthetic.append(make_example(doc, question, children, child_targets))
 
 print(f"Synthetic examples: {len(synthetic)}")
