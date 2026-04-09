@@ -1,0 +1,3416 @@
+[
+  {
+    "id": "financebench_id_03029",
+    "doc": "3M_2018_10K",
+    "question": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "evidence_pages": [
+      59
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      59
+    ],
+    "found_nodes": [
+      "0023"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 73,
+    "thinking": "[depth 1] The user is asking for FY2018 capital expenditure amount from the cash flow statement. The cash flow statement is a financial statement, so I need to look under ITEM 8 — Financial Statements and Supplementary Data (pages 52-127), which has sub-sections. I should navigate to that section to find the cash flow statement. | [depth 2] The user is asking for FY2018 capital expenditure (capex)",
+    "search_sec": 12.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04672",
+    "doc": "3M_2018_10K",
+    "question": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+    "evidence_pages": [
+      57
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      57
+    ],
+    "found_nodes": [
+      "0023",
+      "0035"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 73,
+    "thinking": "[depth 1] The question asks for year-end FY2018 net PPNE (Property, Plant, and Equipment) for 3M from the balance sheet. PPNE is a balance sheet item. I need to find the Financial Statements section which would contain the balance sheet. Section [0022] 'ITEM 8 — Financial Statements and Supplementary Data' is explicitly labeled as containing financial statements and has sub-sections. This is the m",
+    "search_sec": 7.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00499",
+    "doc": "3M_2022_10K",
+    "question": "Is 3M a capital-intensive business based on FY2022 data?",
+    "evidence_pages": [
+      47,
+      49,
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      47,
+      49,
+      51
+    ],
+    "found_nodes": [
+      "0021",
+      "0022",
+      "0008",
+      "0009",
+      "0010",
+      "0034",
+      "0035",
+      "0043",
+      "0070"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 82,
+    "thinking": "[depth 1] To determine if 3M is a capital-intensive business based on FY2022 data, I need to examine financial metrics related to capital investments and assets. Key indicators would include: property, plant & equipment levels, capital expenditures, asset turnover ratios, and depreciation/amortization. The most relevant sections would be: (1) ITEM 8 - Financial Statements which will contain the ba",
+    "search_sec": 11.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01226",
+    "doc": "3M_2022_10K",
+    "question": "What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      26
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      26
+    ],
+    "found_nodes": [
+      "0012",
+      "0013",
+      "0008",
+      "0009",
+      "0010",
+      "0034",
+      "0038",
+      "0039",
+      "0041",
+      "0042",
+      "0058"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 82,
+    "thinking": "[depth 1] To answer the question about what drove operating margin change for 3M in FY2022, I need to find financial analysis and discussion of operating performance. The most relevant sections would be: (1) ITEM 7 - Management's Discussion and Analysis (MD&A), particularly the 'Results of Operations' and 'Performance by Business Segment' subsections, which typically discuss margin changes and the",
+    "search_sec": 9.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01865",
+    "doc": "3M_2022_10K",
+    "question": "If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",
+    "evidence_pages": [
+      24
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      24
+    ],
+    "found_nodes": [
+      "0011",
+      "0012",
+      "0013",
+      "0038",
+      "0039",
+      "0058"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 82,
+    "thinking": "[depth 1] The question asks which segment has dragged down 3M's overall growth in 2022, excluding M&A impact. This requires understanding segment performance data. The most relevant section would be 'Performance by Business Segment' (0013) which should contain segment-level growth analysis. Additionally, 'Results of Operations' (0012) and the 'Overview' (0011) section may provide context on overal",
+    "search_sec": 7.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00807",
+    "doc": "3M_2023Q2_10Q",
+    "question": "Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2023? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+    "evidence_pages": [
+      4
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      4
+    ],
+    "found_nodes": [
+      "0013",
+      "0003",
+      "0048"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 59,
+    "thinking": "[depth 1] To answer the question about 3M's quick ratio for Q2 of FY2023 and its liquidity profile, I need to find financial data that shows current assets and current liabilities. The quick ratio is calculated as (Current Assets - Inventory) / Current Liabilities. The Consolidated Balance Sheet (section 0013) would contain the necessary information about current assets and liabilities. I should n",
+    "search_sec": 12.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00941",
+    "doc": "3M_2023Q2_10Q",
+    "question": "Which debt securities are registered to trade on a national securities exchange under 3M's name as of Q2 of 2023?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0006",
+      "0007",
+      "0027",
+      "0051",
+      "0059"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 59,
+    "thinking": "[depth 1] The question asks about debt securities registered to trade on a national securities exchange under 3M's name as of Q2 2023. This information would typically be found in the notes to financial statements, specifically in a note about debt or long-term obligations. Looking at the visible sections, I can see notes 1-9 are shown. I need to continue exploring the notes section to find inform",
+    "search_sec": 11.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01858",
+    "doc": "3M_2023Q2_10Q",
+    "question": "Does 3M maintain a stable trend of dividend distribution?",
+    "evidence_pages": [
+      61
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      61
+    ],
+    "found_nodes": [
+      "0015",
+      "0024",
+      "0048",
+      "0039",
+      "0040",
+      "0041"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 59,
+    "thinking": "[depth 1] To answer whether 3M maintains a stable trend of dividend distribution, I need to find information about dividends paid over time. This would typically be found in the cash flow statement (which shows cash outflows for dividends) or in notes discussing shareholder distributions and equity. The Consolidated Statement of Cash Flows [0015] would show dividend payments, and Note 7 on Supplem",
+    "search_sec": 10.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02987",
+    "doc": "ACTIVISIONBLIZZARD_2019_10K",
+    "question": "What is the FY2019 fixed asset turnover ratio for Activision Blizzard? Fixed asset turnover ratio is defined as: FY2019 revenue / (average PP&E between FY2018 and FY2019). Round your answer to two decimal places. Base your judgments on the information provided primarily in the statement of income and the statement of financial position.",
+    "evidence_pages": [
+      68,
+      69
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      68,
+      69
+    ],
+    "found_nodes": [
+      "0010",
+      "0016",
+      "0069",
+      "0070",
+      "0071"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 110,
+    "thinking": "[depth 1] To calculate the FY2019 fixed asset turnover ratio, I need: (1) FY2019 revenue and (2) average PP&E between FY2018 and FY2019. The question specifically mentions using the statement of income and statement of financial position. Item 8 'Financial Statements and Supplementary Data' is where these financial statements would be located. Item 10 'Selected Financial Data' might also contain s",
+    "search_sec": 12.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_07966",
+    "doc": "ACTIVISIONBLIZZARD_2019_10K",
+    "question": "What is the FY2017 - FY2019 3 year average of capex as a % of revenue for Activision Blizzard? Answer in units of percents and round to one decimal place. Calculate (or extract) the answer from the statement of income and the cash flow statement.",
+    "evidence_pages": [
+      69,
+      72
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      69,
+      72
+    ],
+    "found_nodes": [
+      "0010",
+      "0016",
+      "0069",
+      "0070"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 110,
+    "thinking": "[depth 1] To find the FY2017-FY2019 3-year average of capex as a % of revenue for Activision Blizzard, I need to locate: (1) revenue figures for FY2017, FY2018, and FY2019, and (2) capital expenditures (capex) for the same years. These would typically be found in the Statement of Income (for revenue) and the Cash Flow Statement (for capex). Item 8 'Financial Statements and Supplementary Data' is t",
+    "search_sec": 13.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04735",
+    "doc": "ADOBE_2015_10K",
+    "question": "You are an investment banker and your only resource(s) to answer the following question is (are): the statement of financial position and the cash flow statement. Here's the question: what is the FY2015 operating cash flow ratio for Adobe? Operating cash flow ratio is defined as: cash from operations / total current liabilities. Round your answer to two decimal places.",
+    "evidence_pages": [
+      58,
+      62
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0002",
+      "0003"
+    ],
+    "strategy": "page_chunks",
+    "node_count": 12,
+    "thinking": "[depth 1] To calculate the FY2015 operating cash flow ratio, I need two pieces of information: (1) cash from operations for FY2015 from the cash flow statement, and (2) total current liabilities for FY2015 from the statement of financial position (balance sheet). The cash flow statement and balance sheet are typically found in the financial statements section, which is usually in the earlier pages",
+    "search_sec": 1.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_07507",
+    "doc": "ADOBE_2016_10K",
+    "question": "What is Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016 (in units of percents and round to one decimal place)? Give a solution to the question by using the income statement.",
+    "evidence_pages": [
+      61
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0006",
+      "0007"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 16,
+    "thinking": "[depth 1] To find Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016, I need to locate the income statement. The income statement would typically be found in the financial statements section of the document. Section [0005] covers pages 6-112 and has sub-sections, which is likely where the financial statements and income statement would be located. I should explore t",
+    "search_sec": 3.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03856",
+    "doc": "ADOBE_2017_10K",
+    "question": "What is the FY2017 operating cash flow ratio for Adobe? Operating cash flow ratio is defined as: cash from operations / total current liabilities. Round your answer to two decimal places. Please utilize information provided primarily within the balance sheet and the cash flow statement.",
+    "evidence_pages": [
+      56,
+      60
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0006",
+      "0007",
+      "0008"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 16,
+    "thinking": "[depth 1] To calculate the FY2017 operating cash flow ratio, I need two pieces of information: (1) cash from operations and (2) total current liabilities. These figures are typically found in the cash flow statement and balance sheet respectively. The question asks me to utilize information from these two financial statements. Section [0005] appears to be the main content section covering pages 6-",
+    "search_sec": 4.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00438",
+    "doc": "ADOBE_2022_10K",
+    "question": "Does Adobe have an improving operating margin profile as of FY2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+    "evidence_pages": [
+      53
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [],
+    "strategy": "multiline_toc",
+    "node_count": 34,
+    "thinking": "[depth 1] To answer whether Adobe has an improving operating margin profile as of FY2022, I need to find financial data showing operating margins over time. The most relevant sections would be: (1) Item 7 - Management's Discussion and Analysis (MD&A) which typically discusses financial performance trends including margins, and (2) Item 8 - Financial Statements which would contain the actual income",
+    "search_sec": 4.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00591",
+    "doc": "ADOBE_2022_10K",
+    "question": "Does Adobe have an improving Free cashflow conversion as of FY2022?",
+    "evidence_pages": [
+      56
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 34,
+    "thinking": "[depth 1] The question asks about Adobe's free cashflow conversion as of FY2022, which is a financial metric. To answer this, I need to find information about cashflow and financial performance. The most relevant sections would be: (1) Item 7 - Management's Discussion and Analysis (MD&A) which typically discusses financial results and metrics, and (2) Item 8 - Financial Statements which would cont",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01319",
+    "doc": "AES_2022_10K",
+    "question": "What is the quantity of restructuring costs directly outlined in AES Corporation's income statements for FY2022? If restructuring costs are not explicitly outlined then state 0.",
+    "evidence_pages": [
+      131
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0163",
+      "0164",
+      "0167",
+      "0187",
+      "0188"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 215,
+    "thinking": "[depth 1] The user is asking for restructuring costs from AES Corporation's FY2022 income statements. The most direct source would be the Consolidated Statements of Operations, which is section [0163] at pages 129-129. This is the income statement where restructuring costs would typically be explicitly listed as a line item. I should navigate to the Financial Statements section [0095] first to acc",
+    "search_sec": 7.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00540",
+    "doc": "AES_2022_10K",
+    "question": "Roughly how many times has AES Corporation sold its inventory in FY2022? Calculate inventory turnover ratio for the FY2022; if conventional inventory management is not meaningful for the company then state that and explain why.",
+    "evidence_pages": [
+      129,
+      131
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      129,
+      131
+    ],
+    "found_nodes": [
+      "0090",
+      "0162",
+      "0163",
+      "0102",
+      "0103",
+      "0107",
+      "0184",
+      "0186"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 215,
+    "thinking": "[depth 1] To calculate the inventory turnover ratio for FY2022, I need: (1) Cost of Goods Sold (COGS) from the income statement, and (2) Inventory balances from the balance sheet. The inventory turnover ratio = COGS / Average Inventory. I should look at the financial statements section which contains the consolidated balance sheets and statements of operations. I may also want to check the MD&A se",
+    "search_sec": 18.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_10420",
+    "doc": "AES_2022_10K",
+    "question": "Based on the information provided primarily in the statement of financial position and the statement of income, what is AES's FY2022 return on assets (ROA)? ROA is defined as: FY2022 net income / (average total assets between FY2021 and FY2022). Round your answer to two decimal places.",
+    "evidence_pages": [
+      129,
+      131
+    ],
+    "reachability": 1.0,
+    "recall": 0.5,
+    "found_pages": [
+      129
+    ],
+    "found_nodes": [
+      "0162",
+      "0163"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 215,
+    "thinking": "[depth 1] To calculate ROA, I need: (1) FY2022 net income from the statement of income, and (2) total assets for both FY2022 and FY2021 from the statement of financial position (balance sheet) to calculate the average. The question specifically mentions these statements are the primary sources. I should navigate to the financial statements section which contains the Consolidated Balance Sheets and",
+    "search_sec": 6.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_06655",
+    "doc": "AMAZON_2017_10K",
+    "question": "What is Amazon's FY2017 days payable outstanding (DPO)? DPO is defined as: 365 * (average accounts payable between FY2016 and FY2017) / (FY2017 COGS + change in inventory between FY2016 and FY2017). Round your answer to two decimal places. Address the question by using the line items and information shown within the balance sheet and the P&L statement.",
+    "evidence_pages": [
+      37,
+      39
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      37,
+      39
+    ],
+    "found_nodes": [
+      "0012",
+      "0013"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 42,
+    "thinking": "[depth 1] To calculate DPO, I need: (1) average accounts payable between FY2016 and FY2017, (2) FY2017 COGS, and (3) change in inventory between FY2016 and FY2017. These figures come from the balance sheet and P&L statement. Section [0011] 'Item 8 — Financial Statements and Supplementary Data' is explicitly noted as having sub-sections and is the most likely place to find the consolidated balance ",
+    "search_sec": 7.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_08135",
+    "doc": "AMAZON_2017_10K",
+    "question": "What is Amazon's year-over-year change in revenue from FY2016 to FY2017 (in units of percents and round to one decimal place)? Calculate what was asked by utilizing the line items clearly shown in the statement of income.",
+    "evidence_pages": [
+      37
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      37
+    ],
+    "found_nodes": [
+      "0012"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 42,
+    "thinking": "[depth 1] The user is asking for Amazon's year-over-year revenue change from FY2016 to FY2017, and specifically mentions using line items from the statement of income. I need to find financial statements with revenue data for these two fiscal years. Section [0011] 'Item 8 — Financial Statements and Supplementary Data' is clearly where the statement of income would be located. This section has sub-",
+    "search_sec": 7.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_08286",
+    "doc": "AMAZON_2019_10K",
+    "question": "By drawing conclusions from the information stated only in the income statement, what is Amazon's FY2019 net income attributable to shareholders (in USD millions)?",
+    "evidence_pages": [
+      37
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      37
+    ],
+    "found_nodes": [
+      "0012"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 42,
+    "thinking": "[depth 1] The question asks for Amazon's FY2019 net income attributable to shareholders from the income statement. The income statement would be found in the Financial Statements section. Section [0011] 'Item 8. — Financial Statements and Supplementary Data (pages 34-70)' is marked as having sub-sections, which would contain the actual income statement. This is the most direct path to find the net",
+    "search_sec": 6.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03882",
+    "doc": "AMCOR_2020_10K",
+    "question": "What is Amcor's year end FY2020 net AR (in USD millions)? Address the question by adopting the perspective of a financial analyst who can only use the details shown within the balance sheet.",
+    "evidence_pages": [
+      49
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0023"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 60,
+    "thinking": "[depth 1] The question asks for Amcor's year-end FY2020 net AR (Accounts Receivable) in USD millions from a balance sheet perspective. As a financial analyst, I need to locate the balance sheet which will show accounts receivable as a current asset. Section [0023] 'Consolidated Balance Sheet' is the primary document I need to examine. This will contain the accounts receivable figure as of the fisc",
+    "search_sec": 4.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01935",
+    "doc": "AMCOR_2022_8K_dated-2022-07-01",
+    "question": "What was the key agenda of the AMCOR's 8k filing dated 1st July 2022?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002"
+    ],
+    "strategy": "font_headings",
+    "node_count": 7,
+    "thinking": "[depth 1] To find the key agenda of AMCOR's 8-K filing dated July 1st, 2022, I need to look at the main content sections. Item 8.01 is a standard 8-K form section that contains 'Other Events' - this is where the key agenda/purpose of the filing would be disclosed. The UNITED STATES section appears to be a header/cover page. The SIGNATURES section would just contain signatures. The Exhibit sections",
+    "search_sec": 2.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00799",
+    "doc": "AMCOR_2023_10K",
+    "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
+    "evidence_pages": [
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0022",
+      "0008",
+      "0009",
+      "0026",
+      "0027"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 54,
+    "thinking": "[depth 1] To answer the question about AMCOR's quick ratio between FY2023 and FY2022, I need to find balance sheet data showing current assets and current liabilities for both years. The quick ratio is calculated as (Current Assets - Inventory) / Current Liabilities. The Consolidated Balance Sheets (section 0022) will have the necessary asset and liability figures. I should also check the Manageme",
+    "search_sec": 8.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01079",
+    "doc": "AMCOR_2023_10K",
+    "question": "What are major acquisitions that AMCOR has done in FY2023, FY2022 and FY2021?",
+    "evidence_pages": [
+      63
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      63
+    ],
+    "found_nodes": [
+      "0001",
+      "0008",
+      "0009",
+      "0026",
+      "0027",
+      "0028",
+      "0044",
+      "0045"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 54,
+    "thinking": "[depth 1] To find information about major acquisitions in FY2023, FY2022, and FY2021, I should look at sections that discuss business activities, financial analysis, and detailed financial notes. The most relevant sections would be: (1) Item 1 - Business, which typically describes major corporate activities including acquisitions; (2) Item 7 - Management's Discussion and Analysis, which discusses ",
+    "search_sec": 10.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01148",
+    "doc": "AMCOR_2023_10K",
+    "question": "What industry does AMCOR primarily operate in?",
+    "evidence_pages": [
+      4
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 54,
+    "thinking": "[depth 1] The question asks about what industry AMCOR primarily operates in. This is a fundamental business question that would be answered in the company's business description. Item 1 'Business' (section 0001) on pages 5-13 is the most appropriate section to explore, as it typically contains a comprehensive overview of the company's operations, products, services, and industry classification. Th",
+    "search_sec": 3.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00684",
+    "doc": "AMCOR_2023_10K",
+    "question": "Does AMCOR have an improving gross margin profile as of FY2023? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+    "evidence_pages": [
+      49
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      49
+    ],
+    "found_nodes": [
+      "0012",
+      "0013",
+      "0008",
+      "0009",
+      "0044",
+      "0050",
+      "0051",
+      "0052"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 54,
+    "thinking": "[depth 1] To answer whether AMCOR has an improving gross margin profile as of FY2023, I need to find gross margin data and trends. The most relevant sections would be: (1) Item 7 - MD&A, which typically discusses financial performance and trends including margins, and (2) Item 8 - Financial Statements, specifically the Consolidated Statements of Income which would show gross profit and revenue fig",
+    "search_sec": 10.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01936",
+    "doc": "AMCOR_2023Q2_10Q",
+    "question": "What is the nature & purpose of AMCOR's restructuring liability as oF Q2 of FY2023 close?",
+    "evidence_pages": [
+      14
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0013",
+      "0021",
+      "0016"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 37,
+    "thinking": "[depth 1] The question asks about AMCOR's restructuring liability as of Q2 FY2023 close - specifically its nature and purpose. This is a detailed financial accounting question that would be found in the notes to the financial statements. The most relevant sections to explore are: (1) Section [0013] 'Notes to Condensed Consolidated Financial Statements' which should contain detailed breakdowns of l",
+    "search_sec": 7.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01928",
+    "doc": "AMCOR_2023Q4_EARNINGS",
+    "question": "What Was AMCOR's Adjusted Non GAAP EBITDA for FY 2023",
+    "evidence_pages": [
+      11
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      11
+    ],
+    "found_nodes": [
+      "0002",
+      "0004",
+      "0011"
+    ],
+    "strategy": "embedded_toc",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks for AMCOR's Adjusted Non-GAAP EBITDA for FY 2023. Since this is a Non-GAAP measure, I should look at sections that specifically address non-GAAP metrics. The most relevant sections would be: (1) 'Key Financials' which likely contains summary financial metrics, (2) 'Financial Results' which would have detailed results including adjusted figures, and (3) 'Recon of Non-GAA",
+    "search_sec": 2.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01930",
+    "doc": "AMCOR_2023Q4_EARNINGS",
+    "question": "How much was the Real change in Sales for AMCOR in FY 2023 vs FY 2022, if we exclude the impact of FX movement, passthrough costs and one-off items?",
+    "evidence_pages": [
+      9
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0004",
+      "0011"
+    ],
+    "strategy": "embedded_toc",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks for the 'Real change in Sales' excluding FX movement, passthrough costs, and one-off items. This is asking for an adjusted or organic sales growth metric that removes specific impacts. This type of reconciliation and detailed breakdown of sales changes would most likely be found in: (1) the 'Financial Results' section which typically discusses performance metrics and ch",
+    "search_sec": 2.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03069",
+    "doc": "AMD_2015_10K",
+    "question": "Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",
+    "evidence_pages": [
+      55,
+      59
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      55,
+      59
+    ],
+    "found_nodes": [
+      "0015",
+      "0016",
+      "0042"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 66,
+    "thinking": "[depth 1] To find FY2015 depreciation and amortization (D&A) from the cash flow statement and calculate it as a % margin, I need to: 1) locate the cash flow statement to find D&A, and 2) locate the P&L statement to find revenue (to calculate the margin). Both of these financial statements should be in ITEM 8 - Financial Statements and Supplementary Data, which explicitly mentions it has sub-sectio",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00222",
+    "doc": "AMD_2022_10K",
+    "question": "Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+    "evidence_pages": [
+      55
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      55
+    ],
+    "found_nodes": [
+      "0013",
+      "0016"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] To answer whether AMD has a reasonably healthy liquidity profile based on its quick ratio for FY22, I need to find financial statements and balance sheet data. The quick ratio is calculated from current assets (excluding inventory) divided by current liabilities. This information would be found in the Financial Statements section. I should also check the Management's Discussion and Analy",
+    "search_sec": 5.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00995",
+    "doc": "AMD_2022_10K",
+    "question": "What are the major products and services that AMD sells as of FY22?",
+    "evidence_pages": [
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      3
+    ],
+    "found_nodes": [
+      "0002",
+      "0031"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about AMD's major products and services as of FY22. The most relevant section would be ITEM 1 - Business (pages 1-13), which typically contains a comprehensive overview of a company's products, services, and business segments. This is the standard location in 10-K filings where companies describe what they sell and their business operations. The Management's Discussion ",
+    "search_sec": 6.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01198",
+    "doc": "AMD_2022_10K",
+    "question": "What drove revenue change as of the FY22 for AMD?",
+    "evidence_pages": [
+      42
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      42
+    ],
+    "found_nodes": [
+      "0013",
+      "0016",
+      "0017",
+      "0031",
+      "0034"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about what drove revenue change for AMD in FY22. This is a financial analysis question that would be addressed in the Management's Discussion and Analysis (MD&A) section, which typically discusses financial results, revenue drivers, and year-over-year changes. ITEM 7 covers MD&A and explicitly mentions 'Results of Operations' which would detail revenue changes and their",
+    "search_sec": 9.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00917",
+    "doc": "AMD_2022_10K",
+    "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      42
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      42
+    ],
+    "found_nodes": [
+      "0002",
+      "0013",
+      "0016",
+      "0017",
+      "0031",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] To answer the question about what drove operating margin change for AMD in FY22, I need to find financial analysis and discussion of operating performance. The most relevant sections would be: (1) ITEM 7 - Management's Discussion and Analysis (MD&A) which typically discusses changes in financial metrics and their drivers, and (2) ITEM 15 - Financial Statements which would contain the act",
+    "search_sec": 6.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01279",
+    "doc": "AMD_2022_10K",
+    "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
+    "evidence_pages": [
+      57
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      57
+    ],
+    "found_nodes": [
+      "0016",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about cash flow from operations, investing, and financing activities for AMD in FY22. This is financial data that would be found in the cash flow statement. The cash flow statement is part of the Financial Statements section. I should navigate to ITEM 8 (Financial Statements and Supplementary Data) which has sub-sections and likely contains the Statement of Cash Flows. ",
+    "search_sec": 5.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00563",
+    "doc": "AMD_2022_10K",
+    "question": "From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",
+    "evidence_pages": [
+      47
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      47
+    ],
+    "found_nodes": [
+      "0013",
+      "0016",
+      "0017",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about AMD reporting segment sales changes from FY21 to FY22, excluding Embedded, and which segment had the most proportional increase. This requires financial data broken down by reporting segment. The most relevant sections would be: (1) ITEM 7 - Management's Discussion and Analysis, which typically discusses segment performance and year-over-year changes, and (2) ITEM",
+    "search_sec": 7.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00757",
+    "doc": "AMD_2022_10K",
+    "question": "Did AMD report customer concentration in FY22?",
+    "evidence_pages": [
+      11
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0013",
+      "0016",
+      "0017",
+      "0031",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] Customer concentration information is typically disclosed in financial statements and their accompanying notes. This would most likely be found in ITEM 8 (Financial Statements and Supplementary Data) which contains the notes to financial statements, or possibly in ITEM 7 (MD&A) which discusses financial condition. Customer concentration is a standard disclosure required in the notes to f",
+    "search_sec": 7.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00476",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0003",
+      "0004",
+      "0020",
+      "0092"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] The question asks about debt securities registered to trade on a national securities exchange under American Express' name as of 2022. This is specific disclosure information typically found in financial documents. The most relevant sections would be: (1) 'Business' which often contains information about securities and capital structure, (2) 'Supervision and Regulation' which may discuss",
+    "search_sec": 11.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01028",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "What are the geographies that American Express primarily operates in as of 2022?",
+    "evidence_pages": [
+      154
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0012",
+      "0014"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] To find information about the geographies that American Express primarily operates in as of 2022, I should look for sections that discuss business operations, segments, and geographic breakdown. The most relevant sections would be: [0001] Business (which typically covers business overview and geographic presence), [0014] Business Segment Results of Operations (which may break down operat",
+    "search_sec": 15.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00723",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+    "evidence_pages": [
+      95
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      95
+    ],
+    "found_nodes": [
+      "0012",
+      "0013",
+      "0014",
+      "0020",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] To answer whether AMEX has an improving operating margin profile as of 2022, I need to find financial performance data and profitability metrics. The most relevant sections would be: (1) MD&A sections that discuss financial results and trends, particularly 'Consolidated Results of Operations' which should contain operating margin data and year-over-year comparisons, and (2) 'Business Seg",
+    "search_sec": 15.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00720",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      95
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      95
+    ],
+    "found_nodes": [
+      "0012",
+      "0013",
+      "0014",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] The user is asking about gross margin change for American Express in FY2022. American Express is a financial services/payments company, not a traditional product company, so gross margin may not be a standard or meaningful metric. To answer this question properly, I need to: 1) Look at the financial results and analysis sections to see if gross margin is discussed, and 2) Understand the ",
+    "search_sec": 17.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01351",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
+    "evidence_pages": [
+      43
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0011",
+      "0013",
+      "0020",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] To find the effective tax rate change between FY2021 and FY2022, I need to look at financial statements and tax-related disclosures. The most relevant sections would be: (1) Financial Statements and Supplementary Data [0020] which should contain the actual financial statements including income tax information, and (2) Consolidated Results of Operations [0013] which typically discusses ye",
+    "search_sec": 14.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01964",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "What was the largest liability in American Express's Balance Sheet in 2022?",
+    "evidence_pages": [
+      97
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      97
+    ],
+    "found_nodes": [
+      "0020",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] The user is asking about the largest liability in American Express's Balance Sheet in 2022. To find this information, I need to locate the actual Balance Sheet. The section 'Financial Statements and Supplementary Data' (section 0020) is the most relevant as it would contain the Balance Sheet. This is the primary section to explore. I should also consider that the Balance Sheet would show",
+    "search_sec": 14.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01981",
+    "doc": "AMERICANEXPRESS_2022_10K",
+    "question": "Was American Express able to retain card members during 2022?",
+    "evidence_pages": [
+      44
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0012",
+      "0014",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] The question asks whether American Express was able to retain card members during 2022. This is about customer retention metrics and performance. The most relevant sections would be: (1) Business section which would describe the business and likely include membership/customer metrics, (2) Executive Overview which typically summarizes key performance indicators and results, and (3) Busine",
+    "search_sec": 14.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_05718",
+    "doc": "AMERICANWATERWORKS_2020_10K",
+    "question": "How much (in USD billions) did American Water Works pay out in cash dividends for FY2020? Compute or extract the answer by primarily using the details outlined in the statement of cash flows.",
+    "evidence_pages": [
+      85
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      85
+    ],
+    "found_nodes": [
+      "0018",
+      "0019"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 36,
+    "thinking": "[depth 1] The question asks for cash dividends paid out in FY2020, specifically requesting to use the statement of cash flows. The statement of cash flows is part of the Financial Statements section. Item 8 (Financial Statements and Supplementary Data) on pages 77-129 is where the cash flow statement would be located. This section has sub-sections, so I should navigate there to find the specific c",
+    "search_sec": 7.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04254",
+    "doc": "AMERICANWATERWORKS_2021_10K",
+    "question": "Basing your judgments off of the cash flow statement and the income statement, what is American Water Works's FY2021 unadjusted operating income + depreciation and amortization from the cash flow statement (unadjusted EBITDA) in USD millions?",
+    "evidence_pages": [
+      85,
+      87
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      85,
+      87
+    ],
+    "found_nodes": [
+      "0017",
+      "0018"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] The question asks for FY2021 unadjusted operating income + depreciation and amortization from the cash flow statement. This requires finding both the income statement (for operating income) and the cash flow statement (for depreciation and amortization). These financial statements would be located in Item 8 - Financial Statements and Supplementary Data, which has sub-sections. I should n",
+    "search_sec": 6.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00070",
+    "doc": "AMERICANWATERWORKS_2022_10K",
+    "question": "Does American Water Works have positive working capital based on FY2022 data? If working capital is not a useful or relevant metric for this company, then please state that and explain why.",
+    "evidence_pages": [
+      80,
+      81
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      80,
+      81
+    ],
+    "found_nodes": [
+      "0018",
+      "0019",
+      "0013",
+      "0014",
+      "0051",
+      "0052",
+      "0053"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 87,
+    "thinking": "[depth 1] To determine if American Water Works has positive working capital based on FY2022 data, I need to find the balance sheet showing current assets and current liabilities. The most relevant sections would be: (1) Item 8 - Financial Statements and Supplementary Data, which should contain the balance sheet with current assets and liabilities needed to calculate working capital, and (2) Item 1",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02608",
+    "doc": "BESTBUY_2017_10K",
+    "question": "In agreement with the information outlined in the income statement, what is the FY2015 - FY2017 3 year average net profit margin (as a %) for Best Buy? Answer in units of percents and round to one decimal place.",
+    "evidence_pages": [
+      55
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0006",
+      "0007"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 17,
+    "thinking": "[depth 1] To find the net profit margin for FY2015-FY2017, I need to locate the income statement which typically contains revenue and net income figures. Net profit margin is calculated as (Net Income / Revenue) × 100. The income statement is usually found in the financial statements section, which would be in PART II (Financial Information). I should explore PART II and its sub-sections to find t",
+    "search_sec": 3.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04417",
+    "doc": "BESTBUY_2019_10K",
+    "question": "What is the year end FY2019 total amount of inventories for Best Buy? Answer in USD millions. Base your judgments on the information provided primarily in the balance sheet.",
+    "evidence_pages": [
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0007"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 17,
+    "thinking": "[depth 1] To find the year end FY2019 total amount of inventories for Best Buy from the balance sheet, I need to locate the financial statements. The balance sheet is typically found in Part II of a 10-K filing, which contains Item 8 (Financial Statements and Supplementary Data). Section [0006] PART II (pages 22-90) with sub-sections is the most likely location for the consolidated balance sheet. ",
+    "search_sec": 5.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00685",
+    "doc": "BESTBUY_2023_10K",
+    "question": "Are Best Buy's gross margins historically consistent (not fluctuating more than roughly 2% each year)? If gross margins are not a relevant metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      39
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0005",
+      "0003"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 11,
+    "thinking": "[depth 1] To answer whether Best Buy's gross margins are historically consistent, I need to find financial data showing gross margins over multiple years. This type of historical financial information is typically found in the Financial Statements and Management's Discussion & Analysis (MD&A) sections. PART II (pages 21-63) typically contains financial statements and MD&A in SEC filings, which wou",
+    "search_sec": 5.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01077",
+    "doc": "BESTBUY_2023_10K",
+    "question": "What are major acquisitions that Best Buy has done in FY2023, FY2022 and FY2021?",
+    "evidence_pages": [
+      50
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      50
+    ],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0005",
+      "0006",
+      "0007"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 11,
+    "thinking": "[depth 1] To find information about major acquisitions in FY2023, FY2022, and FY2021, I need to look for sections that would typically contain business activity and financial transaction details. PART I usually contains business overview and operations, while PART II typically contains detailed financial information including M&A activity. PART III and IV are usually exhibits and signatures. The a",
+    "search_sec": 4.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01275",
+    "doc": "BESTBUY_2023_10K",
+    "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for Best Buy in FY2023?",
+    "evidence_pages": [
+      41
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0005"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks about cash flow from operating, investing, and financing activities for Best Buy in FY2023. This information is typically found in the Cash Flow Statement, which is a financial statement usually located in the financial statements section. Financial statements are typically in Part II (Financial Information) of a 10-K filing. PART II (pages 21-63) is most likely to cont",
+    "search_sec": 5.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00288",
+    "doc": "BESTBUY_2024Q2_10Q",
+    "question": "Was there any drop in Cash & Cash equivalents between FY 2023 and Q2 of FY2024?",
+    "evidence_pages": [
+      19
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      19
+    ],
+    "found_nodes": [
+      "0005",
+      "0009"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 20,
+    "thinking": "[depth 1] The question asks about changes in Cash & Cash equivalents between FY 2023 and Q2 of FY2024. This is a balance sheet item that would be found in the financial statements. Section [0005] 'Condensed Consolidated Balance Sheets as of July 29, 2023, January 28, 2023, and July 30, 2022' is the most relevant as it contains balance sheet data. July 29, 2023 would be Q2 of FY2024 (fiscal year en",
+    "search_sec": 2.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00460",
+    "doc": "BESTBUY_2024Q2_10Q",
+    "question": "Was there any change in the number of Best Buy stores between Q2 of FY2024 and FY2023?",
+    "evidence_pages": [
+      16
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      16
+    ],
+    "found_nodes": [
+      "0004",
+      "0009"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 20,
+    "thinking": "[depth 1] The question asks about changes in the number of Best Buy stores between Q2 of FY2024 and FY2023. This is operational/business information that would typically be found in Management's Discussion and Analysis (MD&A) section, which discusses business operations, store counts, and other operational metrics. Item 2 (MD&A) on pages 14-23 is the most likely place to find store count informati",
+    "search_sec": 1.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01902",
+    "doc": "BESTBUY_2024Q2_10Q",
+    "question": "Which Best Buy product category performed the best (by top line) in the domestic (USA) Market during Q2 of FY2024?",
+    "evidence_pages": [
+      17
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      17
+    ],
+    "found_nodes": [
+      "0009"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 20,
+    "thinking": "[depth 1] The question asks about Best Buy product category performance by top line (revenue) in the domestic USA market during Q2 of FY2024. This is a financial performance question that would be addressed in the Management's Discussion and Analysis (MD&A) section, which typically contains detailed breakdowns of revenue by segment and category. Section [0009] 'Item 2. — Management's Discussion an",
+    "search_sec": 1.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04660",
+    "doc": "BLOCK_2016_10K",
+    "question": "Considering the data in the balance sheet, what is Block's (formerly known as Square) FY2016 working capital ratio? Define working capital ratio as total current assets divided by total current liabilities. Round your answer to two decimal places.",
+    "evidence_pages": [
+      67
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      67
+    ],
+    "found_nodes": [
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 28,
+    "thinking": "[depth 1] To find Block's (formerly Square) FY2016 working capital ratio, I need to locate the balance sheet data showing total current assets and total current liabilities as of the end of FY2016. The balance sheet is a core financial statement that would be found in Item 8 - Financial Statements and Supplementary Data. This section explicitly covers pages 65-102 and has sub-sections, which likel",
+    "search_sec": 3.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03838",
+    "doc": "BLOCK_2020_10K",
+    "question": "What is the FY2019 - FY2020 total revenue growth rate for Block (formerly known as Square)? Answer in units of percents and round to one decimal place. Approach the question asked by assuming the standpoint of an investment banking analyst who only has access to the statement of income.",
+    "evidence_pages": [
+      85
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      85
+    ],
+    "found_nodes": [
+      "0016",
+      "0017"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] To find the FY2019-FY2020 total revenue growth rate, I need to access the statement of income (income statement) which shows revenue figures for both fiscal years. As an investment banking analyst, the primary source would be Item 8 - Financial Statements and Supplementary Data, which contains the consolidated statements of income. This section has sub-sections that likely include the in",
+    "search_sec": 6.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_07661",
+    "doc": "BLOCK_2020_10K",
+    "question": "Using the cash flow statement, answer the following question to the best of your abilities: how much did Block (formerly known as Square) generate in cash flow from operating activities in FY2020? Answer in USD millions.",
+    "evidence_pages": [
+      89
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] The user is asking for cash flow from operating activities in FY2020 from Block's (formerly Square) cash flow statement. The cash flow statement is a financial statement, so I need to look at Item 8 - Financial Statements and Supplementary Data (pages 79-138), which has sub-sections and is most likely to contain the cash flow statement. This is the most direct path to find the answer. | ",
+    "search_sec": 4.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_10285",
+    "doc": "BOEING_2018_10K",
+    "question": "We need to calculate a financial metric by using information only provided within the balance sheet. Please answer the following question: what is Boeing's year end FY2018 net property, plant, and equipment (in USD millions)?",
+    "evidence_pages": [
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      51
+    ],
+    "found_nodes": [
+      "0015",
+      "0016"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] The question asks for Boeing's year-end FY2018 net property, plant, and equipment from the balance sheet. This is a specific financial statement line item that would be found in the consolidated balance sheet. Item 8 'Financial Statements and Supplementary Data' (pages 47-116) is explicitly noted as having sub-sections and is the standard location for balance sheets in 10-K filings. This",
+    "search_sec": 5.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00517",
+    "doc": "BOEING_2022_10K",
+    "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
+    "evidence_pages": [
+      61
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0010",
+      "0011",
+      "0032",
+      "0034"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] To find information about product/service categories representing more than 20% of Boeing's revenue for FY2022, I need to look for revenue breakdown by segment or business unit. This information would typically be found in: (1) Item 1 - Business section which describes the company's business segments, and (2) Item 7 - MD&A which discusses financial results and likely includes segment rev",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01091",
+    "doc": "BOEING_2022_10K",
+    "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
+    "evidence_pages": [
+      112
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0005",
+      "0034"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about materially important ongoing legal battles from FY2022. The most directly relevant section would be Item 3 - Legal Proceedings, which is specifically designed to disclose legal proceedings. This is the primary section to check. Additionally, Item 1A - Risk Factors might mention material legal risks, and Item 2 - Properties could potentially contain relevant inform",
+    "search_sec": 11.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00678",
+    "doc": "BOEING_2022_10K",
+    "question": "Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+    "evidence_pages": [
+      54
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      54
+    ],
+    "found_nodes": [
+      "0001",
+      "0016",
+      "0017",
+      "0010",
+      "0011",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] To answer whether Boeing has an improving gross margin profile as of FY2022, I need to find financial data about gross margins and their trends. The most relevant sections would be: (1) Item 7 - Management's Discussion and Analysis (MD&A) which typically discusses financial performance and margins, and (2) Item 8 - Financial Statements which would contain the actual income statements sho",
+    "search_sec": 11.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01290",
+    "doc": "BOEING_2022_10K",
+    "question": "Who are the primary customers of Boeing as of FY2022?",
+    "evidence_pages": [
+      7,
+      9,
+      13
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0010",
+      "0034"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] To find information about Boeing's primary customers as of FY2022, I should look at sections that discuss the business operations and customer base. Item 1 'Business' (pages 1-5) would be the most direct source for customer information, as it typically describes the company's business segments and major customers. Item 9 'Management's Discussion and Analysis' might also contain customer-",
+    "search_sec": 10.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00464",
+    "doc": "BOEING_2022_10K",
+    "question": "Is Boeing's business subject to cyclicality?",
+    "evidence_pages": [
+      7
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      7
+    ],
+    "found_nodes": [
+      "0001",
+      "0002",
+      "0010",
+      "0011",
+      "0034",
+      "0035"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks whether Boeing's business is subject to cyclicality. This is a business characteristic question that would be addressed in: (1) Item 1 - Business, which describes the nature of the business and would likely mention cyclical patterns; (2) Item 1A - Risk Factors, which would discuss cyclicality as a business risk; and (3) Item 7 - MD&A, which discusses financial performan",
+    "search_sec": 10.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00494",
+    "doc": "BOEING_2022_10K",
+    "question": "What production rate changes is Boeing forecasting for FY2023?",
+    "evidence_pages": [
+      8
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0034",
+      "0035"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about Boeing's production rate forecasts for FY2023. This is forward-looking operational and financial guidance information. The most relevant section would be Item 7 - Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A), which typically contains management's outlook and guidance on future operations, including production rates. ",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00585",
+    "doc": "BOEING_2022_10K",
+    "question": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
+    "evidence_pages": [
+      54
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      54
+    ],
+    "found_nodes": [
+      "0016",
+      "0017",
+      "0018",
+      "0012",
+      "0013",
+      "0032"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 46,
+    "thinking": "[depth 1] The question asks about Boeing's effective tax rate comparison between FY2022 and FY2021. This is financial data that would typically be found in: (1) Management's Discussion and Analysis (MD&A) which discusses financial results and changes year-over-year, or (2) Financial Statements and Supplementary Data which contains the actual tax information and footnotes. Both sections [0009] and ",
+    "search_sec": 6.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03473",
+    "doc": "COCACOLA_2017_10K",
+    "question": "What is the FY2017 return on assets (ROA) for Coca Cola? ROA is defined as: FY2017 net income / (average total assets between FY2016 and FY2017). Round your answer to two decimal places. Give a response to the question by relying on the details shown in the balance sheet and the P&L statement.",
+    "evidence_pages": [
+      73,
+      75
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      73,
+      75
+    ],
+    "found_nodes": [
+      "0022",
+      "0023"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 93,
+    "thinking": "[depth 1] To calculate FY2017 ROA, I need: (1) FY2017 net income from the P&L statement, and (2) total assets for FY2016 and FY2017 from the balance sheet to calculate the average. Item 8 'Financial Statements and Supplementary Data' (pages 71-151) is where the balance sheet and income statement would be located. Item 8 has sub-sections which likely include the consolidated balance sheet and conso",
+    "search_sec": 6.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_09724",
+    "doc": "COCACOLA_2021_10K",
+    "question": "What is Coca Cola's FY2021 COGS % margin? Calculate what was asked by utilizing the line items clearly shown in the income statement.",
+    "evidence_pages": [
+      61
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      61
+    ],
+    "found_nodes": [
+      "0019",
+      "0037"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 47,
+    "thinking": "[depth 1] To find Coca Cola's FY2021 COGS % margin, I need to locate the income statement with line items showing revenue and cost of goods sold (COGS). The formula would be: COGS % margin = (COGS / Revenue) × 100. Item 8 'Financial Statements and Supplementary Data' is the most relevant section as it contains the consolidated income statement where these figures are clearly presented. This sectio",
+    "search_sec": 8.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_06272",
+    "doc": "COCACOLA_2022_10K",
+    "question": "What is Coca Cola's FY2022 dividend payout ratio (using total cash dividends paid and net income attributable to shareholders)? Round answer to two decimal places. Answer the question asked by assuming you only have access to information clearly displayed in the cash flow statement and the income statement.",
+    "evidence_pages": [
+      62,
+      65
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      62,
+      65
+    ],
+    "found_nodes": [
+      "0019",
+      "0020"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 47,
+    "thinking": "[depth 1] To calculate the dividend payout ratio, I need two pieces of information: (1) total cash dividends paid (from the cash flow statement) and (2) net income attributable to shareholders (from the income statement). Both of these should be in Item 8 - Financial Statements and Supplementary Data, which explicitly contains the financial statements. This is the most direct path to find both req",
+    "search_sec": 6.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_10130",
+    "doc": "CORNING_2020_10K",
+    "question": "Based on the information provided primarily in the balance sheet and the statement of income, what is FY2020 days payable outstanding (DPO) for Corning? DPO is defined as: 365 * (average accounts payable between FY2019 and FY2020) / (FY2020 COGS + change in inventory between FY2019 and FY2020). Round your answer to two decimal places.",
+    "evidence_pages": [
+      69,
+      71
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      69,
+      71
+    ],
+    "found_nodes": [
+      "0005",
+      "0006",
+      "0007",
+      "0008"
+    ],
+    "strategy": "page_chunks",
+    "node_count": 14,
+    "thinking": "[depth 1] To calculate DPO for FY2020, I need: (1) accounts payable for FY2019 and FY2020 from the balance sheet, (2) FY2020 COGS from the income statement, and (3) inventory for FY2019 and FY2020 from the balance sheet. Financial statements are typically found in the middle sections of annual reports. I should look for the balance sheet and income statement, which are usually in the 40-80 page ra",
+    "search_sec": 1.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02981",
+    "doc": "CORNING_2021_10K",
+    "question": "Taking into account the information outlined in the income statement, what is the FY2019 - FY2021 3 year average unadjusted operating income % margin for Corning? Answer in units of percents and round to one decimal place.",
+    "evidence_pages": [
+      64
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0004"
+    ],
+    "strategy": "page_chunks",
+    "node_count": 13,
+    "thinking": "[depth 1] To find the FY2019-FY2021 3-year average unadjusted operating income % margin for Corning, I need to locate the income statement. Income statements are typically found in the financial statements section of annual reports, which are usually in the earlier to middle sections of a document. For a ~125 page document with 13 sections, the financial statements are commonly located in pages 20",
+    "search_sec": 1.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01346",
+    "doc": "CORNING_2022_10K",
+    "question": "How much has the effective tax rate of Corning changed between FY2021 and FY2022?",
+    "evidence_pages": [
+      23
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [],
+    "strategy": "font_headings",
+    "node_count": 47,
+    "thinking": "[depth 1] The user is asking about the effective tax rate change for Corning between FY2021 and FY2022. This is a financial/tax information question that would typically be found in financial statements, tax disclosures, or notes to financial statements. The current sections shown (0001-0020) are all about compensation plans, deferred compensation, and employee benefits - these are not relevant to",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00005",
+    "doc": "CORNING_2022_10K",
+    "question": "Does Corning have positive working capital based on FY2022 data? If working capital is not a useful or relevant metric for this company, then please state that and explain why.",
+    "evidence_pages": [
+      59
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [],
+    "strategy": "font_headings",
+    "node_count": 47,
+    "thinking": "[depth 1] The user is asking about Corning's working capital based on FY2022 data. Working capital is a financial metric calculated from balance sheet items (current assets minus current liabilities). The sections shown (0001-0020) are all about compensation plans, deferred compensation, and employee benefits - these are not financial statements or balance sheet data. I need to navigate to section",
+    "search_sec": 8.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04209",
+    "doc": "COSTCO_2021_10K",
+    "question": "Using only the information within the balance sheet, how much total assets did Costco have at the end of FY2021? Answer in USD millions.",
+    "evidence_pages": [
+      37
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      37
+    ],
+    "found_nodes": [
+      "0013"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 27,
+    "thinking": "[depth 1] The question asks for total assets from Costco's balance sheet at the end of FY2021. The balance sheet is a financial statement, so I need to look at Item 8 - Financial Statements and Supplementary Data (pages 33-64), which explicitly contains financial statements. This section has sub-sections that I should explore to find the balance sheet specifically. | [depth 2] The user is asking f",
+    "search_sec": 5.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_05915",
+    "doc": "CVSHEALTH_2018_10K",
+    "question": "What is the FY2018 fixed asset turnover ratio for CVS Health? Fixed asset turnover ratio is defined as: FY2018 revenue / (average PP&E between FY2017 and FY2018). Round your answer to two decimal places. Calculate what was asked by utilizing the line items clearly shown in the P&L statement and the balance sheet.",
+    "evidence_pages": [
+      301,
+      303
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0017",
+      "0122"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 213,
+    "thinking": "[depth 1] To calculate the FY2018 fixed asset turnover ratio, I need: (1) FY2018 revenue from the P&L statement, and (2) PP&E (Property, Plant & Equipment) values for both FY2018 and FY2017 from the balance sheet to calculate the average. Item 8 'Financial Statements and Supplementary Data' is the section that contains the consolidated statements of operations (P&L) and consolidated balance sheets",
+    "search_sec": 20.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00790",
+    "doc": "CVSHEALTH_2022_10K",
+    "question": "Is CVS Health a capital-intensive business based on FY2022 data?",
+    "evidence_pages": [
+      107,
+      109
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      107,
+      109
+    ],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0023",
+      "0024",
+      "0025",
+      "0017",
+      "0018"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] To determine if CVS Health is a capital-intensive business based on FY2022 data, I need to examine financial metrics and operational characteristics. Capital intensity is typically measured by looking at capital expenditures, property/plant/equipment, asset levels, and how they relate to revenue. The most relevant sections would be: (1) Item 7 - MD&A which discusses financial condition a",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01107",
+    "doc": "CVSHEALTH_2022_10K",
+    "question": "Has CVS Health reported any materially important ongoing legal battles from 2022, 2021 and 2020?",
+    "evidence_pages": [
+      172,
+      172,
+      173
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0012"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] The user is asking about materially important ongoing legal battles from CVS Health for 2022, 2021, and 2020. The most directly relevant section would be 'Item 3: — Legal Proceedings' (section 0012, pages 63-67), which is specifically designed to disclose legal proceedings and litigation matters. This is the standard location in SEC filings where companies report material legal battles. ",
+    "search_sec": 4.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01244",
+    "doc": "CVSHEALTH_2022_10K",
+    "question": "Has CVS Health paid dividends to common shareholders in Q2 of FY2022?",
+    "evidence_pages": [
+      67
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0023",
+      "0024",
+      "0019",
+      "0020"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] The question asks about dividend payments to common shareholders in Q2 of FY2022. This is a financial/cash flow matter that would typically be disclosed in: (1) Management's Discussion and Analysis (MD&A) which discusses financial results and capital allocation, or (2) Financial Statements which would show dividend payments in the cash flow statement or notes. Item 7 (MD&A) and Item 8 (F",
+    "search_sec": 9.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00839",
+    "doc": "FOOTLOCKER_2022_8K_dated_2022-08-19",
+    "question": "Does Foot Locker's new CEO have previous CEO experience in a similar company to Footlocker?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0012"
+    ],
+    "strategy": "font_headings",
+    "node_count": 14,
+    "thinking": "[depth 1] To answer whether Foot Locker's new CEO has previous CEO experience in a similar company, I need to find information about the new CEO and their background. Item 5.02 typically covers 'Costs Associated with Exit or Disposal Activities' but in SEC filings often includes executive officer changes. The Board section might contain biographical information about leadership. Exhibit 99.1 often",
+    "search_sec": 2.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00822",
+    "doc": "FOOTLOCKER_2022_8K_dated-2022-05-20",
+    "question": "Were there any board member nominees who had substantially more votes against joining than the other nominees?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003"
+    ],
+    "strategy": "font_headings",
+    "node_count": 4,
+    "thinking": "[depth 1] The question asks about board member nominees and voting results against them. This is typically disclosed in proxy statements or SEC filings. Item 5.07 typically covers 'Costs Associated with Exit or Disposal Activities' but could vary. Item 8.01 is 'Other Events' which might contain voting information. However, the most relevant section for board nominee voting information would likely",
+    "search_sec": 2.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04103",
+    "doc": "GENERALMILLS_2019_10K",
+    "question": "What is the FY2019 cash conversion cycle (CCC) for General Mills? CCC is defined as: DIO + DSO - DPO. DIO is defined as: 365 * (average inventory between FY2018 and FY2019) / (FY2019 COGS). DSO is defined as: 365 * (average accounts receivable between FY2018 and FY2019) / (FY2019 Revenue). DPO is defined as: 365 * (average accounts payable between FY2018 and FY2019) / (FY2019 COGS + change in inventory between FY2018 and FY2019). Round your answer to two decimal places. Address the question by using the line items and information shown within the income statement and the balance sheet.",
+    "evidence_pages": [
+      52,
+      54
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      52,
+      54
+    ],
+    "found_nodes": [
+      "0014",
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 36,
+    "thinking": "[depth 1] To calculate the FY2019 cash conversion cycle, I need specific financial data: inventory, accounts receivable, accounts payable, COGS, and revenue for both FY2018 and FY2019. This data is found in the income statement and balance sheet. Item 8 'Financial Statements and Supplementary Data' (pages 50-108) is the primary source for these financial statements. I should navigate to that secti",
+    "search_sec": 13.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03471",
+    "doc": "GENERALMILLS_2020_10K",
+    "question": "By drawing conclusions from the information stated only in the statement of financial position, what is General Mills's FY2020 working capital ratio? Define working capital ratio as total current assets divided by total current liabilities. Round your answer to two decimal places.",
+    "evidence_pages": [
+      49
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      49
+    ],
+    "found_nodes": [
+      "0015",
+      "0031"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 37,
+    "thinking": "[depth 1] The question asks for General Mills's FY2020 working capital ratio based on the statement of financial position. The working capital ratio is defined as total current assets divided by total current liabilities. The statement of financial position is the balance sheet, which would be found in the Financial Statements section. Item 8 'Financial Statements and Supplementary Data' (pages 45",
+    "search_sec": 11.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04854",
+    "doc": "GENERALMILLS_2020_10K",
+    "question": "According to the information provided in the statement of cash flows, what is the FY2020 free cash flow (FCF) for General Mills? FCF here is defined as: (cash from operations - capex). Answer in USD millions.",
+    "evidence_pages": [
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      51
+    ],
+    "found_nodes": [
+      "0015",
+      "0016",
+      "0031"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 37,
+    "thinking": "[depth 1] To find the FY2020 free cash flow (FCF) defined as cash from operations minus capex, I need to locate the statement of cash flows. This would be part of the financial statements. Item 8 'Financial Statements and Supplementary Data' (pages 45-96) is the most relevant section and has sub-sections, which likely include the cash flow statement. I should explore that section to find the speci",
+    "search_sec": 8.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_10136",
+    "doc": "GENERALMILLS_2022_10K",
+    "question": "We want to calculate a financial metric. Please help us compute it by basing your answers off of the cash flow statement and the income statement. Here's the question: what is the FY2022 retention ratio (using total cash dividends paid and net income attributable to shareholders) for General Mills? Round answer to two decimal places.",
+    "evidence_pages": [
+      44,
+      48
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      44,
+      48
+    ],
+    "found_nodes": [
+      "0014",
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 37,
+    "thinking": "[depth 1] To calculate the retention ratio, I need: (1) Net income attributable to shareholders from the income statement, and (2) Total cash dividends paid from the cash flow statement. Both of these financial statements should be in Item 8 — Financial Statements and Supplementary Data (pages 42-90), which has sub-sections. This is the most direct path to find the required financial data. | [dept",
+    "search_sec": 7.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00956",
+    "doc": "JOHNSON_JOHNSON_2022_10K",
+    "question": "Are JnJ's FY2022 financials that of a high growth company?",
+    "evidence_pages": [
+      27
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      27
+    ],
+    "found_nodes": [
+      "0019",
+      "0020",
+      "0021",
+      "0029",
+      "0050",
+      "0046",
+      "0047"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 81,
+    "thinking": "[depth 1] To assess whether JnJ's FY2022 financials indicate a high growth company, I need to examine financial performance data including revenue growth, earnings growth, profit margins, and other key financial metrics. PART IV (pages 15-151) is the most comprehensive section and likely contains financial statements and management's discussion & analysis (MD&A). This section has sub-sections that",
+    "search_sec": 11.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00669",
+    "doc": "JOHNSON_JOHNSON_2022_10K",
+    "question": "What drove gross margin change as of FY2022 for JnJ? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      33
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      33
+    ],
+    "found_nodes": [
+      "0019",
+      "0020",
+      "0021",
+      "0046"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 81,
+    "thinking": "[depth 1] To find information about what drove gross margin change for JnJ in FY2022, I need to look at financial statements and management discussion/analysis. PART IV (pages 15-151) is the most likely to contain detailed financial information, including income statements and MD&A sections that would discuss gross margin drivers. This section has sub-sections that I should explore. I should also ",
+    "search_sec": 13.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00711",
+    "doc": "JOHNSON_JOHNSON_2022_10K",
+    "question": "Roughly how many times has JnJ sold its inventory in FY2022? Calculate inventory turnover ratio for FY2022; if conventional inventory management is not meaningful for the company then state that and explain why.",
+    "evidence_pages": [
+      45,
+      46
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      45,
+      46
+    ],
+    "found_nodes": [
+      "0019",
+      "0020",
+      "0021",
+      "0050",
+      "0051",
+      "0046",
+      "0047"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 81,
+    "thinking": "[depth 1] To calculate the inventory turnover ratio for FY2022, I need to find: (1) Cost of Goods Sold (COGS) or Cost of Sales for FY2022, and (2) Inventory balances (beginning and ending) for FY2022. This financial data would be in the financial statements section. PART IV (pages 15-151) is labeled as having sub-sections and covers the bulk of the document, which typically contains financial stat",
+    "search_sec": 13.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00651",
+    "doc": "JOHNSON_JOHNSON_2022Q4_EARNINGS",
+    "question": "Is growth in JnJ's adjusted EPS expected to accelerate in FY2023?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0005"
+    ],
+    "strategy": "font_headings",
+    "node_count": 15,
+    "thinking": "[depth 1] The question asks about expected growth in JnJ's adjusted EPS for FY2023. The most relevant sections would be: (1) Section 0005 'FULL-YEAR 2023 GUIDANCE' which should contain forward-looking EPS guidance and expectations, and (2) Sections 0002-0003 which appear to be financial summaries that likely contain year-over-year comparisons and growth metrics. Section 0001 is a press release hea",
+    "search_sec": 2.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01484",
+    "doc": "JOHNSON_JOHNSON_2022Q4_EARNINGS",
+    "question": "How did JnJ's US sales growth compare to international sales growth in FY2022?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0014",
+      "0015"
+    ],
+    "strategy": "font_headings",
+    "node_count": 15,
+    "thinking": "[depth 1] The question asks about JnJ's US vs international sales growth comparison in FY2022. This is financial data that would typically be found in earnings reports or financial statements. Sections [0002] and [0003] labeled 'Full Year' on pages 2-3 are likely to contain annual financial summaries. Sections [0008] through [0014] appear to be financial statements (Johnson & Johnson and Subsidiar",
+    "search_sec": 2.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01488",
+    "doc": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+    "question": "Which business segment of JnJ will be treated as a discontinued operation from August 30, 2023 onward?",
+    "evidence_pages": [
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0004",
+      "0005",
+      "0010"
+    ],
+    "strategy": "font_headings",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks about which business segment of J&J will be treated as a discontinued operation from August 30, 2023 onward. This is a specific factual question about a corporate action. Section [0005] mentions 'recast to reflect the continuing operations' which suggests discussion of discontinued operations. Section [0002] 'Results of Operations and Financial Condition' would likely c",
+    "search_sec": 4.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01490",
+    "doc": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+    "question": "What is the amount of the gain accruing to JnJ as a result of the separation of its Consumer Health business segment, as of August 30, 2023?",
+    "evidence_pages": [
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0004"
+    ],
+    "strategy": "font_headings",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks about the gain accruing to J&J from the separation of its Consumer Health business segment as of August 30, 2023. This is a specific financial metric related to a business separation/spin-off. Section [0002] 'Item 2.02 Results of Operations and Financial Condition' would typically contain financial results and gains/losses from business transactions. Section [0004] 'Exh",
+    "search_sec": 4.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01491",
+    "doc": "JOHNSON_JOHNSON_2023_8K_dated-2023-08-30",
+    "question": "What is the amount of the cash proceeds that JnJ realised from the separation of Kenvue (formerly Consumer Health business segment), as of August 30, 2023?",
+    "evidence_pages": [
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0004",
+      "0010"
+    ],
+    "strategy": "font_headings",
+    "node_count": 11,
+    "thinking": "[depth 1] The question asks about cash proceeds from the separation of Kenvue (formerly Consumer Health business segment) as of August 30, 2023. This is a specific financial fact about a corporate separation/spin-off transaction. I should look for sections that would contain detailed financial information about this transaction. Section [0004] Exhibit 99.1 and [0009] Exhibit 99.2 are likely to con",
+    "search_sec": 4.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01487",
+    "doc": "JOHNSON_JOHNSON_2023Q2_EARNINGS",
+    "question": "Did JnJ's net earnings as a percent of sales increase in Q2 of FY2023 compared to Q2 of FY2022?",
+    "evidence_pages": [
+      9
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      9
+    ],
+    "found_nodes": [
+      "0003",
+      "0008",
+      "0009",
+      "0010",
+      "0011",
+      "0012"
+    ],
+    "strategy": "font_headings",
+    "node_count": 17,
+    "thinking": "[depth 1] To answer whether JnJ's net earnings as a percent of sales increased in Q2 FY2023 compared to Q2 FY2022, I need to find financial data showing net earnings and sales figures for both quarters. The sections labeled [0008] through [0017] appear to be financial statements and data tables (Johnson & Johnson and Subsidiaries), which would contain the quarterly financial information needed. Se",
+    "search_sec": 2.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00299",
+    "doc": "JPMORGAN_2021Q1_10Q",
+    "question": "Which of JPM's business segments had the lowest net revenue in 2021 Q1?",
+    "evidence_pages": [
+      18
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      18
+    ],
+    "found_nodes": [
+      "0007"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 101,
+    "thinking": "[depth 1] The question asks about which business segment had the lowest net revenue in 2021 Q1. This is clearly asking for segment-level financial data. Section [0007] 'Business Segment Results' (pages 18-28) is the most directly relevant section that would contain net revenue broken down by JPM's business segments. This is the logical place to find the answer to this question. | [depth 1] The que",
+    "search_sec": 10.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02119",
+    "doc": "JPMORGAN_2021Q1_10Q",
+    "question": "If JPM went bankrupted by the end by 2021 Q1 and liquidated all of its assets to pay its shareholders, how much could each shareholder get?",
+    "evidence_pages": [
+      5
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0005",
+      "0024"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 101,
+    "thinking": "[depth 1] To answer this question, I need to find: (1) the total assets of JPM as of Q1 2021, and (2) the number of outstanding shares. Then I can calculate assets per share. The Consolidated Balance Sheets section [0005] would contain asset information, and the Financial Highlights [0001] typically includes share count data. These are the most direct sources for this calculation. | [depth 1] To a",
+    "search_sec": 12.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00206",
+    "doc": "JPMORGAN_2022_10K",
+    "question": "Are JPM's gross margins historically consistent (not fluctuating more than roughly 2% each year)? If gross margins are not a relevant metric for a company like this, then please state that and explain why.",
+    "evidence_pages": [
+      2
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0021",
+      "0027",
+      "0028",
+      "0033",
+      "0044",
+      "0047",
+      "0048",
+      "0057",
+      "0061",
+      "0110",
+      "0116",
+      "0124",
+      "0138",
+      "0140"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 210,
+    "thinking": "[depth 1] The question asks about JPM's (JPMorgan Chase) gross margins and their consistency over time. To answer this, I need to find financial statements and metrics related to gross margins. Since this appears to be a financial document (likely an annual report or 10-K), I should explore the main content sections. Part I pages 4-382 with sub-sections is most likely to contain detailed financial",
+    "search_sec": 35.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00394",
+    "doc": "JPMORGAN_2022Q2_10Q",
+    "question": "In 2022 Q2, which of JPM's business segments had the highest net income?",
+    "evidence_pages": [
+      20
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0012",
+      "0017",
+      "0023",
+      "0026",
+      "0029",
+      "0030",
+      "0046"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 119,
+    "thinking": "[depth 1] The question asks about which of JPM's business segments had the highest net income in 2022 Q2. Section [0008] 'Business Segment Results' (pages 20-42) is clearly the most relevant section as it directly covers business segment performance. This section has sub-sections which likely break down the different segments and their financial results including net income. This is the primary se",
+    "search_sec": 13.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02049",
+    "doc": "JPMORGAN_2023Q2_10Q",
+    "question": "Looking at VaR, did the risk that JPM faced in the second fiscal quarter of 2023 decrease compared to the same period in the prior year?",
+    "evidence_pages": [
+      84
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      84
+    ],
+    "found_nodes": [
+      "0031",
+      "0039",
+      "0045"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 137,
+    "thinking": "[depth 1] The question asks about VaR (Value at Risk) for JPM in Q2 2023 compared to Q2 2022. VaR is a market risk metric. I need to find sections that discuss market risk metrics and comparisons between periods. Section [0039] 'Market Risk Management' (pages 84-89) is the most directly relevant section for VaR information. Section [0031] 'Firmwide Risk Management' could also provide overview info",
+    "search_sec": 3.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_10499",
+    "doc": "KRAFTHEINZ_2019_10K",
+    "question": "What is Kraft Heinz's FY2019 inventory turnover ratio? Inventory turnover ratio is defined as: (FY2019 COGS) / (average inventory between FY2018 and FY2019). Round your answer to two decimal places. Please base your judgments on the information provided primarily in the balance sheet and the P&L statement.",
+    "evidence_pages": [
+      49,
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0027",
+      "0029",
+      "0039"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 72,
+    "thinking": "[depth 1] To calculate the inventory turnover ratio, I need: (1) FY2019 COGS from the P&L statement, and (2) inventory balances from both FY2019 and FY2018 from the balance sheet to calculate the average inventory. Section [0027] contains the Consolidated Statements of Income (P&L) where COGS would be found, and section [0029] contains the Consolidated Balance Sheets where inventory figures for bo",
+    "search_sec": 9.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04412",
+    "doc": "LOCKHEEDMARTIN_2020_10K",
+    "question": "We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the balance sheet and the P&L statement, what is Lockheed Martin's FY2020 asset turnover ratio? Asset turnover ratio is defined as: FY2020 revenue / (average total assets between FY2019 and FY2020). Round your answer to two decimal places.",
+    "evidence_pages": [
+      66,
+      68
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      66,
+      68
+    ],
+    "found_nodes": [
+      "0008",
+      "0016",
+      "0017"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 35,
+    "thinking": "[depth 1] To calculate the asset turnover ratio, I need: (1) FY2020 revenue and (2) total assets for both FY2020 and FY2019 to calculate the average. The P&L statement will have revenue, and the balance sheet will have total assets. These financial statements are found in ITEM 8 - Financial Statements and Supplementary Data. I should also check ITEM 8 (Selected Financial Data) as it may have summa",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03031",
+    "doc": "LOCKHEEDMARTIN_2021_10K",
+    "question": "What is Lockheed Martin's FY2021 net working capital? Define net working capital as total current assets less total current liabilities. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the balance sheet.",
+    "evidence_pages": [
+      67
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      67
+    ],
+    "found_nodes": [
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 37,
+    "thinking": "[depth 1] To find Lockheed Martin's FY2021 net working capital (total current assets less total current liabilities), I need to locate the balance sheet. The balance sheet is a core financial statement that would be found in ITEM 8 - Financial Statements and Supplementary Data (pages 63-106), which explicitly indicates it has sub-sections. This is the most direct source for the current assets and ",
+    "search_sec": 8.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03718",
+    "doc": "LOCKHEEDMARTIN_2022_10K",
+    "question": "What is Lockheed Martin's 2 year total revenue CAGR from FY2020 to FY2022 (in units of percents and round to one decimal place)? Provide a response to the question by primarily using the statement of income.",
+    "evidence_pages": [
+      62
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0017"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 17,
+    "thinking": "[depth 1] To find Lockheed Martin's 2-year total revenue CAGR from FY2020 to FY2022, I need to locate the statement of income which typically contains annual revenue figures. The question specifically asks to use the statement of income. I should explore the main content sections rather than just the table of contents. Section [0004] appears to be the main document content (pages 6-130) and has su",
+    "search_sec": 3.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04171",
+    "doc": "MGMRESORTS_2018_10K",
+    "question": "Basing your judgments off of the balance sheet, what is the year end FY2018 amount of accounts payable for MGM Resorts? Answer in USD millions.",
+    "evidence_pages": [
+      56
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      56
+    ],
+    "found_nodes": [
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 118,
+    "thinking": "[depth 1] The user is asking for the year-end FY2018 accounts payable amount from MGM Resorts' balance sheet. To find this information, I need to locate the balance sheet, which is a financial statement. Item 8 'Financial Statements and Supplementary Data' is the most relevant section, and it has sub-sections. The balance sheet would be part of the Consolidated Financial Statements. I should navig",
+    "search_sec": 6.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03849",
+    "doc": "MGMRESORTS_2020_10K",
+    "question": "What is the FY2018 - FY2020 3 year average of capex as a % of revenue for MGM Resorts? Answer in units of percents and round to one decimal place. Please utilize information provided primarily within the statement of cash flows and the statement of income.",
+    "evidence_pages": [
+      64,
+      66
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      64,
+      66
+    ],
+    "found_nodes": [
+      "0019",
+      "0020",
+      "0039"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 49,
+    "thinking": "[depth 1] To find the FY2018-FY2020 3-year average of capex as a % of revenue, I need to locate: (1) Capital expenditures data from the statement of cash flows, and (2) Revenue data from the statement of income. The question specifically directs me to use information from these two financial statements. Section [0018] 'Item 8 — Financial Statements and Supplementary Data' contains the consolidated",
+    "search_sec": 8.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01254",
+    "doc": "MGMRESORTS_2022_10K",
+    "question": "Has MGM Resorts paid dividends to common shareholders in FY2022?",
+    "evidence_pages": [
+      31
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0011",
+      "0012",
+      "0015",
+      "0016",
+      "0035"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 85,
+    "thinking": "[depth 1] To find information about whether MGM Resorts paid dividends to common shareholders in FY2022, I need to look at financial statements and cash flow information. The most relevant sections would be: (1) Item 8 - Financial Statements and Supplementary Data, which contains the consolidated financial statements and notes that typically disclose dividend payments, and (2) Item 10 - Management",
+    "search_sec": 127.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00382",
+    "doc": "MGMRESORTS_2022Q4_EARNINGS",
+    "question": "Which region had the Highest EBITDAR Contribution for MGM during FY2022?",
+    "evidence_pages": [
+      12
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0004",
+      "0005",
+      "0006",
+      "0007",
+      "0008"
+    ],
+    "strategy": "font_headings",
+    "node_count": 15,
+    "thinking": "[depth 1] The question asks about EBITDAR contribution by region for MGM during FY2022. This is a specific financial metric that would typically be found in financial statements, segment reporting, or management discussion sections. These are usually located in the middle to later sections of financial documents. I should start by exploring pages that are likely to contain financial performance da",
+    "search_sec": 2.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01911",
+    "doc": "MGMRESORTS_2022Q4_EARNINGS",
+    "question": "What was MGM's interest coverage ratio using FY2022 Adjusted EBIT as the numerator and annual Interest Expense as the denominator?",
+    "evidence_pages": [
+      13
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0005",
+      "0006",
+      "0007",
+      "0008",
+      "0009",
+      "0010"
+    ],
+    "strategy": "font_headings",
+    "node_count": 15,
+    "thinking": "[depth 1] To find MGM's interest coverage ratio using FY2022 Adjusted EBIT and annual Interest Expense, I need to locate financial data. This information would typically be found in financial statements or financial metrics sections, which are usually in the middle to later pages of financial documents. I should start by exploring pages that are likely to contain detailed financial metrics, adjust",
+    "search_sec": 2.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01912",
+    "doc": "MGMRESORTS_2022Q4_EARNINGS",
+    "question": "Which region had the worst topline performance for MGM during FY2022?",
+    "evidence_pages": [
+      2,
+      3,
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      2,
+      3,
+      3
+    ],
+    "found_nodes": [
+      "0002",
+      "0003",
+      "0004",
+      "0005",
+      "0006"
+    ],
+    "strategy": "font_headings",
+    "node_count": 15,
+    "thinking": "[depth 1] The question asks about MGM's regional topline performance for FY2022, specifically which region performed worst. This is a financial/business performance question that would typically be found in financial statements, earnings reports, or business segment analysis sections. These are usually located in the middle sections of financial documents (after cover pages but before appendices).",
+    "search_sec": 2.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00407",
+    "doc": "MGMRESORTS_2023Q2_10Q",
+    "question": "Which type of debt received the largest investment among the short term investments for MGM in H1 FY2023?",
+    "evidence_pages": [
+      10
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      10
+    ],
+    "found_nodes": [
+      "0009",
+      "0014",
+      "0012"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 29,
+    "thinking": "[depth 1] The question asks about short-term investments and which type of debt received the largest investment for MGM in H1 FY2023. This is financial data that would be found in the financial statements. The most relevant sections would be: (1) the Consolidated Balance Sheets which would show short-term investments as of June 30, 2023, and (2) the Condensed Notes to Consolidated Financial Statem",
+    "search_sec": 3.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04700",
+    "doc": "MICROSOFT_2016_10K",
+    "question": "What is the FY2016 COGS for Microsoft? Please state answer in USD millions. Provide a response to the question by primarily using the statement of income.",
+    "evidence_pages": [
+      51
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0014"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 34,
+    "thinking": "[depth 1] The user is asking for FY2016 COGS (Cost of Goods Sold) for Microsoft from the statement of income. The statement of income is a financial statement that would be found under 'Item 8. — Financial Statements and Supplementary Data' (section 0013), which explicitly has sub-sections. This is the most direct path to find the income statement with COGS information. | [depth 2] The user is ask",
+    "search_sec": 6.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00552",
+    "doc": "MICROSOFT_2023_10K",
+    "question": "Has Microsoft increased its debt on balance sheet between FY2023 and the FY2022 period?",
+    "evidence_pages": [
+      59
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      59
+    ],
+    "found_nodes": [
+      "0012",
+      "0013",
+      "0016"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 34,
+    "thinking": "[depth 1] To answer whether Microsoft increased its debt on the balance sheet between FY2023 and FY2022, I need to find financial statements that show balance sheet data for both periods. Item 8 (Financial Statements and Supplementary Data) is the most direct source for balance sheet information. Item 7 (Management's Discussion and Analysis) may also contain relevant discussion about changes in de",
+    "search_sec": 8.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04458",
+    "doc": "NETFLIX_2015_10K",
+    "question": "We want to calculate a financial metric. Please help us compute it by basing your answers off of the statement of income and the statement of cash flows. Here's the question: what is the FY2015 unadjusted EBITDA % margin for Netflix? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement).",
+    "evidence_pages": [
+      39,
+      41
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0008",
+      "0010"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 23,
+    "thinking": "[depth 1] To calculate FY2015 unadjusted EBITDA % margin, I need: (1) unadjusted operating income from the income statement, (2) D&A (depreciation & amortization) from the cash flow statement, and (3) revenue to calculate the margin percentage. The most relevant sections are Item 8 (Financial Statements and Supplementary Data) which should contain both the income statement and cash flow statement,",
+    "search_sec": 2.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03282",
+    "doc": "NETFLIX_2017_10K",
+    "question": "What is Netflix's year end FY2017 total current liabilities (in USD millions)? Base your judgments on the information provided primarily in the balance sheet.",
+    "evidence_pages": [
+      44
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0008",
+      "0010"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 23,
+    "thinking": "[depth 1] The question asks for Netflix's year-end FY2017 total current liabilities from the balance sheet. The balance sheet is a financial statement, so I need to look at sections that contain financial statements. Item 8 'Financial Statements and Supplementary Data' (section 0010) is the most direct path to find the balance sheet. Item 7 'Management's Discussion and Analysis' (section 0008) mig",
+    "search_sec": 1.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04302",
+    "doc": "NIKE_2018_10K",
+    "question": "We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the statement of income, what is Nike's three year average of cost of goods sold as a % of revenue from FY2016 to FY2018? Answer in units of percents and round to one decimal place.",
+    "evidence_pages": [
+      45
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0020",
+      "0021",
+      "0051"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 98,
+    "thinking": "[depth 1] To calculate Nike's three-year average of cost of goods sold (COGS) as a percentage of revenue from FY2016 to FY2018, I need to find the financial statements that contain revenue and COGS data. This information would be in the income statement (also called statement of income or consolidated statements of earnings). The current sections shown are mostly from Part I which covers business ",
+    "search_sec": 11.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03531",
+    "doc": "NIKE_2019_10K",
+    "question": "According to the details clearly outlined within the balance sheet, how much total current assets did Nike have at the end of FY2019? Answer in USD millions.",
+    "evidence_pages": [
+      53
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0055"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 112,
+    "thinking": "[depth 1] The user is asking for Nike's total current assets at the end of FY2019 from the balance sheet. The balance sheet is a financial statement that would typically be found in the financial statements section of a 10-K filing, not in the business description or risk factors sections shown here. I need to navigate to sections that contain financial statements. Since this is showing sections 1",
+    "search_sec": 12.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04080",
+    "doc": "NIKE_2021_10K",
+    "question": "When primarily referencing the income statement and the statement of financial position, what is the FY2021 inventory turnover ratio for Nike? Inventory turnover ratio is defined as: (FY2021 COGS) / (average inventory between FY2020 and FY2021). Round your answer to two decimal places.",
+    "evidence_pages": [
+      58,
+      60
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0054",
+      "0056"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 124,
+    "thinking": "[depth 1] To calculate the FY2021 inventory turnover ratio, I need: (1) FY2021 COGS from the income statement, and (2) inventory values for FY2020 and FY2021 from the statement of financial position (balance sheet). The current sections shown are from PART I which contains business description and risk factors - these won't have the financial statements. I need to navigate to the financial stateme",
+    "search_sec": 15.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01163",
+    "doc": "NIKE_2023_10K",
+    "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for Nike in FY2023?",
+    "evidence_pages": [
+      61
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0057"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 96,
+    "thinking": "[depth 1] The question asks about cash flow from operations, investing, and financing activities for Nike in FY2023. This information would be found in the Cash Flow Statement, which is typically part of the financial statements section. The current sections shown are from PART I (Business, Risk Factors, Properties, Legal Proceedings, etc.) - these are qualitative sections. I need to navigate to t",
+    "search_sec": 10.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00080",
+    "doc": "PAYPAL_2022_10K",
+    "question": "Does Paypal have positive working capital based on FY2022 data? If working capital is not a useful or relevant metric for this company, then please state that and explain why.",
+    "evidence_pages": [
+      60
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0014",
+      "0011",
+      "0012"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] To determine if PayPal has positive working capital based on FY2022 data, I need to find the balance sheet information showing current assets and current liabilities. Working capital = Current Assets - Current Liabilities. The most relevant sections would be: (1) Item 8 - Financial Statements and Supplementary Data, which should contain the balance sheet, and (2) Item 10 - Management's D",
+    "search_sec": 8.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04980",
+    "doc": "PEPSICO_2021_10K",
+    "question": "What is the FY2021 capital expenditure amount (in USD billions) for PepsiCo? Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows.",
+    "evidence_pages": [
+      62
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0034",
+      "0035",
+      "0036",
+      "0037"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 74,
+    "thinking": "[depth 1] The question asks for FY2021 capital expenditure amount from PepsiCo's statement of cash flows. The statement of cash flows is a financial statement that would be found under 'Item 8. — Financial Statements and Supplementary Data'. This is the most direct section to find cash flow information including capital expenditures (typically shown as 'purchases of property, plant and equipment' ",
+    "search_sec": 11.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01009",
+    "doc": "PEPSICO_2022_10K",
+    "question": "What are the geographies that Pepsico primarily operates in as of FY2022?",
+    "evidence_pages": [
+      3,
+      4
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      3,
+      4
+    ],
+    "found_nodes": [
+      "0001",
+      "0009",
+      "0010",
+      "0048"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] The question asks about the geographies that PepsiCo primarily operates in as of FY2022. This information would typically be found in the Business section (Item 1), which covers the company's operations and segments. Item 1 on pages 2-10 would contain an overview of the business and its geographic presence. Additionally, the Management's Discussion and Analysis (Item 7, pages 29-115) oft",
+    "search_sec": 8.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00735",
+    "doc": "PEPSICO_2022_10K",
+    "question": "Has Pepsico reported any materially important ongoing legal battles from FY2022 and FY2021?",
+    "evidence_pages": [
+      25
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      25
+    ],
+    "found_nodes": [
+      "0005",
+      "0019",
+      "0040",
+      "0041",
+      "0042",
+      "0043",
+      "0044"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] The user is asking about materially important ongoing legal battles from FY2022 and FY2021. The most directly relevant section for legal proceedings information would be Item 3 - Legal Proceedings (pages 24-28), which is specifically designed to disclose legal matters. This is the primary section to explore. Additionally, Item 8 - Financial Statements and Supplementary Data may contain f",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01328",
+    "doc": "PEPSICO_2022_10K",
+    "question": "What is the quantity of restructuring costs directly outlined in Pepsico's income statements for FY2022? If restructuring costs are not explicitly outlined then state 0.",
+    "evidence_pages": [
+      77
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0019",
+      "0048"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] To find restructuring costs directly outlined in Pepsico's income statements for FY2022, I need to look at the financial statements. Item 8 (Financial Statements and Supplementary Data) is the most relevant section as it contains the actual income statements. Item 7 (MD&A) may also contain discussion of restructuring costs. Let me navigate to these sections to find the income statement a",
+    "search_sec": 7.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_03620",
+    "doc": "PEPSICO_2022_10K",
+    "question": "What is the FY2022 unadjusted EBITDA less capex for PepsiCo? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization [from cash flow statement]. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows and the income statement.",
+    "evidence_pages": [
+      61,
+      63
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0019",
+      "0048"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] To calculate FY2022 unadjusted EBITDA less capex, I need: (1) unadjusted operating income from the income statement, (2) depreciation and amortization from the cash flow statement, and (3) capital expenditures from the cash flow statement. These financial statements would be found in Item 8 (Financial Statements and Supplementary Data) or its sub-sections. Item 8 appears to be the main s",
+    "search_sec": 5.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04481",
+    "doc": "PEPSICO_2022_10K",
+    "question": "What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.",
+    "evidence_pages": [
+      61,
+      63
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0019",
+      "0038",
+      "0048"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 48,
+    "thinking": "[depth 1] To calculate FY2022 unadjusted EBITDA % margin, I need: (1) unadjusted operating income from the P&L statement, (2) D&A (Depreciation & Amortization) from the cash flow statement, and (3) revenue to calculate the margin percentage. Item 8 (Financial Statements and Supplementary Data) should contain both the income statement and cash flow statement. Item 29 (Exhibits and Financial Stateme",
+    "search_sec": 7.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01482",
+    "doc": "PEPSICO_2023_8K_dated-2023-05-05",
+    "question": "At the Pepsico AGM held on May 3, 2023, what was the outcome of the shareholder vote on the shareholder proposal for a congruency report by Pepsico on net-zero emissions policies?",
+    "evidence_pages": [
+      3
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      3
+    ],
+    "found_nodes": [
+      "0003"
+    ],
+    "strategy": "font_headings",
+    "node_count": 4,
+    "thinking": "[depth 1] The question asks about the outcome of a shareholder vote at the PepsiCo AGM on May 3, 2023, specifically regarding a shareholder proposal for a congruency report on net-zero emissions policies. Section [0003] 'Item 5.07. Submission of Matters to a Vote of Security Holders' is clearly the most relevant section, as it would contain information about shareholder votes and their outcomes. T",
+    "search_sec": 1.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00705",
+    "doc": "PEPSICO_2023_8K_dated-2023-05-30",
+    "question": "By how much did Pepsico increase its unsecured five year revolving credit agreement on May 26, 2023?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0012",
+      "0022"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 49,
+    "thinking": "[depth 1] The question asks about a specific increase to PepsiCo's unsecured five-year revolving credit agreement on May 26, 2023. This is asking for a factual detail about a credit facility modification. Section [0012] 'Termination, Reduction or Increase of Commitments' (pages 16-18) is the most directly relevant section as it would cover increases to credit commitments. This section should conta",
+    "search_sec": 6.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00882",
+    "doc": "PEPSICO_2023_8K_dated-2023-05-30",
+    "question": "As of May 26, 2023, what is the total amount Pepsico may borrow under its unsecured revolving credit agreements?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      1
+    ],
+    "found_nodes": [
+      "0002",
+      "0012",
+      "0023"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 49,
+    "thinking": "[depth 1] The question asks about the total amount PepsiCo may borrow under unsecured revolving credit agreements as of May 26, 2023. This is a specific factual question about credit facilities. I need to find sections that discuss credit commitments, borrowing limits, or facility amounts. Section [0012] 'Termination, Reduction or Increase of Commitments' seems most relevant as it would discuss th",
+    "search_sec": 4.7,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01474",
+    "doc": "PEPSICO_2023Q1_EARNINGS",
+    "question": "As of FY2023Q1, why did Pepsico raise full year guidance for FY2023?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0002",
+      "0003"
+    ],
+    "strategy": "embedded_toc",
+    "node_count": 14,
+    "thinking": "[depth 1] The question asks why PepsiCo raised full year guidance for FY2023 as of Q1 FY2023. To answer this, I need to find information about the guidance change and the reasons behind it. The most relevant sections would be: (1) [0003] Guidance and Outlook - which should directly address the guidance change and rationale, and (2) [0001] Introduction Summary - which typically provides an executiv",
+    "search_sec": 2.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_01476",
+    "doc": "PEPSICO_2023Q1_EARNINGS",
+    "question": "As of FY2023Q1, by how many percentage points did Pepsico raise full year guidance in respect of core constant currency EPS growth?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0003",
+      "0008"
+    ],
+    "strategy": "embedded_toc",
+    "node_count": 14,
+    "thinking": "[depth 1] The question asks about PepsiCo's FY2023Q1 guidance raise for core constant currency EPS growth in percentage points. This is specifically about guidance information. Section [0003] 'Guidance and Outlook' would be the most direct source for this information. Section [0008] also mentions 'Guidance' in its title and might contain detailed guidance information. These two sections are the mo",
+    "search_sec": 1.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00302",
+    "doc": "PFIZER_2021_10K",
+    "question": "Did Pfizer grow its PPNE between FY20 and FY21?",
+    "evidence_pages": [
+      58
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0034",
+      "0038",
+      "0039",
+      "0040"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 96,
+    "thinking": "[depth 1] The question asks about PPNE (Primary Care, Specialty Care, and Other segments or similar metric) growth between FY20 and FY21. PPNE likely refers to a financial metric or business segment performance. To find year-over-year financial comparisons, I should look for financial statements and results sections. The current sections shown are mostly introductory business description items. I ",
+    "search_sec": 11.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00702",
+    "doc": "PFIZER_2021_10K",
+    "question": "Were there any potential events that are not in Pfizer's standard business operations that substantially increased net income in 2019?",
+    "evidence_pages": [
+      56
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0032",
+      "0038",
+      "0039",
+      "0040",
+      "0041",
+      "0042",
+      "0023",
+      "0025",
+      "0048",
+      "0049",
+      "0050",
+      "0051",
+      "0068",
+      "0069",
+      "0070",
+      "0071"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 96,
+    "thinking": "[depth 1] The question asks about non-standard business events that substantially increased net income in 2019. This is a financial performance question that would be addressed in the financial statements and management discussion sections, not in the business description sections shown here. I need to look for sections covering financial results, income statement analysis, and management's discus",
+    "search_sec": 12.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02416",
+    "doc": "PFIZER_2021_10K",
+    "question": "What are three main companies acquired by Pfizer mentioned in this 10K report?",
+    "evidence_pages": [
+      69,
+      70
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0003",
+      "0004",
+      "0038",
+      "0039",
+      "0040",
+      "0041",
+      "0048",
+      "0049",
+      "0050",
+      "0068",
+      "0069",
+      "0070"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 96,
+    "thinking": "[depth 1] The question asks about three main companies acquired by Pfizer. This information would most likely be found in the BUSINESS section (ITEM 1) which describes Pfizer's operations and history. The 'About Pfizer' subsection would be a good starting point as it typically covers company background and major acquisitions. I should also consider that acquisition information might be in the main",
+    "search_sec": 11.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00283",
+    "doc": "Pfizer_2023Q2_10Q",
+    "question": "How much does Pfizer expect to pay to spin off Upjohn in the future in USD million?",
+    "evidence_pages": [
+      40
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      40
+    ],
+    "found_nodes": [
+      "0008",
+      "0009",
+      "0012",
+      "0013"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 22,
+    "thinking": "[depth 1] The question asks about expected payments related to spinning off Upjohn. This is a specific financial detail that would likely be found in: 1) Notes to financial statements (which typically contain detailed disclosures about significant transactions and future obligations), or 2) Management's Discussion and Analysis (which discusses material events and future plans). The balance sheet a",
+    "search_sec": 4.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00724",
+    "doc": "Pfizer_2023Q2_10Q",
+    "question": "For Pfizer, which geographic region had the biggest drop in Q22023 year over year revenues (on a percentage basis)?",
+    "evidence_pages": [
+      37
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0012",
+      "0013"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 22,
+    "thinking": "[depth 1] The question asks about geographic region revenue changes for Q2 2023 year-over-year on a percentage basis. This is financial performance data that would be found in the Management's Discussion and Analysis (MD&A) section, which typically contains detailed breakdowns of revenues by geographic segment and period-over-period comparisons. Section [0011] Item 2 is the MD&A and has sub-sectio",
+    "search_sec": 4.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02419",
+    "doc": "Pfizer_2023Q2_10Q",
+    "question": "As of Q2'2023, is Pfizer spinning off any large business segments?",
+    "evidence_pages": [
+      40
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      40
+    ],
+    "found_nodes": [
+      "0008",
+      "0009",
+      "0010",
+      "0012",
+      "0013",
+      "0014"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 22,
+    "thinking": "[depth 1] The question asks about Pfizer spinning off large business segments as of Q2'2023. This is a strategic business matter that would be discussed in management commentary rather than just financial statements. The most relevant sections would be: (1) Management's Discussion and Analysis (MD&A) which typically covers business strategy, significant events, and operational changes, and (2) Not",
+    "search_sec": 6.6,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00746",
+    "doc": "ULTABEAUTY_2023_10K",
+    "question": "Which debt securities are registered to trade on a national securities exchange under Ulta Beauty's name as of FY2023?",
+    "evidence_pages": [
+      0
+    ],
+    "reachability": 0.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 39,
+    "thinking": "[depth 1] The question asks about debt securities registered to trade on a national securities exchange under Ulta Beauty's name as of FY2023. This information would typically be found in the financial statements and disclosures sections. Item 8 (Financial Statements and Supplementary Data) would contain detailed information about debt securities. Additionally, Item 13 (typically covering securiti",
+    "search_sec": 8.8,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00521",
+    "doc": "ULTABEAUTY_2023_10K",
+    "question": "What are major acquisitions that Ulta Beauty has done in FY2023 and FY2022?",
+    "evidence_pages": [
+      56
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      56
+    ],
+    "found_nodes": [
+      "0003",
+      "0013",
+      "0015",
+      "0026",
+      "0027",
+      "0031"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 39,
+    "thinking": "[depth 1] To find information about major acquisitions in FY2023 and FY2022, I should look at sections that typically contain financial and operational details. The most relevant sections would be: (1) Item 1 - Business, which often describes major corporate activities and acquisitions; (2) Item 7 - Management's Discussion and Analysis (MD&A), which discusses significant financial events and trans",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00601",
+    "doc": "ULTABEAUTY_2023Q4_EARNINGS",
+    "question": "What drove the reduction in SG&A expense as a percent of net sales in FY2023?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003"
+    ],
+    "strategy": "font_headings",
+    "node_count": 6,
+    "thinking": "[depth 1] The question asks about what drove the reduction in SG&A (Selling, General & Administrative) expense as a percent of net sales in FY2023. This is a financial performance question that would be addressed in financial results or analysis sections. Section [0003] mentions diluted earnings per share and financial metrics, which suggests it contains financial analysis. Section [0002] mentions",
+    "search_sec": 2.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00603",
+    "doc": "ULTABEAUTY_2023Q4_EARNINGS",
+    "question": "What drove the increase in Ulta Beauty's merchandise inventories balance at end of FY2023?",
+    "evidence_pages": [
+      2
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001"
+    ],
+    "strategy": "font_headings",
+    "node_count": 6,
+    "thinking": "[depth 1] The question asks about what drove the increase in Ulta Beauty's merchandise inventories balance at the end of FY2023. This is a specific financial question about inventory. Looking at the section titles, none of them explicitly mention inventory or balance sheet items. However, section [0001] appears to be dated March 9, 2023 and likely contains the main financial results and discussion",
+    "search_sec": 2.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00605",
+    "doc": "ULTABEAUTY_2023Q4_EARNINGS",
+    "question": "What percent of Ulta Beauty's total spend on stock repurchases for FY 2023 occurred in Q4 of FY2023?",
+    "evidence_pages": [
+      2
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0001",
+      "0003"
+    ],
+    "strategy": "font_headings",
+    "node_count": 6,
+    "thinking": "[depth 1] The question asks about Ulta Beauty's stock repurchases for FY 2023, specifically what percent occurred in Q4. This is financial data that would typically be found in earnings reports, financial statements, or investor relations documents. Looking at the section titles, none explicitly mention stock repurchases or buyback programs. However, section [0003] mentions 'Diluted earnings per s",
+    "search_sec": 2.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00606",
+    "doc": "ULTABEAUTY_2023Q4_EARNINGS",
+    "question": "Did Ulta Beauty's wages expense as a percent of net sales increase or decrease in FY2023?",
+    "evidence_pages": [
+      1
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0002",
+      "0003"
+    ],
+    "strategy": "font_headings",
+    "node_count": 6,
+    "thinking": "[depth 1] The question asks about Ulta Beauty's wages expense as a percent of net sales in FY2023. This is a financial metric that would typically be found in detailed financial statements or management discussion & analysis sections. Looking at the available sections, none of the titles directly indicate they contain wage expense or detailed financial metrics. However, section [0003] mentions ear",
+    "search_sec": 2.5,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00859",
+    "doc": "VERIZON_2021_10K",
+    "question": "Among all of the derivative instruments that Verizon used to manage the exposure to fluctuations of foreign currencies exchange rates or interest rates, which one had the highest notional value in FY 2021?",
+    "evidence_pages": [
+      84
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      84
+    ],
+    "found_nodes": [
+      "0016",
+      "0019",
+      "0020",
+      "0021"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 35,
+    "thinking": "[depth 1] The question asks about derivative instruments used by Verizon to manage exposure to foreign currency exchange rates or interest rates, specifically which had the highest notional value in FY 2021. This is a financial disclosure question that would be found in sections dealing with financial risk management and derivatives. Item 7A 'Quantitative and Qualitative Disclosures About Market R",
+    "search_sec": 8.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_02024",
+    "doc": "VERIZON_2021_10K",
+    "question": "As of FY 2021, how much did Verizon expect to pay for its retirees in 2024?",
+    "evidence_pages": [
+      62,
+      93
+    ],
+    "reachability": 1.0,
+    "recall": 0.5,
+    "found_pages": [
+      93
+    ],
+    "found_nodes": [
+      "0022",
+      "0023",
+      "0014",
+      "0015"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 35,
+    "thinking": "[depth 1] The question asks about Verizon's expected payments for retirees in 2024 as of FY 2021. This is a financial/actuarial projection related to pension and post-retirement benefit obligations. This type of information would typically be found in: (1) Financial Statements and their notes, which contain detailed pension/OPEB liability disclosures and future payment obligations, or (2) Manageme",
+    "search_sec": 10.1,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00216",
+    "doc": "VERIZON_2022_10K",
+    "question": "Does Verizon have a reasonably healthy liquidity profile based on its quick ratio for FY 2022? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+    "evidence_pages": [
+      55
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      55
+    ],
+    "found_nodes": [
+      "0015",
+      "0010"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] To answer whether Verizon has a healthy liquidity profile based on its quick ratio for FY 2022, I need to find financial data and analysis. The quick ratio is a liquidity metric calculated from balance sheet items (current assets minus inventory divided by current liabilities). The most relevant sections would be: (1) Item 8 - Financial Statements and Supplementary Data, which should con",
+    "search_sec": 9.4,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00215",
+    "doc": "VERIZON_2022_10K",
+    "question": "Is Verizon a capital intensive business based on FY 2022 data?",
+    "evidence_pages": [
+      55,
+      22
+    ],
+    "reachability": 1.0,
+    "recall": 1.0,
+    "found_pages": [
+      55,
+      22
+    ],
+    "found_nodes": [
+      "0010",
+      "0011",
+      "0015",
+      "0016"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] To determine if Verizon is a capital intensive business based on FY 2022 data, I need to examine financial metrics and capital expenditure information. The most relevant sections would be: (1) Item 8 - Financial Statements and Supplementary Data, which will contain balance sheet and cash flow data showing capital expenditures and asset levels; (2) Item 9 - Management's Discussion and Ana",
+    "search_sec": 7.0,
+    "error": null
+  },
+  {
+    "id": "financebench_id_00566",
+    "doc": "VERIZON_2022_10K",
+    "question": "Has Verizon increased its debt on balance sheet between 2022 and the 2021 fiscal period?",
+    "evidence_pages": [
+      76
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0015",
+      "0010"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 32,
+    "thinking": "[depth 1] The question asks about Verizon's debt changes between 2022 and 2021 fiscal periods. To answer this, I need to find balance sheet data comparing these two years. Item 8 (Financial Statements and Supplementary Data) is the most relevant section as it contains the balance sheet with debt figures. Item 9 (Management's Discussion and Analysis) would also be helpful as it typically discusses ",
+    "search_sec": 6.3,
+    "error": null
+  },
+  {
+    "id": "financebench_id_06247",
+    "doc": "WALMART_2018_10K",
+    "question": "What is FY2018 days payable outstanding (DPO) for Walmart? DPO is defined as: 365 * (average accounts payable between FY2017 and FY2018) / (FY2018 COGS + change in inventory between FY2017 and FY2018). Round your answer to two decimal places. Please base your judgments on the information provided primarily in the statement of financial position and the P&L statement.",
+    "evidence_pages": [
+      56,
+      58
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0017",
+      "0019"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 92,
+    "thinking": "[depth 1] To calculate FY2018 DPO, I need: (1) average accounts payable between FY2017 and FY2018, (2) FY2018 COGS, and (3) change in inventory between FY2017 and FY2018. These figures come from the balance sheet (statement of financial position) and income statement (P&L statement). Item 8 'Financial Statements and Supplementary Data' is the primary source for these financial statements and has s",
+    "search_sec": 9.9,
+    "error": null
+  },
+  {
+    "id": "financebench_id_04784",
+    "doc": "WALMART_2019_10K",
+    "question": "Based on the information provided primarily in the statement of income, what is the FY2018 - FY2019 change in unadjusted operating income % margin for Walmart? Answer in units of percents and round to one decimal place.",
+    "evidence_pages": [
+      47
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0014"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 78,
+    "thinking": "[depth 1] (no reasoning provided) | [depth 2] The question asks for the FY2018 - FY2019 change in unadjusted operating income % margin for Walmart based on the statement of income. I need to find the Consolidated Statements of Income which will contain the operating income figures for both fiscal years. Section [0014] is labeled 'Consolidated Statements of Income (pages 48-48)' which is exactly wh",
+    "search_sec": 8.2,
+    "error": null
+  },
+  {
+    "id": "financebench_id_06741",
+    "doc": "WALMART_2020_10K",
+    "question": "What is the FY2018 - FY2020 3 year average unadjusted EBITDA % margin for Walmart? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization from the cash flow statement. Answer in units of percents and round to one decimal place. Calculate what was asked by utilizing the line items clearly shown in the P&L statement and the cash flow statement.",
+    "evidence_pages": [
+      50,
+      55
+    ],
+    "reachability": 1.0,
+    "recall": 0.0,
+    "found_pages": [],
+    "found_nodes": [
+      "0008",
+      "0016",
+      "0020"
+    ],
+    "strategy": "multiline_toc",
+    "node_count": 66,
+    "thinking": "[depth 1] To calculate the FY2018-FY2020 3-year average unadjusted EBITDA % margin, I need: (1) unadjusted operating income for each year, (2) depreciation and amortization from the cash flow statement for each year, and (3) total revenue for each year. The P&L statement will have operating income and revenue, while the cash flow statement will have depreciation and amortization. Item 8 (Financial",
+    "search_sec": 9.9,
+    "error": null
+  }
+]

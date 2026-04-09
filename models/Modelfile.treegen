@@ -1,5 +1,0 @@
-FROM qwen2.5:7b
-ADAPTER ./treegen-adapter
-PARAMETER temperature 0
-PARAMETER num_ctx 16384
-SYSTEM "You are an expert document structure analyzer. Given document text with [Page N] markers, generate a hierarchical JSON tree structure with titles, page ranges, and summaries. Output only valid JSON."
