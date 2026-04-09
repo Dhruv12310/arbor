@@ -150,60 +150,131 @@ _config   = ArborConfig(max_hops=10, max_nodes_searched=0, timeout_sec=300.0, ma
 
 
 # ╔══════════════════════════════════════════════════════════════════════╗
-# ║  CELL 4 — Ask a question (re-run as many times as you want)         ║
+# ║  CELL 4 — Automated benchmark: 10 preset questions with ground truth ║
+# ║  Set PDF_PATH/PDF_NAME in CELL 3 to Apple_2024_10K before running   ║
 # ╚══════════════════════════════════════════════════════════════════════╝
 """
 import asyncio
 
-# ── Type your question here OR use input() for interactive prompt ─────────────
-QUESTION = input("Question: ").strip()
-# Or hardcode:  QUESTION = "What was the total revenue in 2022?"
+# ── Apple 2024 10K benchmark ──────────────────────────────────────────────────
+# Tree structure (from local StructDirect extraction):
+#   [0001] Item 1.  Business                           p1-4
+#   [0002] Item 1A. Risk Factors                       p5-16
+#   [0003] Item 1B. Unresolved Staff Comments          p17-17
+#   [0004] Item 1C. Cybersecurity                      p17-17
+#   [0005] Item 2.  Properties                         p18-19
+#   [0006] Item 3.  Legal Proceedings                  p18-19
+#   [0007] Item 4.  Mine Safety Disclosures            p18-19
+#   [0008] Item 6.  [Reserved]                         p20-20
+#   [0009] Item 7.  MD&A                               p21-26
+#   [0010] Item 7A. Quantitative Disclosures           p27-27
+#   [0011] Item 8.  Financial Statements               p28-50
+#     [0012]   Pages 28-37                             p28-37
+#     [0013]   Pages 38-47                             p38-47
+#     [0014]   Pages 48-50                             p48-50
+#   [0015] Item 9.  Changes in Accountants             p51-51
+#   [0016] Item 9A. Controls and Procedures            p51-51
+#   [0009] Item 7.  MD&A                               p21-26
+#   [0025] Item 16. Form 10-K Summary                  p56-121
+#     (sub-nodes: Pages 56-65, 66-75, ..., exhibits)
+#
+# Ground truth: "correct" = model's returned pages overlap the answer page(s)
 
-if not QUESTION:
-    print("No question entered.")
-else:
-    print()
-    print("=" * 70)
-    print(f"  Doc      : {PDF_NAME}")
-    print(f"  Question : {QUESTION}")
-    print("=" * 70)
+BENCHMARK = [
+    {
+        "question": "What was Apple's total net sales revenue for fiscal year 2024?",
+        "answer_pages": {32},          # Income statement: Total net sales $391,035M on p32
+        "answer_hint": "p32 — Income Statement: Total net sales $391,035M",
+    },
+    {
+        "question": "What was Apple's net income for fiscal year 2024?",
+        "answer_pages": {32},          # Income statement: Net income $93,736M on p32
+        "answer_hint": "p32 — Income Statement: Net income $93,736M",
+    },
+    {
+        "question": "What are Apple's two revenue categories reported on the income statement?",
+        "answer_pages": {32},          # Products vs Services split on p32
+        "answer_hint": "p32 — Income Statement: Products $294,866M, Services $96,169M",
+    },
+    {
+        "question": "What were Apple's total assets as of September 28, 2024?",
+        "answer_pages": {34},          # Balance sheet: Total assets $364,980M on p34
+        "answer_hint": "p34 — Balance Sheet: Total assets $364,980M",
+    },
+    {
+        "question": "How much cash and cash equivalents did Apple hold at the end of fiscal 2024?",
+        "answer_pages": {34},          # Balance sheet: Cash $29,943M on p34
+        "answer_hint": "p34 — Balance Sheet: Cash and equivalents $29,943M",
+    },
+    {
+        "question": "What new Mac products did Apple announce in the first quarter of fiscal 2024?",
+        "answer_pages": {24},          # MD&A product announcements: MacBook Pro 14-in, 16-in, iMac on p24
+        "answer_hint": "p24 — MD&A: MacBook Pro 14-in, MacBook Pro 16-in, iMac",
+    },
+    {
+        "question": "What was Apple's net sales in the Americas segment for fiscal year 2024?",
+        "answer_pages": {25},          # MD&A segment table: Americas $167,045M on p25
+        "answer_hint": "p25 — MD&A Segment table: Americas $167,045M",
+    },
+    {
+        "question": "What was Apple's effective tax rate for fiscal year 2024?",
+        "answer_pages": {28},          # Tax provision table: effective rate 24.1% on p28
+        "answer_hint": "p28 — Tax note: Effective tax rate 24.1%",
+    },
+    {
+        "question": "What is Apple's stock ticker symbol and on which exchange is it traded?",
+        "answer_pages": {22},          # Item 5 Market for Common Equity: AAPL on Nasdaq p22
+        "answer_hint": "p22 — Item 5: AAPL on Nasdaq Stock Market LLC",
+    },
+    {
+        "question": "What are the primary risk factors related to Apple's dependence on third-party manufacturers?",
+        "answer_pages": set(range(5, 17)),   # Item 1A Risk Factors p5-16
+        "answer_hint": "p5-16 — Item 1A Risk Factors (manufacturing/supply chain risks)",
+    },
+]
+
+# ── Run benchmark ─────────────────────────────────────────────────────────────
+print("=" * 70)
+print(f"  APPLE 2024 10K BENCHMARK  —  {len(BENCHMARK)} questions")
+print(f"  Model: treesearch-v17 | Doc: {PDF_NAME}")
+print("=" * 70)
+
+results = []
+
+for i, bench in enumerate(BENCHMARK, 1):
+    question    = bench["question"]
+    answer_pages = bench["answer_pages"]
+    hint        = bench["answer_hint"]
 
     sr = await search_tree(
-        _tree, QUESTION, _provider,
+        _tree, question, _provider,
         multihop=True, config=_config, doc_type=None
     )
 
-    # Pages covered by returned nodes
     returned_pages = set()
     for node in sr.nodes:
         returned_pages.update(range(node.start_index, node.end_index + 1))
 
-    # ── Sections found ────────────────────────────────────────────────────────
-    print(f"\nSections found ({len(sr.nodes)}):")
-    for node in sr.nodes:
-        print(f"  [{node.node_id}] {node.title}")
-        print(f"           Pages {node.start_index}–{node.end_index}")
+    hit = bool(returned_pages & answer_pages)
+    results.append(hit)
 
-    print(f"\nPages to check: {sorted(returned_pages)}")
+    status = "PASS" if hit else "FAIL"
+    sections = ", ".join(f"[{n.node_id}]{n.title[:30]}" for n in sr.nodes)
 
-    # ── Navigation trace ──────────────────────────────────────────────────────
-    if sr.thinking:
-        print(f"\nNavigation reasoning:")
-        for hop in sr.thinking.split(" | "):
-            if hop.strip():
-                print(f"  → {hop.strip()}")
+    print(f"\nQ{i:02d}: {question}")
+    print(f"  Expected : {hint}")
+    print(f"  Got      : pages {sorted(returned_pages)} — {sections}")
+    print(f"  Result   : {'✓ ' + status if hit else '✗ ' + status}")
 
-    # ── Text preview from found pages ─────────────────────────────────────────
-    print(f"\nText preview (up to 400 chars per section):\n")
-    for node in sr.nodes:
-        page_idx = node.start_index - 1  # PyMuPDF is 0-indexed
-        if 0 <= page_idx < len(_pdf_doc):
-            text = _pdf_doc[page_idx].get_text()[:400].strip()
-            print(f"--- [{node.node_id}] {node.title} (page {node.start_index}) ---")
-            print(text)
-            print()
-
-    print("=" * 70)
-    print(f"  Open the PDF and navigate to page(s): {sorted(returned_pages)}")
-    print("=" * 70)
+# ── Summary ───────────────────────────────────────────────────────────────────
+correct = sum(results)
+total   = len(results)
+print()
+print("=" * 70)
+print(f"  SCORE: {correct}/{total}  ({correct/total*100:.0f}%)")
+print()
+for i, (bench, hit) in enumerate(zip(BENCHMARK, results), 1):
+    mark = "PASS" if hit else "FAIL"
+    print(f"  Q{i:02d} {mark}  {bench['question'][:60]}")
+print("=" * 70)
 """
