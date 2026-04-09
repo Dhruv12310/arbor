@@ -104,6 +104,25 @@ def extract_structure(
     # insert a chunk covering the gap so no pages are unreachable
     _fill_parent_gaps(nodes)
 
+    # embedded_toc-specific fixes: fill sibling gaps, collapse over-granular
+    # single-page siblings, and expand single-page leaves by ±1 page
+    if strategy == "embedded_toc":
+        _fill_sibling_gaps(nodes)
+        _expand_single_page_leaves(nodes, total_pages)
+
+    # Fill preamble gap: if first node doesn't start at page 0 or 1, insert a
+    # "Cover / Preamble" node so pages before the first TOC entry are reachable.
+    # Applies to multiline_toc and font_headings (embedded_toc handles gaps via
+    # _fill_sibling_gaps; page_chunks covers everything by definition).
+    if strategy in ("multiline_toc", "font_headings") and nodes:
+        first_start = nodes[0].start_index
+        if first_start > 1:
+            nodes.insert(0, TreeNode(
+                title="Cover / Preamble",
+                start_index=0,
+                end_index=first_start - 1,
+            ))
+
     # Refine: any node spanning >15 pages with no children gets sub-section detection
     _refine_large_nodes(doc, nodes, max_span=15)
 
@@ -140,6 +159,16 @@ def _try_embedded_toc(
         return None, "embedded_toc"
 
     nodes = _toc_entries_to_tree(toc, total_pages)
+
+    # Pre-processing: prune uninformative/redundant bookmark titles
+    _prune_uninformative_nodes(nodes)
+
+    # Quality gate: reject pathologically large/flat/noisy trees
+    passed, reason = _score_embedded_toc_quality(nodes, total_pages)
+    if not passed:
+        print(f"[StructDirect] embedded_toc rejected ({reason}) — falling through")
+        return None, "embedded_toc"
+
     return nodes, "embedded_toc"
 
 
@@ -182,6 +211,120 @@ def _toc_entries_to_tree(
         stack.append((level, node))
 
     return root_nodes
+
+
+# ── embedded_toc helpers ─────────────────────────────────────────────────────
+
+def _prune_uninformative_nodes(nodes: list[TreeNode]) -> None:
+    """
+    Remove or flatten redundant nodes before the quality gate runs.
+
+    Two cases:
+      1. A child whose title is a substring of its parent's title AND the child
+         has its own children → promote grandchildren up (remove the redundant
+         intermediate node).  Example: parent "Part I", child "Part I" (with
+         sub-children) → move sub-children directly under parent.
+      2. Nodes whose title is < 3 characters after stripping → remove entirely.
+
+    Modifies nodes in-place.
+    """
+    i = 0
+    while i < len(nodes):
+        node = nodes[i]
+        title_clean = node.title.strip()
+
+        # Remove noise nodes (title too short)
+        if len(title_clean) < 3:
+            nodes.pop(i)
+            continue
+
+        # Check if any child is a redundant wrapper
+        j = 0
+        while j < len(node.nodes):
+            child = node.nodes[j]
+            child_title = child.title.strip()
+            if (
+                child_title.lower() in title_clean.lower()
+                and child.nodes  # only collapse if child has its own children
+            ):
+                # Promote grandchildren in place of the child
+                grandchildren = child.nodes
+                node.nodes[j : j + 1] = grandchildren
+                # Don't advance j — need to check the promoted children too
+            else:
+                j += 1
+
+        # Recurse into remaining children
+        _prune_uninformative_nodes(node.nodes)
+        i += 1
+
+
+def _score_embedded_toc_quality(
+    nodes: list[TreeNode], total_pages: int
+) -> tuple[bool, str]:
+    """
+    Reject embedded_toc trees that will confuse the navigator.
+
+    Returns (True, "") if acceptable, or (False, reason) if the tree
+    should be rejected and the cascade should try the next strategy.
+
+    Checks (any failure → reject):
+      A. Node count cap:       total nodes > max(60, total_pages * 2)
+      B. Flat structure:       > 25 root nodes AND max depth == 1
+      C. Single-page dominance: > 80% of all leaf nodes span 1 page AND total > 40
+      D. Title duplication:    most common title appears > 5 times AND
+                               unique-title ratio < 0.7
+    """
+    all_nodes = list(_iter_all_nodes_flat(nodes))
+    total = len(all_nodes)
+    if total == 0:
+        return False, "no nodes"
+
+    # A. Node count cap: navigator handles ~60 nodes well; allow up to 1 node
+    #    per 3 pages for larger docs (a well-structured tree is much sparser).
+    cap = max(60, total_pages // 3)
+    if total > cap:
+        return False, f"too many nodes ({total} > {cap})"
+
+    # B. Flat structure check
+    root_count = len(nodes)
+    max_depth = _embedded_max_depth(nodes)
+    if root_count > 25 and max_depth <= 1:
+        return False, f"flat structure ({root_count} roots, depth={max_depth})"
+
+    # C. Single-page dominance
+    if total > 40:
+        leaves = [n for n in all_nodes if not n.nodes]
+        single_page_leaves = [n for n in leaves if n.start_index == n.end_index]
+        if leaves and len(single_page_leaves) / len(leaves) > 0.80:
+            return False, (
+                f"single-page dominated ({len(single_page_leaves)}/{len(leaves)} leaves = 1 page)"
+            )
+
+    # D. Title duplication
+    title_counts = Counter(n.title.strip().lower() for n in all_nodes)
+    most_common_count = title_counts.most_common(1)[0][1]
+    unique_ratio = len(title_counts) / total
+    if most_common_count > 5 and unique_ratio < 0.7:
+        return False, (
+            f"duplicate titles (most common appears {most_common_count}×, "
+            f"unique ratio={unique_ratio:.2f})"
+        )
+
+    return True, ""
+
+
+def _iter_all_nodes_flat(nodes: list[TreeNode]):
+    """Yield every node in the tree (depth-first)."""
+    for node in nodes:
+        yield node
+        yield from _iter_all_nodes_flat(node.nodes)
+
+
+def _embedded_max_depth(nodes: list[TreeNode], depth: int = 1) -> int:
+    if not nodes:
+        return depth - 1
+    return max(_embedded_max_depth(n.nodes, depth + 1) for n in nodes)
 
 
 # ── Title heuristic ──────────────────────────────────────────────────────────
@@ -263,6 +406,12 @@ def _try_multiline_toc(
     Also handles financial statement subsections:
         Consolidated Statement of Cash Flows...
         60
+
+    Produces a flat list — flat structure is better for navigation because the
+    navigator can directly scan all section titles without needing to commit to
+    a branch at each level.  (Hierarchy was tested and caused regression: Haiku
+    and our fine-tuned model both navigate flat title lists better than deep
+    trees for this strategy's typical output.)
     """
     entries: list[tuple[str, int]] = []
 
@@ -351,44 +500,67 @@ def _try_font_headings(
     doc, total_pages: int, min_sections: int
 ) -> tuple[list[TreeNode] | None, str]:
     """
-    Detect headings by font size. Spans significantly larger than body text
-    are treated as section headings. Builds a flat or shallow hierarchy.
+    Detect headings by font properties and build a flat list of sections.
+
+    A span is treated as a heading if it meets EITHER criterion:
+      • Size criterion : font size >= body_size * 1.12  (the original check)
+      • Bold criterion : font is bold (flags & 16) AND size >= body_size * 0.95
+                        catches same-size bold headers common in earnings releases
+
+    One heading per page (first qualifying span wins).  If the resulting node
+    count exceeds max(60, total_pages // 3) the tree is too dense to navigate
+    and we fall through to the next strategy.
     """
-    # Collect all spans with their font sizes and page numbers
-    spans: list[tuple[float, str, int]] = []  # (font_size, text, page_num)
+    # Collect all spans: (font_size, bold_flag, text, page_num)
+    raw_spans: list[tuple[float, bool, str, int]] = []
 
     for page_num, page in enumerate(doc, start=1):
-        blocks = page.get_text("dict", flags=0).get("blocks", [])
-        for block in blocks:
+        for block in page.get_text("dict", flags=0).get("blocks", []):
             for line in block.get("lines", []):
                 for span in line.get("spans", []):
-                    text = span.get("text", "").strip()
-                    size = span.get("size", 0)
+                    text  = span.get("text", "").strip()
+                    size  = span.get("size", 0)
+                    flags = span.get("flags", 0)
+                    bold  = bool(flags & 16)
                     if text and size > 0:
-                        spans.append((size, text, page_num))
+                        raw_spans.append((size, bold, text, page_num))
 
-    if not spans:
+    if not raw_spans:
         return None, "font_headings"
 
-    # Determine body text font size (most common size)
-    size_counts = Counter(round(s, 1) for s, _, _ in spans)
-    body_size = size_counts.most_common(1)[0][0]
+    # Body text = most common rounded font size
+    size_counts = Counter(round(s, 1) for s, _, _, _ in raw_spans)
+    body_size   = size_counts.most_common(1)[0][0]
 
-    # Headings are spans >= 20% larger than body text
-    heading_threshold = body_size * 1.12
+    size_threshold = body_size * 1.12   # ≥12% larger → heading by size
+    bold_threshold = body_size * 0.95   # bold spans near body size also count
 
-    # Collect headings with their page numbers
-    headings: list[tuple[str, int]] = []  # (title, page_num)
-    seen_pages: set[int] = set()
+    # One heading per page: first qualifying span wins.
+    # Strategy: try size-only first.  If that produces too few sections, fall
+    # back to size-OR-bold so that flat-font documents (earnings releases) can
+    # use same-size bold text as section markers.
+    def _collect_headings(use_bold: bool) -> list[tuple[str, int]]:
+        seen: set[int] = set()
+        result: list[tuple[str, int]] = []
+        for size, bold, text, page_num in raw_spans:
+            if page_num in seen or len(text) <= 3:
+                continue
+            is_heading = (size >= size_threshold) or (use_bold and bold and size >= bold_threshold)
+            if is_heading:
+                result.append((text, page_num))
+                seen.add(page_num)
+        return result
 
-    for size, text, page_num in spans:
-        if size >= heading_threshold and len(text) > 3:
-            # Deduplicate: one heading per page
-            if page_num not in seen_pages:
-                headings.append((text, page_num))
-                seen_pages.add(page_num)
+    headings = _collect_headings(use_bold=False)
+    if len(headings) < min_sections:
+        headings = _collect_headings(use_bold=True)
 
     if len(headings) < min_sections:
+        return None, "font_headings"
+
+    # Quality gate: reject over-dense trees (same formula as embedded_toc)
+    cap = max(60, total_pages // 3)
+    if len(headings) > cap:
         return None, "font_headings"
 
     # Build flat TreeNodes with inferred end pages
@@ -397,6 +569,15 @@ def _try_font_headings(
         end_page = headings[i + 1][1] - 1 if i + 1 < len(headings) else total_pages
         end_page = max(start_page, end_page)
         nodes.append(TreeNode(title=title, start_index=start_page, end_index=end_page))
+
+    # Quality gate: reject if headings only cover a small fraction of the document
+    # (e.g. headings only found in an appendix/exhibits section)
+    covered_pages = set()
+    for n in nodes:
+        for p in range(n.start_index, n.end_index + 1):
+            covered_pages.add(p)
+    if len(covered_pages) < total_pages * 0.5:
+        return None, "font_headings"
 
     return nodes, "font_headings"
 
@@ -534,6 +715,98 @@ def _fill_sibling_gaps(nodes: list[TreeNode]) -> None:
     for node in nodes:
         if node.nodes:
             _fill_sibling_gaps(node.nodes)
+
+
+# ── Collapse single-page sibling groups ──────────────────────────────────────
+
+def _collapse_single_page_siblings(nodes: list[TreeNode], max_consecutive: int = 3) -> None:
+    """
+    Merge runs of consecutive single-page leaf siblings into one grouped node.
+
+    When more than `max_consecutive` consecutive leaf nodes each span exactly
+    1 page, they are merged into a single parent node whose title is
+    "<first_title> ... <last_title>" and whose page range covers all of them.
+    The originals become children of the merged node so pages stay reachable.
+
+    This reduces the visible node count at each level (navigator sees fewer
+    choices) while preserving full coverage.
+    """
+    if not nodes:
+        return
+
+    i = 0
+    while i < len(nodes):
+        # Find start of a run of single-page leaves
+        if nodes[i].nodes or nodes[i].start_index != nodes[i].end_index:
+            _collapse_single_page_siblings(nodes[i].nodes, max_consecutive)
+            i += 1
+            continue
+
+        # Count consecutive single-page leaves starting at i
+        run_end = i
+        while (
+            run_end + 1 < len(nodes)
+            and not nodes[run_end + 1].nodes
+            and nodes[run_end + 1].start_index == nodes[run_end + 1].end_index
+        ):
+            run_end += 1
+
+        run_length = run_end - i + 1
+        if run_length > max_consecutive:
+            run = nodes[i : run_end + 1]
+            merged = TreeNode(
+                title=f"{run[0].title} … {run[-1].title}",
+                start_index=run[0].start_index,
+                end_index=run[-1].end_index,
+                nodes=run,
+            )
+            nodes[i : run_end + 1] = [merged]
+            # Don't recurse into the merged node's children again — they are
+            # already single-page leaves and don't need further collapsing
+            i += 1
+        else:
+            i += 1
+
+
+def _expand_single_page_leaves(nodes: list[TreeNode], total_pages: int) -> None:
+    """
+    Expand single-page leaf nodes by ±1 page to fix off-by-one bookmark misses.
+
+    PDF bookmarks often point to the first page of a section, but the evidence
+    may be on the page just before (e.g., the section header page).  Expanding
+    by 1 page in each direction creates a small overlap that covers these cases.
+
+    Expansion is clamped to [1, total_pages] and to the parent's page range
+    (passed via the `parent_start` / `parent_end` parameters on recursion).
+    """
+    _expand_leaves_recursive(nodes, parent_start=1, parent_end=total_pages, total_pages=total_pages)
+
+
+def _expand_leaves_recursive(
+    nodes: list[TreeNode],
+    parent_start: int,
+    parent_end: int,
+    total_pages: int,
+) -> None:
+    for idx, node in enumerate(nodes):
+        if node.nodes:
+            # Recurse — child range is constrained by this node's range
+            _expand_leaves_recursive(node.nodes, node.start_index, node.end_index, total_pages)
+        else:
+            # Leaf node: only expand if it's a single page
+            if node.start_index == node.end_index:
+                # Determine safe bounds from neighbours
+                prev_end   = nodes[idx - 1].end_index   if idx > 0              else parent_start - 1
+                next_start = nodes[idx + 1].start_index if idx + 1 < len(nodes) else parent_end + 1
+
+                new_start = max(node.start_index - 1, prev_end + 1,   1)
+                new_end   = min(node.end_index   + 1, next_start - 1, total_pages)
+
+                # Only expand if it doesn't invert the range
+                if new_start <= node.start_index:
+                    node.start_index = new_start
+                if new_end >= node.end_index:
+                    node.end_index = new_end
 
 
 # ── Fix collapsed "Financial Statements" sections ─────────────────────────────
