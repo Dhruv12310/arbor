@@ -375,6 +375,18 @@ def _looks_like_section_title(text: str) -> bool:
     words = t.split()
     if t.isupper() and len(words) > 8:
         return False
+    # Reject URLs and path-like strings
+    if re.search(r'https?://|www\.|\.com/|\.org/|\.gov/', t, re.I):
+        return False
+    if t.startswith('//'):
+        return False
+    # Reject footnote citations: line starting with a number immediately followed
+    # by a word (e.g. "11Anthropic", "3See", "42Id") — common in academic papers
+    if re.match(r'^\d+[A-Za-z]', t):
+        return False
+    # Reject date/preprint stamps like "A PREPRINT - MARCH 31, 2026"
+    if re.search(r'\b(preprint|arxiv|submitted|revised)\b', t, re.I):
+        return False
     # Reject obvious body-text phrases
     _BODY_PHRASES = (
         ' as well as ', ' and to ', ' in the ', ' of the ',
@@ -467,6 +479,16 @@ def _try_multiline_toc(
             seen.add(key)
 
     if len(unique) < min_sections:
+        return None, "multiline_toc"
+
+    # Quality gate: reject if >50% of titles are repeated (running headers/footers)
+    # e.g. "A PREPRINT - MARCH 31, 2026" appearing on every page gets extracted
+    # multiple times and dominates the entry list — useless for navigation.
+    title_counts: dict[str, int] = {}
+    for title, _ in unique:
+        title_counts[title.strip().lower()] = title_counts.get(title.strip().lower(), 0) + 1
+    repeated = sum(1 for cnt in title_counts.values() if cnt > 1)
+    if len(unique) > 0 and repeated / len(unique) > 0.5:
         return None, "multiline_toc"
 
     # Separate top-level entries (ITEM X / PART X) from sub-entries
