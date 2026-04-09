@@ -421,10 +421,10 @@ def _format_sections(nodes: list[TreeNode]) -> str:
     lines = []
     for n in nodes:
         sub = " [has sub-sections]" if n.nodes else ""
-        lines.append(
-            f"[{n.node_id}] {n.title} "
-            f"(pages {n.start_index}-{n.end_index}){sub}"
-        )
+        line = f"[{n.node_id}] {n.title} (pages {n.start_index}-{n.end_index}){sub}"
+        if n.summary:
+            line += f'\n       "{n.summary}"'
+        lines.append(line)
     return "\n".join(lines)
 
 

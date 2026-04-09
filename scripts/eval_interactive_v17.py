@@ -71,6 +71,7 @@ from arbor.extraction.structure_extractor import extract_structure
 from arbor.providers.base import LLMProvider
 from arbor.core.tree_searcher import search_tree
 from arbor.core.types import ArborConfig
+from arbor.utils.tree_utils import add_content_previews
 
 # ── SET THESE for each PDF you want to test ───────────────────────────────────
 #
@@ -89,6 +90,16 @@ PDF_NAME = "Apple_2022_10K"   # friendly label shown in output
 print(f"Opening: {PDF_PATH}")
 _pdf_doc = fitz.open(PDF_PATH)
 _tree    = extract_structure(_pdf_doc, PDF_NAME)
+
+# ── Enrich nodes with content previews (first 300 chars of page text) ─────────
+# This lets the navigator see WHAT is in each section, not just its title.
+# Toggle USE_PREVIEWS = False to run baseline (blind navigation) for comparison.
+USE_PREVIEWS = True
+if USE_PREVIEWS:
+    add_content_previews(_tree.structure, _pdf_doc, max_chars=300)
+    print("[Preview enrichment: ON — nodes now carry first 300 chars of page text]")
+else:
+    print("[Preview enrichment: OFF — baseline blind navigation]")
 
 total_pages    = max((n.end_index for n in _tree.structure), default=0)
 total_sections = len(_tree.structure)
@@ -227,9 +238,10 @@ BENCHMARK = [
 ]
 
 # ── Run benchmark ─────────────────────────────────────────────────────────────
+preview_label = "WITH content previews" if USE_PREVIEWS else "BASELINE (blind)"
 print("=" * 70)
 print(f"  APPLE 2024 10K BENCHMARK  —  {len(BENCHMARK)} questions")
-print(f"  Model: treesearch-v17 | Doc: {PDF_NAME}")
+print(f"  Model: treesearch-v17 | Doc: {PDF_NAME} | {preview_label}")
 print("=" * 70)
 
 results = []

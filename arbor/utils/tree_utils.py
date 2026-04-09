@@ -1,16 +1,18 @@
 """
 Tree utility functions.
 
-write_node_ids()      — Assign depth-first pre-order zero-padded IDs
-create_node_mapping() — node_id → TreeNode lookup dict
-add_node_text()       — Inject page text into tree nodes
-remove_node_text()    — Strip text fields (for search prompts)
-print_tree()          — Pretty-print tree to stdout
-remove_fields()       — Strip arbitrary fields from tree dicts (for prompts)
+write_node_ids()        — Assign depth-first pre-order zero-padded IDs
+create_node_mapping()   — node_id → TreeNode lookup dict
+add_node_text()         — Inject page text into tree nodes
+remove_node_text()      — Strip text fields (for search prompts)
+add_content_previews()  — Populate node.summary with first N chars of page text (pre-navigation enrichment)
+print_tree()            — Pretty-print tree to stdout
+remove_fields()         — Strip arbitrary fields from tree dicts (for prompts)
 """
 
 from __future__ import annotations
 
+import re
 from typing import Optional
 
 from arbor.core.types import PageContent, TreeNode
@@ -74,6 +76,31 @@ def add_node_text(nodes: list[TreeNode], pages: list[PageContent]) -> None:
         node.text = "\n\n".join(p.text for p in node_pages).strip() or None
         if node.nodes:
             add_node_text(node.nodes, pages)
+
+
+def add_content_previews(nodes: list[TreeNode], doc, max_chars: int = 300) -> None:
+    """
+    Populate node.summary with the first max_chars of text from the node's
+    starting page. Uses an already-open PyMuPDF document. Runs in-place.
+
+    Only sets summary if it is currently None (won't overwrite existing summaries).
+    Whitespace is collapsed so the preview is compact.
+
+    Args:
+        nodes:     List of TreeNode objects (tree root level).
+        doc:       Open PyMuPDF document (fitz.open(...)).
+        max_chars: Maximum preview length in characters (default 300).
+    """
+    total_pages = len(doc)
+    for node in nodes:
+        if node.summary is None:
+            pg_idx = node.start_index - 1  # 0-based
+            if 0 <= pg_idx < total_pages:
+                raw = doc[pg_idx].get_text().strip()
+                raw = re.sub(r'\s+', ' ', raw)
+                node.summary = raw[:max_chars]
+        if node.nodes:
+            add_content_previews(node.nodes, doc, max_chars)
 
 
 def remove_node_text(nodes: list[TreeNode]) -> None:
