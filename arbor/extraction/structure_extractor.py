@@ -922,8 +922,19 @@ def _refine_large_nodes(
             else:
                 node.nodes = sub
         else:
-            # Fallback: chunk within this node's page range
-            node.nodes = _chunk_range(node.start_index, node.end_index, chunk_size)
+            # Try financial-statement keyword scan before dumb chunking
+            fin_sub = _financial_statement_headers_in_range(
+                doc, node.start_index, node.end_index
+            )
+            if len(fin_sub) >= 2:
+                if fin_sub[0].start_index > node.start_index:
+                    prefix = _chunk_range(node.start_index, fin_sub[0].start_index - 1, chunk_size)
+                    node.nodes = prefix + fin_sub
+                else:
+                    node.nodes = fin_sub
+            else:
+                # Fallback: chunk within this node's page range
+                node.nodes = _chunk_range(node.start_index, node.end_index, chunk_size)
 
 
 def _font_headings_in_range(
@@ -961,6 +972,53 @@ def _font_headings_in_range(
                 and page_num not in seen_pages):
             headings.append((text, page_num))
             seen_pages.add(page_num)
+
+    if len(headings) < 2:
+        return []
+
+    nodes: list[TreeNode] = []
+    for i, (title, sp) in enumerate(headings):
+        ep = headings[i + 1][1] - 1 if i + 1 < len(headings) else end_page
+        ep = max(sp, ep)
+        nodes.append(TreeNode(title=title, start_index=sp, end_index=ep))
+    return nodes
+
+
+_FIN_STMT_PATTERNS = re.compile(
+    r"^(CONSOLIDATED\s+)?"
+    r"(STATEMENTS?\s+OF\s+(OPERATIONS|INCOME|EARNINGS|COMPREHENSIVE\s+INCOME"
+    r"|CASH\s+FLOWS?|SHAREHOLDERS[''`]?\s+EQUITY|STOCKHOLDERS[''`]?\s+EQUITY"
+    r"|FINANCIAL\s+CONDITION|CHANGES\s+IN\s+EQUITY)"
+    r"|BALANCE\s+SHEETS?"
+    r"|NOTES?\s+TO\s+(CONSOLIDATED\s+)?FINANCIAL\s+STATEMENTS?"
+    r"|REPORT\s+OF\s+(INDEPENDENT\s+)?(REGISTERED\s+)?PUBLIC\s+ACCOUNTING\s+FIRM"
+    r"|SELECTED\s+FINANCIAL\s+DATA"
+    r"|SUPPLEMENTARY\s+(FINANCIAL\s+)?DATA)",
+    re.IGNORECASE,
+)
+
+
+def _financial_statement_headers_in_range(
+    doc, start_page: int, end_page: int
+) -> list[TreeNode]:
+    """
+    Scan pages for known financial statement section headers (ALL CAPS or title-case).
+    Used as a fallback when font-heading detection fails inside large financial nodes.
+    These headers are typically same font size as body text so size-based detection misses them.
+    """
+    headings: list[tuple[str, int]] = []
+    seen_pages: set[int] = set()
+
+    for page_num in range(start_page - 1, min(end_page, len(doc))):  # 0-indexed
+        if page_num + 1 in seen_pages:
+            continue
+        page = doc[page_num]
+        lines = [l.strip() for l in page.get_text().splitlines() if l.strip()]
+        for line in lines:
+            if _FIN_STMT_PATTERNS.match(line) and len(line) < 120:
+                headings.append((line.title() if line.isupper() else line, page_num + 1))
+                seen_pages.add(page_num + 1)
+                break  # one heading per page
 
     if len(headings) < 2:
         return []

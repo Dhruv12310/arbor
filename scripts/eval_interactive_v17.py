@@ -157,26 +157,19 @@ _config   = ArborConfig(max_hops=10, max_nodes_searched=0, timeout_sec=300.0, ma
 import asyncio
 
 # ── Apple 2024 10K benchmark ──────────────────────────────────────────────────
-# Tree structure (from local StructDirect extraction):
+# Tree structure (after StructDirect financial-statement header fix):
 #   [0001] Item 1.  Business                           p1-4
 #   [0002] Item 1A. Risk Factors                       p5-16
-#   [0003] Item 1B. Unresolved Staff Comments          p17-17
-#   [0004] Item 1C. Cybersecurity                      p17-17
-#   [0005] Item 2.  Properties                         p18-19
-#   [0006] Item 3.  Legal Proceedings                  p18-19
-#   [0007] Item 4.  Mine Safety Disclosures            p18-19
-#   [0008] Item 6.  [Reserved]                         p20-20
 #   [0009] Item 7.  MD&A                               p21-26
 #   [0010] Item 7A. Quantitative Disclosures           p27-27
 #   [0011] Item 8.  Financial Statements               p28-50
-#     [0012]   Pages 28-37                             p28-37
-#     [0013]   Pages 38-47                             p38-47
-#     [0014]   Pages 48-50                             p48-50
-#   [0015] Item 9.  Changes in Accountants             p51-51
-#   [0016] Item 9A. Controls and Procedures            p51-51
-#   [0009] Item 7.  MD&A                               p21-26
-#   [0025] Item 16. Form 10-K Summary                  p56-121
-#     (sub-nodes: Pages 56-65, 66-75, ..., exhibits)
+#     [0012]   Pages 28-30  (index/auditor)            p28-30
+#     [0013]   Consolidated Statements Of Operations   p32-32   ← income statement
+#     [0014]   Consolidated Statements Of Comprehensive Income  p33-33
+#     [0015]   Consolidated Balance Sheets             p34-35   ← balance sheet
+#     [0016]   Consolidated Statements Of Cash Flows  p36-36
+#     [0017]   Notes to Consolidated Financial Statements p37-50
+#   [0029] Item 16. Form 10-K Summary                  p56-121
 #
 # Ground truth: "correct" = model's returned pages overlap the answer page(s)
 
