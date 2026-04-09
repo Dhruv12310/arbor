@@ -163,12 +163,12 @@ import asyncio
 #   [0009] Item 7.  MD&A                               p21-26
 #   [0010] Item 7A. Quantitative Disclosures           p27-27
 #   [0011] Item 8.  Financial Statements               p28-50
-#     [0012]   Pages 28-30  (index/auditor)            p28-30
+#     [0012]   Pages 28-31  (index/auditor preamble)   p28-31
 #     [0013]   Consolidated Statements Of Operations   p32-32   ← income statement
 #     [0014]   Consolidated Statements Of Comprehensive Income  p33-33
 #     [0015]   Consolidated Balance Sheets             p34-35   ← balance sheet
-#     [0016]   Consolidated Statements Of Cash Flows  p36-36
-#     [0017]   Notes to Consolidated Financial Statements p37-50
+#     [0016]   Consolidated Statements Of Cash Flows   p36-36
+#     [0017]   Notes to Consolidated Financial Stmts   p37-50
 #   [0029] Item 16. Form 10-K Summary                  p56-121
 #
 # Ground truth: "correct" = model's returned pages overlap the answer page(s)

@@ -1014,11 +1014,17 @@ def _financial_statement_headers_in_range(
             continue
         page = doc[page_num]
         lines = [l.strip() for l in page.get_text().splitlines() if l.strip()]
-        for line in lines:
-            if _FIN_STMT_PATTERNS.match(line) and len(line) < 120:
-                headings.append((line.title() if line.isupper() else line, page_num + 1))
-                seen_pages.add(page_num + 1)
-                break  # one heading per page
+        for i, line in enumerate(lines):
+            if not (_FIN_STMT_PATTERNS.match(line) and len(line) < 80):
+                continue
+            # Skip index/TOC entries: the line after a statement title in an
+            # index page is a short page-number reference (e.g. "29", "30")
+            next_line = lines[i + 1] if i + 1 < len(lines) else ""
+            if next_line.isdigit():
+                continue  # this is an index entry, not the real heading
+            headings.append((line.title() if line.isupper() else line, page_num + 1))
+            seen_pages.add(page_num + 1)
+            break  # one heading per page
 
     if len(headings) < 2:
         return []
